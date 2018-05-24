@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 
 # personal ignores
-leg/	# Legacy site dir
+leg	
