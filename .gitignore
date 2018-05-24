@@ -1,0 +1,7 @@
+# Jekyll ignores
+_site
+.sass-cache
+.jekyll-metadata
+
+# personal ignores
+leg/	# Legacy site dir
