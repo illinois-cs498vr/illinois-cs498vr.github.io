@@ -4,5 +4,5 @@
 
 layout: page
 permalink: /
+title: Home
 ---
-# Home
