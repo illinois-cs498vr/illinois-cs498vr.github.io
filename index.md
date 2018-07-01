@@ -6,6 +6,8 @@ layout: page
 permalink: /
 title: Home
 ---
+![Oculus Grandma](/img/OculusGrandma.jpg){:class="img-responsive" style="display:block; margin:auto"}
+
 
 ## Overview ##
 Virtual reality (VR) technology transports us to real or synthetic places that may be inaccessible, breathtaking, complex beyond our wildest imagination, or just simple and relaxing. Applications include entertainment, social interaction, virtual travel, remote training, architectural walkthroughs, cultural appreciation, and learning enhancement.
