@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: quiet-page
 permalink: /
-title: Home
+quiet-title: Home
 ---
 ![Oculus Grandma](/img/OculusGrandma.jpg){:class="img-responsive" style="display:block; margin:auto"}
 
