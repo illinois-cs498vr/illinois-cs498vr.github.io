@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="gallery">
+{% if site.projects %}
+	{% for project in site.projects %}
+		<article class="card">
+			<img class="img" src="{{ project.image }}" alt="{{ project.title }} image" />
+			<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+			<div class="desc">{{ project.desc | markdownify }}</div>
+			<a href="{{ project.url }}"><small>Read more...</small></a>
+		</article>
+	{% endfor %}
+{% endif %}
+</div>
