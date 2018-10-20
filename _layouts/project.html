@@ -1,0 +1,9 @@
+---
+layout: page
+---
+<img src="{{ page.image }}" alt=" {{ page.title }} image" />
+{% if page.content %}
+	{{ page.content }}
+{% else %}
+	{{ page.desc | markdownify }}
+{% endif %}

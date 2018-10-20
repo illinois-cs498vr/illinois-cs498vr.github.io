@@ -3,14 +3,14 @@
 
 .gallery {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-.gallery::after {
-	content: "";
-	flex: auto;
-}
+// .gallery::after {
+// 	content: "";
+// 	flex: auto;
+// }
 
 .card {
 	flex: 0 1 180px;
@@ -21,6 +21,13 @@
 	.desc {
 		overflow: hidden;
 		text-overflow: ellipsis;
-		max-height: 50px;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2; /* number of lines to show */
+		line-height: 24px;        /* fallback */
+		max-height: 48px;       /* fallback */
+	}
+	.links {
+		float: right;
 	}
 }
