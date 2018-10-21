@@ -3,7 +3,7 @@ layout: page
 ---
 <img src="{{ page.image }}" alt=" {{ page.title }} image" />
 {% if page.github %}
-<a href="{{ project.github }}" target="_blank" class="gh-link">GitHub <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+<a href="{{ page.github }}" target="_blank" class="gh-link">GitHub <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
 {% endif %}
 <hr>
 {% if page.content %}
