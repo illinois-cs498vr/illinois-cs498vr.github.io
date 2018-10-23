@@ -44,12 +44,6 @@ We expect to have 4 assignments over the course of the semester. In each of thes
 
 See the dedicated Assignments page (click the header) for more details.
 
-The lab is equipped with powerful Falcon Northwest PCs that have dual 27-inch monitors, NVidia GeForce Titan Black graphics cards with 6GB of RAM, and Windows 10 running Visual Studio. The VR equipment includes an Oculus Rift CV1 for every PC, which were kindly donated by Oculus/Facebook.
-
-You may also consider doing development outside of the lab machines; however, to experience and evaluate the solution correctly, it is crucial to run the code at least once on the lab systems. They have been optimized for Oculus Rift CV1 experiences. Without using the 4107 machines, there may be issues that severely degrade performance, leading to a bad VR experience.
-
-Unfortunately, we have only 20 workstations and over 200 students. Therefore, it is important to start early on assignments and try to work in the lab during less popular times. The 4107 lab is generally available any time.
-
 ## Final Project ##
 The final project is a semester-long implementation of a VR system. Students choose the topic and theme of the project under TA supervision.
 
@@ -76,7 +70,7 @@ We weight grades as follows:
 | Midterm Exam 1 | 20% | 20% |  
 | Midterm Exam 2 | 20% | 20% |  
 | Final Project | 40% | 25% |  
-| Graduate Project | | 15% |  
+| 4th Credit Project | | 15% |  
 
 We do not post grade cutoffs, but you can expect the average grade to be significantly higher than that of a standard, required undergraduate class. Since the course is experimental, there could be significant confusion and frustration as we work to improve the course. By being pioneers, you get more benefit of the doubt than usual!
 
