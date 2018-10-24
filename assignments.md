@@ -27,14 +27,18 @@ Unfortunately, we have only 20 workstations and over 200 students. Therefore, yo
 - We will accept assignments only up to two days late, with a 20% penalty.
 
 ## Regrade Requests ##
-To submit a regrade request, create a private Piazza post with a brief explanation why you think you were graded incorrectly, within one week after we release grades on a given assignment.
+To submit a regrade request:
+
+- Create a private Piazza post with the `regrade` tag.
+- Include a brief explanation of why you think your grade is incorrect.
+- You must submit regrade requests within one week after we release grades on a given assignment.
 
 For MPs:
 
 - The course staff will regrade MPs.
 - Include NetIDs for both you **and your partner**.
-- For major issues, e.g. a submission issue resulted in a zero, we will regrade your work within 3 weeks.
-- Otherwise, we may not regrade your work until after all MPs have finished.
+- Major issues (e.g. a submission issue resulted in a zero) have priority over minor issues (e.g. lost points on one small feature of the MP).
+- We may not regrade your work until after all MPs have finished.
 
 For exams:
 
@@ -42,4 +46,4 @@ For exams:
 - Include a brief description of the question.
 
 ## Academic Integrity ##
-We expect that you are familiar with the Student Code's [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html).
+You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.

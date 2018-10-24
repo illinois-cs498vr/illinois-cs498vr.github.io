@@ -23,7 +23,7 @@ The purpose of this course is to provide students with both a deep understanding
 - How does the human body respond to VR?
 - What fundamentals could help you to shape the future?
 
-The topics list is as follows:
+Topics covered include:
 
 - Overview and perspective on virtual reality
 - Human sensation and perception
@@ -86,7 +86,7 @@ See the [Extra Material](/extra-material) page for other, recommended readings.
 ## [Piazza](/not-ready) ##
 We will use Piazza for answering questions and administering the course.
 
-Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to [TODO-NOT-A-PERSON](/not-ready) with the email address you want to use, and we will add you manually.
+Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to [the course instructor](/not-ready) with the email address you want to use, and we will add you manually.
 
 ## Course Staff ##
 See the [schedule for office hours](/officehours).
