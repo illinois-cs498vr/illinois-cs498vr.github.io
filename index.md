@@ -39,10 +39,10 @@ We recommend the following courses and skills:
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
-## [Assignments](/assignments) ##
+## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
-See the dedicated Assignments page (click the header) for more details.
+See the [Assignments page](/assignments) for more details.
 
 ## Final Project ##
 The final project is a semester-long implementation of a VR system. Students choose the topic and theme of the project under TA supervision.
