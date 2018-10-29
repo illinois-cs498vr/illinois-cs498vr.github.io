@@ -34,8 +34,8 @@ Topics covered include:
 ## Prerequisites ##
 We recommend the following courses and skills:
 
-- [CS 225](https://courses.engr.illinois.edu/cs225/) - prior general programming experience
-- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225) or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415) - basic linear algebra, especially 3D transforms
+- [CS 225](https://courses.engr.illinois.edu/cs225/){:target="_blank"} - prior general programming experience
+- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225){:target="_blank"} or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415){:target="_blank"} - basic linear algebra, especially 3D transforms
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
@@ -60,17 +60,17 @@ This class will have two midterm exams and no final exam. The second midterm wil
 All exams are closed-everything (no book, notes, calculator, etc.). See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more detail.
 
 ## Grades ##
-We will post grades on [Compass 2g](https://compass.illinois.edu).
+We will post grades on [Compass 2g](https://compass.illinois.edu){:target="_blank"}.
 
 We weight grades as follows:
 
-| | 3 credits | 4 credits |  
-| ----- | ------ | ----- |  
-| Assignments | 20% | 20% |  
-| Midterm Exam 1 | 20% | 20% |  
-| Midterm Exam 2 | 20% | 20% |  
-| Final Project | 40% | 25% |  
-| 4th Credit Project | | 15% |  
+| | 3 credits | 4 credits |
+| ----- | ------ | ----- |
+| Assignments | 20% | 20% |
+| Midterm Exam 1 | 20% | 20% |
+| Midterm Exam 2 | 20% | 20% |
+| Final Project | 40% | 25% |
+| 4th Credit Project | | 15% |
 
 We do not post grade cutoffs, but you can expect the average grade to be significantly higher than that of a standard, required undergraduate class. Since the course is experimental, there could be significant confusion and frustration as we work to improve the course. By being pioneers, you get more benefit of the doubt than usual!
 

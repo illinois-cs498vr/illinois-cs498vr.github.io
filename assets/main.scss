@@ -1,3 +1,42 @@
 ---
 ---
 @import "minima";
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: none;
+  background-color: #131F33;
+
+  min-height: 70px;
+  transition: all .5s;
+
+  display: flex;
+  align-items: center;
+}
+
+.site-header-scrolled {
+  min-height: 56px;
+}
+
+.site-header > .wrapper {
+  width: 100%;
+
+  nav {
+    top: 15px;
+  }
+}
+
+.page-content {
+  margin-top: 4em;
+}
+
+.site-title, .site-title:visited {
+  color: white;
+}
+
+.site-nav .page-link {
+  color: white;
+}

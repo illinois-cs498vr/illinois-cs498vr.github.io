@@ -5,3 +5,6 @@ _site
 
 # personal ignores
 leg	
+
+# MAC OS
+.DS_Store
