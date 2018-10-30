@@ -2,6 +2,7 @@
 layout: project
 title: Moves Like Escher
 image: /img/relativity.jpg
+custom-css: project
 desc: |
   A mind-bending puzzle game where space and gravity themselves warp!
 github: https://github.com/chadfranzen/MovesLikeEscher

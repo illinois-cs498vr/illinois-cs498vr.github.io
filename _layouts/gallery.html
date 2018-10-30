@@ -7,19 +7,21 @@ layout: default
 	{% for project in site.projects %}
 		<article class="card">
 			<img class="img" src="{{ project.image }}" alt="{{ project.title }} image" />
-			<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
-			<div class="desc">
-				{% if project.desc %}
-					{{ project.desc | markdownify }}
-				{% else %}
-					{{ project.content | markdownify }}
-				{% endif %}
-			</div>
-			<a href="{{ project.url }}"><small>Read more</small></a>
-			<div class="links">
-				{% if project.github %}
-				<a href="{{ project.github }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
-				{% endif %}
+			<div class="text-wrapper">
+				<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+				<div class="desc">
+					{% if project.desc %}
+						{{ project.desc | markdownify }}
+					{% else %}
+						{{ project.content | markdownify }}
+					{% endif %}
+				</div>
+				<a href="{{ project.url }}"><small>Read more</small></a>
+				<div class="links">
+					{% if project.github %}
+					<a href="{{ project.github }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+					{% endif %}
+				</div>
 			</div>
 		</article>
 	{% endfor %}

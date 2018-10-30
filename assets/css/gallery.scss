@@ -8,21 +8,33 @@
 }
 
 .card {
-	flex: 0 1 180px;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 300px;
+	justify-content: space-between;
 	margin: 1em;
 	padding: 1em;
 	border-style: solid;
 	border-width: 1px;
-	.desc {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 2; /* number of lines to show */
-		line-height: 24px;        /* fallback */
-		max-height: 48px;       /* fallback */
+	height: auto;
+	.img {
+		display: block;
+		max-height: 240px;
+		margin: auto;
 	}
-	.links {
-		float: right;
+	.text-wrapper {
+		.desc {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2; /* number of lines to show */
+			line-height: 24px;        /* fallback */
+			max-height: 48px;       /* fallback */
+		}
+		.links {
+			float: right;
+		}
 	}
+	
 }

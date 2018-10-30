@@ -6,6 +6,8 @@ Course website for CS 498 Virtual Reality at the University of Illinois.
 
 In the `_projects` folder, create a markdown file for the project. The frontmatter must contain the following fields:
 
+- `layout: project`
+- `custom-css: project`
 - `title`
 - `image` -- with a path to the project picture, which you should place in the `/img` folder.
 - `desc` -- optional -- a couple of short lines to be rendered in the project card.
