@@ -6,7 +6,8 @@ layout: default
 {% if site.projects %}
 	{% for project in site.projects %}
 		<article class="card">
-			<img class="img" src="{{ project.image }}" alt="{{ project.title }} image" />
+			<!-- <img class="img" src="{{ project.image }}" alt="{{ project.title }} image" /> -->
+			<iframe src="https://www.youtube.com/embed/{{ project.link }}" frameborder="0"></iframe>
 			<div class="text-wrapper">
 				<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
 				<div class="desc">
