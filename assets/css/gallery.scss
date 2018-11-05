@@ -11,7 +11,7 @@
 	display: flex;
 	flex-direction: column;
 	flex: 0 1 300px;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin: 1em;
 	padding: 1em;
 	border-style: solid;
@@ -29,8 +29,8 @@
 			display: -webkit-box;
 			-webkit-box-orient: vertical;
 			-webkit-line-clamp: 2; /* number of lines to show */
-			line-height: 24px;        /* fallback */
-			max-height: 48px;       /* fallback */
+			line-height: 1.5em;        /* fallback */
+			height: 3em;       /* fallback */
 		}
 		.links {
 			float: right;
