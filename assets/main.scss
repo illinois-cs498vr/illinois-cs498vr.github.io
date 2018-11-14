@@ -2,6 +2,34 @@
 ---
 @import "minima";
 
+.page-content > .wrapper {
+  // max-width: 1280px;
+}
+
+.site-footer > .wrapper {
+  // max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.wrapper {
+  max-width: 1280px;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .footer-col {
+    float: unset;
+    width: unset;
+  }
+  .footer-col-2 {
+    margin-left: auto;
+  }
+}
+
 .site-header {
   position: fixed;
   top: 0;
