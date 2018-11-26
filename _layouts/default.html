@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
   {% if page.custom-css %}
@@ -19,6 +19,10 @@
     </main>
 
     {%- include footer.html -%}
+    
+    <!-- anchors -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js"></script>
+    <script>anchors.options.placement = 'left'; anchors.add()</script>
 
   </body>
 
