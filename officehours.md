@@ -1,6 +1,12 @@
 ---
 layout: page
 title: Office Hours
+links: 
+  css:
+    - https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css
+    - https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css
+  js:
+    - https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js
 ---
 
 Office hours for course staff are in the VR lab, Siebel 4107.  
