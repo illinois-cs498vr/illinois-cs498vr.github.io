@@ -2,19 +2,13 @@
 ---
 @import "minima";
 
-.page-content > .wrapper {
-  // max-width: 1280px;
+.wrapper {
+  max-width: 960px;
 }
 
 .site-footer > .wrapper {
-  // max-width: 1280px;
   display: flex;
   flex-direction: column;
-
-}
-
-.wrapper {
-  max-width: 960px;
 }
 
 .footer-col-wrapper {
