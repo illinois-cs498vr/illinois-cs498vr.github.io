@@ -4,4 +4,10 @@ _site
 .jekyll-metadata
 
 # personal ignores
-leg	
+leg
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
