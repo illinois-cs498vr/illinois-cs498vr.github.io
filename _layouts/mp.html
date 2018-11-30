@@ -7,7 +7,7 @@ layout: page
 	{{ part.title }}: <strong>{{ part.due }}</strong><br>
 {% endfor %}
 {% else %}
-	{{ "#### Due **" | append: page.due | append: "**" | markdownify }}
+	<h4>Due: <strong>{{ page.due }}</strong></h4>
 {% endif %}
 <hr>
 {% if page.material %}
@@ -17,7 +17,17 @@ layout: page
 	{% endfor %}
 	<hr>
 {% endif %}
-
-{{ "## Important Notes:" | markdownify }}
-{% capture notes %}{% include_relative important_notes.md %}{% endcapture %}
-<strong>{{ notes | markdownify }}</strong>
+{% unless page.notes == false %}
+	{{ "## Important Notes:" | markdownify }}
+	{% capture notes %}{% include_relative important_notes.md %}{% endcapture %}
+	<strong>{{ notes | markdownify }}</strong>
+	<hr>
+{% endunless %}
+{{ content }}
+<hr>
+{% unless page.instructions == false %}
+{{ "## Submission Instructions:" | markdownify }}<br>
+{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
+{{ instr | markdownify }}
+<hr>
+{% endunless %}
