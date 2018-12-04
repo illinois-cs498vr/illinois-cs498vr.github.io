@@ -24,6 +24,9 @@
 		margin: auto;
 	}
 	.text-wrapper {
+		.title {
+			text-align: center;
+		}
 		.desc {
 			overflow: hidden;
 			text-overflow: ellipsis;
