@@ -17,12 +17,22 @@
 	border-style: solid;
 	border-width: 1px;
 	height: auto;
+
+	&:nth-child(odd):last-child {
+		display: none;
+	}
+
+	&:nth-child(even):last-child {
+		visibility: hidden;
+	}
+
 	.img {
 		display: block;
 		max-height: 240px;
 		max-width: 300px;
 		margin: auto;
 	}
+
 	.text-wrapper {
 		.title {
 			text-align: center;
@@ -40,5 +50,5 @@
 			float: right;
 		}
 	}
-	
+
 }
