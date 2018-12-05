@@ -1,0 +1,18 @@
+---
+---
+@import "minima";
+
+.banner-wrapper {
+	width: 100%;
+}
+.banner-image {
+	display: block;
+	margin: auto;
+	@media (min-width: $content-width) {
+		padding: 1em;
+	}
+}
+.project-desc {
+	text-align: justify;
+}
+
