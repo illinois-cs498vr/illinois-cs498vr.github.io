@@ -2,14 +2,16 @@
 layout: page
 ---
 {% if page.parts %}
-{{ "#### Due Dates:" | markdownify }}
-{% for part in page.parts %}
-	{{ part.title }}: <strong>{{ part.due }}</strong><br>
-{% endfor %}
+	<h4>Due Dates:</h4>
+	{% for part in page.parts %}
+		{{ part.title }}: <strong>{{ part.due }}</strong><br>
+	{% endfor %}
 {% else %}
 	<h4>Due: <strong>{{ page.due }}</strong></h4>
 {% endif %}
+
 <hr>
+
 {% if page.material %}
 	{{ "#### Supporting Material:" | markdownify }}
 	{% for thing in page.material %}
@@ -17,17 +19,19 @@ layout: page
 	{% endfor %}
 	<hr>
 {% endif %}
+
 {% unless page.notes == false %}
-	{{ "## Important Notes:" | markdownify }}
+	<h2>Important Notes</h2>
 	{% capture notes %}{% include_relative important_notes.md %}{% endcapture %}
-	<strong>{{ notes | markdownify }}</strong>
+	{{ notes | markdownify }}
 	<hr>
 {% endunless %}
+
 {{ content }}
-<hr>
+
 {% unless page.instructions == false %}
-{{ "## Submission Instructions:" | markdownify }}<br>
-{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
-{{ instr | markdownify }}
-<hr>
+	<hr>
+	<h2>Submission Instructions</h2>
+	{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
+	{{ instr | markdownify }}
 {% endunless %}
