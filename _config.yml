@@ -26,7 +26,7 @@ theme: minima
 plugins:
   - jekyll-feed
 collections:
-  mps:
+  assignments:
     output: true
   projects:
     output: true

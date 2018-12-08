@@ -1,5 +1,5 @@
 ---
-layout: mp
+layout: assignment
 title: "MP1: The Room"
 parts:
   - title: MP1.1
