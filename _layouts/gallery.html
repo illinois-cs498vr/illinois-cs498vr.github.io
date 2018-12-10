@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="gallery">
+{% if site.projects %}
+	{% for project in site.projects %}
+		<article class="card">
+			<img class="img" src="{{ project.image }}" alt="{{ project.title }} image" />
+			<div class="text-wrapper">
+				<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+				<div class="desc">
+					{{ project.desc }}
+				</div>
+				<a href="{{ project.url }}"><small>Read more</small></a>
+				<div class="links">
+					{% if project.github %}
+					<a href="{{ project.github }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+					{% endif %}
+				</div>
+			</div>
+		</article>
+	{% endfor %}
+{% endif %}
+	<article class="card empty-card">
+	</article>
+</div>
