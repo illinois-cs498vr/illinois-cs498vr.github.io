@@ -9,8 +9,10 @@ layout: page
 <a href="{{ page.github }}" target="_blank" class="gh-link">GitHub <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
 {% endif %}
 <hr>
+<div class="project-desc">
 {% if page.content %}
 	{{ page.content }}
 {% else %}
 	{{ page.desc | markdownify }}
 {% endif %}
+</div>

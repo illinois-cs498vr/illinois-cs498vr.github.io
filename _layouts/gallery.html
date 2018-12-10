@@ -11,11 +11,7 @@ layout: default
 			<div class="text-wrapper">
 				<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
 				<div class="desc">
-					{% if project.desc %}
-						{{ project.desc | markdownify }}
-					{% else %}
-						{{ project.content | markdownify }}
-					{% endif %}
+					{{ project.desc }}
 				</div>
 				<a href="{{ project.url }}"><small>Read more</small></a>
 				<div class="links">
@@ -27,4 +23,6 @@ layout: default
 		</article>
 	{% endfor %}
 {% endif %}
+	<article class="card empty-card">
+	</article>
 </div>
