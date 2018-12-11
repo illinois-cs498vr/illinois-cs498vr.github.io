@@ -1,12 +1,11 @@
 ---
 layout: project
 title: Test 1
-image: /img/OculusGrandma.jpg
+image: /img/relativity.jpg
 custom-css: project
 desc: |
   A mind-bending puzzle game where space and gravity themselves warp!
 github: https://github.com/chadfranzen/MovesLikeEscher
-link: 4onATUkThY8
 ---
 A mind-bending puzzle game where space and gravity themselves warp!
 
