@@ -1,8 +1,8 @@
 ---
 layout: calendar
-permalink: /course-calendar
+permalink: /calendar
 title: Course Calendar
-
+custom-css: calendar
 ---
 
 [Textbook](http://vr.cs.uiuc.edu)
