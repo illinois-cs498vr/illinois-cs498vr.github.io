@@ -1,0 +1,37 @@
+---
+layout: page
+---
+{% if page.parts %}
+	<h4>Due Dates:</h4>
+	{% for part in page.parts %}
+		{{ part.title }}: <strong>{{ part.due }}</strong><br>
+	{% endfor %}
+{% else %}
+	<h4>Due: <strong>{{ page.due }}</strong></h4>
+{% endif %}
+
+<hr>
+
+{% if page.material %}
+	{{ "#### Supporting Material:" | markdownify }}
+	{% for thing in page.material %}
+	{{ thing | markdownify }}
+	{% endfor %}
+	<hr>
+{% endif %}
+
+{% unless page.notes == false %}
+	<h2>Important Notes</h2>
+	{% capture notes %}{% include_relative important_notes.md %}{% endcapture %}
+	{{ notes | markdownify }}
+	<hr>
+{% endunless %}
+
+{{ content }}
+
+{% unless page.instructions == false %}
+	<hr>
+	<h2>Submission Instructions</h2>
+	{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
+	{{ instr | markdownify }}
+{% endunless %}
