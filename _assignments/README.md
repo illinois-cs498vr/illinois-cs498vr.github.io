@@ -9,7 +9,10 @@ Assignments are defined in the `_assignments/` folder. The frontmatter must cont
   - `parts`: list of objects, each object containing:
     - `title`: string, name of part (e.g. "MP1.1"), listed under due dates.
     - `due`: string, bolded and inserted next to part title.
-- `material`: list of links, each formatted markdown-style: `"[link text](URL)"`.
+- `material`: list of objects, containing:
+  - `name`: string, name to display for this link.
+  - `url`: string, URL to resource.
+- `points`: string/number. total number of points an assignment is worth.
 - `notes`: boolean, optional. Specifies whether to render the important notes section (see below). Default: true.
 - `instructions`: boolean, optional. Specifies whether to render the submission instructions section (see below). Default: true.
 

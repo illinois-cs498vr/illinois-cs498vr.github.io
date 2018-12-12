@@ -13,9 +13,9 @@ layout: page
 <hr>
 
 {% if page.material %}
-	{{ "#### Supporting Material:" | markdownify }}
+	<h4>Supporting Material:</h4>
 	{% for thing in page.material %}
-	{{ thing | markdownify }}
+	<a href="{{ thing.url }}">{{ thing.name }}</a>
 	{% endfor %}
 	<hr>
 {% endif %}
