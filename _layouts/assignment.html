@@ -2,23 +2,28 @@
 layout: page
 ---
 {% if page.parts %}
-	<h4>Due Dates:</h4>
+	<h4>Due Dates</h4>
+	<p>
 	{% for part in page.parts %}
-		{{ part.title }}: <strong>{{ part.due }}</strong><br>
+		{{ part.title }}: <strong>{{ part.due }}</strong>
+		{% if forloop.last == false %} <br> {% endif %}
 	{% endfor %}
+	</p>
 {% else %}
 	<h4>Due: <strong>{{ page.due }}</strong></h4>
 {% endif %}
 
-<hr>
-
 {% if page.material %}
-	<h4>Provided Material:</h4>
+	<h4>Provided Material</h4>
+	<p>
 	{% for thing in page.material %}
-	<a href="{{ thing.url }}">{{ thing.name }}</a>
+		<a href="{{ thing.url }}">{{ thing.name }}</a>
+		{% if forloop.last == false %} <br> {% endif %}
 	{% endfor %}
-	<hr>
+	</p>
 {% endif %}
+
+<hr>
 
 {% unless page.notes == false %}
 	<h2>Important Notes</h2>

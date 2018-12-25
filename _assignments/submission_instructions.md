@@ -12,13 +12,14 @@
 1. Go to *Edit → Project Settings → Player*. Make sure the “Virtual Reality Supported” box under XR Settings is checked.
 1. Go to *File → Build Settings*.
 1. Open the scene with your work for the MP.
-1. Click “Add Open Scenes”. You must have saved the scene to the assets folder for this to work.
-1. Click “Build”.
+1. Click *Add Open Scenes*. You must have saved the scene to the assets folder for this to work.
+1. Click *Build*.
 1. This will create an executable (`.exe`) for running the build, a folder containing your scene data, and `UnityPlayer.dll`. Make sure this executable runs correctly on the Rift before submitting.
 
 ### Step 3: Copy the Input Manager file
 
-1. Shut down your project, and navigate to Your_Project_Folder→ProjectSettings
+1. Shut down your project.
+1. In your project folder, go into the `ProjectSettings` folder.
 1. Find the `InputManager.asset` file, and copy it to your submission folder. This will allow us to
 replicate any new gamepad buttons or joysticks you mapped.
 
