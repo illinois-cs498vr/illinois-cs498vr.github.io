@@ -65,6 +65,7 @@ Complete the following written problems. You must show your work and submit your
 <!-- markdownified TeX is really messy. -->
 
 The problems are as follows:
+
 1. In one sentence, explain what the following homogeneous transformation accomplishes when applied to a point
 $$(x, y, z)$$,
 in terms of yaw, pitch, roll, and translation.  
@@ -108,6 +109,10 @@ no matter what the position and orientation of the camera are,
 the blue spheres always “appear” to be at the same depth as the red sphere with respect to their retinal image sizes (reference: [sec. 6.1.1](http://vr.cs.uiuc.edu/vrch6.pdf)).
 That is, we ask you to vary the sizes of the blue spheres
 so that the _rendered_ images of all of the three spheres have equal diameters when viewed on the Oculus Rift display.
+
+|[Before](/img/mps/depth-percept-before.png)|[After](/img/mps/depth-percept-before.png)|
+|---|---|
+|![MP2 before](/img/mps/depth-percept-before.png){:class="img-responsive" style="display:block; margin:auto"}|![MP2 after](/img/mps/depth-percept-after.png){:class="img-responsive" style="display:block; margin:auto"}|
 
 You are only allowed to change the sizes of the blue spheres to complete this task. 
 You must not change the positions of the three spheres, nor the size of the red sphere.
