@@ -18,7 +18,8 @@
 
 ### Step 3: Copy the Input Manager file
 
-1. Shut down your project, and navigate to Your_Project_Folder→ProjectSettings
+1. Shut down your project.
+1. In your project folder, navigate to the `ProjectSettings` subfolder.
 1. Find the `InputManager.asset` file, and copy it to your submission folder. This will allow us to
 replicate any new gamepad buttons or joysticks you mapped.
 
