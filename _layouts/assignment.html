@@ -54,8 +54,7 @@ layout: page
 		</td>
 		<td>
 			{{ item.points }}
-			{% assign temp = item.points | plus: 0 %} <!-- int(item.points) -->
-			{% assign total = total | plus: temp %}
+			{% assign total = total | plus: item.points %}
 		</td>
 		<td>
 			{{ item.description }}
