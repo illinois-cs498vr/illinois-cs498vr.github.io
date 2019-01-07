@@ -2,13 +2,30 @@
 layout: assignment
 title: "MP1: The Room"
 parts:
-  - title: MP1.1
+  -
+    title: MP1.1
     due: September 12th, 2018 @ 11:59 PM
-  - title: MP1.2
+  -
+    title: MP1.2
     due: September 19th, 2018 @ 11:59 PM
-material: # Formatted Markdown-style, surrounded by quotes (`"[name](url)"`)
-  - name: MP1.1.2 ZIP
+material:
+  -
+    name: MP1.1.2 ZIP
     url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
+rubric:
+  -
+    name: Unity Works
+    points: 30
+    description: Unity Doesn't Crash
+  -
+    name: really long description wihrvuetviyre ewuvtg weuw e reyjreg wq rh eejitei vhuwh rwejieh
+    points: 666
+    description: |
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+  -
+    name: test
+    points: 498
+    description: CS 498 VR !!!!!
 points: 200
 ---
 
@@ -140,3 +157,9 @@ Create the “room switch” script, and attach it to the player. Simply use `In
 This can be simply added on to the “room switch” script. You will want to add the following lines to the update method-  
 ![Exit game](/img/assignments/mp1/image19.png)  
 `Application.Quit()` quits a Unity application, but it will not stop a game running in editor. So, we check if we are in editor, and stop the editor if we are.
+
+### 1.1.2
+
+#### In 1.1.2 you will be working in the same room as 1.1.1, but with _fewer instructions_.
+
+You are expected to [Google](http://lmgtfy.com/?q=google) the specifics -- [Unity has a great tutorial on practically everything](https://unity3d.com/learn/tutorials) you will need for this MP, and the [Unity Forum](https://forum.unity.com/) also provides high-quality answers for debugging advice.
