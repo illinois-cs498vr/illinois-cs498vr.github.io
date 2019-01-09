@@ -1,0 +1,25 @@
+---
+layout: page
+---
+{{ content }}
+<div class="gallery">
+	<table>
+		<tr class="calendar-header">
+			<td class="title-row">Date</td>
+			<td class="title-row">Title</td>
+			<td class="title-row">Materials</td>
+		</tr>
+		{% for class in site.data.schedule %}
+		</tr>
+			<tr>
+				<td>{{ class.date }}</td>
+				<td>
+					{{ class.title | markdownify | remove: '<p>' | remove: '</p>' }}
+				</td>
+				<td>
+					{{ class.materials | markdownify | remove: '<p>' | remove: '</p>' }}
+				</td>
+			</tr>
+		{% endfor %}
+	</table>
+</div>

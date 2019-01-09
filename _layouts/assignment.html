@@ -13,9 +13,9 @@ layout: page
 <hr>
 
 {% if page.material %}
-	{{ "#### Supporting Material:" | markdownify }}
+	<h4>Provided Material:</h4>
 	{% for thing in page.material %}
-	{{ thing | markdownify }}
+	<a href="{{ thing.url }}">{{ thing.name }}</a>
 	{% endfor %}
 	<hr>
 {% endif %}
@@ -35,3 +35,44 @@ layout: page
 	{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
 	{{ instr | markdownify }}
 {% endunless %}
+
+{% if page.rubric %}
+	<hr>
+	<table>
+	{%- assign total = 0 %}
+	<thead><tr>
+		<th>Name</th>
+		<th>Points</th>
+		<th>Description</th>
+	</tr></thead>
+	
+	<tbody>
+	{% for item in page.rubric %}
+	<tr>
+		<td>
+			{{ item.name }}
+		</td>
+		<td>
+			{{ item.points }}
+			{% assign total = total | plus: item.points %}
+		</td>
+		<td>
+			{{ item.description }}
+		</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	
+	<tfoot style='background-color:#ddd;'><tr>
+		<td>Total</td>
+		<td>{{ total }}</td>
+		<td></td>
+	</tr></tfoot>
+	
+	</table>
+	
+	{% assign temp = page.points | plus: 0 %}
+	{% if temp != total %}
+		<p>Given total number of points does not match actual total.</p>
+	{% endif %}
+{% endif %}
