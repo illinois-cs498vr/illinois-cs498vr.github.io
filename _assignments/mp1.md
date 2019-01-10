@@ -163,3 +163,115 @@ This can be simply added on to the “room switch” script. You will want to ad
 #### In 1.1.2 you will be working in the same room as 1.1.1, but with _fewer instructions_.
 
 You are expected to [Google](http://lmgtfy.com/?q=google) the specifics -- [Unity has a great tutorial on practically everything](https://unity3d.com/learn/tutorials) you will need for this MP, and the [Unity Forum](https://forum.unity.com/) also provides high-quality answers for debugging advice.
+
+![Hi doggy!](/img/assignments/mp1/image17.jpg)
+
+**The Room 2:** Hi doggy!
+
+Create a new room, at least 50 units away from the first room. Inside the MP1 zip file, we’ve provided you with a package of a wall that contains a door. Your new room will use this object as one of the walls. The floor plan of the room will be a hexagon (meaning there will be six walls), and the ceiling will be slanted (not parallel to the floor). It is ok if the walls pass through each other (or through the floor), provided the final room is fully enclosed, and looks good from the inside. Use Unity cubes this time, so that the directional light is blocked. You can make the cubes very thin, so that they are like the planes you used before (except, of course, being solid on all sides). Add a point light in your room, as we will need to clearly see all of the features of the room.
+
+To import the package, unzip the MP1 zip folder,then go to `Assets`→`Import package`→`Custom package`, navigate to your unzipped MP1 folder, and import the `.unitypackage` file.
+
+*Note* - The door object does not currently have a collider, so you can walk right through it. You can add a collider by clicking `Add Component` in the inspector window, then going to `Physics` -> `Box Collider` (or `Mesh Collider`).
+
+#### Material
+
+*Read up on [Materials, Shaders and Textures](https://docs.unity3d.com/Manual/Shaders.html), focusing mainly on the Materials, for now. We have provided you with an image (`tile.png`), and a normal map (it’s the weird purplish image `tile-normal.png`). Create a material with these images, and put it on one wall. Change the tiling, and put it on 2 different walls. Finally, change the metallicity, and put it on the remaining 2 walls. Make a simple colored material for the ceiling and floor, and apply it. Make sure each face is distinct enough that it is clearly visible to the grader. If that means you have to make the room look a little bit ridiculous, then go for it.*
+
+To create a material, go to `Assets` → `Create` → `Material`.
+
+![Create a Material](/img/assignments/mp1/image25.png)
+
+This will generate a default material. Name it "Wall 1". Select it, and you should see the following menu - 
+
+![Materials Menu](/img/assignments/mp1/image18.png)
+
+Drag the `tile.png` image to the box labeled "Albedo". Now, drag this material from the assets folder onto one of your walls (except the wall with the door) in the Scene view. It probably doesn’t look too good. Don’t worry, it’ll get better.
+Drag the `tile-normal.png` image to the box labeled "Normal Map". Notice how it changes the perceived material of of the material. A normal map is a trick used to give the illusion of depth on a flat surface, by telling the engine to reflect light as if there were these little bumps and pits in the material.
+Create a new material, called "Wall 2", and apply the albedo and normal maps the same as Wall 1. Apply it to another two walls (again, except the wall with the door). Right above the "Secondary Maps" subheading is the "Tiling" option, which has an option for `x` and `y`. Tiling causes a material to repeat itself on the same object, rather than covering the whole thing. So, changing tiling `x` to 2, means that the material will repeat once (that is, show up twice) in the x direction on the wall. Play with the tiling until you like the look of it. Below is an example of non tiled and tiled walls side by side - 
+
+![Tiling](/img/assignments/mp1/image1.png)
+
+Create a new material, called "Wall 3" with the same albedo and normal map. Change its tiling to be different from walls 1 and 2. Right below the albedo option is a slider for metallic, and a slider for smoothness. Play around with these, and see how they affect the material. Both deal with how light reflects off the material, metallic giving a more metallic look, and smoothness helping to enhance or subdue the normal map. Paste this material on the remaining two walls.
+Finally, create a material, called "Floor", that has no albedo or normal map. Next to the albedo option is a small color box. This shows what color the material will reflect. When the material has no albedo, the material will be this flat reflection color. Try and see what happens when you change the color of a material with an albedo. Apply this flat color onto the floor and ceiling of your room.
+
+#### Scripting
+
+You will be creating some scripts for this room as well.
+
+1. **Room Switch:** *Extend your room switch script so that pressing 1 moves you back to 1.1.1.*  
+This is essentially the same as the movement script from MP 1.1.1. Extend the same “room switch” script again, and make it return you to the center of your first room.
+
+1. **Trigger Zone:** *Create a box collider, and make it a trigger. Place a sphere above the trigger zone. Make a script so that when the player enters the trigger zone, the ball falls.*  
+To create the Trigger Zone script, first, watch the Unity Tutorials on [Colliders](https://unity3d.com/learn/tutorials/topics/physics/colliders) and [Triggers](https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers). Next, create a new empty `GameObject`. Next, hit `Add Component` → `Physics` → `Box Collider`. A Box Collider is (as the name would suggest) a box-shaped area that registers and reacts with collisions with other GameObjects. Make the box collider 2 x 0.5 x 2 (x,y,z) units. Select the "is trigger" option. Your object should look like this -  
+![Empty Collider](/img/assignments/mp1/image10.png)
+It should show up in the scene view as a green wireframe box. Place this game object in the back of your hexagonal room, across from the door, and create a sphere about 3-4 units directly above the center of the trigger GameObject.
+Add a script to your trigger object by clicking `Add Component` → `New Script`, and name it `BallDropScript`. Open the script, and create the following lines -  
+![Ball Drop Script](/img/assignments/mp1/image11.png)  
+The `OnTriggerEnter` function will be called when the collider attached to our empty GameObject is entered. The `other` parameter is the collider that intersected this collider.  
+The `public GameObject` tag shows a neat feature of unity. Save your script, then navigate to your empty trigger GameObject. In the inspector, the  script component should look like this -  
+![Script in Inspector](/img/assignments/mp1/image8.png)  
+So our public GameObject is now a field for the script component in Unity. Drag the sphere into this field. Now, whenever you reference the `ball` variable in your script, it will be referencing the sphere you dragged in. Pretty neat! You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).  
+Now, all that’s left is to make that sphere fall. You’ll need to get the rigid body of the sphere (rigid bodies deal with physics, read more here), using the `ball.GetComponent<RigidBody>()` method. After that, simply set `rigidBody.useGravity` to `true`.
+
+#### Store Assets
+
+*Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/). Place it in the room. You will need a free Unity account for this.*
+
+[Create a Unity account](https://id.unity.com/account/new), then head over to the "Asset Store" tab, right next to the "Scene" and "Game" tabs -  
+
+![Asset Store Tab](/img/assignments/mp1/image26.png)
+
+Sign into your Unity account using the "Log In" button at the upper right. Now, you can search for any free asset you desire, and put it in your room. Make sure it doesn’t intersect with your collider, or it will trigger the collider. It can be whatever you want (provided it’s school-appropriate, of course).
+
+#### Submit: 
+*Submit your unity project **according to the submission guidelines at the bottom of this assignment.***
+
+---
+
+## MP 1.2
+
+Create a new Unity project, called `CS498MP1_2`. **Do not work in your MP 1.1 project.**  
+In this part, you will create a simple game with minimal hand-holding, as compared to MP 1.1. You are expected to look up how to do the tasks required of you, using the resources linked in 1.1.2.
+
+### 1.2.1
+
+![Tearing me apart](/img/assignments/mp1/image12.jpg)
+
+**The Room 3:** You’re tearing me apart, Lisa!
+
+*Create a more interesting room, with a window! The shape and size is all up to you, it should be large enough to comfortably accommodate all of the following requirements within it. The walls should be colored or textured, as well. The choice of wall color and texture is up to you (but keep it grandmother appropriate).*
+
+For 20 points of extra credit, use a 3D modelling tool to create more complicated room geometry, like a curved roof, slanted windows, multiple levels, et cetera. Note in a README what you created. Some software options are-  
+- Blender [(link)](https://www.blender.org/): Extremely powerful, but complicated  
+- Google Sketchup [(link)](https://www.sketchup.com/): Simple, but somewhat limited  
+- Probuilder [(link)]:(https://assetstore.unity.com/packages/tools/modeling/probuilder-111418)- Most limited of the three, but is integrated directly into Unity.  
+
+The default Unity modelling tools are extremely limited, so we highly recommend you familiarize yourself with one of the above tools. It will assist greatly in your final project. To get the extra credit, you must do a nontrivial amount of extra work with your modelling tool. That is, it should look like it took you more than 15 minutes to do.
+
+#### Skybox:
+
+We have provided you with six images in `skybox.zip` that together, form a skybox. You are going to create a skybox with these images, and apply it to your scene. [Here is the Unity manual page for skyboxes](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html). Skybox asset credit: [mgsvevo](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:9104)
+
+#### Directional Light:
+
+Create a directional light for the scene, set it to have hard shadows. Set its angle to match the sun in the skybox.
+
+#### Scripting: Trigger Game:
+
+You are going to make a game similar to a cat chasing a laser pointer (where you’re the cat). In this room, you are going to place several box colliders (at least 4), and mark them as triggers. Place a point light at the center of each box collider. Every 3 seconds, one of these point lights should light up. The player should then move to the lit up point light, and press “A” on the controller (the [OnTriggerStay](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerStay.html) method should be helpful here). When the player does so, they will get one point, and another light should light up at random (bypassing the normal 3 second timer). The player’s score should be displayed on the wall, in sharp (NOT blurry) text. We should be able to quit at any time upon pressing the Start button on the controller.
+
+Using a controller in Unity is not quite as simple as using the keyboard. Unfortunately, because you can’t see the keyboard in VR, and all of the keys largely feel the same, keyboards do not work well in VR. Controllers, with their contours and designated button shapes, are much easier to use blind.
+- [Unity Manual page on Input](https://docs.unity3d.com/Manual/ConventionalGameInput.html)
+- [Unity wiki page on Xbox controllers](http://wiki.unity3d.com/index.php?title=Xbox360Controller)
+- [Additionally, a Microsoft Blog page on Xbox controller input in Unity](https://blogs.msdn.microsoft.com/uk_faculty_connection/2014/12/02/adding-xbox-controller-support-and-input-to-your-unity3d-game/) - (note: the controller drivers are already installed)
+- [Unity Manual page on Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html)
+
+A very useful method here is Unity’s [`Time.DeltaTime()`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) method. This method, when called from the update method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
+
+### 1.2.2
+
+**VR experiences:** Your final task is to choose and try out four (4) of the VR demos available through the Oculus or Steam store, or from the VR shared `V:` drive. You will have to create a Steam and/or Oculus account for this step. Oculus titles will need a TA to help install, while Steam will not. For each demo, write at least 3 sentences with a short description of the demo, something you liked, and something you did not like. One experience must be a student experience, and one must be an Oculus/Steam experience. You can find oculus games at [https://share.oculus.com/](https://share.oculus.com/) or on Steam at [http://store.steampowered.com/search/?vrsupport=102](http://store.steampowered.com/search/?vrsupport=102). Please put your names, netIDs, and reviews in a PDF named `HW1DemoWriteUp.pdf`. Hint: some TAs have access to some paid experiences, which will be fun to try out. 
+
+#### Submit: 
+*Submit your unity project **according to the submission guidelines at the bottom of this assignment.***
