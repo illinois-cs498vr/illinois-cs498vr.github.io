@@ -14,9 +14,48 @@ material:
     url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
 rubric:
   -
-    desc: Test
+    name: View Flipping
+    points: 10
+    description: Flipping the camera works properly and preserves the user's global position.
+  -
+    name: Position Reset
+    points: 10
+    description: The position reset functionality works properly.
+  -
+    name: Cube Match Mode
     points: 20
-points: 100
+    description: The cube correctly matches the user's movements.
+  -
+    name: Cube Mirror Mode
+    points: 20
+    description: The cube correctly mirrors the user's movements.
+  -
+    name: Cube Mode Toggle
+    points: 10
+    description: The cube switches between mirror and match modes correctly.
+  -
+    name: Geometric Transformations
+    points: 40
+    description: The answers to the written problems are correct.
+  -
+    name: Position Tracking
+    points: 10
+    description: Toggling position tracking works correctly, and does not cause discontinuities.
+  -
+    name: Rotation Tracking
+    points: 40
+    description: Toggling rotation tracking works correctly, regardless of where we are looking.
+  -
+    name: Depth Perception Trick
+    points: 20
+    description: |
+      The spheres appear to be of equal size while the script is active,
+      regardless of where the user is in the room.
+  -
+    name: Depth Perception Script
+    points: 20
+    description: The spheres appear in the correct order, and the script works when run repeatedly.
+points: 200
 ---
 
 MP2.1 consists of [VR Mirror](#vr-mirror) and [Geometric Transformations](#geometric-transformations). This section will be unnecessary once we approve splitting these MPs up.
@@ -29,7 +68,7 @@ This part of the MP will teach you how to manipulate a `GameObject`'s rotation a
 You must modify the provided scene, so that the listed keys behave as follows:
 
 * Pressing `Tab` must reset the camera position in _global_ coordinates to (0, 0, 0).
-* Pressing `F` must flip the user's view 180 degrees, so that they are looking 
+* Pressing `F` must flip the user's view 180 degrees, so that they are looking in the reverse direction.
 * Pressing `M` must make a certain cube either mirror or follow the user’s movements.
 * Pressing `Esc` must quit the game.
 

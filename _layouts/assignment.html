@@ -73,6 +73,6 @@ layout: page
 	
 	{% assign temp = page.points | plus: 0 %}
 	{% if temp != total %}
-		<p>Given total number of points does not match actual total.</p>
+		<p>The given total number of points ({{ page.points }}) does not match the summed total of points from the rubric.</p>
 	{% endif %}
 {% endif %}
