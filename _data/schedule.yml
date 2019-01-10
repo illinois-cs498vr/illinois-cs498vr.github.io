@@ -6,12 +6,12 @@
 - 
   date: "Jan 16"
   materials: "LaValle, Ch 2.1, 2.2"
-  title: "[Design Processes - Basic Principles and Top Down Design Processes](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture2.ppt)"
+  title: "[Design Processes: Basic Principles and Top Down Design Processes](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture2.ppt)"
 
 - 
   date: "Jan 21"
   materials: ~
-  title: "**No Lecture: M. L. King Day**"
+  title: "**No Lecture: Martin Luther King Jr. Day**"
 
 - 
   date: "Jan 23"
@@ -21,36 +21,36 @@
 - 
   date: "Jan 28"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Design Processes – VR Design (General Considerations)](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture4.pptx)"
+  title: "[Design Processes: VR Design General Considerations](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture4.pptx)"
 
 - 
   date: "Jan 30"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Mathematics for Orientation](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture5.pptx)"
+  title: "[3D Computer Graphics: Mathematics for Orientation](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture5.pptx)"
 
 - 
   date: "Feb 4"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "Design Processes – VR Design (Ergonomics)"
+  title: "Design Processes: VR Design Ergonomics"
 
 - 
   date: "Feb 6"
   materials: ~
-  title: "**No Lecture: Exam Week**"
+  title: "3D Computer Graphics: Rasterization Pipeline"
 
 - 
   date: "Feb 11"
   materials: "LaValle, Ch 3"
-  title: "Design Processes – VR Design (Input, Movement & User Interface)"
+  title: "**No Lecture: Exam Week**"
 
 - 
   date: "Feb 13"
   materials: "LaValle, Ch 4"
-  title: "Production Processes – Basic Principles and Class Project Plan"
+  title: "Design Processes: VR Input, Movement & User Interface"
 - 
   date: "Feb 18"
   materials: "LaValle, Ch 5"
-  title: "[3D Computer Graphics: Rasterization Pipeline](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture10.pptx)"
+  title: "Production Processes: Basic Principles and Class Project Plan"
 
 - 
   date: "Feb 25"
