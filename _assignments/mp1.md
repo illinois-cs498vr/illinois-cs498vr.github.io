@@ -4,29 +4,132 @@ title: "MP1: The Room"
 parts:
   -
     title: MP1.1
-    due: September 12th, 2018 @ 11:59 PM
+    due: January 28th, 2019 @ 11:59 PM
   -
     title: MP1.2
-    due: September 19th, 2018 @ 11:59 PM
+    due: February 4th, 2019 @ 11:59 PM
 material:
   -
     name: MP1.1.2 ZIP
     url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
+points: 200
 rubric:
   -
-    name: Unity Works
-    points: 30
-    description: Unity Doesn't Crash
+    name: 1.1.1
   -
-    name: really long description wihrvuetviyre ewuvtg weuw e reyjreg wq rh eejitei vhuwh rwejieh
-    points: 666
-    description: |
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+    name: Room
+    points: 5
+    description: 15x15 room made from 6 planes, with OVRPlayerController
+  - 
+    name: Light
+    points: 5
+    description: Bright point light in center of room ceiling
+  - 
+    name: Planet and moon
+    points: 10
+    description: Planet and rotating moon in center of room
+  - 
+    name: Text
+    points: 5
+    description: Text displays NetIDs and controls 
   -
-    name: test
-    points: 498
-    description: CS 498 VR !!!!!
-points: 200
+    name: Light Switch
+    points: 5
+    description: Light changes color every time tab key is pressed
+  -
+    name: Room Switch
+    points: 5
+    description: Pressing “2” moves on to 1.1.2
+  -
+    name: Quit
+    points: 5
+    description: Pressing “Esc” quits the game
+  - 
+    name: 1.1.2
+  -
+    name: Room Switch
+    points: 5
+    description: Pressing “1” moves back to 1.1.1
+  -
+    name: Room
+    points: 10
+    description: Room is Hexagonal, with slanted roof and prefab door. Roof and ceiling have flat, colored texture.
+  -
+    name: Material 1
+    points: 5
+    description: Created material with albedo and normal map, placed on wall
+  -
+    name: Material 2- tiling
+    points: 5
+    description: 2 walls have altered tiling
+  -
+    name: Material 3- smoothness/metallicity
+    points: 5
+    description: 2 walls have altered smoothness and/or mentallicity
+  -
+    name: Trigger zone
+    points: 10
+    description: When walking beneath floating ball, it falls to the floor
+  -
+    name: 1.2.1
+  
+  -
+    name: Room
+    points: 10
+    description: Built a room, with a window, and colored/textured walls.
+  -
+    name: Skybox
+    points: 10
+    description: Custom Skybox in sky
+  -
+    name: Directional Light
+    points: 5
+    description: Has directional light, which matches skybox
+  -
+    name: Trigger Zone Lights
+    points: 5
+    description: Has at least 4 trigger zones with lights
+  -
+    name: Random Trigger Zone
+    points: 5
+    description: Active trigger zone is random
+  -
+    name: Xbox Controls
+    points: 25
+    description: Can press “A” on controller to get points when in lit trigger zone, “start” to quit
+  -
+    name: Score Display
+    points: 15
+    description: Score is tracked and displayed clearly on wall
+  -
+    name: Trigger Zone Timer
+    points: 25
+    description: Every 3 seconds, active trigger zone changes
+  -
+    name: Extra Credit
+    points: 20
+    description: Built nontrivial room geometry with blender, sketchup, or probuilder
+  
+  -
+    name: 1.2.2
+  -
+    name: Experience 1
+    points: 5
+    description: Likes and dislikes for an Oculus/Steam experience
+  -
+    name: Experience 2
+    points: 5
+    description: Likes and dislikes for a student experience
+  -
+    name: Experience 3
+    points: 5
+    description: Likes and dislikes for any experience
+  -
+    name: Experience 4
+    points: 5
+    description: Likes and dislikes for any experience
+
+
 ---
 
 ## MP1.1:
