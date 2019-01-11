@@ -3,10 +3,10 @@ layout: assignment
 title: "MP2: Geometric Transformations / Perception"
 parts:
   -
-    title: MP2.1 (to become MP3)
+    title: MP2.1
     due: Mar. 14th, 2019 @ 11:59 PM
   -
-    title: MP2.2 (to become MP4)
+    title: MP2.2
     due: Mar. 21st, 2019 @ 11:59 PM
 material:
   -
@@ -58,11 +58,10 @@ rubric:
 points: 200
 ---
 
-MP2.1 consists of [VR Mirror](#vr-mirror) and [Geometric Transformations](#geometric-transformations). This section will be unnecessary once we approve splitting these MPs up.
+## MP2.1
 
-<hr />
+### VR Mirror
 
-## VR Mirror
 This part of the MP will teach you how to manipulate a `GameObject`'s rotation and position.
 
 You must modify the provided scene, so that the listed keys behave as follows:
@@ -94,7 +93,8 @@ In mirror mode, when you face the window, the cube must face the camera, and as 
 If you bring your face close to the screen, the cube will necessarily move closer to the screen as well.
 Imagine looking into a mirror to get an intuition of this.
 
-## Geometric Transformations
+### Geometric Transformations
+
 This part of the MP will reinforce the mathematical notion of geometric transforms.
 
 Complete the following written problems. You must show your work and submit your answers as a PDF. We recommend using LaTeX to typeset your mathematics.
@@ -133,13 +133,11 @@ Your answer need not be simplified, and may be represented as a single matrix or
 
 1. Calculate the product of $$q_1$$ and $$q_2$$, i.e. $$q_1 \circ q_2$$.
 
-This horizontal line separates the proposed portions of MP3 and MP4. This portion will hopefully become MP3.
+---
 
-<hr />
+## MP2.2
 
-This horizontal line separates the proposed portions of MP3 and MP4. This portion will hopefully become MP4.
-
-## Depth Perception and Relative Size
+### Depth Perception and Relative Size
 
 In the provided scene, the `StimulusManager` object has three spherical children.
 
@@ -149,7 +147,7 @@ the blue spheres always “appear” to be at the same depth as the red sphere w
 That is, we ask you to vary the sizes of the blue spheres
 so that the _rendered_ images of all of the three spheres have equal diameters when viewed on the Oculus Rift display.
 
-|[Before](/img/mps/depth-percept-before.png)|[After](/img/mps/depth-percept-before.png)|
+|[Before](/img/mps/depth-percept-before.png)|[After](/img/mps/depth-percept-after.png)|
 |---|---|
 |![MP2 before](/img/mps/depth-percept-before.png){:class="img-responsive" style="display:block; margin:auto"}|![MP2 after](/img/mps/depth-percept-after.png){:class="img-responsive" style="display:block; margin:auto"}|
 
@@ -170,7 +168,7 @@ because there are many depth cues other than retinal image size that help you pe
 Therefore, this exercise will not create an illusion of the spheres being placed at equal distances from your eyes.
 You will learn more about optical illusions and depth perception later in class.
 
-## Disabling Tracking
+### Disabling Tracking
 
 The Oculus software automatically sets the camera's `Transform` based on the headset's position and rotation tracking.
 In this task, you must counteract that tracking, i.e. the net effect is as though tracking was disabled.
@@ -179,6 +177,7 @@ This should help you understand how much tracking contributes towards a feeling 
 Create a script named `ToggleTracking` that turns tracking on and off.
 Pressing `P` and `R` must toggle **p**osition and **r**otation tracking, respectively.
 Note that simultaneously disabling rotation and position tracking counts as extra credit.
+If you attempt this, make a note in your README file.
 
 A bad solution is to put all `GameObject`s as children of the camera.
 This depends on the hierarchy structure of Unity and causes performance issues, so we will not accept it.
