@@ -1,61 +1,61 @@
 - 
   date: "Jan 14"
   materials: "LaValle, Ch 1"
-  title: "[Defining VR, course overview, course project expectations](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture1-Introduction.pptx)"
+  title: "Defining VR, course overview, course project expectations"
 
 - 
   date: "Jan 16"
   materials: "LaValle, Ch 2.1, 2.2"
-  title: "[Design Processes - Basic Principles and Top Down Design Processes](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture2.ppt)"
+  title: "Design Processes: Basic Principles and Top Down Design Processes"
 
 - 
   date: "Jan 21"
   materials: ~
-  title: "**No Lecture: M. L. King Day**"
+  title: "**No Lecture: Martin Luther King Jr. Day**"
 
 - 
   date: "Jan 23"
   materials: "LaValle, Ch 2.3, 3"
-  title: "[3D Computer Graphics: Geometric Modeling](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/lecture3.pptx)"
+  title: "3D Computer Graphics: Geometric Modeling"
 
 - 
   date: "Jan 28"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Design Processes – VR Design (General Considerations)](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture4.pptx)"
+  title: "Design Processes: VR Design General Considerations"
 
 - 
   date: "Jan 30"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Mathematics for Orientation](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture5.pptx)"
+  title: "3D Computer Graphics: Mathematics for Orientation"
 
 - 
   date: "Feb 4"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "Design Processes – VR Design (Ergonomics)"
+  title: "Design Processes: VR Design Ergonomics"
 
 - 
   date: "Feb 6"
   materials: ~
-  title: "**No Lecture: Exam Week**"
+  title: "3D Computer Graphics: Rasterization Pipeline"
 
 - 
   date: "Feb 11"
   materials: "LaValle, Ch 3"
-  title: "Design Processes – VR Design (Input, Movement & User Interface)"
+  title: "**No Lecture: Exam Week**"
 
 - 
   date: "Feb 13"
   materials: "LaValle, Ch 4"
-  title: "Production Processes – Basic Principles and Class Project Plan"
+  title: "Design Processes: VR Input, Movement & User Interface"
 - 
   date: "Feb 18"
   materials: "LaValle, Ch 5"
-  title: "[3D Computer Graphics: Rasterization Pipeline](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture10.pptx)"
+  title: "Production Processes: Basic Principles and Class Project Plan"
 
 - 
   date: "Feb 25"
   materials: "LaValle, Ch 6"
-  title: "[VR Hardware Overview](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture11.pptx)"
+  title: "VR Hardware Overview"
 
 - 
   date: "Feb 27"
@@ -70,17 +70,17 @@
 - 
   date: "Mar 6"
   materials: ~
-  title: "[Visual Perception](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Unity_Practices.pdf)"
+  title: "Visual Perception"
 
 - 
   date: "Mar 11"
   materials: "LaValle, Ch. 6"
-  title: "VR and Unity Best Practices"
+  title: "**No Lecture: Exam Week**"
 
 - 
   date: "Mar 13"
   materials: "LaValle, Ch. 6"
-  title: "**No Lecture: Exam Week**"
+  title: "Unity and VR Best Practices"
 
 - 
   date: "Mar 18"
@@ -95,22 +95,22 @@
 - 
   date: "Mar 25"
   materials: "LaValle, Ch. 7"
-  title: "[Visual Rendering for VR](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture14.pptx)"
+  title: "Visual Rendering for VR"
 
 - 
   date: "Mar 27"
   materials: "LaValle, Ch. 7"
-  title: "[Motion in Real and Virtual Worlds](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture18.pptx)"
+  title: "Motion in Real and Virtual Worlds"
 
 - 
   date: "Apr 1"
   materials: "LaValle, Ch. 8"
-  title: "[Tracking](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture19.pptx)"
+  title: "Tracking"
 
 - 
   date: "Apr 3"
   materials: "LaValle, Ch. 9, 12"
-  title: "[Interaction](https://courses.engr.illinois.edu/cs498vr3/fa2018//lectures/Lecture21.pptx)"
+  title: "Interaction"
 
 - 
   date: "Apr 8"
@@ -120,17 +120,17 @@
 - 
   date: "Apr 10"
   materials: ~
-  title: "Survey of Current State of VR in Industry (Specifics regarding the Game Industry)"
+  title: "Survey of Current State of VR in Industry"
 
 - 
   date: "Apr 15"
   materials: ~
-  title: "Design in more Detail (Mid-level processes)"
+  title: "Design in more Detail: Mid-level Processes"
 
 - 
   date: "Apr 17"
   materials: ~
-  title: "Production in more Detail (Studios, Teams and lower level processes)"
+  title: "Production in more Detail: Studios, Teams and Lower Level Processes"
 
 - 
   date: "Apr 22"
@@ -140,12 +140,12 @@
 - 
   date: "Apr 24"
   materials: "LaValle, Ch. 8, 12"
-  title: "Augmented Reality"
+  title: "Future of VR: Guest Lecture"
 
 - 
   date: "Apr 29"
   materials: "LaValle, Ch. 9"
-  title: "Future of VR/Guest Lecture"
+  title: "**No Lecture: Exam Week**"
 
 - 
   date: "May 1"
