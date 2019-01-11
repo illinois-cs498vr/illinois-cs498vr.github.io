@@ -93,9 +93,5 @@ Click the header to join/view the forum. You do not need a passcode. If you want
 ## Course Staff ##
 See the [schedule for office hours](/officehours).
 
-* Professor {Eric, Lawrence, Anna} {Shaffer, Angrave, Yershova}: Siebel 666
-* TA 1
-* TA 22
-* TA 333
-* TA 4444
-* TA 55555
+* Professor Eric Shaffer, Siebel 2209
+* Professor Dan Cermak
