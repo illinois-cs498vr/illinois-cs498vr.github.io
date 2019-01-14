@@ -54,7 +54,7 @@ This satisfies the [team project requirement](https://cs.illinois.edu/academics/
 See the [project gallery](/not-ready) for past student projects.
 
 ## Exams ##
-This class will have three midterm exams and no final exam. The second midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
+This class will have three midterm exams and no final exam. The third midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
 
 - Midterm 1: Feb. 10 - Feb. 12
 - Optional second chance exam for Midterm 1: Feb. 17 - Feb. 19
