@@ -41,6 +41,9 @@ We recommend the following courses and skills:
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
+## Lectures ##
+Lecture is held in 1320 Digital Computer Lab on MW 4-5:15pm
+
 ## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
@@ -54,12 +57,19 @@ This satisfies the [team project requirement](https://cs.illinois.edu/academics/
 See the [project gallery](/not-ready) for past student projects.
 
 ## Exams ##
-This class will have two midterm exams and no final exam. The second midterm will be just before finals. You are responsible for all material covered in lectures and assignments.
+This class will have three midterm exams and no final exam. The third midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
 
-- Midterm 1: TBD
-- Midterm 2: TBD
+- Midterm 1: Feb. 10 - Feb. 12
+- Optional second chance exam for Midterm 1: Feb. 17 - Feb. 19
+- Midterm 2: Mar. 10 - Mar. 12
+- Optional second chance exam for Midterm 2: Mar. 25 Mar. 26
+- Midterm 3:  Apr. 28 - Apr. 30
 
-All exams are closed-everything (no book, notes, calculator, etc.). See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more detail.
+All exams are closed-everything (no book, notes, calculator, etc.). See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more detail.You are responsible for all material covered in lectures and assignments.For DRES accommodations see [CBTF DRES Students](https://cbtf.engr.illinois.edu/for-students/dres-students.html)
+
+## Second-chance Exams ##
+
+For the first two mid-term exams, you have the option to take a second chance exam if you wish. **The maximum score you can achieve on the second chance exam is 88%.** Specifically, if your second chance score is N% your final percentage score will be calculated as 0.88 x 0.N x 100.0. Your second chance score will replace your first score, even if it is lower. The questions on the second chance exam will cover the same topics as the first exam but may not be identical to the questions on the first exam. To take the second chance exam, just make a reservation with CBTF. You do not need to inform course staff that you are doing so.
 
 ## Grades ##
 We will post grades on [Compass 2g](https://compass.illinois.edu).
@@ -69,8 +79,9 @@ We weight grades as follows:
 | | 3 credits | 4 credits |  
 | ----- | ------ | ----- |  
 | Assignments | 20% | 20% |  
-| Midterm Exam 1 | 20% | 20% |  
-| Midterm Exam 2 | 20% | 20% |  
+| Midterm Exam 1 | 12% | 12% |  
+| Midterm Exam 2 | 12% | 12% |
+| Midterm Exam 3 | 16% | 16% |
 | Final Project | 40% | 25% |  
 | 4th Credit Project | | 15% |  
 
