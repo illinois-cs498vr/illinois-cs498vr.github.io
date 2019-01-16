@@ -94,7 +94,7 @@ Optional: Peter Shirley, Michael Ashikhmin, and Steve Marschner, Fundamentals of
 
 See the [Extra Material](/extra-material) page for other, recommended readings.
 
-## [Piazza](/not-ready) ##
+## [Piazza](https://piazza.com/illinois/spring2019/cs498vr) ##
 We will use Piazza for answering questions and administering the course.
 
 Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to [the course instructor](/not-ready) with the email address you want to use, and we will add you manually.
