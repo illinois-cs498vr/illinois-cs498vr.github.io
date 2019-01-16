@@ -132,6 +132,9 @@ rubric:
 
 ---
 
+<!-- this page only, for markdownified TeX -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 ## MP1.1:
 Create a new project by clicking through the prompts when you click the NEW button on the top right. Fill in the appropriate details to your heart’s content.
 
@@ -158,10 +161,10 @@ First, create a plane. It can be found in the top bar menus, under `GameObject` 
 
 ![Create plane](/img/assignments/mp1/image3.png)
 
-Now, by default the plane is 10x10 (X x Z) units. In order to make your room 15 units wide, you have to scale the plane. On the right side (in the default editor layout) you will find the Inspector window. This window provides details about the currently selected object. Select the plane in the Scene view, and the Inspector will fill with information and settings for said plane. Find the “Scale” option, and set it to 1.5 on the X and Z to make your plane 15 units wide and long. 
+Now, by default the plane is 10x10 $$ (X \times Z) $$ units. In order to make your room 15 units wide, you have to scale the plane. On the right side (in the default editor layout) you will find the Inspector window. This window provides details about the currently selected object. Select the plane in the Scene view, and the Inspector will fill with information and settings for said plane. Find the “Scale” option, and set it to 1.5 on the $$ X $$ and $$ Z $$ to make your plane 15 units wide and long. 
 
 ![Inspector](/img/assignments/mp1/image7.png)  
-Note: The plane has no thickness, so the value in Y can be any positive integer.
+Note: The plane has no thickness, so the value in $$ Y $$ can be any positive integer.
 
 By default, your scene has a directional light in it. This is basically the sun- a light source that illuminates your entire scene from a specified angle, from very far away. You’ll notice that your planes do not block this light. That’s because planes only block light (and render) from one side. Bear this in mind when creating objects in Unity in the future! Please delete the directional light (don’t worry, youll add new lights in later)
 
