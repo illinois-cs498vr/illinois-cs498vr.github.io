@@ -1,164 +1,154 @@
 - 
-  date: "Aug 27"
+  date: "Jan 14"
   materials: "LaValle, Ch 1"
-  title: "[Course overview, defining VR, historical perspective](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture1-Introduction.pptx)"
+  title: "Defining VR, course overview, course project expectations"
 
 - 
-  date: "Aug 29"
+  date: "Jan 16"
   materials: "LaValle, Ch 2.1, 2.2"
-  title: "[Bird's-eye view: VR hardware](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture2.ppt)"
+  title: "Design Processes: Basic Principles and Top Down Design Processes"
 
 - 
-  date: "Sep 3"
+  date: "Jan 21"
   materials: ~
-  title: "No lecture"
+  title: "**No Lecture: Martin Luther King Jr. Day**"
 
 - 
-  date: "Sep 5"
+  date: "Jan 23"
   materials: "LaValle, Ch 2.3, 3"
-  title: "[Bird's-eye view: Sensation and perception](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/lecture3.pptx)"
+  title: "3D Computer Graphics: Geometric Modeling"
 
 - 
-  date: "Sep 10"
+  date: "Jan 28"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Geometric modeling, linear transformations, 2D rigid-body transformations](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture4.pptx)"
+  title: "Design Processes: VR Design General Considerations"
 
 - 
-  date: "Sep 12"
+  date: "Jan 30"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[3D rotations, yaw, pitch, roll, quaternions, conversions](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture5.pptx)"
+  title: "3D Computer Graphics: Mathematics for Orientation"
 
 - 
-  date: "Sep 17"
+  date: "Feb 4"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "[Quaternions, conversion, Local vs Global coordinate frames. Homogeneous transforms](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture6.pptx)"
+  title: "Design Processes: VR Design Ergonomics"
 
 - 
-  date: "Sep 19"
-  materials: "LaValle, Ch 3.4, 3.5"
-  title: "[Intro. viewing transforms; Eye, canonical view, and viewport transform](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture7.pptx)"
+  date: "Feb 6"
+  materials: ~
+  title: "3D Computer Graphics: Rasterization Pipeline"
 
 - 
-  date: "Sep 24"
+  date: "Feb 11"
   materials: "LaValle, Ch 3"
-  title: "[Eye, canonical view, and viewport transforms](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture8.pptx)"
+  title: "**No Lecture: Exam Week**"
 
 - 
-  date: "Sep 26"
+  date: "Feb 13"
   materials: "LaValle, Ch 4"
-  title: "[Light and Optics](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture9.pptx)"
-
+  title: "Design Processes: VR Input, Movement & User Interface"
 - 
-  date: "Oct 1"
+  date: "Feb 18"
   materials: "LaValle, Ch 5"
-  title: "[Human Vision : Physiology](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture10.pptx)"
+  title: "Production Processes: Basic Principles and Class Project Plan"
 
 - 
-  date: "Oct 3"
+  date: "Feb 25"
   materials: "LaValle, Ch 6"
-  title: "[Human Vision: Perception](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture11.pptx)"
+  title: "VR Hardware Overview"
 
 - 
-  date: "Oct 8"
-  materials: "[Practice Exam](https://courses.engr.illinois.edu/cs498vr3/fa2018/exams/practice_exam1.pdf)"
-  title: "No Lecture"
-
-- 
-  date: "Oct 10"
+  date: "Feb 27"
   materials: ~
-  title: "No Lecture"
+  title: "Light and Optics"
 
 - 
-  date: "Oct 15"
+  date: "Mar 4"
+  materials: 
+  title: "Human Vision"
+
+- 
+  date: "Mar 6"
   materials: ~
-  title: "[Best Practices in Unity & VR](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Unity_Practices.pdf)"
+  title: "Visual Perception"
 
 - 
-  date: "Oct 17"
+  date: "Mar 11"
   materials: "LaValle, Ch. 6"
-  title: "[Simulation in VR; Towards Realism](https://piazza.com/class/jl41yg3wwgr56m?cid=271)"
+  title: "**No Lecture: Exam Week**"
 
 - 
-  date: "Oct 22"
+  date: "Mar 13"
   materials: "LaValle, Ch. 6"
-  title: "[Color](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture12.pptx)"
+  title: "Unity and VR Best Practices"
 
 - 
-  date: "Oct 24"
+  date: "Mar 18"
+  materials: ~
+  title: "**No Lecture: Spring Break**"
+
+- 
+  date: "Mar 20"
+  materials: ~
+  title: "**No Lecture: Spring Break**"
+
+- 
+  date: "Mar 25"
   materials: "LaValle, Ch. 7"
-  title: "[Visual Rendering](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture14.pptx)"
+  title: "Visual Rendering for VR"
 
 - 
-  date: "Oct 29"
+  date: "Mar 27"
   materials: "LaValle, Ch. 7"
-  title: "[Visual Rendering](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture14.pptx)"
+  title: "Motion in Real and Virtual Worlds"
 
 - 
-  date: "Oct 31"
-  materials: "LaValle, Ch. 7"
-  title: "[Visual Rendering](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture14.pptx)"
-
-- 
-  date: "Nov 5"
-  materials: "LaValle, Ch. 7"
-  title: "[Visual Rendering for Virtual Reality](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture18.pptx)"
-
-- 
-  date: "Nov 7"
+  date: "Apr 1"
   materials: "LaValle, Ch. 8"
-  title: "[Motion in Real and Virtual Worlds](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/Lecture19.pptx)"
-
-- 
-  date: "Nov 12"
-  materials: "LaValle, Ch. 9, 12"
-  title: "[Motion in Real and Virtual Worlds](https://courses.engr.illinois.edu/cs498vr3/fa2018//lectures/Lecture21.pptx)"
-
-- 
-  date: "Nov 14"
-  materials: "LaValle, Ch. 9"
   title: "Tracking"
 
 - 
-  date: "Nov 19"
-  materials: ~
-  title: "No lecture - Thanksgiving Break"
+  date: "Apr 3"
+  materials: "LaValle, Ch. 9, 12"
+  title: "Interaction"
 
 - 
-  date: "Nov 21"
-  materials: ~
-  title: "No lecture - Thanksgiving Break"
-
-- 
-  date: "Nov 26"
-  materials: ~
-  title: ~
-
-- 
-  date: "Nov 28"
-  materials: ~
-  title: ~
-
-- 
-  date: "Dec 3"
-  materials: "LaValle, Ch. 8, 12"
+  date: "Apr 8"
+  materials: "LaValle, Ch. 9"
   title: "Audio in VR"
 
 - 
-  date: "Dec 5"
-  materials: "LaValle, Ch. 9"
-  title: "Current Research in VR"
-
-- 
-  date: "Dec 10"
-  materials: "[Practice Exam](https://courses.engr.illinois.edu/cs498vr3/fa2018/exams/practice_exam2.pdf)"
-  title: "[Exam Review](https://courses.engr.illinois.edu/cs498vr3/fa2018/lectures/lec24.pdf)"
-
-- 
-  date: "Dec 13"
+  date: "Apr 10"
   materials: ~
-  title: "No lecture"
+  title: "Survey of Current State of VR in Industry"
 
 - 
-  date: "Dec 17, Dec 19, Dec 21"
-  materials: "See Piazza for details"
-  title: "Open House: Final Project Presentation"
+  date: "Apr 15"
+  materials: ~
+  title: "Design in more Detail: Mid-level Processes"
+
+- 
+  date: "Apr 17"
+  materials: ~
+  title: "Production in more Detail: Studios, Teams and Lower Level Processes"
+
+- 
+  date: "Apr 22"
+  materials: ~
+  title: "History of VR"
+
+- 
+  date: "Apr 24"
+  materials: "LaValle, Ch. 8, 12"
+  title: "Future of VR: Guest Lecture"
+
+- 
+  date: "Apr 29"
+  materials: "LaValle, Ch. 9"
+  title: "**No Lecture: Exam Week**"
+
+- 
+  date: "May 1"
+  materials: ~
+  title: "**No Lecture: Exam Week**"
+
