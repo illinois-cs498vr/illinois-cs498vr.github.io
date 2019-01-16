@@ -6,8 +6,6 @@ layout: page
 permalink: /
 ---
 
-# Home
-
 ![Oculus Grandma](/img/OculusGrandma.jpg){:class="img-responsive" style="display:block; margin:auto"}
 
 
