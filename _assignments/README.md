@@ -1,21 +1,22 @@
-### Managing Assignments
 
-Assignments are defined in the `_assignments/` folder. The frontmatter must contain:
+## Managing Assignments
+
+Assignments are defined in the `_assignments/` folder. The frontmatter YAML schema is as follows:
 
 - `layout: mp`
-- `title`: string, used as the header.
+- `title`: string, used as the header
 - Either: `due` or `parts`:
-  - `due`: string, literal due date for single-part MP. Bolded and inserted at top of doc as subheading.
-  - `parts`: list of objects, each object containing:
-    - `title`: string, name of part (e.g. "MP1.1"), listed under due dates.
-    - `due`: string, bolded and inserted next to part title.
-- `material`: list of objects, containing:
-  - `name`: string, name to display for this link.
-  - `url`: string, URL to resource.
+	- `due`: string, literal due date for single-part MP
+	- `parts`: list of objects
+		- `title`: string, name of part (e.g. "MP1.1"), listed under due dates.
+		- `due`: string, bolded and inserted next to part title.
+- `material`: optional list of objects, containing:
+	- `name`: string, name to display for this link.
+	- `url`: string, URL to resource.
 - `points`: string/number, total number of points an assignment is worth.
-- `notes`: boolean, optional, Specifies whether to render the important notes section (see below). Default: true.
-- `instructions`: boolean, optional, Specifies whether to render the submission instructions section (see below). Default: true.
-
-On each page, above the `content`, the contents of `important_notes.md` and `submission_instructions.md` will be rendered *unless* `notes` and `instructions` are set to `false`, respectively.
-
-See `_assignments/mp1.md` for a half-baked example.
+- `rubric`: list of objects
+	- `name`: string, a short name for the item
+	- `points`: number, the point value of this item
+	- `description`: string, a longer text-only description of the item
+- `notes`: optional boolean, default true, specifies whether to render `important_notes.md` above the `content`
+- `instructions`: optional boolean, default true, specifies whether to render `submission_instructions.md` below the `content`
