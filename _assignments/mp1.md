@@ -166,7 +166,7 @@ Now, by default the plane is 10x10 $$ (X \times Z) $$ units. In order to make yo
 ![Inspector](/img/assignments/mp1/image7.png)  
 Note: The plane has no thickness, so the value in $$ Y $$ can be any positive integer.
 
-By default, your scene has a directional light in it. This is basically the sun- a light source that illuminates your entire scene from a specified angle, from very far away. You’ll notice that your planes do not block this light. That’s because planes only block light (and render) from one side. Bear this in mind when creating objects in Unity in the future! Please delete the directional light (don’t worry, youll add new lights in later)
+By default, your scene has a directional light in it. This is basically the sun- a light source that illuminates your entire scene from a specified angle, from very far away. You’ll notice that your planes do not block this light. That’s because planes only block light (and render) from one side. Bear this in mind when creating objects in Unity in the future! Please delete the directional light (don’t worry, youll add new lights in later).
 
 In the hierarchy view, you can select your plane, and duplicate it.
 
