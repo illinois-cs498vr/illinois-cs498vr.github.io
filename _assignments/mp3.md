@@ -1,7 +1,7 @@
 ---
 layout: assignment
 title: "MP3: VR Critic"
-due: "March 4th, 2019 at 11:59PM"
+due: "March 4th, 2019 @ 11:59PM"
 points: 100
 notes: false
 instructions: false
