@@ -138,7 +138,8 @@ rubric:
 ### Section Quick Links
 - [MP 1.1.1](#111)
 - [MP 1.1.2](#112)
-- [MP 1.2](#mp-12)
+- [MP 1.2.1](#121)
+- [MP 1.2.2](#122)
 - [Submission Instructions](#submission-instructions)
 - [Rubric](#rubric)
 
@@ -277,7 +278,7 @@ Create a script, called “orbit”, and attach it to the parent sphere. In its 
 ![transform.Rotate](/img/assignments/mp1/image21.png)  
 This will rotate the parent sphere by 2 degrees about the y axis every frame. 
 
-1. **Room Switch:** *Pressing the ‘2’ key should switch to the 2nd part of MP1.1!*  
+1. **Room Switch:** *Pressing the ‘2’ key should switch to the MP1.1.2!*  
 Create the “room switch” script, and attach it to the player. Simply use `Input.GetKeyDown("2")`, and set the player’s `transform.position` to the Vector3 corresponding to the center of your room for MP 1.1.2 (wherever you end up putting it). Don’t forget, the player controller needs to be 1 unit above the ground (since the coordinates for the player refer to its center, and the player is 2 units tall).
 
 1. **Quit key:** *Pressing ‘Esc’ should exit the game.*  
@@ -362,7 +363,7 @@ Sign into your Unity account using the "Log In" button at the upper right. Now, 
 ---
 
 #### Submit: 
-*Submit your unity project **according to the [submission guidelines](#submission-instructions) at the bottom of this assignment.***
+*Submit your unity project **according to the [submission instructions](#submission-instructions) at the bottom of this assignment.***
 
 ---
 
@@ -423,4 +424,4 @@ A very useful method here is Unity’s [`Time.DeltaTime()`](https://docs.unity3d
 ---
 
 #### Submit: 
-*Submit your unity project **according to the [submission guidelines](#submission-instructions) at the bottom of this assignment.***
+*Submit your unity project **according to the [submission instructions](#submission-instructions) at the bottom of this assignment.***
