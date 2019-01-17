@@ -140,7 +140,7 @@ rubric:
 - [MP 1.1.2](#112)
 - [MP 1.2](#mp-12)
 - [Submission Instructions](#submission-instructions)
-- [Rubric](#do-not-submit-your-entire-project-folder)
+- [Rubric](#rubric)
 
 ---
 
