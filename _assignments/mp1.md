@@ -11,7 +11,7 @@ parts:
 material:
   -
     name: MP1.1.2 ZIP
-    url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
+    url: /mps/MP1.zip
 points: 200
 rubric:
   -
