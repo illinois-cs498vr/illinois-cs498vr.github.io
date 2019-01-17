@@ -147,6 +147,8 @@ Next, read through the following Unity Tutorial, to familiarize yourself with th
 
 Feel free to look through some more tutorials, to familiarize yourself with the basics of Unity.
 
+---
+
 ### 1.1.1
 
 ![Oh hai Mark!](/img/assignments/mp1/image16.png)
@@ -178,6 +180,8 @@ From there, simply change the new plane’s rotation and position to make it one
 
 Note: In the image above, rotating the plane also rotated its axes (the blue z axis now points down). Make sure to account for that when rotating and moving objects!
 
+---
+
 #### Player:
 
 *Place an OVR Player Controller prefab in the room. This prefab handles basic movement, collision, and camera control.*
@@ -194,6 +198,8 @@ There’s just one more thing you need to do to finish enabling VR. Go to `Edit`
 
 **If you have issues importing, please check Piazza to see if others have had your issue, and make a post if you need more information.**
 
+---
+
 #### Lighting:
 
 *At the center of the roof of the room, place a point source of light. This light will change color by pressing the `Tab` key, which is detailed in the scripting section.*
@@ -208,6 +214,8 @@ Select your light, and your inspector view should have a `Light` component like 
 
 Of primary importance are the `range` (the radius of your light), color, and intensity values. Set the shadow type to `soft shadows`, and read up on [Unity Shadows](https://docs.unity3d.com/Manual/Shadows.html). Set the `Mode` to `Realtime`, and read up on [Lighting Modes In Unity](https://docs.unity3d.com/Manual/LightModes.html). Set your range and intensity so that your room is brightly lit.
 
+---
+
 #### Planet and Moon:
 
 *Create a large sphere, and have it float in the middle of the room. Create another, smaller sphere, set it as a child object of the bigger sphere, and move it next to the bigger sphere, 4 units away on the X-axis. You will make it orbit the larger sphere in the Scripting section.*
@@ -218,6 +226,8 @@ Create two spheres (`GameObject` → `3D` → `Sphere`). Scale the first sphere 
 
 What this means is that the second sphere is a child of the first sphere. So now, whenever you change the position, rotation, or size of the parent sphere, its child will make the same movement, rotation, or scaling. Furthermore, the `(0,0,0)` position of the child is now its parent’s position, NOT the global `(0,0,0)`. That is, the child’s position is an offset from the parent’s position. Finally, if the parent rotates, then the child will rotate about its parent’s axes, not its own axes (this will make more sense later). For more information on parent-child relationships, see the [Hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) page of the Unity Manual.  
 Set the position of the child sphere to be (2,0,0), which is four units from the parent sphere on the X-axis (why?).
+
+---
 
 #### Text:
 
@@ -236,6 +246,8 @@ Now that the canvas is a world space object, we can make it a more reasonable si
 ![Z-fighting](/img/assignments/mp1/image24.png)
 
 Now, you can set your text color, size, font, width, whether it wraps or overflows, etc. Make your text have you and your partner’s NetIDs, as well as the controls for your game. Make sure it is big enough for us to read. If the text appears blurry or jagged, then increase the width and height of the canvas and text (to increase the resolution), and scale them down further.
+
+---
 
 #### Scripting:
 
@@ -264,6 +276,8 @@ This can be simply added on to the “room switch” script. You will want to ad
 ![Exit game](/img/assignments/mp1/image19.png)  
 `Application.Quit()` quits a Unity application, but it will not stop a game running in editor. So, we check if we are in editor, and stop the editor if we are.
 
+---
+
 ### 1.1.2
 
 #### In 1.1.2 you will be working in the same room as 1.1.1, but with _fewer instructions_.
@@ -279,6 +293,8 @@ Create a new room, at least 50 units away from the first room. Inside the MP1 zi
 To import the package, unzip the MP1 zip folder,then go to `Assets`→`Import package`→`Custom package`, navigate to your unzipped MP1 folder, and import the `.unitypackage` file.
 
 *Note* - The door object does not currently have a collider, so you can walk right through it. You can add a collider by clicking `Add Component` in the inspector window, then going to `Physics` -> `Box Collider` (or `Mesh Collider`).
+
+---
 
 #### Material
 
@@ -301,6 +317,8 @@ Create a new material, called "Wall 2", and apply the albedo and normal maps the
 Create a new material, called "Wall 3" with the same albedo and normal map. Change its tiling to be different from walls 1 and 2. Right below the albedo option is a slider for metallic, and a slider for smoothness. Play around with these, and see how they affect the material. Both deal with how light reflects off the material, metallic giving a more metallic look, and smoothness helping to enhance or subdue the normal map. Paste this material on the remaining two walls.
 Finally, create a material, called "Floor", that has no albedo or normal map. Next to the albedo option is a small color box. This shows what color the material will reflect. When the material has no albedo, the material will be this flat reflection color. Try and see what happens when you change the color of a material with an albedo. Apply this flat color onto the floor and ceiling of your room.
 
+---
+
 #### Scripting
 
 You will be creating some scripts for this room as well.
@@ -320,6 +338,8 @@ The `public GameObject` tag shows a neat feature of unity. Save your script, the
 So our public GameObject is now a field for the script component in Unity. Drag the sphere into this field. Now, whenever you reference the `ball` variable in your script, it will be referencing the sphere you dragged in. Pretty neat! You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).  
 Now, all that’s left is to make that sphere fall. You’ll need to get the rigid body of the sphere (rigid bodies deal with physics, read more here), using the `ball.GetComponent<RigidBody>()` method. After that, simply set `rigidBody.useGravity` to `true`.
 
+---
+
 #### Store Assets
 
 *Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/). Place it in the room. You will need a free Unity account for this.*
@@ -330,6 +350,8 @@ Now, all that’s left is to make that sphere fall. You’ll need to get the rig
 
 Sign into your Unity account using the "Log In" button at the upper right. Now, you can search for any free asset you desire, and put it in your room. Make sure it doesn’t intersect with your collider, or it will trigger the collider. It can be whatever you want (provided it’s school-appropriate, of course).
 
+---
+
 #### Submit: 
 *Submit your unity project **according to the submission guidelines at the bottom of this assignment.***
 
@@ -339,6 +361,8 @@ Sign into your Unity account using the "Log In" button at the upper right. Now, 
 
 Create a new Unity project, called `CS498MP1_2`. **Do not work in your MP 1.1 project.**  
 In this part, you will create a simple game with minimal hand-holding, as compared to MP 1.1. You are expected to look up how to do the tasks required of you, using the resources linked in 1.1.2.
+
+---
 
 ### 1.2.1
 
@@ -355,13 +379,19 @@ For 20 points of extra credit, use a 3D modelling tool to create more complicate
 
 The default Unity modelling tools are extremely limited, so we highly recommend you familiarize yourself with one of the above tools. It will assist greatly in your final project. To get the extra credit, you must do a nontrivial amount of extra work with your modelling tool. That is, it should look like it took you more than 15 minutes to do.
 
+---
+
 #### Skybox:
 
 We have provided you with six images in `skybox.zip` that together, form a skybox. You are going to create a skybox with these images, and apply it to your scene. [Here is the Unity manual page for skyboxes](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html). Skybox asset credit: [mgsvevo](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:9104)
 
+---
+
 #### Directional Light:
 
 Create a directional light for the scene, set it to have hard shadows. Set its angle to match the sun in the skybox.
+
+---
 
 #### Scripting: Trigger Game:
 
@@ -375,9 +405,13 @@ Using a controller in Unity is not quite as simple as using the keyboard. Unfort
 
 A very useful method here is Unity’s [`Time.DeltaTime()`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) method. This method, when called from the update method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
 
+---
+
 ### 1.2.2
 
 **VR experiences:** Your final task is to choose and try out four (4) of the VR demos available through the Oculus or Steam store, or from the VR shared `V:` drive. You will have to create a Steam and/or Oculus account for this step. Oculus titles will need a TA to help install, while Steam will not. For each demo, write at least 3 sentences with a short description of the demo, something you liked, and something you did not like. One experience must be a student experience, and one must be an Oculus/Steam experience. You can find oculus games at [https://share.oculus.com/](https://share.oculus.com/) or on Steam at [http://store.steampowered.com/search/?vrsupport=102](http://store.steampowered.com/search/?vrsupport=102). Please put your names, netIDs, and reviews in a PDF named `HW1DemoWriteUp.pdf`. Hint: some TAs have access to some paid experiences, which will be fun to try out. 
+
+---
 
 #### Submit: 
 *Submit your unity project **according to the submission guidelines at the bottom of this assignment.***
