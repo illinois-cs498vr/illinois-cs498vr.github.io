@@ -3,13 +3,13 @@ layout: assignment
 title: "Project Deliverables"
 parts:
   - title: Discovery
-    due: TBD
+    due: 02/15/2019 23:59PM
   - title: Pre-Production
-    due: TBD
+    due: 3/8/2019 23:59PM
   - title: Alpha
-    due: TBD
+    due: 4/29/2019 23:59PM
   - title: Final Submission
-    due: TBD
+    due: Week of 5/6/2019 See your TA to Schedule
 material:
   - name: Canvas Templates
     url: /mps/prepro-templates.ods
