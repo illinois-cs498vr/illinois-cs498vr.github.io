@@ -3,11 +3,11 @@ layout: assignment
 title: "Project Deliverables"
 parts:
   - title: Discovery
-    due: 2/15/2019 23:59PM
+    due: Feb. 15, 2019 @ 11:59 PM
   - title: Pre-Production
-    due: 3/8/2019 23:59PM
+    due: Mar. 8, 2018 @ 11:59 PM
   - title: Alpha
-    due: 4/29/2019 23:59PM
+    due: Apr. 29, 2019 @ 11:59 PM
   - title: Final Submission
     due: Week of 5/6/2019
 material:
