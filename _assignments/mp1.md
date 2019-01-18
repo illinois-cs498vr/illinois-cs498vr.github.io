@@ -268,7 +268,7 @@ Create a new script, called “Lightswitch”, and attach it to your point light
 Our first step is to get the light component of our point light GameObject. Read the [Controlling GameObjects using GetComponent](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script-  
 ![Inititalize Light](/img/assignments/mp1/image9.png)  
 This will get the light component of the object this script is attached to (calling `GetComponent<>()` is the same as calling `this.GetComponent<>()`), and set it to the `light` variable when we boot up the game. To register input, we use the [Input](https://docs.unity3d.com/ScriptReference/Input.html) library of Unity, specifically, the `Input.GetKeyDown` method. This will return true when the specified key is first pressed down. Since we want to listen for the `tab` key, then in our `Update` function, we write-  
-![Get Tab Key Down](/img/assignments/mp1/image9.png)  
+![Get Tab Key Down](/img/assignments/mp1/image14.png)  
 Setting the light color is easy, you can either create a new color using the “new Color(red,green,blue)” constructor, or one of the predefined colors. How you change the light is up to you, but the light should visibly change every time we press tab. Maybe you use a boolean variable to track the current color, or an integer (for more than two colors). That is up to you.
 
 1. **Orbit:** *The moon should orbit the planet sphere. The easiest way to do this is to have the planet constantly rotate. Since the moon is a child of the planet, it will also rotate around the planet.*  
