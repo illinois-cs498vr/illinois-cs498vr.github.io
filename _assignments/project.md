@@ -9,7 +9,7 @@ parts:
   - title: Alpha
     due: 4/29/2019 23:59PM
   - title: Final Submission
-    due: Week of 5/6/2019 See your TA to Schedule
+    due: Week of 5/6/2019
 material:
   - name: Canvas Templates
     url: /mps/prepro-templates.ods
