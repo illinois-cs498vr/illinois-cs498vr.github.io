@@ -147,9 +147,9 @@ the blue spheres always “appear” to be at the same depth as the red sphere w
 That is, we ask you to vary the sizes of the blue spheres
 so that the _rendered_ images of all of the three spheres have equal diameters when viewed on the Oculus Rift display.
 
-|[Before](/img/mps/depth-percept-before.png)|[After](/img/mps/depth-percept-after.png)|
+|[Before](/img/assignments/mp2/depth-percept-before.png)|[After](/img/assignments/mp2/depth-percept-after.png)|
 |---|---|
-|![MP2 before](/img/mps/depth-percept-before.png){:class="img-responsive" style="display:block; margin:auto"}|![MP2 after](/img/mps/depth-percept-after.png){:class="img-responsive" style="display:block; margin:auto"}|
+|![MP2 before](/img/assignments/mp2/depth-percept-before.png){:class="img-responsive" style="display:block; margin:auto"}|![MP2 after](/img/assignments/mp2/depth-percept-after.png){:class="img-responsive" style="display:block; margin:auto"}|
 
 You are only allowed to change the sizes of the blue spheres to complete this task. 
 You must not change the positions of the three spheres, nor the size of the red sphere.
