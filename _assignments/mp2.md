@@ -4,10 +4,10 @@ title: "MP2: Geometric Transformations / Perception"
 parts:
   -
     title: MP2.1
-    due: Mar. 14th, 2019 @ 11:59 PM
+    due: Feb. 11, 2019 @ 11:59 PM
   -
     title: MP2.2
-    due: Mar. 21st, 2019 @ 11:59 PM
+    due: Feb. 18, 2019 @ 11:59 PM
 material:
   -
     name: Starting Unity package
