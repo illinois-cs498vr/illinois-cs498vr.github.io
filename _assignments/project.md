@@ -37,8 +37,7 @@ Determine your Target Audience (User Experience & User Types):
   - Make up your own in this situation and rank them based on what you think is the biggest group down to the smaller. Four or five is a good count.
 
 Add the *Core Pillars*, these are the key "features" that support the User Experience Elements. These pillars are the elements that describe the essence of the app/game, the app/game would not be the same without them.
-- Game Example: Skyrim might have a Player Experience point that says "The Player feels driven to advance and customize their character. The core pillar that supports this might be "Player can gain experience by completing adventures and obtaining new levels offer new
-skills". 
+- Game Example: Skyrim might have a Player Experience point that says "The Player feels driven to advance and customize their character. The core pillar that supports this might be "Player can gain experience by completing adventures and obtaining new levels that offer new skills". 
 
 *Gameplay systems* describes the key low-level systems that must be created.
 - As above for Skyrim: The Experience system (includes the Skill system &
