@@ -1,5 +1,8 @@
-# README
+# CS 498 VR Website
+[![Build Status](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io.svg?branch=master)](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io)
+[![Maintainability](https://api.codeclimate.com/v1/badges/22e155e47f6cee6e6dd0/maintainability)](https://codeclimate.com/github/illinois-cs498vr/illinois-cs498vr.github.io/maintainability)
 
+---
 Course website for CS 498 Virtual Reality at the University of Illinois.
 
 ## Getting Started
