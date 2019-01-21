@@ -145,7 +145,7 @@ rubric:
 
 ---
 
-## MP1.1:
+## MP 1.1
 Create a new project by clicking through the prompts when you click the NEW button on the top right. Fill in the appropriate details to your heart’s content.
 
 ![splash screen](/img/assignments/mp1/image23.png)

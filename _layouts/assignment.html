@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+
+<link rel="stylesheet" href="/assets/css/assignment.css" type="text/css" />
+
 {% if page.parts %}
 	<h4>Due Dates:</h4>
 	{% for part in page.parts %}
@@ -27,7 +30,9 @@ layout: page
 	<hr>
 {% endunless %}
 
-{{ content }}
+<div class="mp-content">
+	{{ content }}
+</div>
 
 {% unless page.instructions == false %}
 	<hr>
@@ -76,3 +81,23 @@ layout: page
 		<p>The given total number of points ({{ page.points }}) does not match the summed total of points from the rubric.</p>
 	{% endif %}
 {% endif %}
+
+<script type="text/javascript">
+// Collapsible h2, h3!
+var sections = document.querySelectorAll(".mp-content h2,h3");
+
+for(var i = 0; i < sections.length; i++) {
+	sections[i].addEventListener("click", function() {
+		var sib = this.nextElementSibling;
+		while(sib && sib.tagName != this.tagName 
+			// This next line is a piece of ratchetry I never want to see again, I apologize.	
+			// It was necessary to make sure when collapsing an h3, it doesn't also hide a following h2.
+			&& sib.tagName.toLowerCase() != 'h2') 
+		{
+			console.log(sib.outerHTML);
+			sib.classList.toggle("inactive");
+			sib = sib.nextElementSibling;
+		}
+	});
+}
+</script>

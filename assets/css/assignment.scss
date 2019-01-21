@@ -1,0 +1,14 @@
+---
+
+---
+
+.mp-content {
+	h2:after, h3:after {
+		content: "-";
+		float: right;
+		margin: 0 5px;
+	}
+	.inactive {
+		display: none;
+	}
+}
