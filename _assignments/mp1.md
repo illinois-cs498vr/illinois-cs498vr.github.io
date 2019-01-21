@@ -4,10 +4,10 @@ title: "MP1: The Room"
 parts:
   -
     title: MP1.1
-    due: January 28th, 2019 @ 11:59 PM
+    due: Jan. 28, 2019 @ 11:59 PM
   -
     title: MP1.2
-    due: February 4th, 2019 @ 11:59 PM
+    due: Feb. 4, 2019 @ 11:59 PM
 material:
   -
     name: MP1.1.2 ZIP
