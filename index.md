@@ -83,7 +83,20 @@ We weight grades as follows:
 | Final Project | 40% | 25% |  
 | 4th Credit Project | | 15% |  
 
-We do not post grade cutoffs, but you can expect the average grade to be significantly higher than that of a standard, required undergraduate class. Since the course is experimental, there could be significant confusion and frustration as we work to improve the course. By being pioneers, you get more benefit of the doubt than usual!
+You can expect the cutoffs to be approximately as follows
+98 - 100: A+  
+93 - 98: A
+90 - 93: A-
+87 - 90: B+
+83 - 87: B
+80 - 83: B-
+77 - 80: C+
+73 - 77: C
+70 - 73: C-
+60 - 70: D
+Below 60: F
+
+
 
 ## Textbooks ##
 Main text, required: [Steven M. LaValle, Virtual Reality, 2016](http://vr.cs.uiuc.edu).
