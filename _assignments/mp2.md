@@ -11,7 +11,7 @@ parts:
 material:
   -
     name: Starting Unity package
-    url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
+    url: /mps/MP2.1.unitypackage
 rubric:
   -
     name: View Flipping
