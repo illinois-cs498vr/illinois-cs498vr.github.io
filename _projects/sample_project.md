@@ -1,14 +1,12 @@
 ---
 layout: project
 title: Moves Like Escher
-image: /img/relativity.jpg
+image: /img/projects/relativity.jpg
 custom-css: project
 desc: |
   A mind-bending puzzle game where space and gravity themselves warp!
 github: https://github.com/chadfranzen/MovesLikeEscher
 youtube: AOTgxCqxBow
-link: http://localhost:4000
-dl: http://localhost:4000
 ---
 A mind-bending puzzle game where space and gravity themselves warp! This is filler to make this description span multiple lines. 
 Please send help. I'm just making stuff up at this point, and I'm running out of words to write since I don't have a point.
