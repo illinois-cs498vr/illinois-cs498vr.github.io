@@ -346,7 +346,7 @@ The `OnTriggerEnter` function will be called when the collider attached to our e
 The `public GameObject` tag shows a neat feature of unity. Save your script, then navigate to your empty trigger GameObject. In the inspector, the  script component should look like this -  
 ![Script in Inspector](/img/assignments/mp1/image8.png)  
 So our public GameObject is now a field for the script component in Unity. Drag the sphere into this field. Now, whenever you reference the `ball` variable in your script, it will be referencing the sphere you dragged in. Pretty neat! You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).  
-Now, all that’s left is to make that sphere fall. You’ll need to get the rigid body of the sphere (rigid bodies deal with physics, read more here), using the `ball.GetComponent<RigidBody>()` method. After that, simply set `rigidBody.useGravity` to `true`.
+Now, all that’s left is to make that sphere fall. You’ll need to get the rigid body of the sphere (rigid bodies deal with physics, read more here), using the `ball.GetComponent<Rigidbody>()` method. After that, simply set `rigidBody.useGravity` to `true`.
 
 ---
 
