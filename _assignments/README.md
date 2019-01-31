@@ -18,5 +18,9 @@ Assignments are defined in the `_assignments/` folder. The frontmatter YAML sche
 	- `name`: string, a short name for the item
 	- `points`: number, the point value of this item
 	- `description`: string, a longer text-only description of the item
+- `extra` : list of objects
+	- `name`: string, a short name for the item
+	- `points`: number, the point value of this item
+	- `description`: string, a longer text-only description of the item
 - `notes`: optional boolean, default true, specifies whether to render `important_notes.md` above the `content`
 - `instructions`: optional boolean, default true, specifies whether to render `submission_instructions.md` below the `content`
