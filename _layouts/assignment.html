@@ -54,7 +54,9 @@ layout: page
 		</td>
 		<td>
 			{{ item.points }}
-			{% assign total = total | plus: item.points %}
+			{% if item.extra != true %}
+				{% assign total = total | plus: item.points %}
+			{% endif %}
 		</td>
 		<td>
 			{{ item.description }}
@@ -69,35 +71,6 @@ layout: page
 		<td>{{ total }}</td>
 		<td></td>
 	</tr>
-	{% for item in page.extra %}
-	<tr>
-		<td>
-			{{ item.name }}
-		</td>
-		<td>
-			{{ item.points }}
-		</td>
-		<td>
-			{{ item.description }}
-		</td>
-	</tr>
-	{% endfor %}
-	</tfoot>
-
-	<tfoot>
-	<!-- {% for item in page.extra %}
-	<tr>
-		<td>
-			{{ item.name }}
-		</td>
-		<td>
-			{{ item.points }}
-		</td>
-		<td>
-			{{ item.description }}
-		</td>
-	</tr> -->
-	<!-- {% endfor %} -->
 	</tfoot>
 	
 	</table>

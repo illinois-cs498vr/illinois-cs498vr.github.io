@@ -26,15 +26,16 @@ rubric:
     name: Suggestions
     points: 20
     description: Give at least 2 suggestions on how to improve the experience in each review.
-extra: 
-  - 
+  -
     name: Word Limit
     points: -20
     description: The reviews have less or more than 150-300 words per experience.
+    extra: true
   -
     name: Spelling and Grammar
     points: -10
     description: Excessive spelling or grammar mistakes.
+    extra: true
 points: 100
 
 notes: false
