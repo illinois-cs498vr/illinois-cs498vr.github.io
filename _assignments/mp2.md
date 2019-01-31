@@ -99,10 +99,6 @@ This part of the MP will reinforce the mathematical notion of geometric transfor
 
 Complete the following written problems. You must show your work and submit your answers as a PDF. We recommend using LaTeX to typeset your mathematics.
 
-<!-- this page only -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-<!-- markdownified TeX is really messy. -->
-
 The problems are as follows:
 
 1. In one sentence, explain what the following homogeneous transformation accomplishes when applied to a point
