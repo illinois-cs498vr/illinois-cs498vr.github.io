@@ -84,21 +84,68 @@ layout: page
 {% endif %}
 
 <script type="text/javascript">
-// Collapsible h2, h3!
-var sections = document.querySelectorAll(".mp-content h2,h3");
+(function() {
+  // Get all the <h2> headings
+  const headings = document.querySelectorAll('.mp-content h2,.mp-content h3')
+  
+  Array.prototype.forEach.call(headings, heading => {
+    // Give each <h2> a toggle button child
+    // with the SVG plus/minus icon
+    heading.innerHTML = `
+      <button aria-expanded="true">
+        ${heading.textContent}
+        <svg aria-hidden="false" focusable="true" viewBox="0 0 10 10">
+          <rect class="vert" height="8" width="2" y="1" x="4"/>
+          <rect height="2" width="8" y="4" x="1"/>
+        </svg>
+      </button>
+    `
+    
+    // Function to create a node list 
+    // of the content between this <h2> and the next
+    const getContent = (elem) => {
+	  let elems = [], tag = elem.tagName
+      while (elem.nextElementSibling && elem.nextElementSibling.tagName !== tag && elem.nextElementSibling.tagName !== 'H2') {
+        elems.push(elem.nextElementSibling)
+        elem = elem.nextElementSibling
+      }
+      
+      // Delete the old versions of the content nodes
+      elems.forEach((node) => {
+        node.parentNode.removeChild(node)
+      })
 
-for(var i = 0; i < sections.length; i++) {
-	sections[i].addEventListener("click", function() {
-		var sib = this.nextElementSibling;
-		while(sib && sib.tagName != this.tagName 
-			// This next line is a piece of ratchetry I never want to see again, I apologize.	
-			// It was necessary to make sure when collapsing an h3, it doesn't also hide a following h2.
-			&& sib.tagName.toLowerCase() != 'h2') 
-		{
-			console.log(sib.outerHTML);
-			sib.classList.toggle("inactive");
-			sib = sib.nextElementSibling;
-		}
-	});
-}
+      return elems
+    }
+    
+    // Assign the contents to be expanded/collapsed (array)
+    let contents = getContent(heading)
+    
+    // Create a wrapper element for `contents` and hide it
+    let wrapper = document.createElement('div')
+    wrapper.hidden = false
+    
+    // Add each element of `contents` to `wrapper`
+    contents.forEach(node => {
+      wrapper.appendChild(node)
+    })
+    
+    // Add the wrapped content back into the DOM 
+    // after the heading
+    heading.parentNode.insertBefore(wrapper, heading.nextElementSibling)
+    
+    // Assign the button
+    let btn = heading.querySelector('button')
+    
+    btn.onclick = () => {
+      // Cast the state as a boolean
+      let expanded = btn.getAttribute('aria-expanded') === 'true' || false
+      
+      // Switch the state
+      btn.setAttribute('aria-expanded', !expanded)
+      // Switch the content's visibility
+      wrapper.hidden = expanded    
+    }
+  })
+})()
 </script>
