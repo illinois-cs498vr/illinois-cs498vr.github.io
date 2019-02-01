@@ -1,17 +1,9 @@
 ---
-layout: page
+layout: assignments
 permalink: /assignments
 title: Assignments
+custom-css: assignments
 ---
-
-| Assignment | Provided Material | Due | Points |  
-| --- | --- | --- | --- |  
-| [MP1 (PDF)](/not-ready) | [MP1 package](/not-ready) | MP1.1: TBD<br />MP1.2: TBD | 200 |  
-| [MP2 (PDF)](/not-ready) | [MP2 package](/not-ready) | MP2.1: TBD<br />MP2.2: TBD | 100 |  
-| [Project Proposal (PDF)](/not-ready) |  | TBD | 5% of Final Project |  
-| [4th Credit Project Proposal (PDF)](/not-ready) |  | TBD |  |  
-| [MP3 (PDF)](/not-ready) | | TBD | 100 |  
-| [MP4 (PDF)](/not-ready) | [MP4 package](/not-ready) | TBD | 200 |  
 
 ## Lab Information ##
 The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers.

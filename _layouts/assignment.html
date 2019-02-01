@@ -1,0 +1,81 @@
+---
+layout: page
+---
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+{% if page.parts %}
+	<h4>Due Dates:</h4>
+	{% for part in page.parts %}
+		{{ part.title }}: <strong>{{ part.due }}</strong><br>
+	{% endfor %}
+{% else %}
+	<h4>Due: <strong>{{ page.due }}</strong></h4>
+{% endif %}
+
+<hr>
+
+{% if page.material %}
+	<h4>Provided Material:</h4>
+	{% for thing in page.material %}
+	<a href="{{ thing.url }}">{{ thing.name }}</a>
+	{% endfor %}
+	<hr>
+{% endif %}
+
+{% unless page.notes == false %}
+	<h2>Important Notes</h2>
+	{% capture notes %}{% include_relative important_notes.md %}{% endcapture %}
+	{{ notes | markdownify }}
+	<hr>
+{% endunless %}
+
+{{ content }}
+
+{% unless page.instructions == false %}
+	<hr>
+	<h2>Submission Instructions</h2>
+	{% capture instr %}{% include_relative submission_instructions.md %}{% endcapture %}
+	{{ instr | markdownify }}
+{% endunless %}
+
+{% if page.rubric %}
+	<hr>
+	<table id="rubric">
+	{%- assign total = 0 %}
+	<thead><tr>
+		<th>Name</th>
+		<th>Points</th>
+		<th>Description</th>
+	</tr></thead>
+	
+	<tbody>
+	{% for item in page.rubric %}
+	<tr>
+		<td>
+			{{ item.name }}
+		</td>
+		<td>
+			{{ item.points }}
+			{% assign total = total | plus: item.points %}
+		</td>
+		<td>
+			{{ item.description }}
+		</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	
+	<tfoot style='background-color:#ddd;'><tr>
+		<td>Total</td>
+		<td>{{ total }}</td>
+		<td></td>
+	</tr></tfoot>
+	
+	</table>
+	
+	{% assign temp = page.points | plus: 0 %}
+	{% if temp != total %}
+		<p>The given total number of points ({{ page.points }}) does not match the summed total of points from the rubric.</p>
+	{% endif %}
+{% endif %}

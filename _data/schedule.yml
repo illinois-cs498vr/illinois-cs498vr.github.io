@@ -1,0 +1,155 @@
+- 
+  date: "Jan 14"
+  materials: "LaValle, Ch 1"
+  title: "[Defining VR, course overview, course project expectations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture1-Introduction%20to%20VR.pdf)"
+
+- 
+  date: "Jan 16"
+  materials: "LaValle, Ch 2.1, 2.2"
+  title: "Design Processes: Basic Principles and Top Down Design Processes"
+
+- 
+  date: "Jan 21"
+  materials: ~
+  title: "**No Lecture: Martin Luther King Jr. Day**"
+
+- 
+  date: "Jan 23"
+  materials: "LaValle, Ch 2.3"
+  title: "[3D Computer Graphics: Geometric Modeling](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture4.pptx) and 
+  \n [VR Hardware Overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture2.pptx)"
+
+- 
+  date: "Jan 28"
+  materials: "LaValle, Ch 3.2, 3.3"
+  title: "Design Processes: VR Design General Considerations"
+
+- 
+  date: "Jan 30"
+  materials: "LaValle, Ch 3.2, 3.3"
+  title: "3D Computer Graphics: Mathematics for Orientation"
+
+- 
+  date: "Feb 4"
+  materials: "LaValle, Ch 3.2, 3.3"
+  title: "Design Processes: VR Design Ergonomics"
+
+- 
+  date: "Feb 6"
+  materials: ~
+  title: "3D Computer Graphics: Rasterization Pipeline"
+
+- 
+  date: "Feb 11"
+  materials: "LaValle, Ch 3"
+  title: "**No Lecture: Exam Week**"
+
+- 
+  date: "Feb 13"
+  materials: "LaValle, Ch 4"
+  title: "Design Processes: VR Input, Movement & User Interface"
+- 
+  date: "Feb 18"
+  materials: "LaValle, Ch 5"
+  title: "Production Processes: Basic Principles and Class Project Plan"
+
+- 
+  date: "Feb 25"
+  materials: "LaValle, Ch 6"
+  title: "VR Hardware Overview"
+
+- 
+  date: "Feb 27"
+  materials: ~
+  title: "Light and Optics"
+
+- 
+  date: "Mar 4"
+  materials: 
+  title: "Human Vision"
+
+- 
+  date: "Mar 6"
+  materials: ~
+  title: "Visual Perception"
+
+- 
+  date: "Mar 11"
+  materials: "LaValle, Ch. 6"
+  title: "**No Lecture: Exam Week**"
+
+- 
+  date: "Mar 13"
+  materials: "LaValle, Ch. 6"
+  title: "Unity and VR Best Practices"
+
+- 
+  date: "Mar 18"
+  materials: ~
+  title: "**No Lecture: Spring Break**"
+
+- 
+  date: "Mar 20"
+  materials: ~
+  title: "**No Lecture: Spring Break**"
+
+- 
+  date: "Mar 25"
+  materials: "LaValle, Ch. 7"
+  title: "Visual Rendering for VR"
+
+- 
+  date: "Mar 27"
+  materials: "LaValle, Ch. 7"
+  title: "Motion in Real and Virtual Worlds"
+
+- 
+  date: "Apr 1"
+  materials: "LaValle, Ch. 8"
+  title: "Tracking"
+
+- 
+  date: "Apr 3"
+  materials: "LaValle, Ch. 9, 12"
+  title: "Interaction"
+
+- 
+  date: "Apr 8"
+  materials: "LaValle, Ch. 9"
+  title: "Audio in VR"
+
+- 
+  date: "Apr 10"
+  materials: ~
+  title: "Survey of Current State of VR in Industry"
+
+- 
+  date: "Apr 15"
+  materials: ~
+  title: "Design in more Detail: Mid-level Processes"
+
+- 
+  date: "Apr 17"
+  materials: ~
+  title: "Production in more Detail: Studios, Teams and Lower Level Processes"
+
+- 
+  date: "Apr 22"
+  materials: ~
+  title: "History of VR"
+
+- 
+  date: "Apr 24"
+  materials: "LaValle, Ch. 8, 12"
+  title: "Future of VR: Guest Lecture"
+
+- 
+  date: "Apr 29"
+  materials: "LaValle, Ch. 9"
+  title: "**No Lecture: Exam Week**"
+
+- 
+  date: "May 1"
+  materials: ~
+  title: "**No Lecture: Exam Week**"
+

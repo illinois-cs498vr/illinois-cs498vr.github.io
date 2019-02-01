@@ -10,14 +10,6 @@
 .footer-col-wrapper {
   display: flex;
   flex-direction: row;
-
-  .footer-col {
-    float: unset;
-    width: unset;
-  }
-  .footer-col-2 {
-    margin-left: auto;
-  }
 }
 
 .site-header {
@@ -58,4 +50,24 @@
 
 .site-nav .page-link {
   color: white;
+}
+
+.anchorjs-link {
+	transition: all .17s linear;
+	color: #e63;
+	
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:visited {
+		color: #e63;
+	}
+}
+.post-content h1 {
+	font-size: 42px;
+}
+
+.post-content hr {
+	margin: 1em auto;
 }

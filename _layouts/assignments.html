@@ -1,0 +1,39 @@
+---
+layout: page
+---
+<table>
+	<tr class="table-header">
+		<td class="title-row">Assignment</td>
+		<td class="title-row">Provided Material</td>
+		<td class="title-row">Due Date</td>
+		<td class="title-row">Points</td>
+	</tr>
+	{% for assignment in site.assignments %}
+		<tr>
+			<td>
+				<a href="{{ assignment.url }}">{{ assignment.title }}</a>
+			</td>
+			<td>
+				{% for thing in assignment.material %}
+					<a href="{{ thing.url }}">{{ thing.name }}</a>
+					{% if forloop.last == false %}<br>{% endif %}
+				{% endfor %}
+			</td>
+			<td>
+				{% if assignment.parts %}
+					{% for part in assignment.parts %}
+						{{ part.title }}: <strong>{{ part.due }}</strong>
+						{% if forloop.last == false %}<br>{% endif %}
+					{% endfor %}
+				{% else %}
+					<strong>{{ assignment.due }}</strong>
+				{% endif %}
+			</td>
+			<td>
+				{{ assignment.points }}
+			</td>
+		</tr>
+	{% endfor %}
+</table>
+<hr>
+{{ content }}
