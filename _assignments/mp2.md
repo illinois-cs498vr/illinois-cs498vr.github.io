@@ -11,7 +11,7 @@ parts:
 material:
   -
     name: Starting Unity package
-    url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP1.zip
+    url: /mps/MP2.1.unitypackage
 rubric:
   -
     name: View Flipping
@@ -98,10 +98,6 @@ Imagine looking into a mirror to get an intuition of this.
 This part of the MP will reinforce the mathematical notion of geometric transforms.
 
 Complete the following written problems. You must show your work and submit your answers as a PDF. We recommend using LaTeX to typeset your mathematics.
-
-<!-- this page only -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-<!-- markdownified TeX is really messy. -->
 
 The problems are as follows:
 
