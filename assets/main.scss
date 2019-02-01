@@ -16,12 +16,21 @@ $alt-color: #EEE;
 		color: #e63;
 	}
 }
+
 .post-content h1 {
 	font-size: 42px;
 }
 
 .post-content hr {
 	margin: 1em auto;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+p,li {
+	padding: 5px;
 }
 
 p:nth-child(even) {
