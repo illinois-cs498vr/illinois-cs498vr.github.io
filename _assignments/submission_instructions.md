@@ -27,7 +27,7 @@ replicate any new gamepad buttons or joysticks you mapped.
 
 1. Create a zip file containing the following items:
 	* The `.unitypackage` created in Step 1
-	* The `.exe`, `.dll`, AND **DATA FOLDER** created in Step 2
+	* All files created in Step 2 (`.exe`, `.dll`, and folders such as **DATA or MONO**)
 	* The `InputManager.asset` file found in Step 3
 	* A `README.txt` file containing any special instructions or notes you think are relevant for evaluating your assignment.
 	* If applicable, your writeup PDF.
