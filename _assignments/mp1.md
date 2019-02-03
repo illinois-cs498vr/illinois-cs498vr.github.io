@@ -410,7 +410,7 @@ Using a controller in Unity is not quite as simple as using the keyboard. Unfort
 - [Additionally, a Microsoft Blog page on Xbox controller input in Unity](https://blogs.msdn.microsoft.com/uk_faculty_connection/2014/12/02/adding-xbox-controller-support-and-input-to-your-unity3d-game/) - (note: the controller drivers are already installed)
 - [Unity Manual page on Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html)
 
-A very useful variable here is Unity’s [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html). This variable, when used inside the Update method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
+A very useful variable here is Unity’s [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html). This variable, when used inside the `Update` method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
 
 ---
 
