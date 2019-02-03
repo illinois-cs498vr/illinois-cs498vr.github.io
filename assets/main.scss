@@ -2,8 +2,6 @@
 ---
 @import "minima";
 
-$alt-color: #EEE;
-
 .anchorjs-link {
 	transition: all .17s linear;
 	color: #e63;
@@ -34,9 +32,9 @@ p,li {
 }
 
 p:nth-child(even) {
-	background: $alt-color;
+	background: $grey-color-light;
 }
 
 li:nth-child(even) {
-	background: $alt-color;
+	background: $grey-color-light;
 }
