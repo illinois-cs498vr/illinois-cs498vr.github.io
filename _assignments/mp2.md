@@ -10,8 +10,11 @@ parts:
     due: Feb. 18, 2019 @ 11:59 PM
 material:
   -
-    name: Starting Unity package
+    name: MP2.1 Unity package
     url: /mps/MP2.1.unitypackage
+  - 
+    name: MP2.2 Unity Package
+    url: /mps/MP2_package.unitypackage
 rubric:
   -
     name: View Flipping
