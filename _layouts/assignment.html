@@ -17,9 +17,11 @@ layout: page
 
 {% if page.material %}
 	<h4>Provided Material:</h4>
+	<ul>
 	{% for thing in page.material %}
-	<a href="{{ thing.url }}">{{ thing.name }}</a>
+	<li><a href="{{ thing.url }}">{{ thing.name }}</a></li>
 	{% endfor %}
+	</ul>
 	<hr>
 {% endif %}
 
