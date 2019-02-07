@@ -43,8 +43,19 @@
 .site-header > .wrapper {
   width: 100%;
 
-  nav {
-    top: 15px;
+  .site-title {
+    letter-spacing: unset;
+  }
+
+  .site-nav {
+    position: unset;
+    top: unset;
+    right: unset;
+    transform: translateY(25%);
+
+    @media screen and (min-width: 600px) {
+      transform: unset;
+    }
   }
 }
 
@@ -56,6 +67,11 @@
   color: white;
 }
 
-.site-nav .page-link {
-  color: white;
+.site-nav .trigger .page-link {
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  @media screen and (min-width: 600px) {
+    color: white;
+  }
 }
