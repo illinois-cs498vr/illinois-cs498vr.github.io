@@ -25,16 +25,21 @@ rubric:
   -
     name: Suggestions
     points: 20
-    description: Give at least 2 suggestions on how to improve the experience in each review.
+    description: Include at least 2 suggested improvements that are consistent with the Best Practices Guide in each review.
+  -
+    name: Citation
+    points: -20
+    description: Missing, incorrect, or misformatted citation will result in up to 20 points deduction.
+    extra: true
   -
     name: Word Limit
     points: -20
-    description: The reviews have less or more than 150-300 words per experience.
+    description: Reviews that do not fit the word limit will result in up to 20 points deduction.
     extra: true
   -
     name: Spelling and Grammar
     points: -10
-    description: Excessive spelling or grammar mistakes.
+    description: Excessive spelling or grammar mistakes will result in up to 10 points deduction.
     extra: true
 points: 100
 
@@ -50,23 +55,19 @@ Each review must focus on the following four categories:
 1. Movement
 1. Immersion/Presence
 
-For each category, write a short paragraph that describes what that particular VR experience does well and what it does poorly in regards to that category. In each review, include at least two suggestions on how to improve the experience. Make sure to back up your critiques and suggestions with evidence from the Best Practices Guide. In total, write 150-300 words per experience.
+For each category, write a short paragraph that describes what that particular VR experience does well and what it does poorly in regards to that category. In each review, include at least two suggestions on how to improve the experience. Make sure to back up your critiques and suggestions with evidence from the Best Practices Guide (See Citation). In total, write 150-300 words per review.
 
 ### Grading
 
 *You will be graded according to how well you can justify your answer with specific examples from the Oculus Best Practices Guide.*
 
-- Each review must cover all four categories. 
-- **YOU MUST PROVIDE SECTION NAMES AND DIRECT QUOTES FROM THE BEST PRACTICES GUIDE TO CITE A GIVEN OBSERVATION** 
-- Each review must include at least two suggested improvements that are consistent with the Best Practices Guide. 
-- Each of the three reviews counts for 1/3rd of your assignment grade.  
-- Reviews that do not fit the word limit will result in up  to 20 points deduction.
-- Spelling and grammar mistakes will result in up to 10 points deduction.
+### Citation
+**You must provide section names and direct quotes from the Best Practices Guide to cite a given obsevation.**
 
-### Example Citation
+Example:
 > The menu feels too close to the eyes which may cause discomfort.  Instead, UI elements should be incorporated into the virtual world as 3D objects. [1]
 
-In the footnotes:
+In footnotes:
 > [1] Vision -> Comfortable Viewing Distances: ...should be rendered at least 0.5 meters away...
 
 
