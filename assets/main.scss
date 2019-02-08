@@ -59,11 +59,11 @@
 }
 
 .site-nav .trigger .page-link {
-  color: black;
+  color: white;
   margin-left: 1em;
   margin-right: 1em;
-  @media screen and (min-width: 600px) {
-    color: white;
+  @include media-query($on-palm) {
+    color: black;
   }
 }
 
