@@ -40,14 +40,10 @@
   }
 
   .site-nav {
-    position: unset;
-    top: unset;
-    right: unset;
-    transform: translateY(25%);
-
-    @media screen and (min-width: 600px) {
-      transform: unset;
-    }
+    position: absolute;
+    top: 50%;
+    transform: translateY(-18px);
+    right: $spacing-unit/2;
   }
 }
 
