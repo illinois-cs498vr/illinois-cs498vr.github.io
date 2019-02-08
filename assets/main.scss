@@ -40,10 +40,13 @@
   }
 
   .site-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-18px);
-    right: $spacing-unit/2;
+    @include media-query($on-palm) {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-18px);
+      right: $spacing-unit/2;
+  
+    }
   }
 }
 
