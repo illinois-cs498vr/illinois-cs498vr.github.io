@@ -2,7 +2,6 @@
 layout: project
 title: Distracted Driving VR
 image: /img/projects/DistractedDrivingVR.jpg
-custom-css: project
 desc: |
   A game and educational tool to illustrate how hard it is to drive safely while being distracted with your phone and your music
 dl: https://www.dropbox.com/s/grqtrjmbp31p394/andrewg3_arboled2_nagpaul2_ncueto2_safoan2_final.rar?dl=0

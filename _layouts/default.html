@@ -3,12 +3,6 @@
 
   {%- include head.html -%}
 
-  {% if page.custom-css %}
-    {% for stylesheet in page.custom-css %}
-      <link rel="stylesheet" href="/assets/css/{{ stylesheet }}.css" type="text/css" />
-	   {% endfor %}
-  {% endif %}
-
   <body>
 
     {%- include header.html -%}
@@ -25,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js"></script>
     <script>anchors.add()</script>
 
-    <script src="{{ "/assets/customer-scripts.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+    <script src="{{ '/assets/customer-scripts.js' | prepend: site.baseurl }}" type="text/javascript"></script>
 
   </body>
 
