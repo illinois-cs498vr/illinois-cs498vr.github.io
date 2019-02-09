@@ -52,7 +52,7 @@ The final project is a semester-long implementation of a VR system. Students cho
 
 This satisfies the [team project requirement](https://cs.illinois.edu/academics/degree-program-options/bs-computer-science-engineering) for CS majors.
 
-See the [project gallery](/not-ready) for past student projects.
+See the [project gallery](/projects) for past student projects.
 
 ## Exams ##
 This class will have three midterm exams and no final exam. The third midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
@@ -110,7 +110,7 @@ See the [Extra Material](/extra-material) page for other, recommended readings.
 ## [Piazza](https://piazza.com/illinois/spring2019/cs498vr) ##
 We will use Piazza for answering questions and administering the course.
 
-Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to [the course instructor](/not-ready) with the email address you want to use, and we will add you manually.
+Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to the course instructor with the email address you want to use, and we will add you manually.
 
 ## Course Staff ##
 See the [schedule for office hours](/officehours).
