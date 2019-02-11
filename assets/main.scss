@@ -35,14 +35,14 @@
 .site-header > .wrapper {
   width: 100%;
   position: relative;
-  max-width: calc(100vw - 30px);
 
   .site-title {
     letter-spacing: unset;
   }
   @include media-query($on-palm) {
     margin-left: 0;
-    
+    max-width: calc(100vw - 30px);
+
     .site-nav {
       position: absolute;
       top: 50%;
