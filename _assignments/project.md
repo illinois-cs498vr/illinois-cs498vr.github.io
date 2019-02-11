@@ -142,19 +142,6 @@ rubric:
     name: Final Project Demo
     description: worth 50% of your project grade.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ## Discovery
