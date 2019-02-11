@@ -2,7 +2,6 @@
 layout: project
 title: 1 HP Wizard
 image: /img/projects/1HPWizard.png
-custom-css: project
 desc: |
   A multi-level, first-person fantasy strategy game
 github: https://github.com/scott0123/1-HP-Wizard
