@@ -34,18 +34,20 @@
 
 .site-header > .wrapper {
   width: 100%;
+  position: relative;
+  max-width: calc(100vw - 30px);
 
   .site-title {
     letter-spacing: unset;
   }
-
-  .site-nav {
-    @include media-query($on-palm) {
+  @include media-query($on-palm) {
+    margin-left: 0;
+    
+    .site-nav {
       position: absolute;
       top: 50%;
       transform: translateY(-18px);
       right: $spacing-unit/2;
-  
     }
   }
 }
