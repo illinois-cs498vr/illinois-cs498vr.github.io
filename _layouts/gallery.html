@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="gallery">
-{% if site.projects %}
+{% if site.semesters %}
+    {% for semester in site.semesters %}
+        <div>
+            <h3><a href="{{ semester.url }}">{{ semester.title }}</a></h3>
+        </div>
+	{% endfor %}
+{% endif %}
+        
+<!--{% if site.projects %}
 	{% for project in site.projects %}
 		<article class="card">
 			{% if project.youtube %}
@@ -34,7 +40,6 @@ layout: default
 			</div>
 		</article>
 	{% endfor %}
-{% endif %}
+{% endif %}-->
 	<article class="card empty-card">
 	</article>
-</div>

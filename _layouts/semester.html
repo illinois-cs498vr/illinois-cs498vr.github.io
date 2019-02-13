@@ -1,0 +1,41 @@
+---
+layout: page
+---
+<div class="gallery">
+{% if site.projects %}
+	{% for project in site.projects %}
+        {% if project.semester == page.semester %}
+            <article class="card">
+                {% if project.youtube %}
+                <iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
+                {% else %}
+                <img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
+                {% endif %}
+                <div class="text-wrapper">
+                    <a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+                    <div class="desc">
+                        {{ project.desc }}
+                    </div>
+                    <a href="{{ project.url }}"><small>Read more</small></a>
+                    <div class="links">
+                        {% if project.github %}
+                        <a href="{{ project.github }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+                        {% endif %}
+                        {% if project.youtube %}
+                        <a href="https://youtube.com/watch?v={{ project.youtube }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>
+                        {% endif %}
+                        {% if project.link %}
+                        <a href="{{ project.link }}" target="_blank" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
+                        {% endif %}
+                        {% if project.dl %}
+                        <a href="{{ project.dl }}" target="_blank" class="proj-link dl"><svg class="svg-icon" alt="Download Link"><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg></a>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+        {% endif %}
+	{% endfor %}
+{% endif %}
+	<article class="card empty-card">
+	</article>
+</div>

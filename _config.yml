@@ -28,8 +28,10 @@ plugins:
 collections:
   assignments:
     output: true
-  projects:
+  semesters:
     output: true
+  projects:
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
