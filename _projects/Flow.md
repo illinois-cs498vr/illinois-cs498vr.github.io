@@ -2,7 +2,6 @@
 layout: project
 title: Flow
 image: /img/projects/Flow.png
-custom-css: project
 desc: |
   A virtual reality physics puzzle game built in Unity
 dl: https://drive.google.com/file/d/1bIcxrJpAwg3MteCAnwmeZZfLZNClYOgM/view

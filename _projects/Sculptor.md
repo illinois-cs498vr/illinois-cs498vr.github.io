@@ -2,7 +2,6 @@
 layout: project
 title: Sculptor
 image: /img/projects/Sculptor.png
-custom-css: project
 desc: |
   Create your very own sculptures!
 dl: https://drive.google.com/file/d/1mJiFa6uEZp53U6wbN4fRbqiUH0XffTNO/view?usp=sharing

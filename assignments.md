@@ -2,7 +2,6 @@
 layout: assignments
 permalink: /assignments
 title: Assignments
-custom-css: assignments
 ---
 
 ## Lab Information ##
