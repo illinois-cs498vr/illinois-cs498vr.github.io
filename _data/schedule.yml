@@ -6,7 +6,7 @@
 - 
   date: "Jan 16"
   materials: "LaValle, Ch 2.1, 2.2"
-  title: "Design Processes: Basic Principles and Top Down Design Processes"
+  title: "[Design Processes: Basic Principles and Top Down Design Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498%20Jan%2014th%20through%20Jan%2028th.pptx)"
 
 - 
   date: "Jan 21"
@@ -22,22 +22,22 @@
 - 
   date: "Jan 28"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "Design Processes: VR Design General Considerations"
+  title: "[Design Processes: VR Design General Considerations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498%20Jan%2014th%20through%20Jan%2028th.pptx)"
 
 - 
   date: "Jan 30"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "3D Computer Graphics: Mathematics for Orientation"
+  title: "**Lecture Canceled Due to Ridiculous Weather**"
 
 - 
   date: "Feb 4"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "Design Processes: VR Design Ergonomics"
+  title: "[3D Computer Graphics: Mathematics for Orientation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture5-2019.pptx)"
 
 - 
   date: "Feb 6"
   materials: ~
-  title: "3D Computer Graphics: Rasterization Pipeline"
+  title: "[3D Computer Graphics: Rasterization Pipeline](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture7.pptx)"
 
 - 
   date: "Feb 11"
@@ -51,8 +51,11 @@
 - 
   date: "Feb 18"
   materials: "LaValle, Ch 5"
+  title: "VR Programming Best Practices"
+- 
+  date: "Feb 20"
+  materials: "LaValle, Ch 5"
   title: "Production Processes: Basic Principles and Class Project Plan"
-
 - 
   date: "Feb 25"
   materials: "LaValle, Ch 6"

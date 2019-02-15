@@ -15,6 +15,133 @@ material:
     url: /mps/prepro-templates.ods
 notes: false
 instructions: false
+rubric:
+  -
+    name: Discovery
+
+  -
+    name: Canvas - Inspiration
+    points: 5
+
+  - 
+    name: Canvas - Genre
+    points: 5
+
+  - 
+    name: Canvas - IP/World
+    points: 5
+
+  - 
+    name: Canvas - Core Pillars
+    points: 15
+
+  - 
+    name: Canvas - Core Systems
+    points: 5
+
+  - 
+    name: Canvas - User Experience
+    points: 15
+
+  - 
+    name: Canvas - User Type
+    points: 10
+
+  - 
+    name: High Level Action Loop
+    points: 5
+
+  - 
+    name: Feature List
+    points: 20
+
+  - 
+    name: Pre-Production Milestones
+    points: 15
+
+  -
+    name: Discovery Total
+    points: 100
+    description: "Discovery is worth 10% of your project grade."
+
+  -
+    # We don't have nested rubric sections yet (@#45) so this will have to do.
+  - 
+    name: Pre-Production
+
+  - 
+    name: Modified Canvas
+    points: 30
+
+  - 
+    name: Mid-Level Action Loop
+    points: 5
+
+  - 
+    name: Finalized Feature List
+    points: 10
+
+  - 
+    name: Tech Design Document - First Pass
+    points: 25
+
+  - 
+    name: Production Milestones - First Pass
+    points: 20
+
+  - 
+    name: QA Document -- First Pass
+    points: 10
+
+  -
+    name: Pre-Production Total
+    points: 100
+    description: "Pre-Production is worth 20% of the project grade."
+
+  - 
+
+  - 
+    name: Alpha
+
+  - 
+    name: Final Canvas
+    points: 15
+
+  - 
+    name: Final Mid-Level Action Loop
+    points: 2.5
+
+  - 
+    name: Final Feature List
+    points: 5
+
+  - 
+    name: Final Tech Design Document
+    points: 12.5
+
+  - 
+    name: Final Production Milestones
+    points: 10
+
+  - 
+    name: Final QA Document
+    points: 10
+
+  - 
+    name: Alpha Project
+    points: 45
+  
+  - 
+    name: Total Alpha
+    points: 100
+    description: "Alpha is worth 20% of your project grade."
+
+  -
+
+  - 
+    name: Final Project Demo
+    description: worth 50% of your project grade.
+
 ---
 
 ## Discovery

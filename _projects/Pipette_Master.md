@@ -2,7 +2,6 @@
 layout: project
 title: Pipette Master
 image: /img/projects/PipetteMaster.jpg
-custom-css: project
 desc: |
   A tutorial that teaches you how to use a micropipette, a lab tool often used in biological wet lab experiments
 dl: https://drive.google.com/file/d/1Yauw1I-1wQr1FmjhaEQDSmWyG1n_U277/view?usp=sharing

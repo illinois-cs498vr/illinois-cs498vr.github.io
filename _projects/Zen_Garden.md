@@ -2,7 +2,6 @@
 layout: project
 title: Zen Garden
 image: /img/projects/ZenGarden.png
-custom-css: project
 desc: |
   A visual and physical experience that draws from the influences of companies like Team Labs, Valve, and Oculus
 dl: https://drive.google.com/file/d/101jJ5IeVeV2jg5kdZcc4ZBNVdUQNwvFp/view?usp=sharing
