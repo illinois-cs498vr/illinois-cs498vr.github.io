@@ -1,7 +1,7 @@
 ---
 layout: assignment
 title: "MP3: VR Critic"
-due: "March 4, 2019 @ 11:59PM"
+due: "Feb 27, 2019 @ 11:59PM"
 material: 
   - name: Oculus Best Practices Guide
     url: https://developer.oculus.com/design/latest/concepts/book-bp/
