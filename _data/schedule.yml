@@ -50,25 +50,25 @@
   title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
 - 
   date: "Feb 18"
-  materials: "LaValle, Ch 5"
+  materials: "LaValle, Ch 4"
   title: "[Production Processes: Basic Principles and Class Project Plan](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2018%2019%20CS%20498vr.pptx)"
 - 
   date: "Feb 20"
-  materials: "LaValle, Ch 5"
+  materials: "LaValle, Ch 4"
   title: "Light and Optics"
 - 
   date: "Feb 25"
-  materials: "LaValle, Ch 6"
-  title: "VR Hardware Overview"
+  materials: "LaValle, Ch 5"
+  title: "VR and Unity Development Best Practices"
 
 - 
   date: "Feb 27"
-  materials: ~
-  title: "Light and Optics"
+  materials: "LaValle, Ch 5"
+  title: "Human Vision"
 
 - 
   date: "Mar 4"
-  materials: 
+  materials:"LaValle, Ch 5" 
   title: "Human Vision"
 
 - 
@@ -83,10 +83,10 @@
 
 - 
   date: "Mar 13"
-  materials: "LaValle, Ch. 6"
-  title: "Unity and VR Best Practices"
+  materials: "LaValle, Ch. 7"
+  title: "Visual Rendering for VR "
 
-- 
+- Practices
   date: "Mar 18"
   materials: ~
   title: "**No Lecture: Spring Break**"
@@ -99,12 +99,12 @@
 - 
   date: "Mar 25"
   materials: "LaValle, Ch. 7"
-  title: "Visual Rendering for VR"
+  title: "Motion in Real and Virtual Worlds"
 
 - 
   date: "Mar 27"
   materials: "LaValle, Ch. 7"
-  title: "Motion in Real and Virtual Worlds"
+  title: "VR Hardware Overview"
 
 - 
   date: "Apr 1"
