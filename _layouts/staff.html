@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="staff">
-{% if site.staff == True %}
+{% if site.staff %}
 	{{site.staff}}
 	{% for person in site.staff %}
 		<article class="card">
