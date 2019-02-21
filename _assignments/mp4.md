@@ -75,7 +75,7 @@ rubric:
 points: 200
 ---
 
-## MP4.1 - Environment and Flight
+## Part 1 - Environment and Flight
 
 ### Simulator Environment
 
@@ -122,7 +122,7 @@ stay in the air while standing still.
 
 ---
 
-## MP4.2 - Make it a Game!
+## Part 2 - Make it a Game!
 
 ### Shooting Game
 
