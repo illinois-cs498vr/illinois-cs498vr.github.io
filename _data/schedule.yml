@@ -68,7 +68,7 @@
 
 - 
   date: "Mar 4"
-  materials:"LaValle, Ch 5" 
+  materials: "LaValle, Ch 5" 
   title: "Human Vision"
 
 - 
@@ -80,13 +80,13 @@
   date: "Mar 11"
   materials: "LaValle, Ch. 6"
   title: "**No Lecture: Exam Week**"
-
+  
 - 
   date: "Mar 13"
   materials: "LaValle, Ch. 7"
-  title: "Visual Rendering for VR "
+  title: "Visual Rendering for VR"
 
-- Practices
+-
   date: "Mar 18"
   materials: ~
   title: "**No Lecture: Spring Break**"
