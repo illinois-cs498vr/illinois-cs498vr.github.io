@@ -41,7 +41,7 @@ rubric:
   -
     name: Tutorial
     points: 10
-    description: Game has in-world tutorial that clearly communicates how to control the plane
+    description: Game has an in-world tutorial that clearly communicates how to control the plane
   -
     name: Start Menu
     points: 10
