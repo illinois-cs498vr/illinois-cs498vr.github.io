@@ -183,7 +183,7 @@ included in the “game over” menu screen (such as “juggle the touch control
 
 2. The overall experience of flying your plane should be smooth and comfortable. For example: Are rotations comfortable? Does your plane handle as expected? Does the weapon work as expected?
 
-3. Your flight simulator should be polished. That is, there should be few, if any, noticable glitches, controls should work as intended, and the frame rate should be consistently at or above 60fps.
+3. Your flight simulator should be polished. That is, there should be few, if any, noticeable glitches, controls should work as intended, and the frame rate should be consistently at or above 60fps.
 
 ---
 
