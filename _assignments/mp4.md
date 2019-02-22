@@ -21,7 +21,7 @@ rubric:
   -
     name: Rotation
     points: 10
-    description: TPlane can yaw, pitch, and roll.
+    description: Plane can yaw, pitch, and roll
   -
     name: Uses Touch Controllers
     points: 25
