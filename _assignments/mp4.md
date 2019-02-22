@@ -111,7 +111,7 @@ touch controller input in Unity.
 Your plane must be comfortable, easy to control, and should feel like a real plane. For instance, real planes cannot turn in place, and cannot 
 stay in the air while standing still.
 
-1. You must use the touch controllers to control the plane. You can implement multiple types of controls during your development, but we will 
+1. You must use the touch controllers to control the plane. You can implement multiple control schemes during development, but we will 
    only check the version with the touch controllers. 
 
 2. Your plane must be able to accelerate/decelerate, and yaw, pitch, and roll. You should implement these functions in your own way with 
