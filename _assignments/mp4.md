@@ -83,7 +83,7 @@ points: 200
    so you can make changes if need be. This will be especially pertinent when it comes time to optimize your scene, as trees and vegetation 
    on the terrain can cause performance issues.
 
-2. Create or import a model for your plane. Your model can be simple, provided it isn’t simply a Unity cube (or other 3D primitive).
+2. Create or import a model for your plane. Your model can be simple, provided it isn’t simply a Unity cube or other 3D primitive.
 
 
 ### Start Menu
