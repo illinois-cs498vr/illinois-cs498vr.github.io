@@ -55,7 +55,7 @@
 - 
   date: "Feb 20"
   materials: "LaValle, Ch 4"
-  title: "Light and Optics"
+  title: "[Light and Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture9.pptx)"
 - 
   date: "Feb 25"
   materials: "LaValle, Ch 5"
@@ -64,11 +64,11 @@
 - 
   date: "Feb 27"
   materials: "LaValle, Ch 5"
-  title: "Human Vision"
+  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
 
 - 
   date: "Mar 4"
-  materials:"LaValle, Ch 5" 
+  materials: "LaValle, Ch 5" 
   title: "Human Vision"
 
 - 
@@ -84,9 +84,9 @@
 - 
   date: "Mar 13"
   materials: "LaValle, Ch. 7"
-  title: "Visual Rendering for VR "
+  title: "Visual Rendering for VR"
 
-- Practices
+-
   date: "Mar 18"
   materials: ~
   title: "**No Lecture: Spring Break**"
