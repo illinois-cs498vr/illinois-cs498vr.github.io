@@ -129,7 +129,7 @@ stay in the air while standing still.
 You are now going to take your flight simulator, and turn it into a shooting game.
 
 1. Add a weapon, either a laser or physical bullets/rockets, to your plane. You decide from where the ray/bullets emanate from the plane. 
-   Do not use Unity’s Debug.DrawLine for your laser, as it will not appear in a built executable.
+   Do not use Unity’s `Debug.DrawLine` for your laser, as it will not appear in a built executable.
 
 2. Scatter some spheres in the sky. When your plane successfully shoots a sphere, the sphere should disappear for 5 seconds, and then 
    reappear. Make sure the spheres are easily visible.
