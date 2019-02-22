@@ -10,8 +10,11 @@ parts:
     due: Feb. 18, 2019 @ 11:59 PM
 material:
   -
-    name: Starting Unity package
+    name: MP2.1 Unity package
     url: /mps/MP2.1.unitypackage
+  - 
+    name: MP2.2 Unity Package
+    url: /mps/MP2_package.unitypackage
 rubric:
   -
     name: View Flipping
@@ -136,6 +139,7 @@ Your answer need not be simplified, and may be represented as a single matrix or
 ### Depth Perception and Relative Size
 
 In the provided scene, the `StimulusManager` object has three spherical children.
+Put the red sphere at position `( 0, 0, -2.3)` and the two blue spheres at positions `(0.7, 0, -1.6)`, `(-0.8, 0, -1)`, respectively.
 
 Create a script called `GenerateStimuli` that dynamically changes the sizes of the two blue spheres so that
 no matter what the position and orientation of the camera are,

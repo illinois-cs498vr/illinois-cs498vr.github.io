@@ -2,7 +2,6 @@
 layout: calendar
 permalink: /calendar
 title: Course Calendar
-custom-css: calendar
 ---
 
 - [Textbook](http://vr.cs.uiuc.edu)

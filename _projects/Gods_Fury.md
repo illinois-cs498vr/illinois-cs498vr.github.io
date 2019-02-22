@@ -2,7 +2,6 @@
 layout: project
 title: God's Fury
 image: /img/projects/GodsFury.jpg
-custom-css: project
 desc: |
   The god simulator where you shall unleash disasters and destruction upon the world.
 github: https://github.com/CS498VR-GodsFury/GodsFury

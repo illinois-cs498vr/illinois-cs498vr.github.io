@@ -402,7 +402,7 @@ Create a directional light for the scene, set it to have hard shadows. Set its a
 
 #### Scripting - Trigger Game:
 
-You are going to make a game similar to a cat chasing a laser pointer (where you’re the cat). In this room, you are going to place several box colliders (at least 4), and mark them as triggers. Place a point light at the center of each box collider. Every 3 seconds, one of these point lights should light up. The player should then move to the lit up point light, and press “A” on the controller (the [OnTriggerStay](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerStay.html) method should be helpful here). When the player does so, they will get one point, and another light should light up at random (bypassing the normal 3 second timer). The player’s score should be displayed on the wall, in sharp (NOT blurry) text. We should be able to quit at any time upon pressing the Start button on the controller.
+You are going to make a game similar to a cat chasing a laser pointer (where you’re the cat). In this room, you are going to place several box colliders (at least 4), and mark them as triggers. Place a point light at the center of each box collider. Every 3 seconds, one of these point lights should light up. The player should then move to the lit up point light, and press “A” on the controller (the [OnTriggerEnter](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html) and [OnTriggerExit](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html) methods should be helpful here). When the player does so, they will get one point, and another light should light up at random (bypassing the normal 3 second timer). The player’s score should be displayed on the wall, in sharp (NOT blurry) text. We should be able to quit at any time upon pressing the Start button on the controller.
 
 Using a controller in Unity is not quite as simple as using the keyboard. Unfortunately, because you can’t see the keyboard in VR, and all of the keys largely feel the same, keyboards do not work well in VR. Controllers, with their contours and designated button shapes, are much easier to use blind.
 - [Unity Manual page on Input](https://docs.unity3d.com/Manual/ConventionalGameInput.html)
@@ -410,7 +410,7 @@ Using a controller in Unity is not quite as simple as using the keyboard. Unfort
 - [Additionally, a Microsoft Blog page on Xbox controller input in Unity](https://blogs.msdn.microsoft.com/uk_faculty_connection/2014/12/02/adding-xbox-controller-support-and-input-to-your-unity3d-game/) - (note: the controller drivers are already installed)
 - [Unity Manual page on Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html)
 
-A very useful method here is Unity’s [`Time.DeltaTime()`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) method. This method, when called from the update method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
+A very useful variable here is Unity’s [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html). This variable, when used inside the `Update` method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate.
 
 ---
 

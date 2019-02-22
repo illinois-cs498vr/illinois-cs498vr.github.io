@@ -45,3 +45,7 @@ exclude:
   - .vscode/
   - .gitignore
   - .git/
+
+# Information about the lab
+lab:
+  unity-version: 2018.2.14
