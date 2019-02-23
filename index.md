@@ -34,8 +34,8 @@ Topics covered include:
 ## Prerequisites ##
 We recommend the following courses and skills:
 
-- [CS 225](https://courses.engr.illinois.edu/cs225/){:target="_blank"} - prior general programming experience
-- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225){:target="_blank"} or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415){:target="_blank"} - basic linear algebra, especially 3D transforms
+- [CS 225](https://courses.engr.illinois.edu/cs225/){:target="_blank" rel="noopener"} - prior general programming experience
+- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225){:target="_blank" rel="noopener"} or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415){:target="_blank" rel="noopener"} - basic linear algebra, especially 3D transforms
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
@@ -70,7 +70,7 @@ All exams are closed-everything (no book, notes, calculator, etc.). See the [CBT
 For the first two mid-term exams, you have the option to take a second chance exam if you wish. **The maximum score you can achieve on the second chance exam is 88%.** Specifically, if your second chance score is N% your final percentage score will be calculated as 0.88 x 0.N x 100.0. Your second chance score will replace your first score, even if it is lower. The questions on the second chance exam will cover the same topics as the first exam but may not be identical to the questions on the first exam. To take the second chance exam, just make a reservation with CBTF. You do not need to inform course staff that you are doing so.
 
 ## Grades ##
-We will post grades on [Compass 2g](https://compass.illinois.edu){:target="_blank"}.
+We will post grades on [Compass 2g](https://compass.illinois.edu){:target="_blank" rel="noopener"}.
 
 We weight grades as follows:
 
