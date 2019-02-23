@@ -91,7 +91,7 @@ layout: page
 
 <script type="text/javascript">
 (function() {
-  // Get all the <h2> headings
+  // Get all the <h2> and <h3> headings in the mp content
   const headings = document.querySelectorAll('.mp-content h2,.mp-content h3')
   
   Array.prototype.forEach.call(headings, heading => {
@@ -119,9 +119,9 @@ layout: page
       // Delete the old versions of the content nodes
       elems.forEach((node) => {
         node.parentNode.removeChild(node)
-      })
-
-      return elems
+			})
+			
+			return elems
     }
     
     // Assign the contents to be expanded/collapsed (array)
