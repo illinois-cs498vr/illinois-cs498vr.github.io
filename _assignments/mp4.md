@@ -68,14 +68,19 @@ rubric:
     description: Framerate rarely drops below 60 fps, game sound is not obnoxious, and plane acceleration, deceleration, and rotations are comfortable. Game conforms to Oculus Best Practices Guide
   -
     name: Interactive tutorial
-    points: 20 EC
+    points: 20
+    extra: true
     description: The tutorial provided to the player is interactive
 
 points: 200
 ---
 ## Overview
-Welcome to MP4! In this MP, you are going to build a flight simulator in Unity. You are going to construct a start menu and tutorial, write script to support your plane, make a UI, and optimize the game to fulfill requirements from the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)!Much of the spec for this MP is vague. This is intentional, as we want you to be in the practice of finding creative solutions to problems. Note: This is an assignment with a lot of details, so please start early.
+Welcome to MP4! In this MP, you are going to build a flight simulator in Unity. You are going to construct a start menu and tutorial, write script to support your plane, make a UI, and optimize the game to fulfill requirements from the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)! 
+Much of the spec for this MP is vague. This is intentional, as we want you to be in the practice of finding creative solutions to problems. Note: This is an assignment with a lot of details, so please _start early_.
+
 **PLEASE REGULARLY SAVE YOUR WORK IN THIS MP, AS UNITY MIGHT CRASH AT ANY TIME!**
+
+---
 
 ## Part 1 - Environment and Flight
 
@@ -160,7 +165,7 @@ You can assume we know how to use the pointing device to access the start menu, 
 
 1. For 20 points of extra credit, make your tutorial interactive. This means the player should initiate the tutorial, and receive 
    prompts to perform actions. Upon performing these actions, the player should receive feedback, and the tutorial should advance. 
-   For example, the tutorial could prompt the player to “Throw the controller across the room in order to accelerate”.**^** Upon hurling the controller, 
+   For example, the tutorial could prompt the player to “Throw the controller across the room in order to accelerate”. [**\***](#footnotes) Upon hurling the controller, 
    the player would see some indication that the plane has sped up, and get a message saying “good job”.
 
 
@@ -174,7 +179,7 @@ sounds are neither too loud, nor too quiet to hear, and make for a comfortable e
 
 When the player crashes the plane, they should see a game over screen, which should give the option to go back to the main menu, restart the game, or quit.
 If your game over screen has a menu, you can choose how it will be controlled, but make sure this is communicated to the player via the tutorial, or messages 
-included in the “game over” menu screen (such as “juggle the touch controllers to return to the main menu”).**^^**
+included in the “game over” menu screen (such as “juggle the touch controllers to return to the main menu”). [**\*\***](#footnotes)
 
 
 ### Overall Design
@@ -183,9 +188,13 @@ included in the “game over” menu screen (such as “juggle the touch control
 
 1. Your interface/instruction system works as expected: a first time player, without any prior knowledge of your simulator, should be able to pick up the controls quickly and easily.
 
-1. The overall experience of flying your plane should be smooth and comfortable. For example: Are rotations comfortable? Does your plane handle as expected? Does the weapon work as expected?
+1. The overall experience of flying your plane should be smooth and comfortable. For example: Are rotations comfortable? Does your plane behave as expected? Does the weapon work as expected?
 
 1. Your flight simulator should be polished. That is, there should be few, if any, noticeable glitches, controls should work as intended, and the frame rate should be consistently at or above 60fps.
 
-***^ Don't do this***
-***^^ DEFINITELY DO NOT DO THIS***
+---
+
+#### Footnotes
+
+***\* Don't do this***  
+***\*\* DEFINITELY DO NOT DO THIS***
