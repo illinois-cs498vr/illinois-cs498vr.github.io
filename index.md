@@ -34,8 +34,8 @@ Topics covered include:
 ## Prerequisites ##
 We recommend the following courses and skills:
 
-- [CS 225](https://courses.engr.illinois.edu/cs225/) - prior general programming experience
-- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225) or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415) - basic linear algebra, especially 3D transforms
+- [CS 225](https://courses.engr.illinois.edu/cs225/){:target="_blank" rel="noopener"} - prior general programming experience
+- [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225){:target="_blank" rel="noopener"} or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415){:target="_blank" rel="noopener"} - basic linear algebra, especially 3D transforms
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
@@ -52,7 +52,7 @@ The final project is a semester-long implementation of a VR system. Students cho
 
 This satisfies the [team project requirement](https://cs.illinois.edu/academics/degree-program-options/bs-computer-science-engineering) for CS majors.
 
-See the [project gallery](/not-ready) for past student projects.
+See the [project gallery](/projects) for past student projects.
 
 ## Exams ##
 This class will have three midterm exams and no final exam. The third midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
@@ -70,7 +70,7 @@ All exams are closed-everything (no book, notes, calculator, etc.). See the [CBT
 For the first two mid-term exams, you have the option to take a second chance exam if you wish. **The maximum score you can achieve on the second chance exam is 88%.** Specifically, if your second chance score is N% your final percentage score will be calculated as 0.88 x 0.N x 100.0. Your second chance score will replace your first score, even if it is lower. The questions on the second chance exam will cover the same topics as the first exam but may not be identical to the questions on the first exam. To take the second chance exam, just make a reservation with CBTF. You do not need to inform course staff that you are doing so.
 
 ## Grades ##
-We will post grades on [Compass 2g](https://compass.illinois.edu).
+We will post grades on [Compass 2g](https://compass.illinois.edu){:target="_blank" rel="noopener"}.
 
 We weight grades as follows:
 
@@ -83,7 +83,20 @@ We weight grades as follows:
 | Final Project | 40% | 25% |  
 | 4th Credit Project | | 15% |  
 
-We do not post grade cutoffs, but you can expect the average grade to be significantly higher than that of a standard, required undergraduate class. Since the course is experimental, there could be significant confusion and frustration as we work to improve the course. By being pioneers, you get more benefit of the doubt than usual!
+You can expect the cutoffs to be approximately as follows
+98 - 100: A+  
+93 - 98: A
+90 - 93: A-
+87 - 90: B+
+83 - 87: B
+80 - 83: B-
+77 - 80: C+
+73 - 77: C
+70 - 73: C-
+60 - 70: D
+Below 60: F
+
+
 
 ## Textbooks ##
 Main text, required: [Steven M. LaValle, Virtual Reality, 2016](http://vr.cs.uiuc.edu).
@@ -97,7 +110,7 @@ See the [Extra Material](/extra-material) page for other, recommended readings.
 ## [Piazza](https://piazza.com/illinois/spring2019/cs498vr) ##
 We will use Piazza for answering questions and administering the course.
 
-Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to [the course instructor](/not-ready) with the email address you want to use, and we will add you manually.
+Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to the course instructor with the email address you want to use, and we will add you manually.
 
 ## Course Staff ##
 See the [schedule for office hours](/officehours).

@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 {% if page.parts %}
 	<h4>Due Dates:</h4>
 	{% for part in page.parts %}
@@ -14,9 +17,11 @@ layout: page
 
 {% if page.material %}
 	<h4>Provided Material:</h4>
+	<ul>
 	{% for thing in page.material %}
-	<a href="{{ thing.url }}">{{ thing.name }}</a>
+	<li><a href="{{ thing.url }}">{{ thing.name }}</a></li>
 	{% endfor %}
+	</ul>
 	<hr>
 {% endif %}
 
@@ -54,7 +59,9 @@ layout: page
 		</td>
 		<td>
 			{{ item.points }}
-			{% assign total = total | plus: item.points %}
+			{% if item.extra != true %}
+				{% assign total = total | plus: item.points %}
+			{% endif %}
 		</td>
 		<td>
 			{{ item.description }}
@@ -63,11 +70,13 @@ layout: page
 	{% endfor %}
 	</tbody>
 	
-	<tfoot style='background-color:#ddd;'><tr>
+	<tfoot style='background-color:#ddd;'>
+	<tr>
 		<td>Total</td>
 		<td>{{ total }}</td>
 		<td></td>
-	</tr></tfoot>
+	</tr>
+	</tfoot>
 	
 	</table>
 	

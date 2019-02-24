@@ -1,7 +1,3 @@
----
----
-@import "minima";
-
 .banner-wrapper {
 	width: 100%;
 }
@@ -11,6 +7,7 @@
 	@media (min-width: $content-width) {
 		padding: 1em;
 	}
+	max-height: 480px;
 }
 .project-desc {
 	text-align: justify;
