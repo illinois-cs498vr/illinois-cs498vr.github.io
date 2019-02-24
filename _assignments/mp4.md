@@ -21,7 +21,7 @@ rubric:
   -
     name: Rotation
     points: 10
-    description: TPlane can yaw, pitch, and roll.
+    description: Plane can yaw, pitch, and roll
   -
     name: Uses Touch Controllers
     points: 25
@@ -41,7 +41,7 @@ rubric:
   -
     name: Tutorial
     points: 10
-    description: Game has in-world tutorial that clearly communicates how to control the plane
+    description: Game has an in-world tutorial that clearly communicates how to control the plane
   -
     name: Start Menu
     points: 10
@@ -65,15 +65,17 @@ rubric:
   -
     name: Framerate/Comfort
     points: 20
-    description: Framerate rarely drops below 60 fps, game sound is not obnoxious, and plane acceleration, deceleration, and rotations are comfortable.
+    description: Framerate rarely drops below 60 fps, game sound is not obnoxious, and plane acceleration, deceleration, and rotations are comfortable. Game conforms to Oculus Best Practices Guide
   -
     name: Interactive tutorial
     points: 20 EC
     description: The tutorial provided to the player is interactive
-  -
 
 points: 200
 ---
+## Overview
+Welcome to MP4! In this MP, you are going to build a flight simulator in Unity. You are going to construct a start menu and tutorial, write script to support your plane, make a UI, and optimize the game to fulfill requirements from the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)!Much of the spec for this MP is vague. This is intentional, as we want you to be in the practice of finding creative solutions to problems. Note: This is an assignment with a lot of details, so please start early.
+**PLEASE REGULARLY SAVE YOUR WORK IN THIS MP, AS UNITY MIGHT CRASH AT ANY TIME!**
 
 ## Part 1 - Environment and Flight
 
@@ -83,7 +85,7 @@ points: 200
    so you can make changes if need be. This will be especially pertinent when it comes time to optimize your scene, as trees and vegetation 
    on the terrain can cause performance issues.
 
-2. Create or import a model for your plane. Your model can be simple, provided it isn’t simply a Unity cube (or other 3D primitive).
+1. Create or import a model for your plane. Your model can be simple, provided it isn’t simply a Unity cube or other 3D primitive.
 
 
 ### Start Menu
@@ -96,11 +98,11 @@ touch controller input in Unity.
 1. Create a new scene, separate from your flight simulator, and a room within that scene. The room can be as simple or complex as you like, 
    but it should be well-lit, and the walls should be a solid color.
 
-2. Somewhere in this room, place a start menu. At the very minimum, your menu must include the option to quit and to start the game.
+1. Somewhere in this room, place a start menu. At the very minimum, your menu must include the option to quit and to start the game.
 
-3. Upon selecting quit, the game should exit. Upon selecting start, the player should be transported to your flight simulator scene.
+1. Upon selecting quit, the game should exit. Upon selecting start, the player should be transported to your flight simulator scene.
 
-4. We have provided a model for a pointing device. The start menu MUST be controlled by picking up this device with the touch controllers, 
+1. We have provided a model for a pointing device. The start menu MUST be controlled by picking up this device with the touch controllers, 
    and pointing it at the menu options. The player should be able to select the option being pointed at by pressing the A button. You MAY NOT 
    control the menu with the touch controller joysticks. Hint: [Ray Casting](https://unity3d.com/learn/tutorials/modules/beginner/physics/raycasting) is a useful technique, and there are online resources for figuring 
    out Touch input, such as the [Unity manual](https://docs.unity3d.com/Manual/OculusControllers.html) and the [Oculus developer guide](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/).
@@ -111,13 +113,13 @@ touch controller input in Unity.
 Your plane must be comfortable, easy to control, and should feel like a real plane. For instance, real planes cannot turn in place, and cannot 
 stay in the air while standing still.
 
-1. You must use the touch controllers to control the plane. You can implement multiple types of controls during your development, but we will 
+1. You must use the touch controllers to control the plane. You can implement multiple control schemes during development, but we will 
    only check the version with the touch controllers. 
 
-2. Your plane must be able to accelerate/decelerate, and yaw, pitch, and roll. You should implement these functions in your own way with 
+1. Your plane must be able to accelerate/decelerate, and yaw, pitch, and roll. You should implement these functions in your own way with 
    the touch controllers and Oculus Rift. 
 
-3. You MUST use the rotation and/or position tracking of the touch controllers in your control scheme somehow. Experiment with different 
+1. You MUST use the rotation and/or position tracking of the touch controllers in your control scheme somehow. Experiment with different 
    configurations to figure out a comfortable and intuitive setup. Remember to consult the Oculus Best Practices Guide for suggestions. 
 
 ---
@@ -129,12 +131,12 @@ stay in the air while standing still.
 You are now going to take your flight simulator, and turn it into a shooting game.
 
 1. Add a weapon, either a laser or physical bullets/rockets, to your plane. You decide from where the ray/bullets emanate from the plane. 
-   Do not use Unity’s Debug.DrawLine for your laser, as it will not appear in a built executable.
+   Do not use Unity’s `Debug.DrawLine` for your laser, as it will not appear in a built executable.
 
-2. Scatter some spheres in the sky. When your plane successfully shoots a sphere, the sphere should disappear for 5 seconds, and then 
+1. Scatter some spheres in the sky. When your plane successfully shoots a sphere, the sphere should disappear for 5 seconds, and then 
    reappear. Make sure the spheres are easily visible.
 
-3. Successfully shooting the spheres should increment the game score, which we will talk about in the next section.
+1. Successfully shooting the spheres should increment the game score, which we will talk about in the next section.
 
 
 ### UI
@@ -144,7 +146,7 @@ If you are still confused, think about the games you have played before, and che
 
 1. You should have a pause button that pauses the game, and provides the option to go back to the main menu.
 
-2. Your UI should show the score to players. After hitting a sphere in your scene, your score should increase.
+1. Your UI should show the score to players. After hitting a sphere in your scene, your score should increase.
 
 
 ### Tutorial
@@ -154,11 +156,11 @@ You can assume we know how to use the pointing device to access the start menu, 
 
 1. Your tutorial must cover all of the plane controls.
 
-2. The tutorial can be accessed from the main menu, or simply be in the same room as the start menu. 
+1. The tutorial can be accessed from the main menu, or simply be in the same room as the start menu. 
 
-3. For 20 points of extra credit, make your tutorial interactive. This means the player should initiate the tutorial, and receive 
+1. For 20 points of extra credit, make your tutorial interactive. This means the player should initiate the tutorial, and receive 
    prompts to perform actions. Upon performing these actions, the player should receive feedback, and the tutorial should advance. 
-   For example, the tutorial could prompt the player to “Throw the controller across the room in order to accelerate”. Upon hurling the controller, 
+   For example, the tutorial could prompt the player to “Throw the controller across the room in order to accelerate”.**^** Upon hurling the controller, 
    the player would see some indication that the plane has sped up, and get a message saying “good job”.
 
 
@@ -172,7 +174,7 @@ sounds are neither too loud, nor too quiet to hear, and make for a comfortable e
 
 When the player crashes the plane, they should see a game over screen, which should give the option to go back to the main menu, restart the game, or quit.
 If your game over screen has a menu, you can choose how it will be controlled, but make sure this is communicated to the player via the tutorial, or messages 
-included in the “game over” menu screen (such as “juggle the touch controllers to return to the main menu”).
+included in the “game over” menu screen (such as “juggle the touch controllers to return to the main menu”).**^^**
 
 
 ### Overall Design
@@ -181,12 +183,9 @@ included in the “game over” menu screen (such as “juggle the touch control
 
 1. Your interface/instruction system works as expected: a first time player, without any prior knowledge of your simulator, should be able to pick up the controls quickly and easily.
 
-2. The overall experience of flying your plane should be smooth and comfortable. For example: Are rotations comfortable? Does your plane handle as expected? Does the weapon work as expected?
+1. The overall experience of flying your plane should be smooth and comfortable. For example: Are rotations comfortable? Does your plane handle as expected? Does the weapon work as expected?
 
-3. Your flight simulator should be polished. That is, there should be few, if any, noticable glitches, controls should work as intended, and the frame rate should be consistently at or above 60fps.
+1. Your flight simulator should be polished. That is, there should be few, if any, noticeable glitches, controls should work as intended, and the frame rate should be consistently at or above 60fps.
 
----
-
-#### Submit: 
-*Submit your unity project **according to the [submission instructions](#submission-instructions) at the bottom of this assignment.***
-
+***^ Don't do this***
+***^^ DEFINITELY DO NOT DO THIS***
