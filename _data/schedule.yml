@@ -64,17 +64,17 @@
 - 
   date: "Feb 27"
   materials: "LaValle, Ch 5"
-  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
+  title: "[Future of VR: Guest Lecture]()"
 
 - 
   date: "Mar 4"
   materials: "LaValle, Ch 5" 
-  title: "Human Vision"
+  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
 
 - 
   date: "Mar 6"
   materials: ~
-  title: "Visual Perception"
+  title: "Visual Rendering for VR"
 
 - 
   date: "Mar 11"
@@ -84,7 +84,7 @@
 - 
   date: "Mar 13"
   materials: "LaValle, Ch. 7"
-  title: "Visual Rendering for VR"
+  title: "Visual Perception"
 
 -
   date: "Mar 18"
@@ -144,7 +144,7 @@
 - 
   date: "Apr 24"
   materials: "LaValle, Ch. 8, 12"
-  title: "Future of VR: Guest Lecture"
+  title: "TBD"
 
 - 
   date: "Apr 29"
