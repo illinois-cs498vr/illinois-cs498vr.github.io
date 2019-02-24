@@ -64,13 +64,13 @@ rubric:
     description: Game handles plane crashes in some manner
   -
     name: Framerate/Comfort
-    points: 20
+    points: 40
     description: Framerate rarely drops below 60 fps, game sound is not obnoxious, and plane acceleration, deceleration, and rotations are comfortable. Game conforms to Oculus Best Practices Guide
   -
     name: Interactive tutorial
     points: 20
     extra: true
-    description: The tutorial provided to the player is interactive
+    description: The tutorial provided to the player is interactive (Extra Credit)
 
 points: 200
 ---
