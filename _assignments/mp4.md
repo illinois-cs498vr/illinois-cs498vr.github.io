@@ -92,7 +92,7 @@ Much of the spec for this MP is vague. This is intentional, as we want you to be
 
 ### Simulator Environment
 
-1. Create a new scene, and load the provided Unity package, which contains a large terrain for you to use. Read up on [Terrains in Unity](https://docs.unity3d.com/Manual/script-Terrain.html) 
+1. Create a new scene, and load all three of the provided Unity packages, one of which contains a large terrain for you to use. Read up on [Terrains in Unity](https://docs.unity3d.com/Manual/script-Terrain.html) 
    so you can make changes if need be. This will be especially pertinent when it comes time to optimize your scene, as trees and vegetation 
    on the terrain can cause performance issues.
 
