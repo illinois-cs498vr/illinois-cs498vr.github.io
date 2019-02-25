@@ -7,8 +7,14 @@ parts:
     due: March 25, 2019 @ 11:59 PM
 material:
   -
-    name: Starting Unity package
-    url: https://courses.engr.illinois.edu/cs498vr3/fa2018/mps/MP4v2.unitypackage
+    name: Ground Material Package
+    url: /mps/MP4-groundmats.unitypackage
+  -
+    name: Standard Assets Package
+    url: /mps/MP4-standardassets.unitypackage
+  -
+    name: Miscellaneous Package
+    url: /mps/MP4-misc.unitypackage
 rubric:
   -
     name: Plane
