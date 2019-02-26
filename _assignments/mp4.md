@@ -200,7 +200,7 @@ included in the “game over” menu screen (such as “juggle the touch control
 
 ---
 
-#### Footnotes
+### Footnotes
 
 ***\* Don't do this***  
 ***\*\* DEFINITELY DO NOT DO THIS***
