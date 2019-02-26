@@ -113,7 +113,7 @@ touch controller input in Unity.
 
 1. Upon selecting quit, the game should exit. Upon selecting start, the player should be transported to your flight simulator scene.
 
-1. You must create a laser pointing device. The start menu MUST be controlled by picking up this device with the touch controllers, 
+1. You must create a laser pointing device by having an object emit a "laser" that can point at items on the menu. The start menu MUST be controlled by picking up this device with the touch controllers, 
    and pointing it at the menu options. The player should be able to select the option being pointed at by pressing the A button. You MAY NOT 
    control the menu with the touch controller joysticks. Hint: [Ray Casting](https://unity3d.com/learn/tutorials/modules/beginner/physics/raycasting) is a useful technique, and there are online resources for figuring 
    out Touch input, such as the [Unity manual](https://docs.unity3d.com/Manual/OculusControllers.html) and the [Oculus developer guide](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/).
