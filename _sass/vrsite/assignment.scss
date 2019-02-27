@@ -11,6 +11,8 @@
 	button svg {
 		height: 1em;
 		margin-left: 0.5em;
+		transform: translate(0, 0.15em);
+		cursor: pointer;
 	}
 
 	[aria-expanded="true"] .vert {

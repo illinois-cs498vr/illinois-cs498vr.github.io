@@ -114,7 +114,13 @@ layout: page
       while (elem.nextElementSibling && elem.nextElementSibling.tagName !== tag && elem.nextElementSibling.tagName !== 'H2') {
         elems.push(elem.nextElementSibling)
         elem = elem.nextElementSibling
-      }
+			}
+
+			// Keeps the last HR element
+			let last = elems.pop()
+			if (last.tagName !== 'HR') {
+				elems.push(last)
+			}
       
       // Delete the old versions of the content nodes
       elems.forEach((node) => {
