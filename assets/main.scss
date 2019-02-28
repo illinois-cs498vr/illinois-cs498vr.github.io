@@ -98,13 +98,10 @@ p,li {
 	padding: 0.3em;
 }
 
-p:nth-child(even) {
+p:nth-child(even), li:nth-child(even) {
 	background: $grey-color-light;
 }
 
-li:nth-child(even) {
-	background: $grey-color-light;
-}
 @import 
   "vrsite/assignments",
   "vrsite/calendar",
