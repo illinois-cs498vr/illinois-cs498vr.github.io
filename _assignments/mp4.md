@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: "MP4: Flight Simulator"
+assignment: 4
 parts:
   -
     title: MP4

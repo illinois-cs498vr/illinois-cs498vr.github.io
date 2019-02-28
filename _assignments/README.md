@@ -5,6 +5,7 @@ Assignments are defined in the `_assignments/` folder. The frontmatter YAML sche
 
 - `layout: mp`
 - `title`: string, used as the header
+- `assignment`: number, used to order assignments on the listing page.
 - Either: `due` or `parts`:
 	- `due`: string, literal due date for single-part MP
 	- `parts`: list of objects

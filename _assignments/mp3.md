@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: "MP3: VR Critic"
+assignment: 3
 due: "Feb 27, 2019 @ 11:59PM"
 material: 
   - name: Oculus Best Practices Guide
