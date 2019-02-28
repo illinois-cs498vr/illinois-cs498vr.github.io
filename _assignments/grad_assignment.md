@@ -25,7 +25,8 @@ Each individual taking the class for 4 credit hours will complete a small VR res
 - Test on enough people
   - At least 1 TA
   - At least 1 person with no experience in VR
-  - At least 5 people total (10 preferred)
+  - At least 5 people total (10 preferred)  
+  - Do not test on your team members
   - Copies of completed questionnaire responses from your subjects and a short summary of your results (1-3 paragraphs) are **due by April 22nd**
 - Final deliverable - minimum two page paper with background (including lit review, justification for your project and hypotheses), methods, results, discussion (including ideas for further research) and conclusion sections. The paper and a copy of the program you used for testing will be **due the day of the final project presentation** and submitted on Compass.
   - It is fine to reuse the background section from the first paper you turn in and the results section from what you submitted with the completed questionnaires
