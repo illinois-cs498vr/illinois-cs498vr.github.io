@@ -4,27 +4,19 @@ layout: default
 
 <div class="staff">
 {% if site.staff %}
-	{{site.staff}}
+	<!-- {{site.staff}} -->
 	{% for person in site.staff %}
 		<article class="card">
-			<img class="thumb" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"  />
+			<img class="thumb" src="{{ person.image }}"  />
 			<div class="text-wrapper">
 				<a class="title" href="{{ person.url }}"><h1>{{ person.title }}</h1></a>
 				<div class="desc">
 					{{ person.desc }}
 				</div>
-				<a href="{{ person.url }}"><small>Read more</small></a>
-				<div class="links">
-					{% if person.github %}
-					<a href="{{ person.github }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
-					{% endif %}
+				<!-- <div class="links">
 					{% if person.link %}
 					<a href="{{ person.link }}" target="_blank" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
-					{% endif %}
-					{% if person.dl %}
-					<a href="{{ person.dl }}" target="_blank" class="proj-link dl"><svg class="svg-icon" alt="Download Link"><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg></a>
-					{% endif %}
-				</div>
+					{% endif %} -->
 			</div>
 		</article>
 	{% endfor %}
