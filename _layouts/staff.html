@@ -4,19 +4,14 @@ layout: default
 
 <div class="staff">
 {% if site.staff %}
-	<!-- {{site.staff}} -->
 	{% for person in site.staff %}
 		<article class="card">
-			<img class="thumb" src="{{ person.image }}"  />
+			<img class="thumb" src="{{ person.image }}"  frameborder="0"></iframe>
 			<div class="text-wrapper">
 				<a class="title" href="{{ person.url }}"><h1>{{ person.title }}</h1></a>
 				<div class="desc">
 					{{ person.desc }}
 				</div>
-				<!-- <div class="links">
-					{% if person.link %}
-					<a href="{{ person.link }}" target="_blank" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
-					{% endif %} -->
 			</div>
 		</article>
 	{% endfor %}
