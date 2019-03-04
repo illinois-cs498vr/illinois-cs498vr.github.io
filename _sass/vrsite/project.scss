@@ -20,20 +20,19 @@
 	flex-wrap: wrap;
 
 	.proj-link {
-		background: $dark-background-color;
-		color: $grey-color-light;
-		padding: 0.5em;
-		margin: 0.2em 0.4em;
+		padding: 0.5em 0.5em 0.5em 0;
+		margin: 0.2em 0.4em 0.2em 0;
 
-		&:visited {
-			color: $grey-color-light;
-		}
-
-		&:hover, &:focus {
-			color: white;
+		&:hover {
 			text-decoration: none;
 			.svg-icon {
-				fill: white;
+				fill: $text-color;
+			}
+		}
+
+		&:visited {
+			.svg-icon {
+				fill: $brand-color-visited;
 			}
 		}
 
@@ -42,7 +41,7 @@
 		}
 
 		.svg-icon {
-			fill: $grey-color-light;
+			fill: $brand-color;
 		}
 	}
 }
