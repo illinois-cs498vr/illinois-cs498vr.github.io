@@ -18,7 +18,7 @@
 .links-container {
 	display:flex;
 	flex-wrap: wrap;
-	
+
 	.proj-link {
 		background: $dark-background-color;
 		color: $grey-color-light;
@@ -37,8 +37,11 @@
 			}
 		}
 
+		* {
+			padding: 0 0.3em;
+		}
+
 		.svg-icon {
-			padding: 0;
 			fill: $grey-color-light;
 		}
 	}
