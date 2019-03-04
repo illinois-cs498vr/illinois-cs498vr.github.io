@@ -22,7 +22,9 @@
 	.proj-link {
 		background: $dark-background-color;
 		color: $grey-color-light;
-		padding: 0.5em;
+		border-radius: 0.5em;
+
+		padding: 0.5em 0.5em 0.5em calc(0.5em + 5px);
 		margin: 0.2em 0.4em;
 
 		&:visited {
@@ -38,7 +40,7 @@
 		}
 
 		* {
-			padding: 0 0.3em;
+			padding: 0 5px;
 		}
 
 		.svg-icon {
