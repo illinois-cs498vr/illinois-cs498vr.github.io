@@ -44,6 +44,10 @@
 		}
 		.links {
 			float: right;
+
+			.proj-link-icon > .svg-icon {
+				fill: $dark-background-color;
+			}
 		}
 	}
 

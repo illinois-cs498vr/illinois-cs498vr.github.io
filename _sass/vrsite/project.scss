@@ -1,6 +1,7 @@
 .banner-wrapper {
 	width: 100%;
 }
+
 .banner-image {
 	display: block;
 	margin: auto;
@@ -9,7 +10,36 @@
 	}
 	max-height: 480px;
 }
+
 .project-desc {
 	text-align: justify;
 }
 
+.links-container {
+	display:flex;
+	flex-wrap: wrap;
+	
+	.proj-link {
+		background: $dark-background-color;
+		color: $grey-color-light;
+		padding: 0.5em;
+		margin: 0.2em 0.4em;
+
+		&:visited {
+			color: $grey-color-light;
+		}
+
+		&:hover, &:focus {
+			color: white;
+			text-decoration: none;
+			.svg-icon {
+				fill: white;
+			}
+		}
+
+		.svg-icon {
+			padding: 0;
+			fill: $grey-color-light;
+		}
+	}
+}
