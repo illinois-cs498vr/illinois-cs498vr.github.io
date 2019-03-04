@@ -59,23 +59,21 @@
 - 
   date: "Feb 25"
   materials: "LaValle, Ch 5"
-  title: "VR and Unity Development Best Practices"
+  title: "[VR and Unity Development Best Practices](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Unity_Practices.pdf)"
 
 - 
   date: "Feb 27"
   materials: "LaValle, Ch 5"
-  title: "[Future of VR: Guest Lecture]()"
+  title: "[Future of VR - Guest Lecture]()"
 
 - 
   date: "Mar 4"
-  materials: "LaValle, Ch 5" 
-  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
-
+  materials: "LaValle, Ch 6" 
+  title: "[3D Computer Graphics - Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture14.pptx)"
 - 
   date: "Mar 6"
-  materials: ~
-  title: "Visual Rendering for VR"
-
+  materials: "LaValle, Ch 5"
+  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
 - 
   date: "Mar 11"
   materials: "LaValle, Ch. 6"
