@@ -68,11 +68,11 @@
 
 - 
   date: "Mar 4"
-  materials: "LaValle, Ch 5" 
+  materials: "LaValle, Ch 6" 
   title: "[3D Computer Graphics - Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture14.pptx)"
 - 
   date: "Mar 6"
-  materials: ~
+  materials: "LaValle, Ch 5"
   title: title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
 - 
   date: "Mar 11"
