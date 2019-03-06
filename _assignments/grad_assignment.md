@@ -17,7 +17,6 @@ rubric: false
 Each individual taking the class for 4 credit hours will complete a small VR research project. Your task is to develop an idea for something that you can test in virtual reality, create a program or project add-on to test it with, run several people through your study and write up the results. You will first submit a research project proposal that will include a summary of previous scientific literature on your topic of interest, hypotheses (research questions that you will answer with your study) and a questionnaire to test your hypotheses that you will administer to subjects that participate in your study. After you have run your subjects, you will turn in copies of the questionnaires that you gave to your subjects and a short summary of your results. At the end of the semester, you will submit a short paper summarizing the findings from your mini research project. 
 
 - Read a few papers on a topic -- present at least 3-5 papers on a topic to investigate in a written paper the style of a lit review.
-  - Doesn’t have to be connected to your final project! 
   - Can be papers on VR research or research from another field on a topic that you can test in VR
 - Propose and create a scenario (test) and a questionnaire for testers
   - Get TA input on the proposal and questionnaire before turning it in!
