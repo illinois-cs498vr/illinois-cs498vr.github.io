@@ -4,6 +4,8 @@ title: "Extra Material"
 ---
 ## Additional Recommended Books
 
+- George Mather, Foundations of Sensation and Perception: Psychology Press; 2 edition, 2009.
+- Peter Shirley, Michael Ashikhmin, and Steve Marschner, Fundamentals of Computer Graphics, A K Peters/CRC Press; 3 edition, 2009.
 - [Handbook of Virtual Environments: Design, Implementation, and Applications. 2nd Edition. K. S. Hale, K. M. Stanney, Eds. 2014.](http://www.worldcat.org/oclc/1042865498)
 - [3D User Interfaces: Theory and Practice. D. A. Bowman, E. Kruijff, J. J. LaViola, and I. Poupyrev. 2014.](http://www.worldcat.org/oclc/935986831)
 - [Understanding Virtual Reality: Interface, Application, and Design. W. R. Sherman and A. B. Craig. 2012.](http://www.worldcat.org/oclc/1041438400)
