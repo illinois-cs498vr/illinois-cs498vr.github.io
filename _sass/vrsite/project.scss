@@ -20,6 +20,9 @@
 	flex-wrap: wrap;
 
 	.proj-link {
+		display: flex;
+		align-items: center;
+
 		background: $dark-background-color;
 		color: $grey-color-light;
 		border-radius: 0.5em;
@@ -39,11 +42,8 @@
 			}
 		}
 
-		* {
-			padding: 0 5px;
-		}
-
 		.svg-icon {
+			padding: 0 5px;
 			fill: $grey-color-light;
 		}
 	}
