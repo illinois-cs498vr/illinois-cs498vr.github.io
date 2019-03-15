@@ -63,7 +63,7 @@ rubric:
   -
     name: Discovery Total
     points: 100
-    description: "Discovery is worth 10% of your project grade."
+    description: "Discovery will be used to provide feedback for your Pre-Production."
 
   -
     # We don't have nested rubric sections yet (@#45) so this will have to do.
@@ -97,7 +97,7 @@ rubric:
   -
     name: Pre-Production Total
     points: 100
-    description: "Pre-Production is worth 20% of the project grade."
+    description: "Pre-Production is worth 30% of the project grade."
 
   - 
 

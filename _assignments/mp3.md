@@ -48,7 +48,7 @@ notes: false
 instructions: false
 ---
 
-You will review three VR experiences according to the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/). These VR experiences can be from the Oculus Store, the Steam Store, or a student demo from the CS498 `V:` drive (in the "Student Projects" folder). There is no right or wrong answer. This assignment is meant to turn you into a VR snob; pick apart every little design decision you can think of.
+You and a partner will review three VR experiences according to the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/). These VR experiences can be from the Oculus Store, the Steam Store, or a student demo from the CS498 `V:` drive (in the "Student Projects" folder). There is no right or wrong answer. This assignment is meant to turn you into a VR snob; pick apart every little design decision you can think of.
 
 Each review must focus on the following four categories:
 1. Graphical/Aesthetic Quality
@@ -73,4 +73,4 @@ In footnotes:
 
 
 ### Submission
-Submit your reviews on Compass as a double-spaced PDF. The filename should contain the NetIDs of everyone in the group separated by underscores (e.g., `MP3_shaffer1_dcermak2.pdf`).
+Submit your reviews on Compass as a double-spaced PDF. The filename should contain the NetIDs of both people in the group separated by underscores (e.g., `MP3_shaffer1_dcermak2.pdf`).
