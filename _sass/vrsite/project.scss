@@ -5,9 +5,7 @@
 .banner-image {
 	display: block;
 	margin: auto;
-	@media (min-width: $content-width) {
-		padding: 1em;
-	}
+	padding: 1em 0;
 	max-height: 480px;
 }
 
