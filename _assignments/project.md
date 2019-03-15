@@ -5,7 +5,7 @@ parts:
   - title: Discovery
     due: Feb. 25, 2019 @ 11:59 PM
   - title: Pre-Production
-    due: Mar. 11, 2018 @ 11:59 PM
+    due: Mar. 29, 2018 @ 11:59 PM
   - title: Alpha
     due: Apr. 29, 2019 @ 11:59 PM
   - title: Final Submission
