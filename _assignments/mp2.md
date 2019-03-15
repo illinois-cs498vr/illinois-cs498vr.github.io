@@ -1,7 +1,7 @@
 ---
 layout: assignment
 title: "MP2: Geometric Transformations / Perception"
-assignment: 2
+assignment: 20
 parts:
   -
     title: MP2.1
