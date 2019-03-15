@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: "Project Deliverables"
+assignment: 50
 parts:
   - title: Discovery
     due: Feb. 25, 2019 @ 11:59 PM

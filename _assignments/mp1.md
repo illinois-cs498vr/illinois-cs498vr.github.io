@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: "MP1: The Room"
+assignment: 10
 parts:
   -
     title: MP1.1
