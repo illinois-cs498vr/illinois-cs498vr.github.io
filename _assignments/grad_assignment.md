@@ -1,6 +1,7 @@
 ---
 layout: assignment
 title: "4 Credit Hour Assignment"
+assignment: 60
 parts:
   - title: Proposal
     due: Mar. 25, 2019 @ 11:59 PM
