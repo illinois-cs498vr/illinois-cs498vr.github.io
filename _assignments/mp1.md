@@ -130,6 +130,7 @@ rubric:
     points: 5
     description: Likes and dislikes for any experience
 
+toc: true
 
 ---
 

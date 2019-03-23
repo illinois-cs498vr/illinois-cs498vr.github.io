@@ -2,7 +2,6 @@
 layout: page
 ---
 
-<link rel="stylesheet" href="/assets/css/assignment.css" type="text/css" />
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 {% if page.parts %}
@@ -34,7 +33,7 @@ layout: page
 {% endunless %}
 
 <div class="mp-content">
-	{{ content }}
+	{{ content | toc }}
 </div>
 
 {% unless page.instructions == false %}
