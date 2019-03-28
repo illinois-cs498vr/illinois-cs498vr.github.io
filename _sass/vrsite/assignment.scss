@@ -1,6 +1,8 @@
 .mp-content {
 	h2 button,h3 button {
-		all: inherit;
+		font: inherit;
+        background: inherit;
+        border: inherit;
 		display: inline;
 	}
 
