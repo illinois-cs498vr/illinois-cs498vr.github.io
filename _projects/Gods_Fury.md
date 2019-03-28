@@ -10,3 +10,5 @@ semester: Fall 2018
 featured: false
 ---
 The god simulator where you shall unleash disasters and destruction upon the world.
+
+Built in Fall 2018, for the Oculus Rift.
