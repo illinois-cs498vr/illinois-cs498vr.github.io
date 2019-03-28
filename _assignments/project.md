@@ -1,11 +1,12 @@
 ---
 layout: assignment
 title: "Project Deliverables"
+assignment: 50
 parts:
   - title: Discovery
     due: Feb. 25, 2019 @ 11:59 PM
   - title: Pre-Production
-    due: Mar. 11, 2018 @ 11:59 PM
+    due: Mar. 29, 2018 @ 11:59 PM
   - title: Alpha
     due: Apr. 29, 2019 @ 11:59 PM
   - title: Final Submission
@@ -62,7 +63,7 @@ rubric:
   -
     name: Discovery Total
     points: 100
-    description: "Discovery is worth 10% of your project grade."
+    description: "Discovery will be used to provide feedback for your Pre-Production."
 
   -
     # We don't have nested rubric sections yet (@#45) so this will have to do.
@@ -96,7 +97,7 @@ rubric:
   -
     name: Pre-Production Total
     points: 100
-    description: "Pre-Production is worth 20% of the project grade."
+    description: "Pre-Production is worth 30% of the project grade."
 
   - 
 

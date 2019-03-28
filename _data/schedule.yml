@@ -59,23 +59,21 @@
 - 
   date: "Feb 25"
   materials: "LaValle, Ch 5"
-  title: "VR and Unity Development Best Practices"
+  title: "[VR and Unity Development Best Practices](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Unity_Practices.pdf)"
 
 - 
   date: "Feb 27"
   materials: "LaValle, Ch 5"
-  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
+  title: "[Future of VR - Guest Lecture]()"
 
 - 
   date: "Mar 4"
-  materials: "LaValle, Ch 5" 
-  title: "Human Vision"
-
+  materials: "LaValle, Ch 6" 
+  title: "[3D Computer Graphics - Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture14.pptx)"
 - 
   date: "Mar 6"
-  materials: ~
-  title: "Visual Perception"
-
+  materials: "LaValle, Ch 5"
+  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
 - 
   date: "Mar 11"
   materials: "LaValle, Ch. 6"
@@ -84,7 +82,7 @@
 - 
   date: "Mar 13"
   materials: "LaValle, Ch. 7"
-  title: "Visual Rendering for VR"
+  title: "[UI and Movement in VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2013%202019-small.pdf)"
 
 -
   date: "Mar 18"
@@ -98,13 +96,13 @@
 
 - 
   date: "Mar 25"
-  materials: "LaValle, Ch. 7"
-  title: "Motion in Real and Virtual Worlds"
+  materials: "LaValle, Ch. 6"
+  title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
 
 - 
   date: "Mar 27"
-  materials: "LaValle, Ch. 7"
-  title: "VR Hardware Overview"
+  materials: ""
+  title: "[Survey of the Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2027%202019.pptx)"
 
 - 
   date: "Apr 1"
@@ -144,7 +142,7 @@
 - 
   date: "Apr 24"
   materials: "LaValle, Ch. 8, 12"
-  title: "Future of VR: Guest Lecture"
+  title: "TBD"
 
 - 
   date: "Apr 29"
