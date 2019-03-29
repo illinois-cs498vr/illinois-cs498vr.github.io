@@ -19,13 +19,19 @@
 		display: none;
 	}
 
+	
 	&:nth-child(even):last-child {
 		visibility: hidden;
+		
+		@include media-query($on-palm) {
+			display: none;
+		}
 	}
 
 	.thumb {
 		display: block;
 		max-height: 240px;
+		max-width: 100%;
 		margin: auto;
 	}
 
