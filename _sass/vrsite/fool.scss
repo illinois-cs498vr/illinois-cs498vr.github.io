@@ -42,9 +42,16 @@
 		}
 
 		.helptext {
+			position: absolute;
+			bottom: 1em;
+			left: 50%;
+			transform: translateX(-50%);
+
 			width: fit-content;
 			margin: auto;
+
 			visibility: hidden;
+			
 			a, a:hover, a:visited {
 				color: $grey-color;
 				text-decoration: none;
