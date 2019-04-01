@@ -30,8 +30,14 @@ function closeForever() {
 	var d = new Date();
 	if(window.location.hostname == 'localhost') {
 		toggleModal(true);
-	} else if(d.getMonth() == 4 && d.getDate() == 1 && Math.random() < (1 / chance)) {
-		toggleModal(true);
+	} else if(d.getMonth() == 4 && d.getDate() == 1) {
+		// definitely show on first load, then random chance.
+		if(document.cookie.indexOf("fool=me") == -1) {
+			document.cookie = "fool=me";
+			toggleModal(true);
+		} else if (Math.random() < (1 / chance)) {
+			toggleModal(true);
+		}
 	}
 	
 	document.querySelector('.closebtn').addEventListener('click', toggleModal);
