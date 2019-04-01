@@ -28,7 +28,7 @@ function closeForever() {
 
 (function() {
 	var d = new Date();
-  if(d.getMonth() == 3 && d.getDate() == 1) {
+	if(d.getMonth() == 3 && d.getDate() == 1) {
 		// definitely show on first load, then random chance.
 		if(document.cookie.indexOf("fool=me") == -1) {
 			document.cookie = "fool=me";
