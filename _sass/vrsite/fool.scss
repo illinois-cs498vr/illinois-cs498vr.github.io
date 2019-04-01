@@ -13,6 +13,7 @@
 		height: fit-content;
 		background: black;
 		padding: 48px;
+
 		.closebtn, .closebtn:hover {
 			display: none;
 			font-size: 1.5em;
@@ -21,7 +22,9 @@
 			right: 0.5em;
 			top: 0;
 			color: $grey-color;
+			cursor: pointer;
 		}
+
 		.stadium {
 			max-width: 100%;
 			height: fit-content;
@@ -51,8 +54,9 @@
 			margin: auto;
 
 			visibility: hidden;
-			
+
 			a, a:hover, a:visited {
+				cursor: pointer;
 				color: $grey-color;
 				text-decoration: none;
 			}
