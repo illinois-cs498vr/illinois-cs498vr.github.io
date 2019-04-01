@@ -1,9 +1,6 @@
 var chance = 5;
 
 function toggleModal(val) {
-	if (document.cookie.indexOf('fool=notme') > -1) {
-		val = false;
-	}
 	var modal = document.querySelector('.fool-modal-wrapper');
 	var body = document.querySelector('body');
 	if (val === true || val === false) {
@@ -30,11 +27,13 @@ function closeForever() {
 	var d = new Date();
 	if(window.location.hostname == 'localhost') {
 		toggleModal(true);
-	} else if(d.getMonth() == 4 && d.getDate() == 1) {
+	} else if(d.getMonth() == 3 && d.getDate() == 1) {
 		// definitely show on first load, then random chance.
-		if(document.cookie.indexOf("fool=me") == -1) {
-			document.cookie = "fool=me";
+		if (document.cookie.indexOf('fool=notme') > -1) {
+			toggleModal(false);
+		} else if(document.cookie.indexOf("fool=me") == -1) {
 			toggleModal(true);
+			document.cookie = "fool=me";
 		} else if (Math.random() < (1 / chance)) {
 			toggleModal(true);
 		}
