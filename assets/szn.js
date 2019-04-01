@@ -1,4 +1,4 @@
-var chance = 5;
+var chance = 3;
 
 function toggleModal(val) {
 	if (document.cookie.indexOf('fool=notme') > -1) {
@@ -13,10 +13,10 @@ function toggleModal(val) {
 	else {
 		if (modal.style.display == 'block') {
 			modal.style.display = 'none';
-			body.style.overflow = 'hidden';
+			body.style.overflow = '';
 		} else {
 			modal.style.display = 'block';
-			body.style.overflow = '';
+			body.style.overflow = 'hidden';
 		}
 	}
 }
@@ -28,9 +28,7 @@ function closeForever() {
 
 (function() {
 	var d = new Date();
-	if(window.location.hostname == 'localhost') {
-		toggleModal(true);
-	} else if(d.getMonth() == 4 && d.getDate() == 1) {
+  if(d.getMonth() == 3 && d.getDate() == 1) {
 		// definitely show on first load, then random chance.
 		if(document.cookie.indexOf("fool=me") == -1) {
 			document.cookie = "fool=me";
