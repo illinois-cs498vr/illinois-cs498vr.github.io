@@ -1,4 +1,4 @@
-var chance = 5;
+var chance = 3;
 
 function toggleModal(val) {
 	var modal = document.querySelector('.fool-modal-wrapper');
@@ -10,10 +10,10 @@ function toggleModal(val) {
 	else {
 		if (modal.style.display == 'block') {
 			modal.style.display = 'none';
-			body.style.overflow = 'hidden';
+			body.style.overflow = '';
 		} else {
 			modal.style.display = 'block';
-			body.style.overflow = '';
+			body.style.overflow = 'hidden';
 		}
 	}
 }
@@ -29,13 +29,9 @@ function closeForever() {
 		toggleModal(true);
 	} else if(d.getMonth() == 3 && d.getDate() == 1) {
 		// definitely show on first load, then random chance.
-<<<<<<< HEAD
 		if (document.cookie.indexOf('fool=notme') > -1) {
 			toggleModal(false);
 		} else if(document.cookie.indexOf("fool=me") == -1) {
-=======
-		if(document.cookie.indexOf("fool=me") == -1) {
->>>>>>> 48ecf7ee3d9b57f096577a77200fc30b83bd3f01
 			toggleModal(true);
 			document.cookie = "fool=me";
 		} else if (Math.random() < (1 / chance)) {
