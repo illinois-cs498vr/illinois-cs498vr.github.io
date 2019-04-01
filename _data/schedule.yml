@@ -107,22 +107,22 @@
 - 
   date: "Apr 1"
   materials: "LaValle, Ch. 8"
-  title: "Tracking"
+  title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
 
 - 
   date: "Apr 3"
   materials: "LaValle, Ch. 9, 12"
-  title: "Interaction"
+  title: "[Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture18-VRRender.pptx)"
 
 - 
   date: "Apr 8"
   materials: "LaValle, Ch. 9"
-  title: "Audio in VR"
+  title: "Motion"
 
 - 
   date: "Apr 10"
   materials: ~
-  title: "Survey of Current State of VR in Industry"
+  title: "Tracking"
 
 - 
   date: "Apr 15"
