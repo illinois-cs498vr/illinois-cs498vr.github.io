@@ -112,12 +112,12 @@
 - 
   date: "Apr 3"
   materials: "LaValle, Ch. 9, 12"
-  title: "[Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture18-VRRender.pptx)"
+  title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Apr 8"
   materials: "LaValle, Ch. 9"
-  title: "Motion"
+  title: "TDB"
 
 - 
   date: "Apr 10"
@@ -127,17 +127,17 @@
 - 
   date: "Apr 15"
   materials: ~
-  title: "Design in more Detail: Mid-level Processes"
+  title: "TBD"
 
 - 
   date: "Apr 17"
   materials: ~
-  title: "Production in more Detail: Studios, Teams and Lower Level Processes"
+  title: "Current Research in VR"
 
 - 
   date: "Apr 22"
   materials: ~
-  title: "History of VR"
+  title: "Audio for VR"
 
 - 
   date: "Apr 24"
@@ -154,3 +154,4 @@
   materials: ~
   title: "**No Lecture: Exam Week**"
 
+  
