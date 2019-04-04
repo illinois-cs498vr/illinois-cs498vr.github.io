@@ -36,14 +36,14 @@ See the [schedule for office hours](/officehours).
 * Professor Dan Cermak
 
 ## Lectures ##
-Lecture is held in 1320 Digital Computer Lab on MW 4-5:15pm
+Lecture is held in {{site.location}} on {{site.time}}
 
 ## Textbooks ##
 Main text, required: [Steven M. LaValle, Virtual Reality, 2016](http://vr.cs.uiuc.edu).
 
 See the [Extra Material](/extra-material) page for other, recommended readings.
 
-## [Piazza](https://piazza.com/illinois/spring2019/cs498vr) ##
+## [Piazza]({{site.piazza}}) ##
 We will use Piazza for answering questions and administering the course.
 
 Click the header to join the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to the course instructor with the email address you want to use, and we will add you manually.
@@ -62,14 +62,6 @@ We weight grades as follows:
 | Final Project | 40% | 25% |  
 | 4th Credit Project | | 15% |  
 
-You can expect the cutoffs to be approximately as follows: 
-
-- [90, 100]: A-, A, A+
-- [80, 90): B-, B, B+
-- [70, 80): C-, C, C+
-- [60, 70): D-, D, D+
-- [0, 60): F
-
 ## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
@@ -82,16 +74,16 @@ See the [Assignments page](/assignments) for more details.
 ## Exams ##
 This class will have three midterms and no final exam. Each exam is 50 minutes long. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
 
-- Midterm 1: Feb. 10 - Feb. 12
-- Optional second chance exam for Midterm 1: Feb. 17 - Feb. 19
-- Midterm 2: Mar. 10 - Mar. 12
-- Optional second chance exam for Midterm 2: Mar. 25 Mar. 26
-- Midterm 3:  Apr. 28 - Apr. 30
+- Midterm 1: {{site.midterm1}}
+- Optional second chance exam for Midterm 1: {{site.secondChance1}}
+- Midterm 2: {{site.midterm2}}
+- Optional second chance exam for Midterm 2: {{site.secondChance2}}
+- Midterm 3:  {{site.midterm1}}
 
-All exams are closed-everything (no book, notes, calculator, etc.). See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more detail. You are responsible for all material covered in lectures and assignments.For DRES accommodations see [CBTF DRES Students](https://cbtf.engr.illinois.edu/for-students/dres-students.html)
+No resources are allowed on exams, though the CBTF will provide calculators. See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more details. You are responsible for all material covered in lectures and assignments.For DRES accommodations see [CBTF DRES Students](https://cbtf.engr.illinois.edu/for-students/dres-students.html)
 
 ## Second-chance Exams ##
-For the first two midterms, you have the option to take a second chance exam if you wish. **The maximum score you can achieve on the second chance exam is 88%.** Specifically, if your second chance score is N% your final percentage score will be calculated as 0.88 x 0.N x 100.0. Your second chance score will replace your first score, even if it is lower. The questions on the second chance exam will cover the same topics as the first exam but may not be identical to the questions on the first exam. To take the second chance exam, just make a reservation with CBTF. You do not need to inform course staff that you are doing so.
+For the first two midterms, you have the option to take a second chance exam if you wish. This score is scaled with a maximum score of 88%: if your second chance score is N% your final percentage score will be calculated as 0.88 x 0.N x 100.0. Your second chance score will replace your first score, even if it is lower. The questions on the second chance exam will cover the same topics as the first exam but may not be identical to the questions on the first exam. To take the second chance exam, just make a reservation with CBTF. You do not need to inform course staff that you are doing so.
 
 ## Regrade Requests ##
 To submit a regrade request:

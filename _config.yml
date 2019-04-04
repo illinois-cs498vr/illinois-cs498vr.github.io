@@ -20,6 +20,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://courses.engr.illinois.edu/cs498vr3" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  illinois-cs498vr
 issues: https://github.com/illinois-cs498vr/illinois-cs498vr.github.io/issues/new
+piazza: https://piazza.com/illinois/spring2019/cs498vr
+location: 1320 Digital Computer Lab
+time: MW 4-5:15pm
+midterm1: Feb. 10 - Feb. 12
+secondChance1: Feb. 17 - Feb. 19
+midterm2: Mar. 10 - Mar. 12
+secondChance2: Mar. 25 - Mar. 26
+midterm3: Apr. 28 - Apr. 30
 # Build settings
 markdown: kramdown
 theme: minima
