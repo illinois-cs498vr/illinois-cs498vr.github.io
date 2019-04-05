@@ -1,9 +1,11 @@
 ---
 layout: staff
-title: test1
+title: Lorem Ipsum
 image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png
+github: https://github.com/ShanTulshi
+link: https://bestmotherfucking.website/
+email: yl6@illinois.edu
 desc: |
-  description for person 1
+  The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz,
 ---
-A multi-level, first-person fantasy strategy game. It only takes a single hit to defeat you! Outnumbered, you will need to act quickly. Conjure spells on the spot and defend yourself against hordes of advancing enemies. Featuring our own unique low-poly art style. Spell gestures are driven by our self-developed Machine Learning models.
-s
+

@@ -6,11 +6,21 @@ layout: default
 {% if site.staff %}
 	{% for person in site.staff %}
 		<article class="card">
-			<img class="thumb" src="{{ person.image }}"  frameborder="0"></iframe>
+			<img class="thumb" src="{{ person.image }}" frameborder="0"></iframe>
 			<div class="text-wrapper">
-				<a class="title" href="{{ person.url }}"><h1>{{ person.title }}</h1></a>
+				<a class="title" href="mailto:{{ person.email }}">
+					<h1>{{ person.title }}</h1>
+				</a>
 				<div class="desc">
 					{{ person.desc }}
+				</div>
+				<div class="links">
+					{% if person.github %}
+					<a href="{{ person.github }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+					{% endif %}
+					{% if person.link %}
+					<a href="{{ person.link }}" target="_blank"><svg class="svg-icon" ><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
+					{% endif%}
 				</div>
 			</div>
 		</article>
