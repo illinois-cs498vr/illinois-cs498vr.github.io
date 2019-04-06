@@ -1,6 +1,6 @@
 .staff {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 
 	.card {
@@ -17,37 +17,46 @@
 		&:nth-child(odd):last-child {
 			display: none;
 		}
-
+		
 		&:nth-child(even):last-child {
 			visibility: hidden;
+			
+			@include media-query($on-palm) {
+				display: none;
+			}
 		}
 
 		.thumb {
 			display: block;
-			width: 100%;
-			max-height: 240px;	//something to fix -> google
+			max-height: 240px;
+			max-width: 100%;
 			margin: auto;
 		}
-
+	
 		.text-wrapper {
+
 			.title {
 				text-align: center;
 			}
+
 			.desc {
 				overflow: hidden;
 				text-overflow: ellipsis;
 				display: -webkit-box;
 				-webkit-box-orient: vertical;
-				-webkit-line-clamp: 3; /* number of lines to show */
+				-webkit-line-clamp: 4; /* number of lines to show */
 				line-height: 1.5em;        /* fallback */
-				max-height: 9em;       /* fallback */
+				height: 6em;       /* fallback */
 			}
+
 			.links {
 				float: right;
-			}
-		}
-
-	}
+				height: 1em;
 	
+				.proj-link-icon > .svg-icon {
+					fill: $dark-background-color;
+				}
+			}
+		}	
+	}
 }
-

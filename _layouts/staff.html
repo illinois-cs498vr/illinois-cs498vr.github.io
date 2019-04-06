@@ -6,7 +6,11 @@ layout: default
 {% if site.staff %}
 	{% for person in site.staff %}
 		<article class="card">
-			<img class="thumb" src="{{ person.image }}" frameborder="0"></iframe>
+			{% if person.image %}
+			<img class="thumb" src="{{ person.image }}" frameborder="0"></img>
+			{% else %}
+			<img class="thumb" id="pokemon" frameborder="0"></img>
+			{% endif %}
 			<div class="text-wrapper">
 				<a class="title" href="mailto:{{ person.email }}">
 					<h1>{{ person.title }}</h1>
@@ -25,7 +29,16 @@ layout: default
 			</div>
 		</article>
 	{% endfor %}
-{% endif %}
 	<article class="card empty-card">
 	</article>
+{% endif %}
 </div>
+
+<script type="text/javascript">
+var numPokemon = 807;
+var imgs = document.querySelectorAll('#pokemon');
+imgs.forEach(function (elem) {
+	var num = Math.ceil(Math.random() * numPokemon);
+	elem.setAttribute('src', `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${num}.png`);
+})
+</script>
