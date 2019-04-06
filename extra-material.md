@@ -12,9 +12,15 @@ title: "Extra Material"
 
 - [Unity3D Interface Overview](http://unity3d.com/learn/tutorials/modules/beginner/editor/interface-overview)
 - [Unity3D Manual](http://docs.unity3d.com/Manual/index.html)
-- [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)
 - [Oculus Glossary](https://creator.oculus.com/learn/vr-glossary/)
 - [Continuous integration with Unity](http://qding.xyz/blog/continuous-integration-unity/)
+
+## Best Practices
+
+- [**Oculus Best Practices Guide**](https://developer.oculus.com/design/latest/concepts/book-bp/)
+- [Unity XR Best Practices](https://unity3d.com/learn/tutorials/topics/xr/introduction-vr-best-practice?playlist=22946)
+- [Optimization for VR in Unity](https://unity3d.com/learn/tutorials/topics/virtual-reality/optimisation-vr-unity)
+- [Leap Motion's Best Practices](http://blog.leapmotion.com/tag/best-practices/)
 
 ## Research Articles
 

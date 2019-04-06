@@ -38,9 +38,9 @@
 				text-overflow: ellipsis;
 				display: -webkit-box;
 				-webkit-box-orient: vertical;
-				-webkit-line-clamp: 6; /* number of lines to show */
+				-webkit-line-clamp: 3; /* number of lines to show */
 				line-height: 1.5em;        /* fallback */
-				height: 9em;       /* fallback */
+				max-height: 9em;       /* fallback */
 			}
 			.links {
 				float: right;
