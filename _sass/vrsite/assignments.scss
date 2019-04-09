@@ -1,9 +1,11 @@
-.table-header {
-	background: $dark-background-color;
-	color: white;
-	.title-row {
-		border: none;
-		font-weight: default;
-		font-size: 1.2em;
-	}
-} 
+.assignments {
+	.table-header {
+		background: $dark-background-color;
+		color: white;
+		&>.title-row {
+			border: none;
+			font-weight: default;
+			font-size: 1.2em;
+		}
+	} 
+}
