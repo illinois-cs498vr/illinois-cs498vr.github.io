@@ -1,4 +1,7 @@
-function sections(container) {
+// container: querySelector for div to apply sections to
+// hidden: (optional) whether the sections should be collapsed by default. Default false.
+function sections(container, hidden) {
+	if (hidden == undefined) hidden = false;
 	// Get all the <h2> and <h3> headings in the container
 	const headings = document.querySelectorAll(container + ' h2,' + container + ' h3');
 	
@@ -6,9 +9,9 @@ function sections(container) {
 	  // Give each <h2> a toggle button child
 	  // with the SVG plus/minus icon
 	  heading.innerHTML = `
-		<button aria-expanded="true">
+		<button aria-expanded="${!hidden}">
 		  ${heading.textContent}
-		  <svg aria-hidden="false" focusable="true" viewBox="0 0 10 10">
+		  <svg aria-hidden="${hidden}" focusable="true" viewBox="0 0 10 10">
 			<rect class="vert" height="8" width="2" y="1" x="4"/>
 			<rect height="2" width="8" y="4" x="1"/>
 		  </svg>
@@ -43,11 +46,11 @@ function sections(container) {
 	  // Create a wrapper element for `contents` and hide it
 	  let wrapper = document.createElement('div');
 	  wrapper.classList.add();
-	  wrapper.hidden = false;
+	  wrapper.hidden = hidden;
 	  
 	  // Add each element of `contents` to `wrapper`
 	  contents.forEach(node => {
-		wrapper.appendChild(node);
+			wrapper.appendChild(node);
 	  })
 	  
 	  // Add the wrapped content back into the DOM 
@@ -58,13 +61,13 @@ function sections(container) {
 	  let btn = heading.querySelector('button');
 	  
 	  btn.onclick = () => {
-		// Cast the state as a boolean
-		let expanded = btn.getAttribute('aria-expanded') === 'true' || false;
-		
-		// Switch the state
-		btn.setAttribute('aria-expanded', !expanded);
-		// Switch the content's visibility
-		wrapper.hidden = expanded;
+			// Cast the state as a boolean
+			let expanded = btn.getAttribute('aria-expanded') === 'true' || false;
+			
+			// Switch the state
+			btn.setAttribute('aria-expanded', !expanded);
+			// Switch the content's visibility
+			wrapper.hidden = expanded;
 	  }
 	})
   }
