@@ -84,7 +84,7 @@ layout: page
 	</table>
 	
 	{% assign temp = page.points | plus: 0 %}
-	{% if temp != total %}
+	{% if page.points and temp != total %}
 		<p>The given total number of points ({{ page.points }}) does not match the summed total of points from the rubric.</p>
 	{% endif %}
 {% endif %}
