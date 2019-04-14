@@ -25,13 +25,13 @@ function closeForever() {
 
 (function() {
 	var d = new Date();
-	if(window.location.hostname == 'localhost') {
+	if (document.cookie.indexOf('fool=notme') > -1) {
+		toggleModal(false);
+	} else if(window.location.hostname == 'localhost') {
 		toggleModal(true);
 	} else if(d.getMonth() == 3 && d.getDate() == 1) {
 		// definitely show on first load, then random chance.
-		if (document.cookie.indexOf('fool=notme') > -1) {
-			toggleModal(false);
-		} else if(document.cookie.indexOf("fool=me") == -1) {
+		if (document.cookie.indexOf('fool=me') == -1) {
 			toggleModal(true);
 			document.cookie = "fool=me";
 		} else if (Math.random() < (1 / chance)) {
