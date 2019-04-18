@@ -11,7 +11,7 @@ permalink: /
 ## Course Objectives ##
 Virtual reality (VR) technology transports us to real or synthetic places that may be inaccessible, breathtaking, complex beyond our wildest imagination, or just simple and relaxing. Inaccessible in prior decades due to expensive equipment and computing needs, VR systems are now cheap, easy to program, and applicable across almost all fields due to advances in display, sensing, and computational technology. Almost anyone can pick up a VR headset and start developing experiences!
 
-The purpose of this course is to provide students with both a deep understanding of the fundamentals of VR and to gain practical experience. Because VR tricks our brains by presenting synthetic stimuli to our senses, it is extremely challenging to develop and analyze VR systems that are both effective and comfortable. To get a handle on these issues, this course will fuse together knowledge from a variety of relevant topics, including computer graphics, tracking systems, and perceptual psychology. 
+The purpose of this course is to provide students with both a deep understanding of the fundamentals of VR and to gain practical experience developing VR content. Because VR tricks our brains by presenting synthetic stimuli to our senses, it is extremely challenging to develop and analyze VR systems that are both effective and comfortable. To get a handle on these issues, this course will fuse together knowledge from a variety of relevant topics, including computer graphics, tracking systems, and perceptual psychology. 
 
 Topics covered include:
 
