@@ -1,0 +1,88 @@
+<button onclick="scrollToTop()" id="topButton" title="Go to top">Scroll to Top</button> 
+<script>
+ window.onscroll = function() {buttonOnScroll()};
+
+function buttonOnScroll() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("topButton").style.display = "block";
+  } else {
+    document.getElementById("topButton").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function scrollToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+   function changeFont() {
+     if (document.getElementById('body1').style.fontFamily != "OpenDyslexic") {
+       document.getElementById('body1').style.fontFamily = "OpenDyslexic";
+     } else {
+       document.getElementById('body1').style.fontFamily = "Arial";
+     }
+   }
+   function getSelectionText() {
+     var text = "";
+     if (window.getSelection) {
+       text = window.getSelection().toString();
+     } else if (document.selection && document.selection.type != "Control") {
+       text = document.selection.createRange().text;
+     }
+     return text;
+   }
+
+   function speak() {
+     if(getSelectionText() == "") {
+       var msg = new SpeechSynthesisUtterance('Select the text you would like to hear.');
+     }
+     else {
+       var msg = new SpeechSynthesisUtterance(getSelectionText());
+     }
+     window.speechSynthesis.speak(msg);
+   }
+   
+   function toggleCSS() {
+      const ps = Array.from(document.getElementsByTagName('p'));
+      for (let i = 0; i < ps.length; i++) {
+          if (i % 2 == 0) {
+            if (ps[i].style.backgroundColor != "lightgray") {
+              ps[i].style.backgroundColor = "lightgray";
+            } else {
+              ps[i].style.backgroundColor = "white";
+            }
+          }
+      }
+
+      const lis = Array.from(document.getElementsByTagName('li'));
+      for (let i = 0; i < lis.length; i++) {
+          if (i % 2 == 0) {
+            if (lis[i].style.backgroundColor != "lightgray") {
+              lis[i].style.backgroundColor = "lightgray";
+            } else {
+              lis[i].style.backgroundColor = "white";
+            }
+          }
+      }
+  }
+</script>

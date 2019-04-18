@@ -102,6 +102,65 @@ p:nth-child(even), li:nth-child(even) {
 	background: $grey-color-light;
 }
 
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#topButton:hover {
+  background-color: #8888ff; /* Add a dark-grey background on hover */
+}
+
+.dropbtn {
+  background: #3498DB url() 15px 15px no-repeat;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover { background-color: #ddd; }
+
+.show { display: block; }
+
 @import 
   "vrsite/assignment",
   "vrsite/assignments",

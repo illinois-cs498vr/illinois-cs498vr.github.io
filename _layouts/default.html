@@ -2,12 +2,11 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
-
-  <body>
-
+  {%- include dyslexic.html -%}
+  <body style="font-family:Arial">
     {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
+    <main id="body1" style="font-family:Arial" class="page-content" aria-label="Content">
+    {%- include dropdown.html -%}
       <div class="wrapper">
         {{ content }}
       </div>
@@ -22,5 +21,5 @@
     <script src="{{ '/assets/customer-scripts.js' | prepend: site.baseurl }}" type="text/javascript"></script>
 
   </body>
-
+  {%- include script.html -%}
 </html>
