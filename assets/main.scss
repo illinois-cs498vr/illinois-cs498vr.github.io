@@ -121,14 +121,27 @@ p:nth-child(even), li:nth-child(even) {
 #topButton:hover {
   background-color: #8888ff; /* Add a dark-grey background on hover */
 }
-
 .dropbtn {
-  background: #3498DB url() 15px 15px no-repeat;
+   width:5px;
+   height:5px;
+   background-image: url(../img/accessibility.svg) !important;
+   background-repeat: no-repeat;
+   background-color: #3498DB;
+   color: white;
+   padding: 25px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   display: block;
+}
+.dropbtn2 {
+  background-color: #3498DB;
   color: white;
-  padding: 16px;
+  padding: 25px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  display: block;
 }
 
 .dropbtn:hover, .dropbtn:focus {
