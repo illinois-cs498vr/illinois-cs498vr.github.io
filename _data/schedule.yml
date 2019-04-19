@@ -96,48 +96,48 @@
 
 - 
   date: "Mar 25"
-  materials: "LaValle, Ch. 7"
-  title: "Motion in Real and Virtual Worlds"
+  materials: "LaValle, Ch. 6"
+  title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
 
 - 
   date: "Mar 27"
-  materials: "LaValle, Ch. 7"
-  title: "VR Hardware Overview"
+  materials: ""
+  title: "[Survey of the Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2027%202019.pptx)"
 
 - 
   date: "Apr 1"
-  materials: "LaValle, Ch. 8"
-  title: "Tracking"
+  materials: "LaValle, Ch. 5,6"
+  title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
 
 - 
   date: "Apr 3"
-  materials: "LaValle, Ch. 9, 12"
-  title: "Interaction"
+  materials: "LaValle, Ch. 8"
+  title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Apr 8"
-  materials: "LaValle, Ch. 9"
-  title: "Audio in VR"
+  materials: ~
+  title: "[VR Game Design](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%208%202109.pptx)"
 
 - 
   date: "Apr 10"
-  materials: ~
-  title: "Survey of Current State of VR in Industry"
+  materials: "LaValle, Ch. 9"
+  title: "[Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
 
 - 
   date: "Apr 15"
   materials: ~
-  title: "Design in more Detail: Mid-level Processes"
+  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%2015%202019.pptx)"
 
 - 
   date: "Apr 17"
-  materials: ~
-  title: "Production in more Detail: Studios, Teams and Lower Level Processes"
+  materials: "LaValle, Ch. 7"
+  title: "[Current Research in Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture30.pptx)"
 
 - 
   date: "Apr 22"
   materials: ~
-  title: "History of VR"
+  title: "Audio for VR"
 
 - 
   date: "Apr 24"
@@ -154,3 +154,4 @@
   materials: ~
   title: "**No Lecture: Exam Week**"
 
+  

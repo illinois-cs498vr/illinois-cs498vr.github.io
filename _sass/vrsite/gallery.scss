@@ -1,54 +1,66 @@
 .gallery {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.card {
-	display: flex;
-	flex-direction: column;
-	flex: 0 1 300px;
-	justify-content: flex-start;
-	margin: 1em;
-	padding: 1em;
-	border-style: solid;
-	border-width: 1px;
-	height: auto;
-
-	&:nth-child(odd):last-child {
-		display: none;
+	.semesterGallery {
+		margin-bottom: 30px;
 	}
 
-	&:nth-child(even):last-child {
-		visibility: hidden;
+	.projectsContainer {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 	}
 
-	.thumb {
-		display: block;
-		max-height: 240px;
-		margin: auto;
-	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 300px;
+		justify-content: flex-start;
+		margin: 1em;
+		padding: 1em;
+		border-style: solid;
+		border-width: 1px;
+		height: auto;
 
-	.text-wrapper {
-		.title {
-			text-align: center;
+		&:nth-child(odd):last-child {
+			display: none;
 		}
-		.desc {
-			overflow: hidden;
-			text-overflow: ellipsis;
-			display: -webkit-box;
-			-webkit-box-orient: vertical;
-			-webkit-line-clamp: 2; /* number of lines to show */
-			line-height: 1.5em;        /* fallback */
-			height: 3em;       /* fallback */
-		}
-		.links {
-			float: right;
 
-			.proj-link-icon > .svg-icon {
-				fill: $dark-background-color;
+		
+		&:nth-child(even):last-child {
+			visibility: hidden;
+			
+			@include media-query($on-palm) {
+				display: none;
 			}
 		}
-	}
 
+		.thumb {
+			display: block;
+			max-height: 240px;
+			max-width: 100%;
+			margin: auto;
+		}
+
+		.text-wrapper {
+			.title {
+				text-align: center;
+			}
+			.desc {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2; /* number of lines to show */
+				line-height: 1.5em;        /* fallback */
+				height: 3em;       /* fallback */
+			}
+			.links {
+				float: right;
+
+				.proj-link-icon > .svg-icon {
+					fill: $dark-background-color;
+				}
+			}
+		}
+
+	}
 }
