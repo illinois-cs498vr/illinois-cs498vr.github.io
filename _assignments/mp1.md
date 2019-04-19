@@ -129,19 +129,6 @@ rubric:
     name: Experience 4
     points: 5
     description: Likes and dislikes for any experience
-
-toc: true
-
----
-
-### Section Quick Links
-- [MP 1.1.1](#111)
-- [MP 1.1.2](#112)
-- [MP 1.2.1](#121)
-- [MP 1.2.2](#122)
-- [Submission Instructions](#submission-instructions)
-- [Rubric](#rubric)
-
 ---
 
 ## MP 1.1
@@ -191,7 +178,7 @@ Note: In the image above, rotating the plane also rotated its axes (the blue z a
 
 ---
 
-#### Player:
+#### Player
 
 *Place an OVR Player Controller prefab in the room. This prefab handles basic movement, collision, and camera control.*
 
@@ -209,7 +196,7 @@ There’s just one more thing you need to do to finish enabling VR. Go to `Edit`
 
 ---
 
-#### Lighting:
+#### Lighting
 
 *At the center of the roof of the room, place a point source of light. This light will change color by pressing the `Tab` key, which is detailed in the scripting section.*
 
@@ -225,7 +212,7 @@ Of primary importance are the `range` (the radius of your light), color, and int
 
 ---
 
-#### Planet and Moon:
+#### Planet and Moon
 
 *Create a large sphere, and have it float in the middle of the room. Create another, smaller sphere, set it as a child object of the bigger sphere, and move it next to the bigger sphere, 4 units away on the X-axis. You will make it orbit the larger sphere in the Scripting section.*
 
@@ -238,7 +225,7 @@ Set the position of the child sphere to be $$(2,0,0)$$, which is four units from
 
 ---
 
-#### Text:
+#### Text
 
 *Put large text on a wall, detailing the controls and listing your netIDs. Feel free to experiment with what you can put on a canvas, but keep it grandmother appropriate!*
 
@@ -258,7 +245,7 @@ Now, you can set your text color, size, font, width, whether it wraps or overflo
 
 ---
 
-#### Scripting:
+#### Scripting
 
 You will need to write a couple of scripts for this part of the MP. Read up on [Scripts](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html) in Unity, and familiarize yourself with C# syntax. It should be very familiar to any of you who have worked with Java. If you are unfamiliar with programming, you can check out this [C# tutorial](https://www.tutorialspoint.com/csharp/). You’ll only need the basics of objects, classes, and variables for now. Throughout this course, you will find the [Scripting API Reference](https://docs.unity3d.com/ScriptReference/) a useful source of information.
 
@@ -289,7 +276,7 @@ This can be simply added on to the “room switch” script. You will want to ad
 
 ### 1.1.2
 
-#### In 1.1.2 you will be working in the same scene as 1.1.1, but with _fewer instructions_.
+**In 1.1.2 you will be working in the same scene as 1.1.1, but with _fewer instructions_.**
 
 You are expected to [Google](http://lmgtfy.com/?q=google) the specifics -- [Unity has a great tutorial on practically everything](https://unity3d.com/learn/tutorials) you will need for this MP, and the [Unity Forum](https://forum.unity.com/) also provides high-quality answers for debugging advice.
 
@@ -361,7 +348,7 @@ Sign into your Unity account using the "Log In" button at the upper right. Now, 
 
 ---
 
-#### Submit: 
+### Submit 
 *Submit your unity project **according to the [submission instructions](#submission-instructions) at the bottom of this assignment.***
 
 ---
@@ -390,19 +377,19 @@ The default Unity modelling tools are extremely limited, so we highly recommend 
 
 ---
 
-#### Skybox:
+#### Skybox
 
 We have provided you with six images in `skybox.zip` that together, form a skybox. You are going to create a skybox with these images, and apply it to your scene. [Here is the Unity manual page for skyboxes](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html). Skybox asset credit: [mgsvevo](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:9104)
 
 ---
 
-#### Directional Light:
+#### Directional Light
 
 Create a directional light for the scene, set it to have hard shadows. Set its angle to match the sun in the skybox.
 
 ---
 
-#### Scripting - Trigger Game:
+#### Scripting - Trigger Game
 
 You are going to make a game similar to a cat chasing a laser pointer (where you’re the cat). In this room, you are going to place several box colliders (at least 4), and mark them as triggers. Place a point light at the center of each box collider. Every 3 seconds, one of these point lights should light up. The player should then move to the lit up point light, and press “A” on the controller (the [OnTriggerEnter](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerEnter.html) and [OnTriggerExit](https://docs.unity3d.com/ScriptReference/Collider.OnTriggerExit.html) methods should be helpful here). When the player does so, they will get one point, and another light should light up at random (bypassing the normal 3 second timer). The player’s score should be displayed on the wall, in sharp (NOT blurry) text. We should be able to quit at any time upon pressing the Start button on the controller.
 
@@ -418,9 +405,11 @@ A very useful variable here is Unity’s [`Time.deltaTime`](https://docs.unity3d
 
 ### 1.2.2
 
-**VR experiences:** Your final task is to choose and try out four (4) of the VR demos available through the Oculus or Steam store, or from the VR shared `V:` drive. You will have to create a Steam and/or Oculus account for this step. Oculus titles will need a TA to help install, while Steam will not. For each demo, write at least 3 sentences with a short description of the demo, something you liked, and something you did not like. One experience must be a student experience, and one must be an Oculus/Steam experience. You can find oculus games at [https://share.oculus.com/](https://share.oculus.com/) or on Steam at [http://store.steampowered.com/search/?vrsupport=102](http://store.steampowered.com/search/?vrsupport=102). Please put your names, netIDs, and reviews in a PDF named `HW1DemoWriteUp.pdf`. Hint: some TAs have access to some paid experiences, which will be fun to try out. 
+#### VR Experiences
+
+Your final task is to choose and try out four (4) of the VR demos available through the Oculus or Steam store, or from the VR shared `V:` drive. You will have to create a Steam and/or Oculus account for this step. Oculus titles will need a TA to help install, while Steam will not. For each demo, write at least 3 sentences with a short description of the demo, something you liked, and something you did not like. One experience must be a student experience, and one must be an Oculus/Steam experience. You can find oculus games at [https://share.oculus.com/](https://share.oculus.com/) or on Steam at [http://store.steampowered.com/search/?vrsupport=102](http://store.steampowered.com/search/?vrsupport=102). Please put your names, netIDs, and reviews in a PDF named `HW1DemoWriteUp.pdf`. Hint: some TAs have access to some paid experiences, which will be fun to try out. 
 
 ---
 
-#### Submit: 
+### Submit
 *Submit your unity project **according to the [submission instructions](#submission-instructions) at the bottom of this assignment.***
