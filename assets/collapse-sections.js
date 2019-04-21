@@ -6,7 +6,11 @@ function sections(container, hidden) {
 	const headings = document.querySelectorAll(container + ' h2,' + container + ' h3');
 	
 	Array.prototype.forEach.call(headings, heading => {
-		// Give each <h2> a toggle button child
+		// append classname to heading for styles
+		// FIXME Does not work in IE9 or below
+		heading.classList.add('collapsible');
+
+		// Give each <h2>/<h3> a toggle button child
 		// with the SVG plus/minus icon
 		heading.innerHTML = `
 		<button aria-expanded="${!hidden}">

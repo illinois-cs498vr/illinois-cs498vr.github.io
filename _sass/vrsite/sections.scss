@@ -1,25 +1,27 @@
-h2 button,h3 button {
-	font: inherit;
-	background: inherit;
-	border: inherit;
-	display: inline;
-}
+.collapsible {
+	button {
+		font: inherit;
+		background: inherit;
+		border: inherit;
+		display: inline;
+	}
 
-h2 button:focus svg, h3 button:focus svg {
-	outline: 2px solid;
-}
-  
-button svg {
-	height: 1em;
-	margin-left: 0.5em;
-	transform: translate(0, 0.15em);
-	cursor: pointer;
-}
+	button:focus svg {
+		outline: 2px solid;
+	}
+	
+	button svg {
+		height: 1em;
+		margin-left: 0.5em;
+		transform: translate(0, 0.15em);
+		cursor: pointer;
+	}
 
-[aria-expanded="true"] .vert {
-	display: none;
-}
+	[aria-expanded="true"] .vert {
+		display: none;
+	}
 
-[aria-expanded] rect {
-	fill: currentColor;
+	[aria-expanded] rect {
+		fill: currentColor;
+	}
 }
