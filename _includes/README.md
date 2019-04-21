@@ -8,6 +8,8 @@ In a page or layout frontmatter, specify what classname(s) the collapsible secti
 
 `sections` can be either a classname string or a list of classname strings or objects defined as above. Note that it does not work if `sections` is an object.
 
+It works if it is defined in either the layout or the page frontmatter, but the page will override the layout if both are defined.
+
 #### Usage examples: 
 
 ```yaml
