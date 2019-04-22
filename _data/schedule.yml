@@ -136,17 +136,17 @@
 
 - 
   date: "Apr 22"
-  materials: ~
-  title: "Audio for VR"
+  materials: "LaValle, Ch. 11"
+  title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
 
 - 
   date: "Apr 24"
-  materials: "LaValle, Ch. 8, 12"
-  title: "TBD"
+  materials: ~
+  title: "** No Lecture: Work on projects **"
 
 - 
   date: "Apr 29"
-  materials: "LaValle, Ch. 9"
+  materials: ~
   title: "**No Lecture: Exam Week**"
 
 - 
