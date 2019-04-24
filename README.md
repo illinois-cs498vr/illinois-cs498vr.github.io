@@ -1,5 +1,7 @@
 # README
 
+[![Build Status](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io.svg?branch=master)](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io)
+
 Course website for CS 498 Virtual Reality at the University of Illinois.
 
 ## Getting Started
