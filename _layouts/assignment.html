@@ -32,6 +32,14 @@ layout: page
 	<hr>
 {% endunless %}
 
+<div class="toc">
+<h3 id="toc">Table of Contents</h3>
+
+{% include toc.html html=content h_max=4 %}
+</div>
+
+<hr>
+
 <div class="mp-content">
 	{{ content }}
 </div>
