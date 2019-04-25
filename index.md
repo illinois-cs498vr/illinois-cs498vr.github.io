@@ -29,7 +29,7 @@ We recommend the following courses and skills:
 
 Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
 
-## Course Staff ##
+## Office Hours ##
 See the [schedule for office hours](/officehours).
 
 * Professor Eric Shaffer, Siebel 2209
