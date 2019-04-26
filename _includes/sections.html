@@ -1,0 +1,19 @@
+
+{% if page.sections or layout.sections %}
+<script src="{{ '/assets/collapse-sections.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+	{% if page.sections %}
+	{% assign tags = page.sections %}
+	{% else %}
+	{% assign tags = layout.sections %}
+	{% endif %}
+	<script type="text/javascript">
+	// FIXME make it work if `sections` is an object and not an array 
+	{% for tag in tags %}
+		{% if tag.name and tag.hidden != nil %}
+			sections('.{{ tag.name }}', {{ tag.hidden }});
+		{% else %}
+			sections('.{{ tag }}', false);
+		{% endif %}
+	{% endfor %}
+	</script>
+{% endif %}

@@ -1,6 +1,7 @@
-# README
+# CS 498 VR: The Website 
 
 Course website for CS 498 Virtual Reality at the University of Illinois.
+[![Build Status](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io.svg?branch=master)](https://travis-ci.org/illinois-cs498vr/illinois-cs498vr.github.io)
 
 ## Getting Started
 
@@ -9,8 +10,9 @@ Course website for CS 498 Virtual Reality at the University of Illinois.
 * Run `bundle install` for dependencies
 * Run `bundle exec jekyll serve` to start the website, then visit [`http://localhost:4000`](http://localhost:4000).
 
+## Miscellaneous Documentation
 
-## Managing the class schedule
+### Managing the class schedule
 
 In `_data/schedule.yml` there is a list of objects, each representing one class. Each one must contain the following fields:
 

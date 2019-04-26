@@ -1,40 +1,100 @@
 ---
 layout: default
+semesterList:
+  - Fall 2018
+  - Spring 2018
+  - Fall 2017
+  - Spring 2017
+  - Fall 2016
+sections:
+  - name: semesters
+    hidden: true
 ---
 
 <div class="gallery">
 {% if site.projects %}
-	{% for project in site.projects %}
-		<article class="card">
-			{% if project.youtube %}
-			<iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
-			{% else %}
-			<img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
-			{% endif %}
-			<div class="text-wrapper">
-				<a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
-				<div class="desc">
-					{{ project.desc }}
-				</div>
-				<a href="{{ project.url }}"><small>Read more</small></a>
-				<div class="links">
-					{% if project.github %}
-					<a href="{{ project.github }}" target="_blank" rel="noopener"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
-					{% endif %}
-					{% if project.youtube %}
-					<a href="https://youtube.com/watch?v={{ project.youtube }}" target="_blank" rel="noopener"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>
-					{% endif %}
-					{% if project.link %}
-					<a href="{{ project.link }}" target="_blank" rel="noopener" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
-					{% endif %}
-					{% if project.dl %}
-					<a href="{{ project.dl }}" target="_blank" rel="noopener" class="proj-link dl"><svg class="svg-icon" alt="Download Link"><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg></a>
-					{% endif %}
-				</div>
-			</div>
-		</article>
-	{% endfor %}
+  <div class="semesterGallery">
+    <h1>Featured Projects</h1>
+    {% assign featuredList = site.projects | where:"featured", "true" %}
+    <div class="projectsContainer">
+      {% for project in featuredList %}
+      <article class="card">
+        {% if project.youtube %}
+        <iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
+        {% else %}
+        <img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
+        {% endif %}
+        <div class="text-wrapper">
+          <a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+          <div class="desc">
+            {{ project.desc }}
+          </div>
+          <a href="{{ project.url }}"><small>Read more</small></a>
+          <div class="links">
+            {% if project.github %}
+            <a href="{{ project.github }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+            {% endif %}
+            {% if project.youtube %}
+            <a href="https://youtube.com/watch?v={{ project.youtube }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>
+            {% endif %}
+            {% if project.link %}
+            <a href="{{ project.link }}" target="_blank" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
+            {% endif %}
+            {% if project.dl %}
+            <a href="{{ project.dl }}" target="_blank" class="proj-link dl"><svg class="svg-icon" alt="Download Link"><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg></a>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+      <article class="card empty-card">
+      </article>
+    </div>
+  </div>
+  <div class="semesters">
+  {% for semester in layout.semesterList %}
+    {% assign projectList = site.projects | where:"semester", semester %}
+    {% assign listSize = projectList | size %}
+    {% if listSize > 0 %}
+      <div class="semesterGallery">
+        <h2>{{ semester }}</h2>
+        <div class="projectsContainer">
+          {% for project in projectList %}
+            <article class="card">
+              {% if project.youtube %}
+              <iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
+              {% else %}
+              <img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
+              {% endif %}
+              <div class="text-wrapper">
+                <a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
+                <div class="desc">
+                  {{ project.desc }}
+                </div>
+                <a href="{{ project.url }}"><small>Read more</small></a>
+                <div class="links">
+                  {% if project.github %}
+                  <a href="{{ project.github }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+                  {% endif %}
+                  {% if project.youtube %}
+                  <a href="https://youtube.com/watch?v={{ project.youtube }}" target="_blank"><svg class="svg-icon" class="proj-link youtube" alt="YouTube"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>
+                  {% endif %}
+                  {% if project.link %}
+                  <a href="{{ project.link }}" target="_blank" class="proj-link link"><svg class="svg-icon" alt="Project Link"><use xlink:href="{{ '/assets/icons.svg#link' | relative_url }}"></use></svg></a>
+                  {% endif %}
+                  {% if project.dl %}
+                  <a href="{{ project.dl }}" target="_blank" class="proj-link dl"><svg class="svg-icon" alt="Download Link"><use xlink:href="{{ '/assets/icons.svg#download' | relative_url }}"></use></svg></a>
+                  {% endif %}
+                </div>
+              </div>
+            </article>
+          {% endfor %}
+          <article class="card empty-card">
+          </article>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
 {% endif %}
-	<article class="card empty-card">
-	</article>
 </div>

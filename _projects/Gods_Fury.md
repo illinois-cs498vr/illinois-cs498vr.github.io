@@ -6,6 +6,8 @@ desc: |
   The god simulator where you shall unleash disasters and destruction upon the world.
 github: https://github.com/CS498VR-GodsFury/GodsFury
 dl: https://drive.google.com/file/d/1Aj2Ey9Odg-v8xoh-tI67i0H-zwZqHc9v/view
+semester: Fall 2018
+featured: false
 ---
 The god simulator where you shall unleash disasters and destruction upon the world.
 

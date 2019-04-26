@@ -12,15 +12,23 @@
         {{ content }}
       </div>
     </main>
+    {%- include fool.html -%}
 
     {%- include footer.html -%}
     
+    <!-- local scripts -->
+    <script src="{{ '/assets/customer-scripts.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+    <script src="{{ '/assets/szn.js' | prepend: site.baseurl }}" type= "text/javascript"></script>
+
     <!-- anchors -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.js"></script>
+
+    <!-- collapsible sections -->
+    {%- include sections.html -%}
+    
+    <!-- inline scripts -->
     <script>anchors.add()</script>
-
-    <script src="{{ '/assets/customer-scripts.js' | prepend: site.baseurl }}" type="text/javascript"></script>
-
+    
   </body>
 
 </html>

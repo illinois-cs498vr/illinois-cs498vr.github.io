@@ -1,0 +1,95 @@
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-top: none;
+	border-bottom-color: transparent;
+	background-color: $dark-background-color;
+
+	min-height: 70px;
+	transition: all .5s;
+
+	display: flex;
+	align-items: center;
+
+	&.site-header-scrolled {
+		min-height: 56px;
+	}
+
+	& > .wrapper {
+		width: 100%;
+		position: relative;
+	
+		.site-title {
+			letter-spacing: unset;
+			color: $text-color-light;
+			text-decoration: none;
+		}
+
+		.site-nav .trigger .page-link {
+			color: $text-color-light;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+
+		@include media-query($on-palm) {
+			margin-left: 0;
+			max-width: calc(100vw - 30px);
+	
+			.site-nav {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-18px);
+				right: $spacing-unit/2;
+
+				.trigger .page-link {
+					color: $text-color;
+				}
+			}
+		}
+	}
+}
+
+
+.page-content {
+	margin-top: 4em;
+
+	.post-content hr {
+		margin: 1em auto;
+	}
+}
+
+.anchorjs-link {
+	transition: all .17s linear;
+	color: #e63;
+	
+	&:hover {
+		text-decoration: none;
+	}
+	
+	&:visited {
+		color: #e63;
+	}
+}
+
+
+.site-footer > .wrapper {
+	display: flex;
+	flex-direction: column;
+
+	.footer-col-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@import 
+	"vrsite/assignment",
+	"vrsite/assignments",
+	"vrsite/calendar",
+	"vrsite/gallery",
+	"vrsite/project",
+	"vrsite/fool",
+	"vrsite/sections"
+;

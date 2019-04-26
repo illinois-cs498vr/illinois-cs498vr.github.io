@@ -8,7 +8,8 @@ layout: page
 		<td class="title-row">Due Date</td>
 		<td class="title-row">Points</td>
 	</tr>
-	{% for assignment in site.assignments %}
+	{% assign assignments = site.assignments | sort:'assignment' %}
+	{% for assignment in assignments %}
 		<tr>
 			<td>
 				<a href="{{ assignment.url }}">{{ assignment.title }}</a>
