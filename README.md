@@ -10,6 +10,10 @@ Course website for CS 498 Virtual Reality at the University of Illinois.
 * Run `bundle install` for dependencies
 * Run `bundle exec jekyll serve` to start the website, then visit [`http://localhost:4000`](http://localhost:4000).
 
+## Semesterly chores
+
+In `_config.yml`, under `semester`, there are a set of variables that may need to change every semester. 
+
 ## Miscellaneous Documentation
 
 ### Managing the class schedule

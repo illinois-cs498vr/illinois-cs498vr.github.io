@@ -36,14 +36,14 @@ See the [schedule for office hours](/officehours).
 * Professor Dan Cermak
 
 ## Lectures ##
-Lecture is held in {{site.location}} on {{site.time}}
+Lecture is held in {{site.semester.location}} on {{site.semester.time}}
 
 ## Textbooks ##
 Main text, required: [Steven M. LaValle, Virtual Reality, 2016](http://vr.cs.uiuc.edu).
 
 See the [Extra Material](/extra-material) page for other, recommended readings.
 
-## [Piazza]({{site.piazza}}) ##
+## [Piazza]({{site.semester.piazza}}) ##
 We will use Piazza for answering questions and administering the course.
 
 Click the header to join the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to the course instructor with the email address you want to use, and we will add you manually.
@@ -74,11 +74,11 @@ See the [Assignments page](/assignments) for more details.
 ## Exams ##
 This class will have three midterms and no final exam. Each exam is 50 minutes long. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
 
-- Midterm 1: {{site.midterm1}}
-- Optional second chance exam for Midterm 1: {{site.secondChance1}}
-- Midterm 2: {{site.midterm2}}
-- Optional second chance exam for Midterm 2: {{site.secondChance2}}
-- Midterm 3:  {{site.midterm1}}
+- Midterm 1: {{site.semester.midterm1}}
+- Optional second chance exam for Midterm 1: {{site.semester.secondChance1}}
+- Midterm 2: {{site.semester.midterm2}}
+- Optional second chance exam for Midterm 2: {{site.semester.secondChance2}}
+- Midterm 3:  {{site.semester.midterm1}}
 
 No resources are allowed on exams, though the CBTF will provide calculators. See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more details. You are responsible for all material covered in lectures and assignments.For DRES accommodations see [CBTF DRES Students](https://cbtf.engr.illinois.edu/for-students/dres-students.html)
 
