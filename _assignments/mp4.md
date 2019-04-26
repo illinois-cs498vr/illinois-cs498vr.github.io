@@ -8,14 +8,8 @@ parts:
     due: April 3, 2019 @ 11:59 PM
 material:
   -
-    name: Ground Material Package
-    url: /mps/MP4-groundmats.unitypackage
-  -
-    name: Standard Assets Package
-    url: /mps/MP4-standardassets.unitypackage
-  -
-    name: Miscellaneous Package
-    url: /mps/MP4-misc.unitypackage
+    name: Provided Assets
+    url: /mps/MP4-assets.unitypackage
 rubric:
   -
     name: Plane
@@ -93,9 +87,11 @@ Much of the spec for this MP is vague. This is intentional, as we want you to be
 
 ### Simulator Environment
 
-1. Create a new scene, and load all three of the provided Unity packages, one of which contains a large terrain for you to use. Read up on [Terrains in Unity](https://docs.unity3d.com/Manual/script-Terrain.html) 
+1. Create a new scene, and load the provided Unity package, which contains a large terrain for you to use. Read up on [Terrains in Unity](https://docs.unity3d.com/Manual/script-Terrain.html) 
    so you can make changes if need be. This will be especially pertinent when it comes time to optimize your scene, as trees and vegetation 
    on the terrain can cause performance issues.
+
+1. Import the "Oculus Integration" package from the Unity Asset Store.
 
 1. Create or import a model for your plane. Your model can be simple, provided it isn’t simply a Unity cube or other 3D primitive.
 
