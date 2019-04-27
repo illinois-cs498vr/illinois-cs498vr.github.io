@@ -21,6 +21,10 @@ Topics covered include:
 - Perceptual training
 - Building good experiences
 
+## Page Contents
+{% assign content = page.content | markdownify %}
+{% include toc.html html=content %}
+
 ## Prerequisites ##
 We recommend the following courses and skills:
 
@@ -66,7 +70,7 @@ We weight grades as follows:
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
 - Read the submission instructions in each handout carefully!
-- You must work in pairs on all assignments. We recommend using Piazza to find a group.
+- You must work in pairs on all assignments. If you don't, you are not eligible for extra credit. We recommend using Piazza to find a group.
 - We will accept assignments only up to two days late, with a 20% penalty.
 
 See the [Assignments page](/assignments) for more details.
@@ -88,7 +92,7 @@ For the first two midterms, you have the option to take a second chance exam if 
 ## Regrade Requests ##
 To submit a regrade request:
 
-- Create a private Piazza post with the `regrade` tag with your NetID **and your partner's** 
+- Create a private Piazza post with the `regrade` tag with your NetID **and your partner's**. 
 - Include a brief explanation of why you think your grade is incorrect.
 - You must submit regrade requests within one week after we release grades.
 
