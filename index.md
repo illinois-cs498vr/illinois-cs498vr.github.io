@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 permalink: /
 ---
@@ -23,9 +20,13 @@ Topics covered include:
 - Perceptual training
 - Building good experiences
 
-## Page Contents
+---
+
+## Page Contents ##
 {% assign content = page.content | markdownify %}
 {% include toc.html html=content %}
+
+---
 
 ## Prerequisites ##
 We recommend the following courses and skills:
@@ -38,8 +39,8 @@ Nevertheless, this is a large, experimental course, so we do not expect specific
 ## Office Hours ##
 See the [schedule for office hours](/officehours).
 
-* Professor Eric Shaffer, Siebel 2209
-* Professor Dan Cermak
+- Professor Eric Shaffer, Siebel 2209
+- Professor Dan Cermak
 
 ## Lectures ##
 Lecture is held in {{site.semester.location}} on {{site.semester.time}}
@@ -69,7 +70,7 @@ We weight grades as follows:
 | 4th Credit Project | | 15% |  
 
 ## Assignments ##
-We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
+We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in {{ site.lab.room }}.
 
 - Read the submission instructions in each handout carefully!
 - You must work in pairs on all assignments. If you don't, you are not eligible for extra credit. We recommend using Piazza to find a group.
