@@ -8,6 +8,8 @@ permalink: /
 
 ![Oculus Grandma](/img/OculusGrandma.jpg){:class="img-responsive" style="display:block; margin:auto"}
 
+[tl;dr](#tldr)
+
 ## Course Objectives ##
 Virtual reality (VR) technology transports us to real or synthetic places that may be inaccessible, breathtaking, complex beyond our wildest imagination, or just simple and relaxing. Inaccessible in prior decades due to expensive equipment and computing needs, VR systems are now cheap, easy to program, and applicable across almost all fields due to advances in display, sensing, and computational technology. Almost anyone can pick up a VR headset and start developing experiences!
 
@@ -113,3 +115,19 @@ See the [project gallery](/projects) for past student projects.
 
 ## Academic Integrity ##
 You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.
+
+---
+
+## TL;DR ##
+
+- [Course Website](/)
+- [Assignments](/assignments)
+- [Book](http://vr.cs.uiuc.edu/)
+- [Lecture Recordings](https://echo360.org/)
+- [VR Lab]({{ site.lab.room }})
+- Chance that lab will be full if you start assignments late: **110%**.
+- Assignment Policies: You must work with 1 partner. Regrades must be submitted within 2 weeks. 
+- If you want to request an extension, regrade, or otherwise make a personal request, make a private Piazza post.
+- Exams: Go to lecture, and you will be gucci.
+
+Have fun! Start early, be creative, have a good attitude, don't stress, _start early_, and you will really enjoy this course.

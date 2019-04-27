@@ -57,4 +57,5 @@ exclude:
 
 # Information about the lab
 lab:
+  room: 4107 Siebel
   unity-version: 2018.2.14
