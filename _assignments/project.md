@@ -106,31 +106,31 @@ rubric:
 
   -
     name: Final Canvas
-    points: 15
+    points: 20
 
   -
     name: Final Mid-Level Action Loop
-    points: 2.5
+    points: 2
 
   -
     name: Final Feature List
-    points: 5
+    points: 4
 
   -
     name: Final Tech Design Document
-    points: 12.5
+    points: 16
 
   -
     name: Final Production Milestones
-    points: 10
+    points: 14
 
   -
     name: Final QA Document
-    points: 10
+    points: 14
 
   -
     name: Alpha Project
-    points: 45
+    points: 30
 
   -
     name: Total Alpha
