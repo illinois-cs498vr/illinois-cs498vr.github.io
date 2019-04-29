@@ -106,47 +106,47 @@
 
 - 
   date: "Apr 1"
-  materials: "LaValle, Ch. 8"
+  materials: "LaValle, Ch. 5,6"
   title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
 
 - 
   date: "Apr 3"
-  materials: "LaValle, Ch. 9, 12"
+  materials: "LaValle, Ch. 8"
   title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Apr 8"
-  materials: "LaValle, Ch. 9"
-  title: "TDB"
+  materials: ~
+  title: "[VR Game Design](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%208%202109.pptx)"
 
 - 
   date: "Apr 10"
-  materials: ~
-  title: "Tracking"
+  materials: "LaValle, Ch. 9"
+  title: "[Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
 
 - 
   date: "Apr 15"
   materials: ~
-  title: "TBD"
+  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%2015%202019.pptx)"
 
 - 
   date: "Apr 17"
-  materials: ~
-  title: "Current Research in VR"
+  materials: "LaValle, Ch. 7"
+  title: "[Current Research in Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture30.pptx)"
 
 - 
   date: "Apr 22"
-  materials: ~
-  title: "Audio for VR"
+  materials: "LaValle, Ch. 11"
+  title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
 
 - 
   date: "Apr 24"
-  materials: "LaValle, Ch. 8, 12"
-  title: "TBD"
+  materials: ~
+  title: "**No Lecture: Work on projects**"
 
 - 
   date: "Apr 29"
-  materials: "LaValle, Ch. 9"
+  materials: ~
   title: "**No Lecture: Exam Week**"
 
 - 

@@ -24,39 +24,39 @@ rubric:
     name: Canvas - Inspiration
     points: 5
 
-  - 
+  -
     name: Canvas - Genre
     points: 5
 
-  - 
+  -
     name: Canvas - IP/World
     points: 5
 
-  - 
+  -
     name: Canvas - Core Pillars
     points: 15
 
-  - 
+  -
     name: Canvas - Core Systems
     points: 5
 
-  - 
+  -
     name: Canvas - User Experience
     points: 15
 
-  - 
+  -
     name: Canvas - User Type
     points: 10
 
-  - 
+  -
     name: High Level Action Loop
     points: 5
 
-  - 
+  -
     name: Feature List
     points: 20
 
-  - 
+  -
     name: Pre-Production Milestones
     points: 15
 
@@ -67,30 +67,30 @@ rubric:
 
   -
     # We don't have nested rubric sections yet (@#45) so this will have to do.
-  - 
+  -
     name: Pre-Production
 
-  - 
+  -
     name: Modified Canvas
     points: 30
 
-  - 
+  -
     name: Mid-Level Action Loop
     points: 5
 
-  - 
+  -
     name: Finalized Feature List
     points: 10
 
-  - 
+  -
     name: Tech Design Document - First Pass
     points: 25
 
-  - 
+  -
     name: Production Milestones - First Pass
     points: 20
 
-  - 
+  -
     name: QA Document -- First Pass
     points: 10
 
@@ -99,49 +99,53 @@ rubric:
     points: 100
     description: "Pre-Production is worth 30% of the project grade."
 
-  - 
+  -
 
-  - 
+  -
     name: Alpha
 
-  - 
+  -
     name: Final Canvas
-    points: 15
+    points: 20
 
-  - 
+  -
     name: Final Mid-Level Action Loop
-    points: 2.5
+    points: 2
 
-  - 
+  -
     name: Final Feature List
-    points: 5
+    points: 4
 
-  - 
+  -
     name: Final Tech Design Document
-    points: 12.5
+    points: 16
 
-  - 
+  -
     name: Final Production Milestones
-    points: 10
+    points: 14
 
-  - 
+  -
     name: Final QA Document
-    points: 10
+    points: 14
 
-  - 
+  -
     name: Alpha Project
-    points: 45
-  
-  - 
+    points: 30
+
+  -
     name: Total Alpha
     points: 100
     description: "Alpha is worth 20% of your project grade."
 
   -
 
-  - 
+  -
     name: Final Project Demo
-    description: worth 50% of your project grade.
+    description: worth 45% of your project grade.
+
+  -
+    name: Video Recording
+    description: A video to demonstrate the overall User Experience in your project. This worths 5% of your project grade.
 
 ---
 
@@ -160,12 +164,12 @@ Apps could include Area Tour, Travel, Productivity.
 
 Determine your Target Audience (User Experience & User Types):
 - The *User Experience* describes what emotions you want to evoke in the player/user. Examples include wonder, immersion, excitement, fear, pride, etc. Normally would be in the form of "The user feels...."
-- The *User Types* are the groups that you want to create the experience for. This should be more specific that "casual" or "hardcore" and should describe the main focus of the user. 
-  - Examples of gamer classifications are: "Grinder", "Completionist", "Explorer", "Collector", etc. 
+- The *User Types* are the groups that you want to create the experience for. This should be more specific that "casual" or "hardcore" and should describe the main focus of the user.
+  - Examples of gamer classifications are: "Grinder", "Completionist", "Explorer", "Collector", etc.
   - Make up your own in this situation and rank them based on what you think is the biggest group down to the smaller. Four or five is a good count.
 
 Add the *Core Pillars*, these are the key "features" that support the User Experience Elements. These pillars are the elements that describe the essence of the app/game, the app/game would not be the same without them.
-- Game Example: Skyrim might have a Player Experience point that says "The Player feels driven to advance and customize their character. The core pillar that supports this might be "Player can gain experience by completing adventures and obtaining new levels that offer new skills". 
+- Game Example: Skyrim might have a Player Experience point that says "The Player feels driven to advance and customize their character. The core pillar that supports this might be "Player can gain experience by completing adventures and obtaining new levels that offer new skills".
 
 *Gameplay systems* describes the key low-level systems that must be created.
 - As above for Skyrim: The Experience system (includes the Skill system &

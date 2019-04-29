@@ -1,7 +1,7 @@
-.table-header {
+.assignments .table-header {
 	background: $dark-background-color;
 	color: white;
-	.title-row {
+	& > .title-row {
 		border: none;
 		font-weight: default;
 		font-size: 1.2em;

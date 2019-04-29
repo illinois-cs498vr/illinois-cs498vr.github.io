@@ -6,6 +6,9 @@ semesterList:
   - Fall 2017
   - Spring 2017
   - Fall 2016
+sections:
+  - name: semesters
+    hidden: true
 ---
 
 <div class="gallery">
@@ -48,6 +51,7 @@ semesterList:
       </article>
     </div>
   </div>
+  <div class="semesters">
   {% for semester in layout.semesterList %}
     {% assign projectList = site.projects | where:"semester", semester %}
     {% assign listSize = projectList | size %}
@@ -91,5 +95,6 @@ semesterList:
       </div>
     {% endif %}
   {% endfor %}
+  </div>
 {% endif %}
 </div>
