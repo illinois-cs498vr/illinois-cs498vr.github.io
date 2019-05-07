@@ -1,8 +1,11 @@
 ---
 layout: page
+default_image: /img/projects/proj_default.jpg
 ---
 <div class="banner-wrapper">
+	{% if page.image %}
 	<img class="banner-image" src="{{ page.image }}" alt=" {{ page.title }} image" />
+	{% endif %}
 </div>
 <div class="links-container">
 {% if page.github %}

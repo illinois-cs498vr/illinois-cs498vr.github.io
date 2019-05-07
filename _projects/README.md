@@ -5,7 +5,7 @@ In the `_projects` folder, create a markdown file for the project. The frontmatt
 - `layout: project`
 - `title`
 - `desc` -- a couple of short lines to be rendered in the project card.
-- `image` -- a path to the project picture, which you should place in the `/img/projects` folder.
+- `image` -- optional -- a path to the project picture, which you should place in the `/img/projects/` folder. Optional, but highly recommended.
 - `semester` -- the semester the project was created, used for separating projects
 - `featured` -- indicates whether this project should be featured at the top of the gallery
 - `github` -- optional -- link to GitHub repo containing the project.
