@@ -1,11 +1,11 @@
 ---
 layout: page
 ---
+{% if page.image %}
 <div class="banner-wrapper">
-	{% if page.image %}
 	<img class="banner-image" src="{{ page.image }}" alt=" {{ page.title }} image" />
-	{% endif %}
 </div>
+{% endif %}
 <div class="links-container">
 {% if page.github %}
 	<a href="{{ page.github }}" target="_blank" rel="noopener" class="proj-link github">
