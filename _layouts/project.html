@@ -1,11 +1,13 @@
 ---
 layout: page
 ---
-{% if page.image %}
 <div class="banner-wrapper">
-	<img class="banner-image" src="{{ page.image }}" alt=" {{ page.title }} image" />
+	{% if page.image %}
+	<img class="banner" src="{{ page.image }}" alt="{{ page.title }} image" />
+	{% elsif page.youtube %}
+	<iframe class="banner youtube" src="https://www.youtube.com/embed/{{ page.youtube }}"  alt="{{ page.title }} YouTube Video" frameborder="0"></iframe>
+	{% endif %}
 </div>
-{% endif %}
 <div class="links-container">
 {% if page.github %}
 	<a href="{{ page.github }}" target="_blank" rel="noopener" class="proj-link github">

@@ -3,11 +3,18 @@
 		width: 100%;
 	}
 
-	.banner-image {
+	.banner {
 		display: block;
 		margin: auto;
 		padding: 1em 0;
 		max-height: 480px;
+
+		&.youtube {
+			height: 480px;
+			/* 100% minus total padding width */
+			width: calc(100% - 1em);
+			padding: 1em 0.5em;
+		}
 	}
 
 	.project-desc {
