@@ -39,9 +39,10 @@ layout: page
 </div>
 <hr>
 <div class="project-desc">
-{% if page.content %}
-	{{ page.content }}
+{% assign content = page.content | strip %}
+{% unless content == '' %}
+	{{ content }}
 {% else %}
 	{{ page.desc | markdownify }}
-{% endif %}
+{% endunless %}
 </div>
