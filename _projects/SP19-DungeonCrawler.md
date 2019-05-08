@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Dungeon Crawler
-image: <link to project image (optional)>
 desc: |
  Our game is Dungeon Crawler and the goal of the game is to navigate through the maze to collect two keys and go to the skull gate. 
  The player begins with bow and arrows but there are various items to collect in the world which include melee weapons and a sheild which
