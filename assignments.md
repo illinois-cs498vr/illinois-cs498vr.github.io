@@ -5,36 +5,24 @@ title: Assignments
 ---
 
 ## Lab Information ##
-The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers.
+The lab is located at {{ site.lab.room }}. The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers.
 
 If you choose to develop outside the lab, you should test and experience your work at least once on the lab computers, as we will also grade your work there.
 
 Unfortunately, we have only 20 workstations and over 200 students. Therefore, you should start early on assignments and work in the lab during less popular times. Unless announced otherwise, the lab is available 24/7.
 
-## Assignment Policies ##
+## Tips from the Staff ##
 
-- Read the submission instructions in each handout carefully!
-- You must work in pairs on all assignments. We recommend using Piazza to find a group.
-- We will accept assignments only up to two days late, with a 20% penalty.
+We hope you enjoy the course! Below is a compendium of tips we think will help you succeed, collected over the years.
 
-## Regrade Requests ##
-To submit a regrade request:
-
-- Create a private Piazza post with the `regrade` tag.
-- Include a brief explanation of why you think your grade is incorrect.
-- You must submit regrade requests within one week after we release grades on a given assignment.
-
-For MPs:
-
-- The course staff will regrade MPs.
-- Include NetIDs for both you **and your partner**.
-- Major issues (e.g. a submission issue resulted in a zero) have priority over minor issues (e.g. lost points on one small feature of the MP).
-- We may not regrade your work until after all MPs have finished.
-
-For exams:
-
-- The course instructor will regrade exams.
-- Include a brief description of the question.
-
-## Academic Integrity ##
-You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.
+- "Good Question" your own Piazza posts; it's a great self-confidence boost.
+- START ASSIGNMENTS EARLY. You WILL NOT get a computer if you start late, and you WILL go clinically insane.
+- Keep your eyes on Piazza for announcements, given that this is an evolving course (and sometimes at the mercy of the Oculus software), we will make announcements that may change the flow of the course here.
+- MP2 is really long and difficult.
+- MP4 is not particularly difficult, but it is very long, especially if you have fun with it. Start early, and you will really love it and learn a lot.
+- To that end, do try to have fun with the MPs! There's plenty of room for playing around, especially for MP4, and it'll make the work fun and you'll learn more about Unity.
+- MPs are not worth that many points. Don't cheat; it's not worth the risk.
+- If you have a problem with the course, complain to one of us--not Reddit. If you have a problem, we would love to resolve it, but we need to hear it first!
+- If you get stuck on something, do come to office hours (on the website). It's hard to debug Unity over piazza, and chances are all of the TAs have run into the same problems on the MPs before.
+- Make sure you save your MP and project files on your EWS drive (the U: drive on the lab computers), so that way your work will be accessible across all the computers.
+- The Unity docs, tutorials, and answer boards are your best friends when it comes to Unity. Unity is a large piece of software with lots of moving parts, so TAs may not be familiar with a specific feature or library. However, for anything that you want to try for the class, chances are it has been asked about or is documented on the aforementioned websites. Get comfortable searching for your issues with Unity on your favorite search engine.
