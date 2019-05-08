@@ -2,7 +2,11 @@
 layout: page
 ---
 <div class="banner-wrapper">
-	<img class="banner-image" src="{{ page.image }}" alt=" {{ page.title }} image" />
+	{% if page.image %}
+	<img class="banner" src="{{ page.image }}" alt="{{ page.title }} image" />
+	{% elsif page.youtube %}
+	<iframe class="banner youtube" src="https://www.youtube.com/embed/{{ page.youtube }}"  alt="{{ page.title }} YouTube Video" frameborder="0"></iframe>
+	{% endif %}
 </div>
 <div class="links-container">
 {% if page.github %}
@@ -35,9 +39,10 @@ layout: page
 </div>
 <hr>
 <div class="project-desc">
-{% if page.content %}
-	{{ page.content }}
+{% assign content = page.content | strip %}
+{% unless content == '' %}
+	{{ content }}
 {% else %}
 	{{ page.desc | markdownify }}
-{% endif %}
+{% endunless %}
 </div>

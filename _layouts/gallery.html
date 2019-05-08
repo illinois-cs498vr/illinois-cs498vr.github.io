@@ -22,8 +22,10 @@ sections:
       <article class="card">
         {% if project.youtube %}
         <iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
-        {% else %}
+        {% elsif project.image %}
         <img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
+        {% else %}
+        <div class="thumb"></div>
         {% endif %}
         <div class="text-wrapper">
           <a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
@@ -64,8 +66,10 @@ sections:
             <article class="card">
               {% if project.youtube %}
               <iframe class="thumb" src="https://www.youtube.com/embed/{{ project.youtube }}" frameborder="0"></iframe>
-              {% else %}
+              {% elsif project.image %}
               <img class="thumb" src="{{ project.image }}" alt="{{ project.title }} image" />
+              {% else %}
+              <div class="thumb"></div>
               {% endif %}
               <div class="text-wrapper">
                 <a class="title" href="{{ project.url }}"><h1>{{ project.title }}</h1></a>
