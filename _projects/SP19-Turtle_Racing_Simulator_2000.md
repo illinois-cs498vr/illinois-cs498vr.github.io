@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Turtle Racing Simulator 2000
-image: https://i.imgur.com/lESn3hS.jpg
+image: /img/projects/SP19-Turtle_Racing_Simulator.jpg
 desc: |
  Technically, they're tortoises.
 github: 
