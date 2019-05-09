@@ -40,13 +40,12 @@
 			}
 
 			.desc {
-				overflow: hidden;
-				text-overflow: ellipsis;
+				overflow: scroll;
+				text-overflow: wrap;
 				display: -webkit-box;
 				-webkit-box-orient: vertical;
-				-webkit-line-clamp: 4; /* number of lines to show */
 				line-height: 1.5em;        /* fallback */
-				height: 6em;       /* fallback */
+				height: 7.5em;       /* fallback */
 			}
 
 			.links {
