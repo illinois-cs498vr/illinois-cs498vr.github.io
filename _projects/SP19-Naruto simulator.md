@@ -8,4 +8,3 @@ team: 15
 youtube: 4y4WobB-b90
 featured: false
 ---
-this is the link for compiled project file: https://drive.google.com/file/d/1vJBJvrsYWchS2nTMs5ZXBbF6-5P-BOgP/view?usp=sharing
