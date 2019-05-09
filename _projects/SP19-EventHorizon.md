@@ -10,4 +10,5 @@ team: 12
 youtube: 8dithIiWFaw
 featured: false
 ---
-Please follow the voice instructions in the game. You can hold two weapons in both hands. To beat the final boss, run fast and use two weapons.
+Please follow the voice instructions in the game. You can hold two weapons in both hands. To beat the final boss, run fast and use two weapons.  
+For source code access, please [email us here](mailto:<email address>).
