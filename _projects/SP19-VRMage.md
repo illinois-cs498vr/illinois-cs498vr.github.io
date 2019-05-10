@@ -1,7 +1,6 @@
 ---
 layout: project
 title: VRMage
-image: 
 desc: |
 VR Mage is an Oculus VR supported game, featuring combat between mages by conjuring powerful spells through combining basic elements.
 github: 
