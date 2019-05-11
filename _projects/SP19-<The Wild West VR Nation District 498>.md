@@ -10,4 +10,3 @@ team: <24>
 youtube: FxCup1Qgpi0
 featured: false
 ---
-<Put some content here, if different from the description above. (Optional)>
