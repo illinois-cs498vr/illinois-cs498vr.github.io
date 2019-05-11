@@ -6,7 +6,7 @@ desc: |
 github: <github link (optional)>
 dl: https://drive.google.com/drive/folders/1CcIkHXiXPCp50okCtglqYKjafiQlVkIv
 semester: Spring 2019
-team: <24>
+team: 24
 youtube: FxCup1Qgpi0
 featured: false
 ---
