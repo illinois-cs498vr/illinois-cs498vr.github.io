@@ -29,6 +29,8 @@ collections:
     output: true
   projects:
     output: true
+  staff: 
+    output: false
 
 
 # Exclude from processing.
