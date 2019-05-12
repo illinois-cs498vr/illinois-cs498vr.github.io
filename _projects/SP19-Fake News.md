@@ -1,7 +1,6 @@
 ---
 layout: project
 title: Fake News
-image: <link to project image (optional)>
 desc: |
  Slice fake news articles for fun and for profit.
 github: <github link (optional)>
