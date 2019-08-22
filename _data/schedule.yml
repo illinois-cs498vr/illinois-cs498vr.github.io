@@ -1,68 +1,68 @@
 - 
-  date: "Jan 14"
+  date: "Aug 26"
   materials: "LaValle, Ch 1"
   title: "[Defining VR, course overview, course project expectations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture1-Introduction%20to%20VR.pdf)"
 
 - 
-  date: "Jan 16"
+  date: "Aug 28"
   materials: "LaValle, Ch 2.1, 2.2"
   title: "[Design Processes: Basic Principles and Top Down Design Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498%20Jan%2014th%20through%20Jan%2028th.pptx)"
 
 - 
-  date: "Jan 21"
+  date: "Sep 2"
   materials: ~
   title: "**No Lecture: Martin Luther King Jr. Day**"
 
 - 
-  date: "Jan 23"
+  date: "Sep 4"
   materials: "LaValle, Ch 2.3"
   title: "[3D Computer Graphics: Geometric Modeling](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture4.pptx) and 
   \n [VR Hardware Overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture2.pptx)"
 
 - 
-  date: "Jan 28"
+  date: "Sep 9"
   materials: "LaValle, Ch 3.2, 3.3"
   title: "[Design Processes: VR Design General Considerations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498%20Jan%2014th%20through%20Jan%2028th.pptx)"
 
 - 
-  date: "Jan 30"
+  date: "Sep 11"
   materials: "LaValle, Ch 3.2, 3.3"
   title: "**Lecture Canceled Due to Ridiculous Weather**"
 
 - 
-  date: "Feb 4"
+  date: "Sep 16"
   materials: "LaValle, Ch 3.2, 3.3"
   title: "[3D Computer Graphics: Mathematics for Orientation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture5-2019.pptx)"
 
 - 
-  date: "Feb 6"
+  date: "Sep 18"
   materials: ~
   title: "[3D Computer Graphics: Rasterization Pipeline](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture7.pptx)"
 
 - 
-  date: "Feb 11"
+  date: "Sep 23"
   materials: "LaValle, Ch 3"
   title: "**No Lecture: Exam Week**"
 
 - 
-  date: "Feb 13"
+  date: "Sep 25"
   materials: "LaValle, Ch 4"
   title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
 - 
-  date: "Feb 18"
+  date: "Sep 30"
   materials: "LaValle, Ch 4"
   title: "[Production Processes: Basic Principles and Class Project Plan](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2018%2019%20CS%20498vr.pptx)"
 - 
-  date: "Feb 20"
+  date: "Oct 2"
   materials: "LaValle, Ch 4"
   title: "[Light and Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture9.pptx)"
 - 
-  date: "Feb 25"
+  date: "Oct 7"
   materials: "LaValle, Ch 5"
   title: "[VR and Unity Development Best Practices](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Unity_Practices.pdf)"
 
 - 
-  date: "Feb 27"
+  date: "Oct 9"
   materials: "LaValle, Ch 5"
   title: "[Future of VR - Guest Lecture]()"
 
