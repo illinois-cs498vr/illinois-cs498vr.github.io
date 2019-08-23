@@ -41,12 +41,12 @@
 - 
   date: "Sep 23"
   materials: "LaValle, Ch 3"
-  title: "**No Lecture: Exam Week**"
+  title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
 
 - 
   date: "Sep 25"
   materials: "LaValle, Ch 4"
-  title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
+  title: "**No Lecture: Exam Week**"
 - 
   date: "Sep 30"
   materials: "LaValle, Ch 4"
@@ -87,6 +87,11 @@
   date: "Oct 28"
   materials: ~
   title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
+
+- 
+  date: "Oct 30"
+  materials: ~
+  title: "**No Lecture: Exam Week"
 
 - 
   date: "Nov 4"
@@ -141,12 +146,12 @@
 - 
   date: "Dec 9"
   materials: ~
-  title: ""
+  title: "**No Lecture: Exam Week**"
 
 - 
   date: "Dec 11"
   materials: ~
-  title: ""
+  title: "**No Lecture: Exam Week**"
 
 
   
