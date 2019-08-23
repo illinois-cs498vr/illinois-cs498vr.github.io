@@ -57,11 +57,11 @@ See the [project gallery](/projects) for past student projects.
 ## Exams ##
 This class will have three midterm exams and no final exam. The third midterm will be just before finals. Each exam is 50 minutes long and will be held in the CBTF. You will need to make a reservation in the [CBTF](https://cbtf.engr.illinois.edu) to take the exam.
 
-- Midterm 1: Feb. 10 - Feb. 12
-- Optional second chance exam for Midterm 1: Feb. 17 - Feb. 19
-- Midterm 2: Mar. 10 - Mar. 12
-- Optional second chance exam for Midterm 2: Mar. 25 Mar. 26
-- Midterm 3:  Apr. 28 - Apr. 30
+- Midterm 1: Sep 24 - Sep 26
+- Optional second chance exam for Midterm 1: Oct 1 - Oct 3
+- Midterm 2: Oct 29 - Oct 31
+- Optional second chance exam for Midterm 2: Nov 5 - Nov 7
+- Midterm 3:  Dec 9 - Dec 11
 
 All exams are closed-everything (no book, notes, calculator, etc.). See the [CBTF policies](https://cbtf.engr.illinois.edu/for-students/policies.html) for more detail.You are responsible for all material covered in lectures and assignments.For DRES accommodations see [CBTF DRES Students](https://cbtf.engr.illinois.edu/for-students/dres-students.html)
 
