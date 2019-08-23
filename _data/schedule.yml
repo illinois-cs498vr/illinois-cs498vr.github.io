@@ -11,13 +11,12 @@
 - 
   date: "Sep 2"
   materials: ~
-  title: "**No Lecture: Martin Luther King Jr. Day**"
+  title: "**No Lecture: Labor Day**"
 
 - 
   date: "Sep 4"
   materials: "LaValle, Ch 2.3"
-  title: "[3D Computer Graphics: Geometric Modeling](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture4.pptx) and 
-  \n [VR Hardware Overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture2.pptx)"
+  title: "[3D Computer Graphics: Geometric Modeling](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture4.pptx)"
 
 - 
   date: "Sep 9"
@@ -27,7 +26,7 @@
 - 
   date: "Sep 11"
   materials: "LaValle, Ch 3.2, 3.3"
-  title: "**Lecture Canceled Due to Ridiculous Weather**"
+  title: "[VR Hardware Overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture2.pptx)"
 
 - 
   date: "Sep 16"
@@ -87,37 +86,37 @@
 -
   date: "Oct 28"
   materials: ~
-  title: "**No Lecture: Spring Break**"
+  title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
 
 - 
   date: "Nov 4"
   materials: ~
-  title: "**No Lecture: Spring Break**"
+  title: "[Survey of the Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2027%202019.pptx)"
 
 - 
   date: "Nov 6"
   materials: "LaValle, Ch. 6"
-  title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
+  title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
 
 - 
   date: "Nov 11"
   materials: ""
-  title: "[Survey of the Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2027%202019.pptx)"
+  title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Nov 13"
   materials: "LaValle, Ch. 5,6"
-  title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
+  title: "[VR Game Design](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%208%202109.pptx)"
 
 - 
   date: "Nov 18"
   materials: "LaValle, Ch. 8"
-  title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
+  title: "[Current Research in Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture30.pptx)"
 
 - 
   date: "Nov 20"
   materials: ~
-  title: "[VR Game Design](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%208%202109.pptx)"
+  title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
 
 - 
   date: "Nov 25"
@@ -132,22 +131,22 @@
 - 
   date: "Dec 2"
   materials: "LaValle, Ch. 7"
-  title: "[Current Research in Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture30.pptx)"
+  title: "[Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
 
 - 
   date: "Dec 4"
   materials: "LaValle, Ch. 11"
-  title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
+  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%2015%202019.pptx)"
 
 - 
   date: "Dec 9"
   materials: ~
-  title: "[Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
+  title: ""
 
 - 
   date: "Dec 11"
   materials: ~
-  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%2015%202019.pptx)"
+  title: ""
 
 
   
