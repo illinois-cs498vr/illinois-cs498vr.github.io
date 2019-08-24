@@ -37,8 +37,6 @@ We recommend the following courses and skills:
 - [CS 225](https://courses.engr.illinois.edu/cs225/){:target="_blank" rel="noopener"} - prior general programming experience
 - [Math 225](https://math.illinois.edu/resources/department-resources/syllabus-math-225){:target="_blank" rel="noopener"} or [Math 415](https://math.illinois.edu/resources/department-resources/syllabus-math-415){:target="_blank" rel="noopener"} - basic linear algebra, especially 3D transforms
 
-Nevertheless, this is a large, experimental course, so we do not expect specific background courses or experience. If you are unsure, use the textbooks and Unity manual as a reference for the level of rigor we expect, or ask course staff.
-
 ## Lectures ##
 Lecture is held in 1404 Siebel Center on MW 2-3:15pm
 
@@ -107,7 +105,7 @@ Optional: Peter Shirley, Michael Ashikhmin, and Steve Marschner, Fundamentals of
 
 See the [Extra Material](/extra-material) page for other, recommended readings.
 
-## [Piazza](https://piazza.com/illinois/spring2019/cs498vr) ##
+## [Piazza](https://piazza.com/illinois/fall2019/cs498vr) ##
 We will use Piazza for answering questions and administering the course.
 
 Click the header to join/view the forum. You do not need a passcode. If you want to use a non-`illinois.edu` email address on Piazza, then send an email from your `illinois.edu` mail account to the course instructor with the email address you want to use, and we will add you manually.
