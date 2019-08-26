@@ -40,6 +40,10 @@ We recommend the following courses and skills:
 ## Lectures ##
 Lecture is held in 1404 Siebel Center on MW 2-3:15pm
 
+## Extra Credit ##
+During 5 to 10 lectures during the semester we will work on a set of group problem-solving exercises. Each of these events is worth 0.5% extra credit towards your total course grade. **This is an opportunity to earn up to 5% extra credit in total**. Also, you will learn things, so you should definitely attend.
+
+
 ## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
