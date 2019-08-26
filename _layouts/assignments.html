@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+{% assign assignments = site.assignments | sort: 'assignment' %}
 <table>
 	<tr class="table-header">
 		<td class="title-row">Assignment</td>
@@ -8,8 +9,9 @@ layout: page
 		<td class="title-row">Due Date</td>
 		<td class="title-row">Points</td>
 	</tr>
-	{% assign assignments = site.assignments | sort:'assignment' %}
+
 	{% for assignment in assignments %}
+	{% if assignment.visible %}
 		<tr>
 			<td>
 				<a href="{{ assignment.url }}">{{ assignment.title }}</a>
@@ -34,7 +36,8 @@ layout: page
 				{{ assignment.points }}
 			</td>
 		</tr>
+	{% endif %}
 	{% endfor %}
 </table>
-<hr>
+<hr />
 {{ content }}
