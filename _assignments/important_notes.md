@@ -1,5 +1,5 @@
 1. Read the submission instructions carefully!
-If you are missing some files, but we can still grade, you will lose 20%.
+If you are missing some files, but we can still grade, you will lose 20% of the total points.
 If we cannot grade your work due to missing files, you will receive no credit.
 1. [Google](https://google.com),
 the [Unity Documentation](https://docs.unity3d.com/Manual/index.html),
@@ -13,5 +13,5 @@ or chat up your neighbors in lecture.
 1. Save your project onto the `U:` drive, which is your EWS storage, and available across all of the computers in the lab.
 If you save to the `C:` drive, your project will only exist on that single computer. 
 1. If you use your own machine, make sure you use the version of Unity installed on all of the lab machines to avoid 
-compatibility issues. The lab machines currently use version {{ site.lab.unity-version }}, which can be found in the 
-[Unity Downloads Archive](https://unity3d.com/get-unity/download/archive)
+compatibility issues. The lab machines currently use version {{ site.lab.unity-version }}, which you can download from the
+[Unity Downloads Archive](https://unity3d.com/get-unity/download/archive).
