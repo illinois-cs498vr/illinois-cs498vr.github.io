@@ -149,24 +149,19 @@ Once you've imported an asset, drag it from the Asset tab into your scene.
 > Place an OVR Player Controller prefab in the room.
 This prefab handles basic movement, collision, and camera control.
 
-The lab computers come with the Oculus OVR plugin installed.
-Go to `Assets` → `Import Package` → `OculusUtilites`, and then click "import".
+The Oculus-related package is now in the Asset Store.
+Search for, download, and import the "Oculus Integration" package.
+We have also placed a copy of the package in the `V:` drive that you can import manually.
+You should now have an `Oculus` folder in your `Assets` folder.
 
-![Import OculusUtilities](/img/assignments/mp1/image20.png)
-
-If you can't find the package, go to the [Oculus Website](https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/) and download their Unity package.
-Unzip the unity package file, and then go to `Assets` → `Import Package` → `Custom Package`.
-Find the unzipped `OculusUntilites.unitypackage`, and import all of the items within.
-You should now have an `OVR` folder in your `Assets` folder.
-
-In this class, you will be primarily using two prefab objects from this package, both found in `OVR` → `Prefabs`.
+In this class, you will be primarily using two prefab objects from this package, both found in `Oculus` → `VR` → `Prefabs`.
 The first prefab, the `OVRCameraRig`, is a camera for the Oculus, that handles all of the movement and position tracking for the oculus, as well as the rendering on the Oculus display.
-The second prefab, the `OVRPlayerController`, is a more complicated version of the OVRCameraRig. It includes the camera from the OVRCameraRig, but also includes basic joystick movement controls, and a capsule-shaped collider that  prevents the player from walking through solid objects.
+The second prefab, the `OVRPlayerController`, is a more complicated version of the `OVRCameraRig`. It includes the camera from the `OVRCameraRig`, but also includes basic joystick movement controls, and a capsule-shaped collider that  prevents the player from walking through solid objects.
 Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the “main camera” object.
 
 There’s just one more thing you need to do to finish enabling VR.
-Go to `Edit` → `Project Settings` → `Player`, which will open up the player settings in the inspector window.
-In `XR Settings` (or `Other settings`, depending on your version of Unity), check the `Virtual reality supported` option.
+Go to `Edit` → `Project Settings` → `Player`, which will open up the player settings in the inspector tab.
+In `XR Settings`, check the `Virtual reality supported` option.
 Now, when you play your scene, it should render inside the Oculus.
 
 **If you have issues importing, please check Piazza to see if others have had your issue, and make a post if you need more information.**
