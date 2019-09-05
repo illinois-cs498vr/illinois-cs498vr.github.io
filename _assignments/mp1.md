@@ -13,6 +13,10 @@ rubric:
     name: The Room
     points: 10
     description: Complete and enclosed room
+  -
+    name: Store Asset
+    points: 10
+    description: A Unity Store asset is present
   - 
     name: Lighting
     points: 10
@@ -24,11 +28,7 @@ rubric:
   - 
     name: Text
     points: 10
-    description: Text displays NetIDs and controls 
-  -
-    name: Store Asset
-    points: 10
-    description: A Unity Store asset is present
+    description: Text is sharp and displays NetIDs and controls
   -
     name: Skybox
     points: 10
@@ -50,30 +50,30 @@ rubric:
     points: 5
     description: One wall has a flat color material
   -
+    name: Quit Key
+    points: 10
+    description: A controller button exits the game
+  -
     name: Light Switch
     points: 15
-    description: Pressing the Tab key changes the light color
+    description: A controller button changes the light color
   -
     name: Orbiting Moon
     points: 15
-    description: The moon orbits the planet
-  -
-    name: Trigger Zone
-    points: 15
-    description: A trigger zone is present that drops a suspended sphere
+    description: The moon orbits the planet at a steady rate
   -
     name: Break Out
     points: 15
     description: A controller button switches the player to and from an external vantage point
   -
-    name: Quit Key
-    points: 10
-    description: A controller button exits the game
+    name: Trigger Zone
+    points: 15
+    description: A trigger zone is present that drops a suspended sphere
   -
     name: Room Geometry
     points: 15
     extra: true
-    description: Built nontrivial room geometry
+    description: Built nontrivial room geometry (extra credit)
 ---
 
 ## Creating a Project
@@ -102,7 +102,12 @@ First, create a plane. It can be found in the top bar menus, under `GameObject` 
 
 ![Create plane](/img/assignments/mp1/image3.png)
 
-Unity's default plane size is $$10 \times 10 \hspace{0.5em} (X \times Z)$$ units. In order to make your room 15 units wide, you have to scale the plane. On the right side (in the default editor layout) you will find the Inspector window. This window provides details about the currently selected object. Select the plane in the Scene view, and the Inspector will fill with information and settings for said plane. Find the “Scale” option, and set it to 1.5 on the $$ X $$ and $$ Z $$ to make your plane 15 units wide and long.
+Unity's default plane size is $$10 \times 10 \hspace{0.5em} (X \times Z)$$ units.
+In order to make your room 15 units wide, you have to scale the plane.
+On the right side (in the default editor layout) you will find the Inspector window.
+This window provides details about the currently selected object.
+Select the plane in the Scene view, and the Inspector will fill with information and settings for said plane.
+Find the “Scale” option, and set the $$ X $$ and $$ Z $$ values to $$ 1.5 $$ to make your plane 15 units wide and long.
 
 ![Inspector](/img/assignments/mp1/image7.png)
 
@@ -113,17 +118,31 @@ Now, to easily make the walls and ceiling, you can select your plane in the hier
 ![Duplicate](/img/assignments/mp1/image4.png)
 
 From there, simply change the new plane’s rotation and position to make it one of the walls or ceilings.
-Unity measures position from the center of the object, so if you want your walls to match up with the floor (at height 0), your walls will need to be at $Y = 7.5$.
+Unity measures position from the center of the object,
+so if you want your walls to match up with the floor (at height 0), your walls will need to be at $$Y = 7.5$$.
 
 ![Scene window](/img/assignments/mp1/image15.png)
 
-Note: In the image above, rotating the plane also rotated its axes (the blue z axis now points down).
+Note: In the image above, rotating the plane also rotated its axes (the blue $$Z$$-axis now points down).
 Make sure to account for that when rotating and moving objects!
 
 Note: By default, your scene has a directional light in it, which illuminates your entire scene from a specified angle, from very far away, much like the sun.
 You’ll notice that your planes do not block this light.
-That’s because planes only block light (and render) from one side. Bear this in mind when creating objects in Unity in the future!
+That’s because planes only block light (and render) from one side. Make sure that in your room, all six planes face inwards, and bear this in mind when creating objects in Unity in the future!
 For now, just delete the directional light. You will add more lights in later.
+
+## Store Asset
+
+> Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/) and place it in the room. You will need a [free Unity account](https://id.unity.com/account/new) for this.
+
+In the bottom pane, go to the "Asset Store" tab, right next to the "Scene" and "Game" tabs.
+
+![Asset Store Tab](/img/assignments/mp1/image26.png)
+
+Sign into your Unity account using the "Log In" button at the upper right.
+Now, you can search for any free asset you desire, and put it in your room.
+It can be whatever you want (provided it’s school-appropriate, of course).
+Once you've imported an asset, drag it from the Asset tab into your scene.
 
 ## VR Player Controller
 
@@ -142,7 +161,7 @@ You should now have an `OVR` folder in your `Assets` folder.
 
 In this class, you will be primarily using two prefab objects from this package, both found in `OVR` → `Prefabs`.
 The first prefab, the `OVRCameraRig`, is a camera for the Oculus, that handles all of the movement and position tracking for the oculus, as well as the rendering on the Oculus display.
-The second prefab, the `OVRPlayerController`, is a more complicated version of the OVRCameraRig. It includes the camera from the OVRCameraRig, but also includes basic joystick movement controls, and a capsule-shaped collider (so that the player doesn’t walk through solid objects).
+The second prefab, the `OVRPlayerController`, is a more complicated version of the OVRCameraRig. It includes the camera from the OVRCameraRig, but also includes basic joystick movement controls, and a capsule-shaped collider that  prevents the player from walking through solid objects.
 Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the “main camera” object.
 
 There’s just one more thing you need to do to finish enabling VR.
@@ -157,11 +176,8 @@ Now, when you play your scene, it should render inside the Oculus.
 > Place a point source of light at the center of the roof of the room.
 You will make this light change color by pressing the `Tab` key, which is detailed in the [scripting section](#light-switch).
 
-Go to `GameObject` → `Light` → `Point Light`, and bring a point light into your scene. Place it at $$(0,15,0)$$.
-
-![Point Light](/img/assignments/mp1/image13.png)
-
-Select your light. Your inspector view should have a `Light` component like this:
+Create a point light (`GameObject` → `Light` → `Point Light`), and place it at $$(0,15,0)$$.
+The inspector tab should have a `Light` component like this:
 
 ![Light Object](/img/assignments/mp1/image6.png)
 
@@ -169,7 +185,7 @@ Of primary importance are the range (the radius of your light), color, and inten
 Set the shadow type to "soft shadows", and the mode to "Realtime".
 Set your range and intensity so that your room is brightly lit.
 
-We also recommend reading the Unity manuals for [general lighting](https://docs.unity3d.com/Manual/Lighting.html),  [shadows](https://docs.unity3d.com/Manual/Shadows.html), and [lighting modes](https://docs.unity3d.com/Manual/LightModes.html). In later MPs, and your course project, these settings can impact performance significantly.
+We recommend reading the Unity manuals for [general lighting](https://docs.unity3d.com/Manual/Lighting.html),  [shadows](https://docs.unity3d.com/Manual/Shadows.html), and [lighting modes](https://docs.unity3d.com/Manual/LightModes.html). In later MPs, and your course project, these settings can impact performance significantly.
 
 ## Planet and Moon
 
@@ -181,11 +197,12 @@ Create two spheres (`GameObject` → `3D` → `Sphere`). Scale the first sphere 
 
 ![Spheres](/img/assignments/mp1/image22.png)
 
-Now, the second sphere is a child of the first sphere. When you change the position, rotation, or size of the parent sphere, its child will also undergo the same movement, rotation, or scaling.
+Now, the second sphere is a child of the first sphere.
+When you change the position, rotation, or size of the parent sphere, its child will also undergo the same movement, rotation, or scaling.
 The $$(0,0,0)$$ origin position of the child is now its parent’s position, *not* the global $$(0,0,0)$$ origin.
 That is, the child’s position is an offset from the parent’s position.
 Finally, if the parent rotates, then the child will rotate about its parent’s axes, not its own axes (this will make more sense later).
-For more information on parent-child relationships, see the [Hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) page of the Unity Manual.
+See the Unity [hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) manual for more information.
 
 Set the position of the child sphere to be $$(2,0,0)$$, which is four units from the parent sphere on the X-axis. For why this is, think about the scaling of the parent sphere.
 
@@ -194,51 +211,57 @@ Set the position of the child sphere to be $$(2,0,0)$$, which is four units from
 > Put large text on a wall, listing your NetIDs and the details of the controls (which you will make later).
 Feel free to experiment with what you can put on a canvas, but keep it grandmother appropriate!
 
-Check out the Unity tutorial on [Creating Worldspace UIs](https://docs.unity3d.com/Manual/HOWTO-UIWorldSpace.html). Create a text canvas by going to `GameObject` → `UI` → `Text`. This will create a Unity Canvas, and some text on that canvas as a child of the canvas. It may also happen to be massive. Not what we want.
-
-To remedy this, select the canvas (not the text) from the hierarchy view. Its inspector should look like this:
+Check out the Unity tutorial on [Creating Worldspace UIs](https://docs.unity3d.com/Manual/HOWTO-UIWorldSpace.html). Create a text canvas (`GameObject` → `UI` → `Text`).
+This will create a rectangular canvas parent object with a child text object. The canvas should look like this in the inspector tab:
 
 ![Canvas Inspector](/img/assignments/mp1/image2.png)
 
-The first thing to do is change the Render mode from `Screen Space - Overlay`, to `World Space`. This changes our canvas from a UI element that is glued to the camera, to an object that is stationary in the world. Traditional UIs do not work well in VR, and we highly, highly advise against sticking any UI elements to the camera in your future MPs and Projects. Always attach UI elements to something in the world (See [this](https://developer.oculus.com/design/latest/concepts/bp-vision/)).
+First, change the Render mode from `Screen Space - Overlay`, to `World Space`.
+This changes the canvas from a UI element glued to the camera, to an object that is stationary in the world.
+Traditional UIs do not work well in VR, and we strongly discourage sticking any UI elements to the camera in your future MPs and Projects.
+Always attach UI elements to something in the world (see [this](https://developer.oculus.com/design/latest/concepts/bp-vision/)).
 
-Now that the canvas is a world space object, we can make it a more reasonable size. However, since the "Rect Transform"’s width and height determine the resolution of our text canvas, we cannot set them to be, say, $$5 \times 5$$, because then our text resolution would be 5 pixels by 5 pixels. Set the width and height to 1000 (that is $$1000 \times 1000$$ pixels). Shrink the canvas by setting the scale. We want our canvas to be 10 units by 10 units, and be $$1000 \times 1000$$ pixels, so our scaling is $$\frac{10}{1000} = 0.01$$. Make sure your text’s Rect Transform has the same width and height as its parent canvas, but leave the scale as 1. Place your canvas against one of the walls. You want to place your text ever so slightly (like, 0.001) in front of the wall it is against to avoid Z-fighting (which is where two objects have the same depth, and Unity can’t figure out which one to render). Below is an example of Z-fighting-
+Now that the canvas is a world space object, we can make it a more reasonable size.
+However, since the "Rect Transform"’s width and height are in units of pixels, not world units,
+we must first set the resolution of the canvas.
+Set the width and height to 1000 (that is $$1000 \times 1000$$ pixels).
+Now, shrink the canvas by setting the scale.
+Multiplying the canvas width and height by the scale factors gives the actual size of the canvas in world space.
+For example, since we set the canvas to be of size $$1000 \times 1000$$ pixels, using scaling factors of $$0.01$$ would make the canvas $$1000 * 0.01 = 10$$ units large in world space.
+Make sure your text’s Rect Transform has the same width and height as its parent canvas, but leave the scale as 1.
+
+Now, you can place your canvas against one of the walls.
+Offset it a small amount (like, 0.001) off of the wall it is against to avoid Z-fighting,
+which happens when two objects have the same depth, and Unity can’t figure out which one to render.
+Below is an example of Z-fighting:
 
 ![Z-fighting](/img/assignments/mp1/image24.png)
 
-Now, you can set your text color, size, font, width, whether it wraps or overflows, etc. Make your text has you and your partner’s NetIDs, as well as the controls for your game (more on this later). Make sure it is big enough for us to read. If the text appears blurry or jagged, then increase the width and height of the canvas and text (to increase the resolution), and scale them down further.
-
-## Store Asset
-
-> Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/) and place it in the room. You will need a free Unity account for this.
-
-[Create a Unity account](https://id.unity.com/account/new), then head over to the "Asset Store" tab, right next to the "Scene" and "Game" tabs.
-
-![Asset Store Tab](/img/assignments/mp1/image26.png)
-
-Sign into your Unity account using the "Log In" button at the upper right. Now, you can search for any free asset you desire, and put it in your room. It can be whatever you want (provided it’s school-appropriate, of course).
+Now, you can set your text color, size, font, width, whether it wraps or overflows, etc. Make your text has you and your partner’s NetIDs, as well as the controls for your game (more on this later).
+Make sure it is big enough for us to read.
+If the text appears blurry or jagged, then increase the width and height of the canvas and text (to increase the resolution), and scale them down further.
 
 ## Skybox
 
 > Create a skybox using the images in `skybox.zip`.
 
-Follow the instructions in the [Unity manual for skyboxes](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html) to set up the skybox.
+Follow the instructions in the Unity [skybox](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html) manual to set up the skybox. Since the room is currently enclosed, you won't be able to see the skybox from the room. We will remedy that in the [scripting section](#break-out).
 
 The skybox is from [mgsvevo](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:9104).
 
-Since the room is currently completely enclosed, you won't be able to see the skybox. We will remedy that situation in the [scripting section](#break-out).
-
 ## Material
 
-> Use the provided image (`tile.png`) and normal map (`tile-normal.png`) to color two of the walls, with different tiling, metallicity, and smoothness settings. Make a solid color material and apply it to a third wall. All of the walls must be obviously visually distinct.
+> Use the provided image (`tile.png`) and normal map (`tile-normal.png`) to color two of the walls, with different tiling, metallicity, and smoothness settings.
+Make a solid color material and apply it to a third wall.
+All of the walls must be obviously visually distinct.
 
-Read the Unity manual page on [materials, shaders and textures](https://docs.unity3d.com/Manual/Shaders.htm)l, focusing mainly on the Materials, for now.
+Read the Unity [materials, shaders and textures](https://docs.unity3d.com/Manual/Shaders.htm) manual, focusing mainly on the Materials, for now.
 We have provided a base texture (`tile.png`), and a normal map (the weird purplish image `tile-normal.png`).
 To create a material, go to `Assets` → `Create` → `Material`.
 
 ![Create a Material](/img/assignments/mp1/image25.png)
 
-This will generate a default material. Name it `Wall 1`. Select it, and you should see the following menu:
+This will generate a default material, which should show up in the inspector tab like so:
 
 ![Materials Menu](/img/assignments/mp1/image18.png)
 
@@ -259,126 +282,155 @@ Below is an example of non tiled and tiled walls side by side.
 
 ![Tiling](/img/assignments/mp1/image1.png)
 
-In the inspector pane, right below the albedo option, there are metallic and smoothness sliders. Play around with these, and see how they affect the material. The metallic slider adjusts the reflections, and smoothness helps to enhance or subdue the normal map. Modify the metallicity and smoothness of the two wall materials so that they are clearly visually different.
+In the inspector tab, right below the albedo option, there are metallic and smoothness sliders.
+Play around with these, and see how they affect the material.
+The metallic slider adjusts the reflections, and smoothness helps to enhance or subdue the normal map.
+Modify the metallicity and smoothness of the two wall materials so that they are clearly visually different.
 
-Finally, create a material, called `Wall 3`, that has no albedo or normal map. Next to the albedo option is a small color box. Since this material has no albedo, the material will be this flat reflection color. Try and see what happens when you change the color of a material with an albedo. Apply this flat color onto a third wall in the room.
+Finally, create a material, that has no albedo or normal map.
+Next to the albedo option is a small color box.
+Since this material has no albedo, the material will be this flat reflection color.
+Try and see what happens when you change the color of a material with an albedo.
+Apply this flat color onto a third wall in the room.
 
 ## Scripting
 
-Read the [Unity scripts manual](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html), and familiarize yourself with C# syntax.
+<!-- Some of this should eventually go in Developer Resources. -->
+
+Unity scripts use the [C# language](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/).
 If you are unfamiliar with programming, you can check out this [C# tutorial](https://www.tutorialspoint.com/csharp/).
 You’ll only need the basics of objects, classes, and variables for now.
-Throughout this course, you will find the [Scripting API Reference](https://docs.unity3d.com/ScriptReference/) a useful source of information.
 
-### Light Switch
+We recommend reading the Unity [scripts manual](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html) and the [script object API](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html).
 
-> Pressing the `Tab` key should change the color of the point light in the room.
-Pressing it repeatedly should change the color each time, i.e. have it be a toggle or a switch between a series of colors.
-Make sure that the color change is large enough so it is immediately apparent!
+Unity's [Scripting API Reference](https://docs.unity3d.com/ScriptReference/) is a useful source of information for when you are scripting new objects.
+For the first script, we will detail the functions that we recommend,
+but for the others, we expect that you will refer to the API reference if needed.
 
-Create a new script. To attach it to the light object, select the light, then drag the script from the "Assets" tab to the Inspector tab on the right.
-When a Unity script is attached to a GameObject, that script will run when the game is started.
-Furthermore, the `this` reference in the script will refer to the object that the script is attached to.
-Our first step is to get the `Light` component of our point light `GameObject`.
-Read the [Controlling GameObjects using GetComponent](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script:
+### Side Note: Input in VR
 
-![Inititalize Light](/img/assignments/mp1/image9.png)
-
-This will set the `light` variable to reference the `Light` component of the object this script is attached to when we initially start the game. N.b.: calling `GetComponent<>()` is the same as calling `this.GetComponent<>()`.
-To register input, we use the [Input](https://docs.unity3d.com/ScriptReference/Input.html) library of Unity,
-specifically, the `Input.GetKeyDown` method, which will return `true` when the specified key is first pressed down.
-Since we want to listen for the `Tab` key, then in our `Update` method, write:
-
-![Get Tab Key Down](/img/assignments/mp1/image14.png)
-
-For the actual light color, you can either create a new color using the `new Color(red, green, blue)` constructor, or one of the predefined colors. How you change the light is up to you, but the light should visibly change every time we press `Tab`.
-
-### Orbiting Moon
-
-> The moon should orbit the planet sphere.
-The easiest way to do this is to have the planet constantly rotate.
-Since the moon is a child of the planet, it will also rotate around the planet.
-
-You control the rotation and position of a `GameObject` with the [`Transform`](https://docs.unity3d.com/ScriptReference/Transform.html) class, using the `<GameObjectName>.transform` object variable.
-This class is well worth looking through,
-though the most important parts for this MP are the `transform.position`, the vector of the object's global coordinates, and the `Rotate` method.
-
-Most of Unity rotations are done using something called quaternions, which are better than the standard way of measuring rotation about the $$x$$, $$y$$, and $$z$$ axes.
-You will learn about quaternions, and why they are awesome, in class later.
-For now, simply know that the `transform.Rotate(Vector3(a, b, c))` will rotate object `a` degrees about the object’s x axis, `b` degrees about the y, and `c` degrees about the z.
-Create a script, called “orbit”, and attach it to the parent sphere. In its update method, add this line:
-
-```
-this.transform.Rotate(new Vector3(0, 60 * Time.deltaTime, 0));
-```
-<!--
-![transform.Rotate](/img/assignments/mp1/image21.png)
--->
-
-[`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) is a special variable, that, when used inside the `Update` method, will tell you how many real-time seconds have elapsed since the last frame. This is hugely important, as you do not want to tie game logic to your framerate. Thus, the line above would rotate the parent sphere at a continuous rate of 60 degrees about the $$y$$-axis per second. See the [Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html) page for more information.
-
-### Trigger Zone
-
-> In a corner of the room, create a box collider, and make it a trigger.
-Place a sphere above the trigger zone.
-When the player enters the trigger zone, the ball should fall.
-
-You may find the Unity tutorials on [colliders](https://unity3d.com/learn/tutorials/topics/physics/colliders) and [triggers](https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers) helpful.
-
-Create a new empty `GameObject`, and go to `Add Component` → `Physics` → `Box Collider`. A Box Collider is (as the name would suggest) a box-shaped area that registers and reacts with collisions with other `GameObject`s. Make the box collider $$2 \times 0.5 \times 2\ (x \times y \times z)$$ units. Select the "is trigger" option. Your object should look like this:
-
-![Empty Collider](/img/assignments/mp1/image10.png)
-
-It should show up in the scene view as a green wireframe box. Place this game object in a corner of your room, and create a sphere about 3-4 units directly above the center of the trigger GameObject. Make sure that no other objects intersect the collider initially!
-
-Add a script to your trigger object by clicking `Add Component` → `New Script`, and name it `BallDropScript`. Open the script, and create the following lines:
-
-```
-public GameObject ball;
-void OnTriggerEnter(Collider other) {}
-```
-<!--
-![Ball Drop Script](/img/assignments/mp1/image11.png)
--->
-
-The `OnTriggerEnter` function will be called when the collider attached to our empty GameObject is entered. The `other` parameter is the collider that intersected this collider.
-The `public GameObject` tag shows a neat feature of Unity.
-Save your script, then navigate to your empty trigger GameObject. In the inspector, the script component should look like this:
-
-![Script in Inspector](/img/assignments/mp1/image8.png)
-
-So our public GameObject is now a field for the script component in Unity. Drag the sphere into this field. Now, whenever you reference the `ball` variable in your script, it will be referencing the sphere you dragged in. Pretty neat! You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).
-
-Now, all that’s left is to make that sphere fall. You’ll need to get the rigid body of the sphere (rigid bodies deal with physics, read more here), using the `ball.GetComponent<Rigidbody>()` method. After that, simply set `rigidBody.useGravity` to `true`.
-
-### Break Out
-
-> Set up a button on the controllers to switch the player's position between an external viewing point and the room.
-
-Keyboards do not work well in VR, since the VR environment means that you cannot see the keyboard, and all of the keys largely feel the same. Controllers, with their contours and designated button shapes, are much easier to use blind. Using a controller in Unity is somewhat similar to the keyboard. Refer to the following pages for more information:
+Keyboards do not work well in VR, since the VR environment means that you cannot see the keyboard, and all of the keys largely feel the same.
+Controllers, with their contours and designated button shapes, are much easier to use blind.
+Refer to the following pages for more information, which you will need when you write the scripts below:
 
 - [Unity Input](https://docs.unity3d.com/Manual/ConventionalGameInput.html)
 - [Unity wiki page on Xbox controllers](http://wiki.unity3d.com/index.php?title=Xbox360Controller)
-- [OVR Input](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput) (for Touch controllers)
+- OVR Input: [general explanation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput),
+[API reference](https://developer.oculus.com/reference/unity/1.40/class_o_v_r_input/)
 
-To move the player around the room, set the player’s `transform.position` to a `Vector3` corresponding to an empty spot in the room.
-Remember that the coordinates for the player refer to its center, and the player is 2 units tall. Thus, the player controller needs to be 1 unit above the ground.
-
-Make a script that switches the player between a room and a new external viewing point, e.g. a small new plane a moderate distance from the room. Pressing the button for the first time must move the player to the external viewing point. After that, pressing the button must alternate between the two locations.
+Your control scheme must use **controller**, not keyboard, input.
+This applies regardless of any example scripts that might imply otherwise.
+You must also tell us what your control scheme is!
 
 ### Quit Key
 
 > Set up a button on the touch controllers to exit the game.
 
-You can add this as a separate script, or attach it in the same place as your light script. You will want to add the following lines to the `Update` method. Replace the `Input.GetKeyDown` bit with code for the controllers:
+Create a new script using the `Assets` menu.
+To attach the script to an object, select the object, then drag the script from the assets tab to the inspector tab.
+Alternatively, you can create and attach a script in one step using `Add Component` → `New Script`.
+For this script, the exact object attached is unimportant.
+
+When a Unity script is attached to a `GameObject`, that script will run when the game is started.
+Furthermore, the `this` reference in the script will refer to the object to which the script is attached.
+
+You have two choices on how to register input:
+
+- The Unity [Input](https://docs.unity3d.com/ScriptReference/Input.html) library and the [`Input.GetKeyDown`](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html) function
+- The [OVRInput](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) library and the `OVRInput.GetDown` function
+
+`OVRInput` works seamlessly across both Oculus Touch controllers, but is slightly more complex.
+
+Note that are using the "get down" variants, which return `true` on the frame when the specified key is first pressed down. Think about what would happen if we used the "get" variants instead.
+
+Since we want to always check for input, add an [`Update`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) function to your script, which is called every frame.
+Then, insert the below code.
+Remember to use the proper functions and keycodes of your chosen input library:
 
 ![Exit game](/img/assignments/mp1/image19.png)
 
 `Application.Quit()` quits a Unity application, but it will not stop a game running in the editor.
 
+### Light Switch
+
+> Set up a button on the controllers that changes the color of the point light in the room.
+Pressing it repeatedly should change the color each time, i.e. have it be a toggle or a switch between a series of colors.
+Make sure that the color change is large enough so it is immediately apparent!
+
+Make a script and attach it to the point light.
+Our first step is to get the [`Light`](https://docs.unity3d.com/ScriptReference/Light.html) component of our point light [`GameObject`](https://docs.unity3d.com/ScriptReference/GameObject.html).
+Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script:
+
+![Inititalize Light](/img/assignments/mp1/image9.png)
+
+The [`Start`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) function runs as the game initially starts. This saves a reference to the `Light` component for later use.
+
+Alternatively, you can declare `public GameObject` variables. Save your script, then navigate to the script in the inspector pane.
+The variable will show up in the inspector pane, and you can assign `GameObjects` to it by dragging them from the hierarchy tab into the variable slot!
+This works similarly for other variable types.
+You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).
+
+To change the light, write something similar to the following, but remember to use the proper functions and keycodes of your chosen input library:
+
+![Get Tab Key Down](/img/assignments/mp1/image14.png)
+
+For the actual light color, you can either create a new color using the [`new Color(red, green, blue)`](https://docs.unity3d.com/ScriptReference/Color-ctor.html) constructor, or one of the [predefined colors](https://docs.unity3d.com/ScriptReference/Color.html).
+How you change the light is up to you, but pressing the controller button you designate must visibly change the light color.
+
+### Orbiting Moon
+
+> Make the moon orbit the planet sphere at a steady rate, just like in actual planetary systems.
+
+The easiest way to do this is to have the planet object constantly rotate.
+Since the moon object is a child of the planet object, it will also rotate around the planet.
+
+You can control the rotation and position of a `GameObject` with the `transform` object variable, an instance of the aptly named [`Transform`](https://docs.unity3d.com/ScriptReference/Transform.html) class.
+Use the functions of this class to rotate the planet system around the $$Y$$-axis.
+
+Keep in mind that the `Update` function runs every frame, but frames often vary in realtime length.
+Thus, using static rotation amounts with the `Transform` class will make the apparent rotation amount depend on framerate.
+This is generally not desirable.
+To use realtime frame times instead, use the [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) variable.
+When used inside the `Update` function, this variable's value is the real time in seconds that elapsed since the last frame.
+See the [Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html) page for more information.
+
+### Break Out
+
+> Set up a button on the controllers to switch the player's position between an external viewing point and the room.
+
+Like all `GameObject`s, the player object has a `Transform`.
+With that in mind, make a script that switches the player between a room and a new external viewing point,
+e.g. a small new plane a moderate distance from the room.
+The player should still start within the room.
+Pressing the button for the first time must move the player to the external viewing point.
+After that, pressing the button must alternate between the two locations.
+
+Remember that the coordinates for the player refer to its center, and the player is 2 units tall.
+Thus, the player controller needs to be 1 unit above the ground.
+
+### Trigger Zone
+
+> Place a suspended sphere in a corner of the room.
+Trigger the sphere to drop when the player moves under the sphere.
+
+You may find the Unity [colliders](https://docs.unity3d.com/Manual/CollidersOverview.html) manual helpful.
+
+By default, colliders register and react with collisions with other `GameObject`s in the physics engine.
+Colliders can also behave like triggers, which fire whenever a `GameObject` intersects a given zone, but do not otherwise alter physics.
+
+Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`, and then check the "Is Trigger" option.
+The collider should show up in the scene view as a green wireframe.
+Make sure that no other objects intersect the collider initially!
+
+Add a script to your collider object, and implement the function called when something enters the trigger.
+Again, pay attention to the subtlety between when something **enters** the trigger and when something is **within** the trigger.
+To actually make the sphere fall, enable gravity on the [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html), a [physics component](https://docs.unity3d.com/Manual/class-Rigidbody.html), of the sphere.
+
 ## A More Interesting Room
 
-For extra credit, instead of the cube room we laid out above, use a modelling tool to create more complicated room geometry, like a curved roof, slanted windows, multiple levels, et cetera. Please write down what you created. Your creation still needs to have the other features of the room we described above.
+**For extra credit**, instead of the cube room we laid out above, use a modelling tool to create more complicated room geometry, like a curved roof, slanted windows, multiple levels, et cetera.
+Please write down what you created.
+Your creation still needs to have the other features of the room we described above.
 
 Some software options are, in descending order of complexity:
 
