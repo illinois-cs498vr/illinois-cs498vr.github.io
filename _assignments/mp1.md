@@ -5,7 +5,7 @@ index: 10
 due: "Sept. 18, 2019 @ 11:59 PM"
 material:
   -
-    name: Skybox
+    name: Skybox + Materials
     url: /mps/MP1.zip
 points: 150
 rubric:
@@ -350,6 +350,8 @@ Remember to use the proper functions and keycodes of your chosen input library:
 ![Exit game](/img/assignments/mp1/image19.png)
 
 `Application.Quit()` quits a Unity application, but it will not stop a game running in the editor.
+Thus, we use an [`#if`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) and a [Unity-specific](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) preprocessor directive
+that adjusts its behavior depending on whether the project is within the editor, or a standalone executable.
 
 ### Light Switch
 
