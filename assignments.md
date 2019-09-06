@@ -5,9 +5,10 @@ title: Assignments
 ---
 
 ## Lab Information ##
+
 The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers.
 
-If you choose to develop outside the lab, you should test and experience your work at least once on the lab computers, as we will also grade your work there.
+We will grade your work in the lab. Therefore, if you choose to develop outside the lab, you should still test and experience your work at least once on the lab computers.
 
 Unfortunately, we have only 20 workstations and over 200 students. Therefore, you should start early on assignments and work in the lab during less popular times. Unless announced otherwise, the lab is available 24/7.
 
@@ -15,9 +16,10 @@ Unfortunately, we have only 20 workstations and over 200 students. Therefore, yo
 
 - Read the submission instructions in each handout carefully!
 - You must work in pairs on all assignments. We recommend using Piazza to find a group.
-- We will accept assignments only up to two days late, with a 20% penalty.
+- You may submit assignments up to two days late, but you will lose 20% of the *total* points.
 
 ## Regrade Requests ##
+
 To submit a regrade request:
 
 - Create a private Piazza post with the `regrade` tag.
@@ -37,4 +39,5 @@ For exams:
 - Include a brief description of the question.
 
 ## Academic Integrity ##
+
 You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.
