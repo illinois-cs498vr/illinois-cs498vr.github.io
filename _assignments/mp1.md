@@ -2,7 +2,7 @@
 layout: assignment
 title: "MP1: The Room"
 index: 10
-due: "Sept. 18, 2019 @ 11:59 PM"
+due: "Sept. 20, 2019 @ 11:59 PM"
 material:
   -
     name: Skybox + Materials
@@ -363,7 +363,7 @@ Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Man
 The [`Start`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) function runs as the game initially starts. This saves a reference to the `Light` component for later use.
 
 Alternatively, you can declare `public GameObject` variables. Save your script, then navigate to the script in the inspector pane.
-The variable will show up in the inspector pane, and you can assign `GameObjects` to it by dragging them from the hierarchy tab into the variable slot!
+The variable will show up in the inspector pane, and you can assign `GameObject`s to it by dragging them from the hierarchy tab into the variable slot!
 This works similarly for other variable types.
 You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).
 
@@ -410,7 +410,7 @@ Thus, the player controller needs to be 1 unit above the ground.
 > Place a suspended sphere in a corner of the room.
 Trigger the sphere to drop when the player moves under the sphere.
 
-You may find the Unity [colliders](https://docs.unity3d.com/Manual/CollidersOverview.html) manual helpful.
+You may find the Unity colliders [manual](https://docs.unity3d.com/Manual/CollidersOverview.html) and [video tutorial](https://www.youtube.com/watch?v=bh9ArKrPY8w) helpful.
 
 By default, colliders register and react with collisions with other `GameObject`s in the physics engine.
 Colliders can also behave like triggers, which fire whenever a `GameObject` intersects a given zone, but do not otherwise alter physics.
