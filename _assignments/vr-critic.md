@@ -2,7 +2,7 @@
 layout: assignment
 title: "VR Critic"
 index: 14
-due: "Sept. 18, 2019 @ 11:59 PM"
+due: "Sept. 20, 2019 @ 11:59 PM"
 material: 
   - name: Oculus Best Practices Guide
     url: https://developer.oculus.com/design/latest/concepts/book-bp/
@@ -43,7 +43,7 @@ notes: false
 instructions: false
 ---
 
-You and a partner will review three VR experiences according to the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/).
+You and a partner must review three VR experiences according to the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/).
 These experiences can be from the Oculus Store, the Steam Store, or a student demo from the CS498 `V:` drive's "Student Projects" folder.
 This assignment is meant to turn you into a VR snob.
 Pick apart every little design decision you can think of.
