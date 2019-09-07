@@ -21,26 +21,26 @@
 - 
   date: "Sep 9"
   materials: "LaValle, Ch 3.1 - 3.3"
-  title: "[3D Computer Graphics: Geometric Modeling and Rasterization]()"
+  title: "[3D Computer Graphics: Rasterization]()"
 
 - 
   date: "Sep 11"
-  materials: "LaValle, Ch 3.2, 3.3"
-  title: "[VR Hardware Overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture2.pptx)"
+  materials: ""
+  title: "[3D Computer Graphics: Geometric Modeling]()"
 
 - 
   date: "Sep 16"
-  materials: "LaValle, Ch 3.2, 3.3"
-  title: "[3D Computer Graphics: Mathematics for Orientation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture5-2019.pptx)"
+  materials: ""
+  title: "[3D Computer Graphics: Mathematics for Orientation]()"
 
 - 
   date: "Sep 18"
   materials: ~
-  title: "[3D Computer Graphics: Rasterization Pipeline](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture7.pptx)"
+  title: "[Production Processes: Basic Principles and Class Project Plan]()"
 
 - 
   date: "Sep 23"
-  materials: "LaValle, Ch 3"
+  materials: ""
   title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
 
 - 
@@ -50,11 +50,11 @@
 - 
   date: "Sep 30"
   materials: "LaValle, Ch 4"
-  title: "[Production Processes: Basic Principles and Class Project Plan](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2018%2019%20CS%20498vr.pptx)"
+  title: "[Light and Optics 1]()"
 - 
   date: "Oct 2"
   materials: "LaValle, Ch 4"
-  title: "[Light and Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture9.pptx)"
+  title: "[Light and Optics 2]()"
 - 
   date: "Oct 7"
   materials: "LaValle, Ch 5"
