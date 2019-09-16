@@ -30,8 +30,8 @@
 
 - 
   date: "Sep 16"
-  materials: ""
-  title: "[3D Computer Graphics: Mathematics for Orientation]()"
+  materials: "LaValle, Chapter 3.4-3.5"
+  title: "[3D Computer Graphics: Mathematics for Orientation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Orientation.pptx)"
 
 - 
   date: "Sep 18"
@@ -40,8 +40,8 @@
 
 - 
   date: "Sep 23"
-  materials: ""
-  title: "[Design Processes: VR Input, Movement & User Interface](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/2%2013.pptx)"
+  materials: "LaValle Chapter 4"
+  title: "[Light and Optics]()"
 
 - 
   date: "Sep 25"
