@@ -250,7 +250,7 @@ The skybox is from [mgsvevo](https://www.assetstore.unity3d.com/en/#!/search/pag
 Make a solid color material and apply it to a third wall.
 All of the walls must be obviously visually distinct.
 
-Read the Unity [materials, shaders and textures](https://docs.unity3d.com/Manual/Shaders.htm) manual, focusing mainly on the Materials, for now.
+Read the Unity [materials, shaders and textures](https://docs.unity3d.com/Manual/Shaders.html) manual, focusing mainly on the Materials, for now.
 We have provided a base texture (`tile.png`), and a normal map (the weird purplish image `tile-normal.png`).
 To create a material, go to `Assets` → `Create` → `Material`.
 
@@ -261,7 +261,7 @@ This will generate a default material, which should show up in the inspector tab
 ![Materials Menu](/img/assignments/mp1/image18.png)
 
 Drag the `tile.png` image to the box labeled "Albedo".
-Now, drag this material from the assets folder onto one of your walls (except the wall with the door) in the Scene view.
+Now, drag this material from the assets folder onto one of your walls in the Scene view.
 It probably doesn’t look too good. Don’t worry, it’ll get better.
 Drag the `tile-normal.png` image to the box labeled "Normal Map".
 Notice how it changes the perceived material of of the material. A normal map is a trick used to give the illusion of depth on a flat surface,
