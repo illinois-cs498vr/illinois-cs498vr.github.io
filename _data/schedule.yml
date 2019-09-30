@@ -50,29 +50,29 @@
 - 
   date: "Sep 30"
   materials: "LaValle, Ch 4"
-  title: "[Light and Optics 1]()"
+  title: "[3D Computer Graphics: Shading](https://github.com/illinois-cs498vr/CourseMaterial/blob/master/Lectures/VR-Shading.pptx)"
 - 
   date: "Oct 2"
   materials: "LaValle, Ch 4"
-  title: "[Light and Optics 2]()"
+  title: "[TDB]()"
 - 
   date: "Oct 7"
   materials: "LaValle, Ch 5"
-  title: "[VR and Unity Development Best Practices](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Unity_Practices.pdf)"
+  title: "[Optics for VR]()"
 
 - 
   date: "Oct 9"
   materials: "LaValle, Ch 5"
-  title: "[Future of VR - Guest Lecture]()"
+  title: "[Human Perception for VR]()"
 
 - 
   date: "Oct 14"
   materials: "LaValle, Ch 6" 
-  title: "[3D Computer Graphics - Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture14.pptx)"
+  title: "[Tracking for VR I]()"
 - 
   date: "Oct 16"
   materials: "LaValle, Ch 5"
-  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture10.pptx)"
+  title: "[Tracking ofr VR II]()"
 - 
   date: "Oct 21"
   materials: "LaValle, Ch. 6"
