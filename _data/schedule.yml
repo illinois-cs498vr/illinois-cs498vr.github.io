@@ -40,53 +40,53 @@
 
 - 
   date: "Sep 23"
-  materials: "LaValle Chapter 4"
+  materials: ~
   title: "[Design Processes: Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%204.pptx)"
 
 - 
   date: "Sep 25"
-  materials: "LaValle, Ch 4"
+  materials: ~
   title: "**No Lecture: Exam Week**"
 - 
   date: "Sep 30"
-  materials: "LaValle, Ch 4"
-  title: "[3D Computer Graphics: Shading](https://github.com/illinois-cs498vr/CourseMaterial/blob/master/Lectures/VR-Shading.pptx)"
+  materials: "LaValle, Ch 7.1"
+  title: "[3D Computer Graphics: Shading](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Shading.pptx)"
 - 
   date: "Oct 2"
-  materials: "LaValle, Ch 4"
-  title: "[TDB]()"
+  materials: ~
+  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%205.pptx)"
 - 
   date: "Oct 7"
-  materials: "LaValle, Ch 5"
-  title: "[Optics for VR]()"
+  materials: "LaValle, Ch 7.2"
+  title: "[3D Ccomputer Graphics: Shading and Texture Mapping]()"
 
 - 
   date: "Oct 9"
-  materials: "LaValle, Ch 5"
-  title: "[Human Perception for VR]()"
+  materials: "LaValle, Ch 4"
+  title: "[Optics for VR]()"
 
 - 
   date: "Oct 14"
-  materials: "LaValle, Ch 6" 
-  title: "[Tracking for VR I]()"
+  materials: "LaValle, Ch 5" 
+  title: "[Human Vision]()"
 - 
   date: "Oct 16"
-  materials: "LaValle, Ch 5"
-  title: "[Tracking ofr VR II]()"
+  materials: "LaValle, Ch 6"
+  title: "[Visual Perception]()"
 - 
   date: "Oct 21"
-  materials: "LaValle, Ch. 6"
-  title: "[Augmented Reality]"
+  materials: ""
+  title: "TBD"
 
 - 
   date: "Oct 23"
-  materials: "LaValle, Ch. 7"
-  title: "[UI and Movement in VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2013%202019-small.pdf)"
+  materials: ""
+  title: "TDB"
 
 -
   date: "Oct 28"
   materials: ~
-  title: "[Human Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture11.pptx)"
+  title: "[3D Computer Graphics: Rendering for VR]()"
 
 - 
   date: "Oct 30"
@@ -101,12 +101,12 @@
 - 
   date: "Nov 6"
   materials: "LaValle, Ch. 6"
-  title: "[Color Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture12-Color.pptx)"
+  title: "[Motion in VR]()"
 
 - 
   date: "Nov 11"
   materials: ""
-  title: "[Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
+  title: "[Tracking I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Nov 13"
@@ -116,7 +116,7 @@
 - 
   date: "Nov 18"
   materials: "LaValle, Ch. 8"
-  title: "[Current Research in Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture30.pptx)"
+  title: "[Tracking II]()"
 
 - 
   date: "Nov 20"
@@ -136,12 +136,12 @@
 - 
   date: "Dec 2"
   materials: "LaValle, Ch. 7"
-  title: "[Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
+  title: "[TBD]()"
 
 - 
   date: "Dec 4"
   materials: "LaValle, Ch. 11"
-  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%2015%202019.pptx)"
+  title: "[TDB]()"
 
 - 
   date: "Dec 9"
