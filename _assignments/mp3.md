@@ -2,7 +2,7 @@
 layout: assignment
 title: "MP3: Perception in VR"
 index: 30
-due: "Oct. 12, 2019, @ 11:59 PM"
+due: "Oct. 13, 2019, @ 11:59 PM"
 material:
   -
     name: MP3 Unity Package
@@ -47,7 +47,7 @@ so that the _rendered_ images of all of the three spheres have equal diameters w
 You are only allowed to change the sizes of the blue spheres to complete this task.
 You must not change the positions of the three spheres, nor the size of the red sphere.
 
-You must add a control for a button that makes the spheres appear or disappear. The red sphere must [dis]appear immediately after the user presses the button, and the two blue spheres must [dis]appear exactly two seconds after the red sphere [dis]appears. You can assume that the user will not press `S` again within the two seconds. The spheres should initially be invisible, and the `GenerateStimuli` script should permanently activate when the user presses the S key for the first time.
+You must add a control for a button that makes the spheres appear or disappear. The red sphere must [dis]appear immediately after the user presses the button, and the two blue spheres must [dis]appear exactly two seconds after the red sphere [dis]appears. You can assume that the user will not press the button again within the two seconds. The spheres should initially be invisible, and the `GenerateStimuli` script should permanently activate when the user presses the button for the first time.
 
 Even after you complete this exercise, you will still easily infer the relative depth between the three spheres,
 because there are many depth cues other than retinal image size that help you perceive depth accurately.
