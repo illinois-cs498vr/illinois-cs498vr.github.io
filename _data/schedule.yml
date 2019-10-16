@@ -73,12 +73,12 @@
 - 
   date: "Oct 16"
   materials: "LaValle, Ch 4 and section 6.3"
-  title: "[Optics I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Optics1.pptx) <br/> 
+  title: "[Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Optics1.pptx) <br/> 
           [Color](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Color.pptx)"
 - 
   date: "Oct 21"
-  materials: ""
-  title: "TBD"
+  materials: "LaValle, Ch 5"
+  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-HumanVision.pptx)"
 
 - 
   date: "Oct 23"
@@ -87,8 +87,8 @@
 
 -
   date: "Oct 28"
-  materials: ~
-  title: "[3D Computer Graphics: Rendering for VR]()"
+  materials: "LaValle, Ch 6"
+  title: "[Perception]()"
 
 - 
   date: "Oct 30"
@@ -97,32 +97,32 @@
 
 - 
   date: "Nov 4"
-  materials: ~
-  title: "[Survey of the Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS%20498vr%203%2027%202019.pptx)"
+  materials: "LaValle, Ch 7"
+  title: "[Advanced Rendering for VR]()"
 
 - 
   date: "Nov 6"
-  materials: "LaValle, Ch. 6"
+  materials: "LaValle, Ch. 8"
   title: "[Motion in VR]()"
 
 - 
   date: "Nov 11"
-  materials: ""
+  materials: "LaValle, Ch. 9"
   title: "[Tracking I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Nov 13"
-  materials: "LaValle, Ch. 5,6"
-  title: "[VR Game Design](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498vr%204%208%202109.pptx)"
+  materials: ""
+  title: "[TBD]()"
 
 - 
   date: "Nov 18"
-  materials: "LaValle, Ch. 8"
+  materials: "LaValle, Ch. 9"
   title: "[Tracking II]()"
 
 - 
   date: "Nov 20"
-  materials: ~
+  materials: "LaValle, Ch.11"
   title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
 
 - 
@@ -137,13 +137,13 @@
 
 - 
   date: "Dec 2"
-  materials: "LaValle, Ch. 7"
+  materials: ""
   title: "[TBD]()"
 
 - 
   date: "Dec 4"
   materials: "LaValle, Ch. 11"
-  title: "[TDB]()"
+  title: "[Current Advances in VR]()"
 
 - 
   date: "Dec 9"
