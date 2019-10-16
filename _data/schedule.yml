@@ -68,12 +68,12 @@
 
 - 
   date: "Oct 14"
-  materials: "LaValle, Ch 5" 
-  title: "[Human Vision]()"
+  materials: "" 
+  title: "[Design for VR: Production Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%207.pptx)"
 - 
   date: "Oct 16"
-  materials: "LaValle, Ch 6"
-  title: "[Visual Perception]()"
+  materials: "LaValle, Ch 4 and section 6.3
+  title: "[Optics I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Optics1.pptx) <br \> [Color](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Color.pptx)"
 - 
   date: "Oct 21"
   materials: ""
