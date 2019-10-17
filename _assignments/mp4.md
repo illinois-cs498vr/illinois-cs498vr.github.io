@@ -82,7 +82,7 @@ points: 200
 Welcome to MP4! In this MP, you are going to build a flight simulator in Unity. You are going to construct a start menu and tutorial, write script to support your plane, make a UI, and optimize the game to fulfill requirements from the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)!
 Much of the spec for this MP is vague. This is intentional, as we want you to be in the practice of finding creative solutions to problems. Note: This is an assignment with a lot of details, so please _start early_.
 
-**README is required**
+**README is required.**
 You need to include all necessary instructions so that our graders can play your game. Without a README, you will result a 0 in this MP.
 
 **PLEASE REGULARLY SAVE YOUR WORK IN THIS MP, AS UNITY MIGHT CRASH AT ANY TIME!**
