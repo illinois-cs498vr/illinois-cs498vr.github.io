@@ -76,7 +76,7 @@ rubric:
     extra: true
     description: The tutorial provided to the player is interactive (Extra Credit)
 
-points: 200
+points: 170
 ---
 ## Overview
 Welcome to MP4! In this MP, you are going to build a flight simulator in Unity. You are going to construct a start menu and tutorial, write script to support your plane, make a UI, and optimize the game to fulfill requirements from the [Oculus Best Practices Guide](https://developer.oculus.com/design/latest/concepts/book-bp/)!
@@ -102,8 +102,8 @@ You need to include all necessary instructions so that our graders can play your
 
 ### Start Menu
 
-The player should start out in a separate scene, which will contain a start menu and tutorial. The start menu will be controlled via a laser pointer
-placed in the scene. The start menu will require the use of the Oculus touch controllers. Both [Unity](https://docs.unity3d.com/Manual/OculusControllers.html) and [Oculus](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) have pages dedicated to
+The player should start out in a separate scene, which will contain a start menu and tutorial. The start menu will be controlled by the buttons on the Oculus touch.
+The start menu will require the use of the Oculus touch controllers. Both [Unity](https://docs.unity3d.com/Manual/OculusControllers.html) and [Oculus](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) have pages dedicated to
 touch controller input in Unity.
 
 
@@ -113,11 +113,6 @@ touch controller input in Unity.
 1. Somewhere in this room, place a start menu. At the very minimum, your menu must include the option to quit and to start the game.
 
 1. Upon selecting quit, the game should exit. Upon selecting start, the player should be transported to your flight simulator scene.
-
-1. You must create a laser pointing device by having an object emit a "laser" that can point at items on the menu. The start menu MUST be controlled by picking up this device with the touch controllers,
-   and pointing it at the menu options. The player should be able to select the option being pointed at by pressing the A button. You MAY NOT
-   control the menu with the touch controller joysticks. Hint: [Ray Casting](https://unity3d.com/learn/tutorials/modules/beginner/physics/raycasting) is a useful technique, and there are online resources for figuring
-   out Touch input, such as the [Unity manual](https://docs.unity3d.com/Manual/OculusControllers.html) and the [Oculus developer guide](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/).
 
 
 ### Flight
@@ -161,7 +156,7 @@ If you are still confused, think about the games you have played before, and che
 1. Your UI should show the score to players. After hitting a sphere in your scene, your score should increase.
 
 
-### Tutorial
+### Tutorial (Extra Credit)
 
 Since you came up with some fancy control scheme, the likes of which we may never have seen before, you must give us a tutorial.
 You can assume we know how to use the pointing device to access the start menu, but nothing else.
