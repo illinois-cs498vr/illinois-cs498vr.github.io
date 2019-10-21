@@ -69,7 +69,7 @@ rubric:
     name: Simple Tutorial
     points: 5
     extra: true
-    description: Game has an in-world tutorial that clearly communicates how to control the plane
+    description: Game has an in-world tutorial that clearly communicates how to control the plane (Extra Credit)
   -
     name: Interactive tutorial
     points: 20
@@ -158,7 +158,7 @@ If you are still confused, think about the games you have played before, and che
 
 ### Tutorial (Extra Credit)
 
-Since you came up with some fancy control scheme, the likes of which we may never have seen before, you must give us a tutorial.
+Since you came up with some fancy control scheme, the likes of which we may never have seen before, you can give us a tutorial.
 You can assume we know how to use the pointing device to access the start menu, but nothing else.
 
 1. Your tutorial must cover all of the plane controls.
