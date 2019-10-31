@@ -99,8 +99,8 @@
 
 - 
   date: "Nov 4"
-  materials: "LaValle, Ch 7"
-  title: "[Advanced Rendering for VR]()"
+  materials: ""
+  title: "[]()"
 
 - 
   date: "Nov 6"
@@ -109,13 +109,13 @@
 
 - 
   date: "Nov 11"
-  materials: "LaValle, Ch. 9"
-  title: "[Tracking I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
+  materials: "LaValle, Ch. 7"
+  title: "[Rendering for VR]()"
 
 - 
   date: "Nov 13"
-  materials: ""
-  title: "[TBD]()"
+  materials: "LaValle, Ch. 9"
+  title: "[Tracking I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture21.pptx)"
 
 - 
   date: "Nov 18"
@@ -145,7 +145,7 @@
 - 
   date: "Dec 4"
   materials: "LaValle, Ch. 11"
-  title: "[Current Advances in VR]()"
+  title: "[TBD]()"
 
 - 
   date: "Dec 9"
