@@ -5,7 +5,7 @@ assignment: 40
 parts:
   -
     title: MP4
-    due: Nov 3, 2019 @ 11:59 PM
+    due: Nov 6, 2019 @ 11:59 PM
 material:
   -
     name: Ground Material Package
