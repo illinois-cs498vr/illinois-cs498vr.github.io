@@ -1,14 +1,12 @@
 
 ---
-layout: assignment
-title: "4 Credit Hour Assignment"
-assignment: 60
-parts:
-  - title: Proposal
+## 4 Credit Hour Assignment
+Timeline:
+  - Proposal
     due: Nov. 10, 2019 @ 11:59 PM
-  - title: Results
+  - Results
     due: Dec. 13, 2019 @ 11:59 PM
-  - title: Final Submission
+  - Final Submission
     due: Dec. 16, 2019 @ 11:59 PM
 material: false
 notes: false
@@ -26,14 +24,14 @@ Each individual taking the class for 4 credit hours will complete a small VR pro
   - Can be in any subjects(finance, physics, sport, etc.)
 - Propose and create a scenario and a questionnaire for participants
   - Get TA input on the proposal and questionnaire before turning it in!
-  - One page paper proposal & subject questionnaire **due by {{ page.parts[0].due }}** (we’ll get it back to you in about a week)
+  - One page paper proposal & subject questionnaire **due by Nov. 10, 2019 @ 11:59 PM** (we’ll get it back to you in about a week)
 - Test on enough people
   - At least 1 TA
   - At least 1 person with no experience in VR
   - At least 5 people total (10 preferred)
   - Do not test on your team members
-  - Copies of completed questionnaire responses from your subjects and a short summary of your results are **due by {{ page.parts[1].due }}**.
-- Final deliverable - minimum two page paper(font style: time new roman, font size:12, single space) with _background_ (including justification for your project), _methods_, _results_, _discussion_ (including ideas for how virtual reality plays out in the future for this topic) and _conclusion_ sections. The paper and a copy of the program you used for testing will be **due by {{ page.parts[2].due }}** and submitted on Compass.
+  - Copies of completed questionnaire responses from your subjects and a short summary of your results are **due by Dec. 13, 2019 @ 11:59 PM**.
+- Final deliverable - minimum two page paper(font style: time new roman, font size:12, single space) with _background_ (including justification for your project), _methods_, _results_, _discussion_ (including ideas for how virtual reality plays out in the future for this topic) and _conclusion_ sections. The paper and a copy of the program you used for testing will be **due by Dec. 16, 2019 @ 11:59 PM** and submitted on Compass.
   - It is fine to reuse the background section from the first paper you turn in and the results section from what you submitted with the completed questionnaires
 
 Keep in mind that this work is to be done in a group of 4 credit hours students, and should be disconnected from your group’s work in the final project. There are two ways you can do this:
