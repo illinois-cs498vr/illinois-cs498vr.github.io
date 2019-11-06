@@ -1,12 +1,15 @@
-
 ---
-## 4 Credit Hour Assignment
-Timeline:
-  - Proposal
+layout: assignment
+title: "4 Credit Hour Assignment"
+parts:
+  -
+    title: Proposal
     due: Nov. 10, 2019 @ 11:59 PM
-  - Results
+  -
+    title: Results
     due: Dec. 13, 2019 @ 11:59 PM
-  - Final Submission
+  -
+    title: Final Submission
     due: Dec. 16, 2019 @ 11:59 PM
 material: false
 notes: false
