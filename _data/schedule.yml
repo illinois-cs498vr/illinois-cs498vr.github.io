@@ -139,13 +139,14 @@
 
 - 
   date: "Dec 2"
-  materials: ""
+  materials: "[Worksheet: Stereo Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/VR-Worksheet-Stereo.pdf)"
   title: "[Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-RenderForVR.pptx)"
 
 - 
   date: "Dec 4"
   materials: "[Light Fields - The Future of VR: Paul Debevec (2015)](https://youtu.be/Raw-VVmaXbg) </br>
-              [Light Fields and Google AR: Paul Debevec minutes 43:43 - 1:13 (2019)](https://youtu.be/lRK0MtIyj0U?t=2615)"
+              [Light Fields and Google AR: Paul Debevec minutes 43:43 - 1:13 (2019)](https://youtu.be/lRK0MtIyj0U?t=2615) </br>
+              [Worksheet: Light Fields](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/VR-Worksheet-Light%20Fields.pdf)"
   title: "Cinematic VR: Light Fields (no slides today)"
 
 - 
