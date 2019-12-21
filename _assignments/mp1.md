@@ -12,35 +12,35 @@ rubric:
   -
     name: The Room
     points: 10
-    description: Complete and enclosed room
+    description: Complete and enclosed room.
   -
     name: Store Asset
     points: 10
-    description: A Unity Store asset is present
+    description: A Unity Store asset is present.
   - 
     name: Lighting
     points: 10
-    description: Bright point light in center of room ceiling
+    description: Bright point light in center of room ceiling.
   - 
     name: Planet and Moon
     points: 10
-    description: Planet and moon in center of room
+    description: Planet and moon in center of room.
   - 
     name: Text
     points: 10
-    description: Text is sharp and displays NetIDs and controls
+    description: Text is sharp and displays NetIDs and controls.
   -
     name: Skybox
     points: 10
-    description: A skybox is present from the external vantage point
+    description: A skybox is present viewable from the external vantage point.
   -
     name: Material Maps
     points: 5
-    description: Two walls have the provided albedo and normal maps
+    description: Two walls have the provided albedo and normal maps.
   -
     name: Material Tiling
     points: 5
-    description: Two walls have distinct tiling settings
+    description: Two walls have distinct tiling settings.
   -
     name: Material Properties
     points: 5
@@ -52,15 +52,15 @@ rubric:
   -
     name: Quit Key
     points: 10
-    description: A controller button exits the game
+    description: An OVR controller button exits the game.
   -
     name: Light Switch
     points: 15
-    description: A controller button changes the light color
+    description: An OVR controller button changes the light color each time it is pressed.
   -
     name: Orbiting Moon
     points: 15
-    description: The moon orbits the planet at a steady rate
+    description: The moon orbits the planet at a steady rate.
   -
     name: Break Out
     points: 15
@@ -68,7 +68,7 @@ rubric:
   -
     name: Trigger Zone
     points: 15
-    description: A trigger zone is present that drops a suspended sphere
+    description: A trigger zone is present that drops a suspended sphere.
   -
     name: Room Geometry
     points: 15
