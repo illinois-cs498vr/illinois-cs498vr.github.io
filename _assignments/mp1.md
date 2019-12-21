@@ -157,11 +157,11 @@ You should now have an `Oculus` folder in your `Assets` folder.
 In this class, you will be primarily using two prefab objects from this package, both found in `Oculus` → `VR` → `Prefabs`.
 The first prefab, the `OVRCameraRig`, is a camera for the Oculus, that handles all of the movement and position tracking for the oculus, as well as the rendering on the Oculus display.
 The second prefab, the `OVRPlayerController`, is a more complicated version of the `OVRCameraRig`. It includes the camera from the `OVRCameraRig`, but also includes basic joystick movement controls, and a capsule-shaped collider that  prevents the player from walking through solid objects.
-Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the “main camera” object.
+Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the `MainCamera` object.
 
 There’s just one more thing you need to do to finish enabling VR.
 Go to `Edit` → `Project Settings` → `Player`, which will open up the player settings in the inspector tab.
-In `XR Settings`, check the `Virtual reality supported` option.
+In `XR Settings`, check the `Virtual Reality Supported` option.
 Now, when you play your scene, it should render inside the Oculus.
 
 **If you have issues importing, please check Piazza to see if others have had your issue, and make a post if you need more information.**
@@ -176,8 +176,8 @@ The inspector tab should have a `Light` component like this:
 
 ![Light Object](/img/assignments/mp1/image6.png)
 
-Of primary importance are the range (the radius of your light), color, and intensity values.
-Set the shadow type to "soft shadows", and the mode to "Realtime".
+Of primary importance are the `Range` (the radius of your light), `Color`, and `Intensity` values.
+Set the shadow type to `Soft Shadows`, and the mode to `Realtime`.
 Set your range and intensity so that your room is brightly lit.
 
 We recommend reading the Unity manuals for [general lighting](https://docs.unity3d.com/Manual/Lighting.html),  [shadows](https://docs.unity3d.com/Manual/Shadows.html), and [lighting modes](https://docs.unity3d.com/Manual/LightModes.html). In later MPs, and your course project, these settings can impact performance significantly.
@@ -199,7 +199,7 @@ That is, the child’s position is an offset from the parent’s position.
 Finally, if the parent rotates, then the child will rotate about its parent’s axes, not its own axes (this will make more sense later).
 See the Unity [hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) manual for more information.
 
-Set the position of the child sphere to be $$(2,0,0)$$, which is four units from the parent sphere on the X-axis. For why this is, think about the scaling of the parent sphere.
+Set the position of the child sphere to be $$(2,0,0)$$, which is 4 units from the parent sphere on the X-axis. For why this is, think about the scaling of the parent sphere.
 
 ## Text
 
@@ -213,11 +213,12 @@ This will create a rectangular canvas parent object with a child text object. Th
 
 First, change the Render mode from `Screen Space - Overlay`, to `World Space`.
 This changes the canvas from a UI element glued to the camera, to an object that is stationary in the world.
-Traditional UIs do not work well in VR, and we strongly discourage sticking any UI elements to the camera in your future MPs and Projects.
+
+**Note:** Traditional UIs do not work well in VR, and we strongly discourage sticking any UI elements to the camera in your future MPs and Projects.
 Always attach UI elements to something in the world (see [this](https://developer.oculus.com/design/latest/concepts/bp-vision/)).
 
 Now that the canvas is a world space object, we can make it a more reasonable size.
-However, since the "Rect Transform"’s width and height are in units of pixels, not world units,
+However, since the width and height of the `Rect Transform` are in units of pixels, not world units,
 we must first set the resolution of the canvas.
 Set the width and height to 1000 (that is $$1000 \times 1000$$ pixels).
 Now, shrink the canvas by setting the scale.
@@ -232,9 +233,11 @@ Below is an example of Z-fighting:
 
 ![Z-fighting](/img/assignments/mp1/image24.png)
 
-Now, you can set your text color, size, font, width, whether it wraps or overflows, etc. Make your text has you and your partner’s NetIDs, as well as the controls for your game (more on this later).
+Now, you can set your text color, size, font, width, whether it wraps or overflows, etc. If the text appears blurry or jagged, then increase the width and height of the canvas and text (to increase the resolution), and scale them down further.
+
+**Important:** Make your text has you and your partner’s NetIDs, as well as the controls for your game (more on this later).
 Make sure it is big enough for us to read.
-If the text appears blurry or jagged, then increase the width and height of the canvas and text (to increase the resolution), and scale them down further.
+
 
 ## Skybox
 
@@ -260,7 +263,7 @@ This will generate a default material, which should show up in the inspector tab
 
 ![Materials Menu](/img/assignments/mp1/image18.png)
 
-Drag the `tile.png` image to the box labeled "Albedo".
+Drag the `tile.png` image to the box labeled `Albedo`.
 Now, drag this material from the assets folder onto one of your walls in the Scene view.
 It probably doesn’t look too good. Don’t worry, it’ll get better.
 Drag the `tile-normal.png` image to the box labeled "Normal Map".
@@ -269,9 +272,9 @@ by telling the engine to reflect light as if there were these little bumps and p
 Apply this material to a wall by dragging it onto a wall.
 
 Create a new material, called `Wall 2`, apply the same albedo and normal maps as you did Wall 1, and apply it to a different wall.
-Right above the "Secondary Maps" subheading is the "Tiling" option, which has an option for `x` and `y`.
-Tiling causes a material to repeat itself on the same object, rather than covering the whole thing.
-So, changing tiling `x` to 2, means that the material will repeat once, and show up twice, in the x direction on the wall.
+Right above the `Secondary Maps` subheading is the `Tiling` option, which has an option for `x` and `y`.
+Tiling enables a material to repeat itself on the same object, rather than covering the whole thing.
+So, changing tiling `x` to 2, means that the material will show up twice in the x direction on the wall.
 Play with the tiling until you like the look of it.
 Below is an example of non tiled and tiled walls side by side.
 
@@ -282,7 +285,7 @@ Play around with these, and see how they affect the material.
 The metallic slider adjusts the reflections, and smoothness helps to enhance or subdue the normal map.
 Modify the metallicity and smoothness of the two wall materials so that they are clearly visually different.
 
-Finally, create a material, that has no albedo or normal map.
+Finally, create one last material, called `Wall 3`, that has no albedo or normal map.
 Next to the albedo option is a small color box.
 Since this material has no albedo, the material will be this flat reflection color.
 Try and see what happens when you change the color of a material with an albedo.
@@ -302,22 +305,22 @@ Unity's [Scripting API Reference](https://docs.unity3d.com/ScriptReference/) is 
 For the first script, we will detail the functions that we recommend,
 but for the others, we expect that you will refer to the API reference if needed.
 
-### Side Note: Input in VR
+#### Side Note: Input in VR
 
 Keyboards do not work well in VR, since the VR environment means that you cannot see the keyboard, and all of the keys largely feel the same.
 Controllers, with their contours and designated button shapes, are much easier to use blind.
 Refer to the following pages for more information, which you will need when you write the scripts below:
 
 - [Unity Input](https://docs.unity3d.com/Manual/ConventionalGameInput.html)
-- [Unity wiki page on Xbox controllers](http://wiki.unity3d.com/index.php?title=Xbox360Controller)
-- OVR Input: [general explanation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput),
+- [Unity Wiki page on Xbox controllers](http://wiki.unity3d.com/index.php?title=Xbox360Controller)
+- OVR Input: [General Explanation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput),
 [API reference](https://developer.oculus.com/reference/unity/1.40/class_o_v_r_input/)
 
-Your control scheme must use **controller**, not keyboard, input.
+Your control scheme must use the **OVR controller**, not keyboard input.
 This applies regardless of any example scripts that might imply otherwise.
 You must also tell us what your control scheme is!
 
-### Quit Key
+#### Quit Key
 
 > Set up a button on the touch controllers to exit the game.
 
@@ -331,14 +334,14 @@ Furthermore, the `this` reference in the script will refer to the object to whic
 
 You have two choices on how to register input:
 
-- The Unity [Input](https://docs.unity3d.com/ScriptReference/Input.html) library and the [`Input.GetKeyDown`](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html) function
-- The [OVRInput](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) library and the `OVRInput.GetDown` function
+- The Unity [Input](https://docs.unity3d.com/ScriptReference/Input.html) library and the [`Input.GetKeyDown`](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html) function for keyboard input.
+- The [OVRInput](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) library and the `OVRInput.GetDown` function for OVR controller input.
 
 `OVRInput` works seamlessly across both Oculus Touch controllers, but is slightly more complex.
 
-Note that are using the "get down" variants, which return `true` on the frame when the specified key is first pressed down. Think about what would happen if we used the "get" variants instead.
+Using the `GetDown` variant, returns `true` on the frame when the specified key is first pressed down. Think about what would happen if we used the `Get` variants instead.
 
-Since we want to always check for input, add an [`Update`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) function to your script, which is called every frame.
+Since we want to always check for input, add an [`Update`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) function to your script. This function is called every frame.
 Then, insert the below code.
 Remember to use the proper functions and keycodes of your chosen input library:
 
@@ -348,7 +351,7 @@ Remember to use the proper functions and keycodes of your chosen input library:
 Thus, we use an [`#if`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) and a [Unity-specific](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) preprocessor directive
 that adjusts its behavior depending on whether the project is within the editor, or a standalone executable.
 
-### Light Switch
+#### Light Switch
 
 > Set up a button on the controllers that changes the color of the point light in the room.
 Pressing it repeatedly should change the color each time, i.e. have it be a toggle or a switch between a series of colors.
@@ -372,9 +375,9 @@ To change the light, write something similar to the following, but remember to u
 ![Get Tab Key Down](/img/assignments/mp1/image14.png)
 
 For the actual light color, you can either create a new color using the [`new Color(red, green, blue)`](https://docs.unity3d.com/ScriptReference/Color-ctor.html) constructor, or one of the [predefined colors](https://docs.unity3d.com/ScriptReference/Color.html).
-How you change the light is up to you, but pressing the controller button you designate must visibly change the light color.
+How you change the light is up to you, but pressing the light switch controller button repeatedly must visibly change the light color each time.
 
-### Orbiting Moon
+#### Orbiting Moon
 
 > Make the moon orbit the planet sphere at a steady rate, just like in actual planetary systems.
 
@@ -384,28 +387,27 @@ Since the moon object is a child of the planet object, it will also rotate aroun
 You can control the rotation and position of a `GameObject` with the `transform` object variable, an instance of the aptly named [`Transform`](https://docs.unity3d.com/ScriptReference/Transform.html) class.
 Use the functions of this class to rotate the planet system around the $$Y$$-axis.
 
-Keep in mind that the `Update` function runs every frame, but frames often vary in realtime length.
+**Note:** The `Update` function runs every frame, but frames often vary in realtime length.
 Thus, using static rotation amounts with the `Transform` class will make the apparent rotation amount depend on framerate.
 This is generally not desirable.
 To use realtime frame times instead, use the [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) variable.
 When used inside the `Update` function, this variable's value is the real time in seconds that elapsed since the last frame.
 See the [Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html) page for more information.
 
-### Break Out
+#### Break Out
 
 > Set up a button on the controllers to switch the player's position between an external viewing point and the room.
 
 Like all `GameObject`s, the player object has a `Transform`.
 With that in mind, make a script that switches the player between a room and a new external viewing point,
 e.g. a small new plane a moderate distance from the room.
-The player should still start within the room.
-Pressing the button for the first time must move the player to the external viewing point.
-After that, pressing the button must alternate between the two locations.
+
+The player should  start within the room. Pressing the button for the first time must move the player to the external viewing point. After that, pressing the button must alternate between the two locations.
 
 Remember that the coordinates for the player refer to its center, and the player is 2 units tall.
-Thus, the player controller needs to be 1 unit above the ground.
+Thus, the player controller, once teleported, needs to be 1 unit above the ground of the external viewing point.
 
-### Trigger Zone
+#### Trigger Zone
 
 > Place a suspended sphere in a corner of the room.
 Trigger the sphere to drop when the player moves under the sphere.
@@ -415,7 +417,7 @@ You may find the Unity colliders [manual](https://docs.unity3d.com/Manual/Collid
 By default, colliders register and react with collisions with other `GameObject`s in the physics engine.
 Colliders can also behave like triggers, which fire whenever a `GameObject` intersects a given zone, but do not otherwise alter physics.
 
-Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`, and then check the "Is Trigger" option.
+Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`, and then check the `Is Trigger` option.
 The collider should show up in the scene view as a green wireframe.
 Make sure that no other objects intersect the collider initially!
 
@@ -438,6 +440,7 @@ Some software options are, in descending order of complexity:
 The default Unity modelling tools are extremely limited,
 so we highly recommend you familiarize yourself with one of the above tools.
 It will assist greatly in your final project.
+
 To get the extra credit, you must do a nontrivial amount of extra work with your modelling tool.
 That is, it should look like it took you more than 15 minutes to do.
 
