@@ -1,164 +1,132 @@
 - 
-  date: "Aug 26"
-  materials: "LaValle, Ch 1 and Ch 2"
+  date: "Jan 21"
+  materials: "LaValle, Ch 1 and Ch 2 and Ch 3.1 - 3.3 "
   title: "[Defining VR, course overview, course project expectations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRIntro.pptx)"
-
-- 
-  date: "Aug 28"
-  materials: ""
-  title: "[Design Processes: Basic Principles and Top Down Design Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498-Design.pptx)"
-
-- 
-  date: "Sep 2"
-  materials: ~
-  title: "**No Lecture: Labor Day**"
-
-- 
-  date: "Sep 4"
-  materials: ""
-  title: "[Sponsored Project Options](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/SponsoredProjects2019.pptx)"
-
-- 
-  date: "Sep 9"
-  materials: "LaValle, Ch 3.1 - 3.3"
+  
   title: "[3D Computer Graphics: Rasterization](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRGraphics-Intro.pptx)"
 
 - 
-  date: "Sep 11"
+  date: "Jan 23"
   materials: ""
-  title: "[3D Computer Graphics: Geometric Modeling](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-GeometryIntro.pptx)"
+  title: "[Design Processes: Basic Principles and Top Down Design Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498-Design.pptx)"
 
-- 
-  date: "Sep 16"
-  materials: "LaValle, Chapter 3.4-3.5"
-  title: "[3D Computer Graphics: Mathematics for Orientation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Orientation.pptx)"
-
-- 
-  date: "Sep 18"
-  materials: ~
-  title: "[Design Processes: Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%203.pptx)"
-
-- 
-  date: "Sep 23"
-  materials: ~
-  title: "[Design Processes: Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%204.pptx)"
-
-- 
-  date: "Sep 25"
-  materials: ~
-  title: "**No Lecture: Exam Week**"
-- 
-  date: "Sep 30"
-  materials: "LaValle, Ch 7.1 <br/> [Worksheet: Phong Reflection Model](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498VR-Worksheet-Phong.pdf)"
-  title: "[3D Computer Graphics: Shading](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Shading.pptx)"
-- 
-  date: "Oct 2"
-  materials: ~
-  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%205.pptx)"
-- 
-  date: "Oct 7"
-  materials: "LaValle, Ch 7.2 <br/>
-              [Worksheet: Interpolation](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Worksheet-Interpolation.pdf)"
-  title: "[3D Computer Graphics: Shading and Texture Mapping](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-RenderingTopics.pptx)"
-
-- 
-  date: "Oct 9"
+-  
+  date: "Jan 28"
   materials: ""
-  title: "[Design for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%206.pptx)"
+  title: ""
+- 
+  date: "Jan 30"
+  materials: ~
+  title: ""
 
 - 
-  date: "Oct 14"
+  date: "Feb 4"
+  materials: ""
+  title: ""
+- 
+  date: "Feb 6"
+  materials: ""
+  title: ""
+- 
+  date: "Feb 11"
   materials: "" 
-  title: "[Design for VR: Production Processes](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%207.pptx)"
-- 
-  date: "Oct 16"
-  materials: "LaValle, Ch 4 and section 6.3"
-  title: "[Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Optics1.pptx) <br/> 
-          [Color](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Color.pptx)"
-- 
-  date: "Oct 21"
-  materials: "LaValle, Ch 5 <br/>
-              [Worksheet: Color](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Worksheet-Color.pdf)"
-  title: "[Human Vision](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-HumanVision.pptx)"
+  title: ""
 
-- 
-  date: "Oct 23"
+  date: "Feb 13"
   materials: ""
-  title: "Guest Lecture: Lawrence Angrave on Realism in VR"
+  title: ""
+- 
+  date: "Feb 18"
+  materials: ""
+  title: "**No Lecture: Exam Week**"
+- 
+  date: "Feb 20"
+  materials: ""
+  title: ""
 
+- 
+  date: "Feb 25"
+  materials: ""
+  title: ""
+- 
+  date: "Feb 27"
+  materials: ""
+  title: ""
+- 
+  date: "Mar 3"
+  materials: ""
+  title: ""
+
+- 
+  date: "Mar 5"
+  materials: ""
+  title: ""
 -
-  date: "Oct 28"
-  materials: "LaValle, Ch 6 <br/>
-              [Worksheet: Optics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS498-Worksheet-Optics.pdf)"
-  title: "[Perception](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Perception.pptx)"
-
-- 
-  date: "Oct 30"
-  materials: ~
-  title: "**No Lecture: Exam Week"
-
-- 
-  date: "Nov 4"
+  date: "Mar 10"
   materials: ""
-  title: "[Survey of the Gaming Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%208.pptx)"
-
-- 
-  date: "Nov 6"
-  materials: "[Worksheet: Motion](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Worksheet-Motion.pdf) <br/> LaValle, Ch. 8"
-  title: "[Motion in VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-Motion.pptx)"
-
-- 
-  date: "Nov 11"
-  materials: "[Worksheet: Tracking](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Worksheet-Tracking.pdf) <br/> LaValle, Ch. 9"
-  title: "[Tracking I](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Lecture22.pptx)"
-- 
-  date: "Nov 13"
+  title: ""
+-
+  date: "Mar 12"
   materials: ""
-  title: "[The Game Industry](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/Set%209.pptx)"
+  title: ""
+- 
+  date: "Mar 17"
+  materials: ""
+  title: "**No Lecture: Spring Break**"
+- 
+  date: "Mar 19"
+  materials: ""
+  title: "**No Lecture: Spring Break**"
+-
+  date: "Mar 24"
+  materials: ""
+  title: ""
 
 - 
-  date: "Nov 18"
-  materials: "LaValle, Ch. 9 <br/>
-[Worksheet: Pose](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Pose.pdf)"
-  title: "[Tracking II](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Pose.pptx)"
-
+  date: "Mar 26"
+  materials: ""
+  title: ""
 - 
-  date: "Nov 20"
-  materials: "LaValle, Ch.11"
-  title: "[Audio for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/CS498VR-Lecture-Audio.pptx)"
-
+  date: "Mar 31"
+  materials: ""
+  title: "**No Lecture: Exam Week**"
 - 
-  date: "Nov 25"
-  materials: ~
-  title: "**No Lecture: Fall Break**"
-
+  date: "Apr 2"
+  materials: ""
+  title: ""
+-
+  date: "Apr 7"
+  materials: ""
+  title: ""
+-
+  date: "Apr 9"
+  materials: ""
+  title: ""
 - 
-  date: "Nov 27"
-  materials: ~
-  title: "**No Lecture: Fall Break**"
-
+  date: "Apr 14"
+  materials: ""
+  title: ""
 - 
-  date: "Dec 2"
-  materials: "[Worksheet: Stereo Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/VR-Worksheet-Stereo.pdf)
-              <br/> LaValle, Ch. 7"
-  title: "[Rendering for VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-RenderForVR.pptx)"
-
+  date: "Apr 16"
+  materials: "" 
+  title: ""
 - 
-  date: "Dec 4"
-  materials: "[Light Fields - The Future of VR: Paul Debevec (2015)](https://youtu.be/Raw-VVmaXbg) <br/>
-              [Light Fields and Google AR: Paul Debevec minutes 43:43 - 1:13 (2019)](https://youtu.be/lRK0MtIyj0U?t=2615) <br/>
-              [Worksheet: Light Fields](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/VR-Worksheet-Light%20Fields.pdf)"
-  title: "Cinematic VR: Light Fields <br/> (no slides today)"
-
+  date: "Apr 21"
+  materials: ""
+  title: ""
 - 
-  date: "Dec 9"
+  date: "Apr 23"
+  materials: ""
+  title: ""
+- 
+  date: "Apr 28"
+  materials: ""
+  title: ""
+- 
+  date: "Apr 30"
+  materials: ""
+  title: ""
+-
+  date: "May 5"
   materials: ~
   title: "**No Lecture: Exam Week**"
-
-- 
-  date: "Dec 11"
-  materials: ~
-  title: "**No Lecture: Exam Week**"
-
-
-  
