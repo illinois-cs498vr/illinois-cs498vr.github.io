@@ -1,8 +1,7 @@
 - 
   date: "Jan 21"
-  materials: "LaValle, Ch 1 and Ch 2 and Ch 3.1 - 3.3 "
-  title: "[Defining VR, course overview, course project expectations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRIntro.pptx) <br />
-          [3D Computer Graphics: Rasterization](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRGraphics-Intro.pptx)"
+  materials: "LaValle, Ch 1 and Ch 2"
+  title: "[Defining VR, course overview](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRIntro.pptx)"
 - 
   date: "Jan 23"
   materials: ""
@@ -10,8 +9,8 @@
 
 -  
   date: "Jan 28"
-  materials: ""
-  title: ""
+  materials: "LaValle, Ch 3.1 - 3.3"
+  title: "[3D Computer Graphics: Rasterization](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VRGraphics-Intro.pptx)"
 - 
   date: "Jan 30"
   materials: ~
