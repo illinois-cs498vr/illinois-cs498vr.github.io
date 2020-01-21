@@ -43,6 +43,8 @@ Lecture is held in 1320 DCL on Tu Th 9:30-10:45am
 ## Extra Credit ##
 During 5 lectures during the semester we will work on a set of group problem-solving exercises. Each of these events is worth 1% extra credit towards your total course grade. **This is an opportunity to earn up to 5% extra credit in total**. Also, you will learn things, so you should definitely attend.
 
+The dates of these lectures will not be necessarily be published in advance. As these events are extra credit, there will be no makeup opportunity in the event of a conflict or illness.
+
 ## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
 
