@@ -41,8 +41,7 @@ We recommend the following courses and skills:
 Lecture is held in 1320 DCL on Tu Th 9:30-10:45am
 
 ## Extra Credit ##
-During 5 to 10 lectures during the semester we will work on a set of group problem-solving exercises. Each of these events is worth 0.5% extra credit towards your total course grade. **This is an opportunity to earn up to 5% extra credit in total**. Also, you will learn things, so you should definitely attend.
-
+During 5 lectures during the semester we will work on a set of group problem-solving exercises. Each of these events is worth 1% extra credit towards your total course grade. **This is an opportunity to earn up to 5% extra credit in total**. Also, you will learn things, so you should definitely attend.
 
 ## Assignments ##
 We expect to have 4 assignments over the course of the semester. In each of these, students will work in pairs to solve a specific implementation problem in the virtual reality lab in 4107 Siebel Center.
@@ -73,11 +72,11 @@ We weight grades as follows:
 | | 3 credits | 4 credits |  
 | ----- | ------ | ----- |  
 | Assignments | 20% | 20% |  
-| Midterm Exam 1 | 12% | 12% |  
-| Midterm Exam 2 | 12% | 12% |
-| Midterm Exam 3 | 16% | 16% |
-| Final Project | 40% | 25% |  
-| 4th Credit Project | | 15% |  
+| Midterm Exam 1 | 15% | 15% |  
+| Midterm Exam 2 | 15% | 15% |
+| Midterm Exam 3 | 15% | 15% |
+| Final Project | 35% | 25% |  
+| 4th Credit Project | | 10% |  
 
 You can expect the cutoffs to be approximately as follows
 98 - 100: A+  
