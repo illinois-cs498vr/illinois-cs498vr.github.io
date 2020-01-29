@@ -6,5 +6,5 @@ dl: https://drive.google.com/file/d/1ord-pZklNSXUS2G_Cnua54sQ5uM-e05u/view?usp=s
 semester: Fall 2019
 team: 24
 youtube: 8thxlS-uSfk
-featured: false
+featured: true
 ---
