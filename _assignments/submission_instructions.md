@@ -29,12 +29,10 @@ replicate any new gamepad buttons or joysticks you mapped.
 	* The `.unitypackage` created in Step 1
 	* The `.exe`, `.dll`, `Mono`, AND **DATA FOLDER** created in Step 2
 	* The `InputManager.asset` file found in Step 3
-	* A `README.txt` file containing any special instructions or notes you think are relevant for evaluating your assignment.
-	* If applicable, your writeup PDF.
-1. **Make sure the executable in your submission folder runs correctly on the Rift before submitting.**
+	* A `README.txt` file containing any instructions or notes relevant for evaluating your assignment.
+1. **Ensure that the executable in your submission folder runs correctly on the Rift before submitting.** The easiest way to do this is to unpack the zip file into a new folder, and then run the executable.
 1. Name the file by separating NetIDs with underscores- `_cs498vr_MP#_part#.zip`.
 EXAMPLE: If `steve1` and `anna2` worked together, the file for MP 1.1 should be called
 `steve1_anna2_cs498vr_MP1_1.zip`.
-1. Only one partner should submit the zip.
+1. Only one partner should submit the resulting file.
 
-### DO NOT SUBMIT YOUR ENTIRE PROJECT FOLDER

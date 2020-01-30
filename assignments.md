@@ -6,17 +6,18 @@ title: Assignments
 
 ## Lab Information ##
 
-The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers.
-
-We will grade your work in the lab. Therefore, if you choose to develop outside the lab, you should still test and experience your work at least once on the lab computers.
+The lab computers are Falcon Northwest PCs with dual 27-inch monitors, NVidia GeForce Titan Black or 1080 graphics cards, Windows 10, Visual Studio, and [standard EWS-provided software](https://it.engineering.illinois.edu/ews-windows-lab-software). Each computer has an Oculus Rift CV1 (donated by Oculus/Facebook), an XBox controller, and two Touch Controllers. <!-- FIXME this is out of date -->
 
 Unfortunately, we have only 20 workstations and over 200 students. Therefore, you should start early on assignments and work in the lab during less popular times. Unless announced otherwise, the lab is available 24/7.
 
+We will grade your work in the lab. Therefore, if you work outside the lab, you should still test and experience your work at least once on the lab computers. The lab machines currently use Unity version {{ site.lab.unity-version }}, which you can download from the
+[Unity Downloads Archive](https://unity3d.com/get-unity/download/archive). You should use that version to avoid unexpected compatibility issues.
+
 ## Assignment Policies ##
 
-- Read the submission instructions in each handout carefully!
-- You must work in pairs on all assignments. We recommend using Piazza to find a group.
-- You may submit assignments up to two days late, but you will lose 20% of the *total* points.
+- You must work in pairs on all assignments. We recommend the Piazza team search function, or chats with your lecture neighbors.
+- You may submit an assignment up to two days late, but you will lose 20% of the *total* points for that assignment.
+- If we have to modify your submission to run it, you will lose 20% of the *total* points for that assignment. If we cannot get your submission to run at all, you will receive no credit.
 
 ## Regrade Requests ##
 
@@ -39,5 +40,7 @@ For exams:
 - Include a brief description of the question.
 
 ## Academic Integrity ##
+
+<!-- FIXME 404s -->
 
 You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.

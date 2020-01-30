@@ -2,7 +2,7 @@
 layout: assignment
 title: "MP1: The Room"
 index: 10
-due: "Sept. 20, 2019 @ 11:59 PM"
+due: "Feb. 12, 2020 @ 11:59 PM"
 material:
   -
     name: Skybox + Materials
@@ -12,63 +12,63 @@ rubric:
   -
     name: The Room
     points: 10
-    description: Complete and enclosed room
+    description: The room is complete and enclosed.
   -
     name: Store Asset
     points: 10
-    description: A Unity Store asset is present
+    description: A Unity Store asset is present.
   - 
     name: Lighting
     points: 10
-    description: Bright point light in center of room ceiling
+    description: A bright point light is in the center of the room ceiling.
   - 
     name: Planet and Moon
     points: 10
-    description: Planet and moon in center of room
+    description: A planet and moon orbit in the room.
   - 
     name: Text
     points: 10
-    description: Text is sharp and displays NetIDs and controls
+    description: Text is sharp and displays NetIDs and controls.
   -
     name: Skybox
     points: 10
-    description: A skybox is present from the external vantage point
+    description: A skybox is viewable from the external vantage point.
   -
     name: Material Maps
     points: 5
-    description: Two walls have the provided albedo and normal maps
+    description: Two walls have the provided albedo and normal maps.
   -
     name: Material Tiling
     points: 5
-    description: Two walls have distinct tiling settings
+    description: Two walls have distinct tiling settings.
   -
     name: Material Properties
     points: 5
-    description: Two walls have altered smoothness and/or metallicity
+    description: Two walls have altered smoothness and/or metallicity.
   -
     name: Flat Color Material
     points: 5
-    description: One wall has a flat color material
+    description: One wall has a flat color material.
   -
     name: Quit Key
     points: 10
-    description: A controller button exits the game
+    description: A controller button exits the game.
   -
     name: Light Switch
     points: 15
-    description: A controller button changes the light color
+    description: A controller button changes the light color.
   -
     name: Orbiting Moon
     points: 15
-    description: The moon orbits the planet at a steady rate
+    description: The moon orbits the planet at a steady rate.
   -
     name: Break Out
     points: 15
-    description: A controller button switches the player to and from an external vantage point
+    description: A controller button switches the player to and from an external vantage point.
   -
     name: Trigger Zone
     points: 15
-    description: A trigger zone is present that drops a suspended sphere
+    description: A trigger zone is present that drops a suspended sphere.
   -
     name: Room Geometry
     points: 15
@@ -157,11 +157,11 @@ You should now have an `Oculus` folder in your `Assets` folder.
 In this class, you will be primarily using two prefab objects from this package, both found in `Oculus` → `VR` → `Prefabs`.
 The first prefab, the `OVRCameraRig`, is a camera for the Oculus, that handles all of the movement and position tracking for the oculus, as well as the rendering on the Oculus display.
 The second prefab, the `OVRPlayerController`, is a more complicated version of the `OVRCameraRig`. It includes the camera from the `OVRCameraRig`, but also includes basic joystick movement controls, and a capsule-shaped collider that  prevents the player from walking through solid objects.
-Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the “main camera” object.
+Place an `OVRPlayerController` into your scene, at $$(0,1,0)$$, and delete the `MainCamera` object.
 
 There’s just one more thing you need to do to finish enabling VR.
-Go to `Edit` → `Project Settings` → `Player`, which will open up the player settings in the inspector tab.
-In `XR Settings`, check the `Virtual reality supported` option.
+Go to "Edit" → "Project Settings" → "Player", which will open up the player settings in the inspector tab.
+In "XR Settings", check the "Virtual Reality Supported" option.
 Now, when you play your scene, it should render inside the Oculus.
 
 **If you have issues importing, please check Piazza to see if others have had your issue, and make a post if you need more information.**
@@ -199,7 +199,7 @@ That is, the child’s position is an offset from the parent’s position.
 Finally, if the parent rotates, then the child will rotate about its parent’s axes, not its own axes (this will make more sense later).
 See the Unity [hierarchy](https://docs.unity3d.com/Manual/Hierarchy.html) manual for more information.
 
-Set the position of the child sphere to be $$(2,0,0)$$, which is four units from the parent sphere on the X-axis. For why this is, think about the scaling of the parent sphere.
+Set the position of the child sphere to be $$(2,0,0)$$, which is 4 units from the parent sphere on the X-axis. For why this is, think about the scaling of the parent sphere.
 
 ## Text
 
@@ -217,18 +217,19 @@ Traditional UIs do not work well in VR, and we strongly discourage sticking any 
 Always attach UI elements to something in the world (see [this](https://developer.oculus.com/design/latest/concepts/bp-vision/)).
 
 Now that the canvas is a world space object, we can make it a more reasonable size.
-However, since the "Rect Transform"’s width and height are in units of pixels, not world units,
+However, since the width and height of the "Rect Transform" component are in units of pixels, not world units,
 we must first set the resolution of the canvas.
-Set the width and height to 1000 (that is $$1000 \times 1000$$ pixels).
+Set the width and height to 1000 (i.e, $$1000 \times 1000$$ pixels).
 Now, shrink the canvas by setting the scale.
 Multiplying the canvas width and height by the scale factors gives the actual size of the canvas in world space.
 For example, since we set the canvas to be of size $$1000 \times 1000$$ pixels, using scaling factors of $$0.01$$ would make the canvas $$1000 * 0.01 = 10$$ units large in world space.
 Make sure your text’s Rect Transform has the same width and height as its parent canvas, but leave the scale as 1.
 
 Now, you can place your canvas against one of the walls.
-Offset it a small amount (like, 0.001) off of the wall it is against to avoid Z-fighting,
-which happens when two objects have the same depth, and Unity can’t figure out which one to render.
-Below is an example of Z-fighting:
+Offset it a small amount (e.g., 0.001) off of the wall against which it is placed.
+This avoids Z-fighting, which happens when two objects have the same depth,
+and Unity can’t figure out which one to render.
+Below is an example:
 
 ![Z-fighting](/img/assignments/mp1/image24.png)
 
@@ -271,9 +272,9 @@ Apply this material to a wall by dragging it onto a wall.
 Create a new material, called `Wall 2`, apply the same albedo and normal maps as you did Wall 1, and apply it to a different wall.
 Right above the "Secondary Maps" subheading is the "Tiling" option, which has an option for `x` and `y`.
 Tiling causes a material to repeat itself on the same object, rather than covering the whole thing.
-So, changing tiling `x` to 2, means that the material will repeat once, and show up twice, in the x direction on the wall.
+So, changing tiling `x` to 2, means that the material will show up twice, in the $$x$$-direction on the wall.
 Play with the tiling until you like the look of it.
-Below is an example of non tiled and tiled walls side by side.
+Below is an example of non-tiled and tiled walls side by side.
 
 ![Tiling](/img/assignments/mp1/image1.png)
 
@@ -290,17 +291,15 @@ Apply this flat color onto a third wall in the room.
 
 ## Scripting
 
-<!-- Some of this should eventually go in Developer Resources. -->
+<!-- TODO some of this should go in Developer Resources -->
 
 Unity scripts use the [C# language](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/).
 If you are unfamiliar with programming, you can check out this [C# tutorial](https://www.tutorialspoint.com/csharp/).
 You’ll only need the basics of objects, classes, and variables for now.
 
-We recommend reading the Unity [scripts manual](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html) and the [script object API](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html).
-
-Unity's [Scripting API Reference](https://docs.unity3d.com/ScriptReference/) is a useful source of information for when you are scripting new objects.
-For the first script, we will detail the functions that we recommend,
-but for the others, we expect that you will refer to the API reference if needed.
+We recommend reading the Unity [scripts manual](https://docs.unity3d.com/Manual/CreatingAndUsingScripts.html) and the [Scripting Reference](https://docs.unity3d.com/ScriptReference/).
+For the first few scripts, we will detail the functions that we recommend,
+but after that, we expect that you will refer to the API reference to search for whatever you require.
 
 ### Side Note: Input in VR
 
@@ -309,11 +308,10 @@ Controllers, with their contours and designated button shapes, are much easier t
 Refer to the following pages for more information, which you will need when you write the scripts below:
 
 - [Unity Input](https://docs.unity3d.com/Manual/ConventionalGameInput.html)
-- [Unity wiki page on Xbox controllers](http://wiki.unity3d.com/index.php?title=Xbox360Controller)
 - OVR Input: [general explanation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput),
 [API reference](https://developer.oculus.com/reference/unity/1.40/class_o_v_r_input/)
 
-Your control scheme must use **controller**, not keyboard, input.
+Your control scheme must use the **Oculus controller**, not the keyboard.
 This applies regardless of any example scripts that might imply otherwise.
 You must also tell us what your control scheme is!
 
@@ -329,18 +327,10 @@ For this script, the exact object attached is unimportant.
 When a Unity script is attached to a `GameObject`, that script will run when the game is started.
 Furthermore, the `this` reference in the script will refer to the object to which the script is attached.
 
-You have two choices on how to register input:
-
-- The Unity [Input](https://docs.unity3d.com/ScriptReference/Input.html) library and the [`Input.GetKeyDown`](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html) function
-- The [OVRInput](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) library and the `OVRInput.GetDown` function
-
-`OVRInput` works seamlessly across both Oculus Touch controllers, but is slightly more complex.
-
-Note that are using the "get down" variants, which return `true` on the frame when the specified key is first pressed down. Think about what would happen if we used the "get" variants instead.
+In your script, you will need to use the [OVRInput](https://developer.oculus.com/documentation/unity/latest/concepts/unity-ovrinput/) library and the `OVRInput.GetDown` function, which only returns `true` on the frame when the specified key is first pressed down. Think about what would happen if you used the "get" variants instead.
 
 Since we want to always check for input, add an [`Update`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) function to your script, which is called every frame.
-Then, insert the below code.
-Remember to use the proper functions and keycodes of your chosen input library:
+Then, insert the below code:
 
 ![Exit game](/img/assignments/mp1/image19.png)
 
@@ -351,12 +341,13 @@ that adjusts its behavior depending on whether the project is within the editor,
 ### Light Switch
 
 > Set up a button on the controllers that changes the color of the point light in the room.
-Pressing it repeatedly should change the color each time, i.e. have it be a toggle or a switch between a series of colors.
+The color should change every time you press this button,
+i.e. have it be a toggle or a switch between a series of colors.
 Make sure that the color change is large enough so it is immediately apparent!
 
 Make a script and attach it to the point light.
 Our first step is to get the [`Light`](https://docs.unity3d.com/ScriptReference/Light.html) component of our point light [`GameObject`](https://docs.unity3d.com/ScriptReference/GameObject.html).
-Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script:
+Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script: <!-- FIXME SVG-ify -->
 
 ![Inititalize Light](/img/assignments/mp1/image9.png)
 
@@ -367,7 +358,9 @@ The variable will show up in the inspector pane, and you can assign `GameObject`
 This works similarly for other variable types.
 You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).
 
-To change the light, write something similar to the following, but remember to use the proper functions and keycodes of your chosen input library:
+<!-- TODO does this give too much away? -->
+
+To change the light, write something similar to the following:
 
 ![Get Tab Key Down](/img/assignments/mp1/image14.png)
 
@@ -380,12 +373,13 @@ How you change the light is up to you, but pressing the controller button you de
 
 The easiest way to do this is to have the planet object constantly rotate.
 Since the moon object is a child of the planet object, it will also rotate around the planet.
+(We don't care about [tidal lock](https://en.wikipedia.org/wiki/Tidal_locking) here.)
 
 You can control the rotation and position of a `GameObject` with the `transform` object variable, an instance of the aptly named [`Transform`](https://docs.unity3d.com/ScriptReference/Transform.html) class.
 Use the functions of this class to rotate the planet system around the $$Y$$-axis.
 
-Keep in mind that the `Update` function runs every frame, but frames often vary in realtime length.
-Thus, using static rotation amounts with the `Transform` class will make the apparent rotation amount depend on framerate.
+Beware that the `Update` function runs every frame, but frames often vary in real elapsed time.
+Thus, using static rotation amounts with the `Transform` class will make the apparent rotation amount depend on frame rate.
 This is generally not desirable.
 To use realtime frame times instead, use the [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) variable.
 When used inside the `Update` function, this variable's value is the real time in seconds that elapsed since the last frame.
@@ -439,6 +433,6 @@ The default Unity modelling tools are extremely limited,
 so we highly recommend you familiarize yourself with one of the above tools.
 It will assist greatly in your final project.
 To get the extra credit, you must do a nontrivial amount of extra work with your modelling tool.
-That is, it should look like it took you more than 15 minutes to do.
+That is, it should look like it took you more than 5 minutes to do.
 
 
