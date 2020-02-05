@@ -47,4 +47,4 @@ exclude:
 
 # Information about the lab
 lab:
-  unity-version: 2018.2.14
+  unity-version: 2019.2.19
