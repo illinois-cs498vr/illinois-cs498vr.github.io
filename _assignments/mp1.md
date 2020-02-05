@@ -312,7 +312,6 @@ Refer to the following pages for more information, which you will need when you 
 [API reference](https://developer.oculus.com/reference/unity/1.40/class_o_v_r_input/)
 
 Your control scheme must use the **Oculus controller**, not the keyboard.
-This applies regardless of any example scripts that might imply otherwise.
 You must also tell us what your control scheme is!
 
 ### Quit Key
@@ -332,7 +331,9 @@ In your script, you will need to use the [OVRInput](https://developer.oculus.com
 Since we want to always check for input, add an [`Update`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) function to your script, which is called every frame.
 Then, insert the below code:
 
-![Exit game](/img/assignments/mp1/image19.png)
+<!-- there must be some better way to do this...
+max-height is [[inches of Google Doc drawing]] * 5, assuming font size 14 -->
+<img src='/img/assignments/mp1/quit-button-script.svg' style='max-height:9.5em; max-width:100%'>
 
 `Application.Quit()` quits a Unity application, but it will not stop a game running in the editor.
 Thus, we use an [`#if`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) and a [Unity-specific](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) preprocessor directive
@@ -347,25 +348,18 @@ Make sure that the color change is large enough so it is immediately apparent!
 
 Make a script and attach it to the point light.
 Our first step is to get the [`Light`](https://docs.unity3d.com/ScriptReference/Light.html) component of our point light [`GameObject`](https://docs.unity3d.com/ScriptReference/GameObject.html).
-Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script: <!-- FIXME SVG-ify -->
+Read the [Controlling GameObjects using Components](https://docs.unity3d.com/Manual/ControllingGameObjectsComponents.html) tutorial, then add these lines to your script:
 
-![Inititalize Light](/img/assignments/mp1/image9.png)
+<img src='/img/assignments/mp1/light-init-script.svg' style='max-height:8em; max-width:100%'>
 
-The [`Start`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) function runs as the game initially starts. This saves a reference to the `Light` component for later use.
+The [`Start`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) function runs as the game initially starts. Since the script and the light component are both on the same object, this script effectively initializes a reference to our light component object.
 
 Alternatively, you can declare `public GameObject` variables. Save your script, then navigate to the script in the inspector pane.
 The variable will show up in the inspector pane, and you can assign `GameObject`s to it by dragging them from the hierarchy tab into the variable slot!
 This works similarly for other variable types.
 You can read more about this in the [Variables and the Inspector tutorial](https://docs.unity3d.com/Manual/VariablesAndTheInspector.html).
 
-<!-- TODO does this give too much away? -->
-
-To change the light, write something similar to the following:
-
-![Get Tab Key Down](/img/assignments/mp1/image14.png)
-
-For the actual light color, you can either create a new color using the [`new Color(red, green, blue)`](https://docs.unity3d.com/ScriptReference/Color-ctor.html) constructor, or one of the [predefined colors](https://docs.unity3d.com/ScriptReference/Color.html).
-How you change the light is up to you, but pressing the controller button you designate must visibly change the light color.
+To change the color of the light, you must modify the [`color`](https://docs.unity3d.com/ScriptReference/Light-color.html) instance variable. You can either create a new color using the [`new Color(red, green, blue)`](https://docs.unity3d.com/ScriptReference/Color-ctor.html) constructor, or use one of the [predefined colors](https://docs.unity3d.com/ScriptReference/Color.html). You can detect controller input using largely the same method as you used to implement the [quit key](#quit-key), but be sure to use a different button!
 
 ### Orbiting Moon
 
@@ -379,7 +373,7 @@ You can control the rotation and position of a `GameObject` with the `transform`
 Use the functions of this class to rotate the planet system around the $$Y$$-axis.
 
 Beware that the `Update` function runs every frame, but frames often vary in real elapsed time.
-Thus, using static rotation amounts with the `Transform` class will make the apparent rotation amount depend on frame rate.
+Thus, using static rotation amounts with the `Transform` class will make the apparent rotation speed depend on frame rate.
 This is generally not desirable.
 To use realtime frame times instead, use the [`Time.deltaTime`](https://docs.unity3d.com/ScriptReference/Time-deltaTime.html) variable.
 When used inside the `Update` function, this variable's value is the real time in seconds that elapsed since the last frame.
