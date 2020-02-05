@@ -62,13 +62,13 @@ rubric:
     points: 15
     description: The moon orbits the planet at a steady rate.
   -
-    name: Break Out
-    points: 15
-    description: A controller button switches the player to and from an external vantage point.
-  -
     name: Trigger Zone
     points: 15
     description: A trigger zone is present that drops a suspended sphere.
+  -
+    name: Break Out
+    points: 15
+    description: A controller button switches the player to and from an external vantage point.
   -
     name: Room Geometry
     points: 15
@@ -385,12 +385,38 @@ To use realtime frame times instead, use the [`Time.deltaTime`](https://docs.uni
 When used inside the `Update` function, this variable's value is the real time in seconds that elapsed since the last frame.
 See the [Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameManagement.html) page for more information.
 
+### Trigger Zone
+
+> Place a suspended sphere in a corner of the room.
+Trigger the sphere to drop when the player moves under the sphere.
+
+You may find the Unity [colliders manual](https://docs.unity3d.com/Manual/CollidersOverview.html) and [video tutorial](https://www.youtube.com/watch?v=bh9ArKrPY8w) helpful.
+
+Colliders register and react with collisions with other `GameObject`s in the physics engine.
+Colliders can also behave like triggers, which fire whenever a `GameObject` intersects the collider,
+but do not otherwise alter physics.
+
+Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`,
+and then check the "Is Trigger" option.
+The collider should show up in the scene view as a green wireframe.
+Make sure that no other objects intersect the collider initially!
+
+Add a script to your collider object, and implement the function called when something enters the trigger.
+Again, pay attention to the subtlety between when something **enters** the trigger and when something is **within** the trigger.
+To actually make the sphere fall, enable gravity on the [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html), a [physics component](https://docs.unity3d.com/Manual/class-Rigidbody.html), of the sphere.
+
 ### Break Out
 
 > Set up a button on the controllers to switch the player's position between an external viewing point and the room.
 
 Like all `GameObject`s, the player object has a `Transform`.
-With that in mind, make a script that switches the player between a room and a new external viewing point,
+However, the player object also has a collider, and as an optimization system measure,
+Unity does not automatically propagate changes you make on the `Transform` component out to the physics system.
+See [`Physics.autoSyncTransforms`](https://docs.unity3d.com/ScriptReference/Physics-autoSyncTransforms.html)
+or [`Physics.SyncTransforms`](https://docs.unity3d.com/ScriptReference/Physics.SyncTransforms.html)
+for more justification, and methods to propagate those changes. (For objects with a Rigidbody, you should change [`Rigidbody.position`](https://docs.unity3d.com/ScriptReference/Rigidbody-position.html) instead.)
+
+Make a script that switches the player between a room and a new external viewing point,
 e.g. a small new plane a moderate distance from the room.
 The player should still start within the room.
 Pressing the button for the first time must move the player to the external viewing point.
@@ -398,24 +424,6 @@ After that, pressing the button must alternate between the two locations.
 
 Remember that the coordinates for the player refer to its center, and the player is 2 units tall.
 Thus, the player controller needs to be 1 unit above the ground.
-
-### Trigger Zone
-
-> Place a suspended sphere in a corner of the room.
-Trigger the sphere to drop when the player moves under the sphere.
-
-You may find the Unity colliders [manual](https://docs.unity3d.com/Manual/CollidersOverview.html) and [video tutorial](https://www.youtube.com/watch?v=bh9ArKrPY8w) helpful.
-
-By default, colliders register and react with collisions with other `GameObject`s in the physics engine.
-Colliders can also behave like triggers, which fire whenever a `GameObject` intersects a given zone, but do not otherwise alter physics.
-
-Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`, and then check the "Is Trigger" option.
-The collider should show up in the scene view as a green wireframe.
-Make sure that no other objects intersect the collider initially!
-
-Add a script to your collider object, and implement the function called when something enters the trigger.
-Again, pay attention to the subtlety between when something **enters** the trigger and when something is **within** the trigger.
-To actually make the sphere fall, enable gravity on the [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html), a [physics component](https://docs.unity3d.com/Manual/class-Rigidbody.html), of the sphere.
 
 ## A More Interesting Room
 
