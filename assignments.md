@@ -15,7 +15,7 @@ We will grade your work in the lab. Therefore, if you work outside the lab, you 
 
 ## Assignment Policies ##
 
-- You must work in pairs on all assignments. We recommend the Piazza team search function, or chats with your lecture neighbors.
+- You must work in pairs on all assignments. We recommend the Piazza team search function, or chats with your lecture neighbors. Only make one submission per group, i.e. only one person should submit files on Compass.
 - You may submit an assignment up to two days late, but you will lose 20% of the *total* points for that assignment.
 - If we have to modify your submission to run it, you will lose 20% of the *total* points for that assignment. If we cannot get your submission to run at all, you will receive no credit.
 
@@ -42,5 +42,4 @@ For exams:
 ## Academic Integrity ##
 
 <!-- FIXME 404s -->
-
-You should be familiar with the Student Code [definitions on academic integrity](http://studentcode.illinois.edu/article1_part4_1-401.html). We expect you to abide by them.
+We expect that you are aware of the Student Code [definitions on academic integrity](https://studentcode.illinois.edu/article1/part4/1-401/), and that you will work only in accordance with those definitions.
