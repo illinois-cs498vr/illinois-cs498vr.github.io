@@ -421,19 +421,17 @@ Thus, the player controller needs to be 1 unit above the ground.
 
 ## A More Interesting Room
 
-**For extra credit**, instead of the cube room we laid out above, use a modelling tool to create more complicated room geometry, like a curved roof, slanted windows, multiple levels, et cetera.
-Please write down what you created.
+**For extra credit**, instead of the cube room we described above, use a modelling tool to create more complicated room geometry, like a curved roof, slanted windows, multiple levels, et cetera.
 Your creation still needs to have the other features of the room we described above.
 
 Some software options are, in descending order of complexity:
 
-* [Blender](https://www.blender.org/) powerful but very complicated
-* [Google Sketchup](https://www.sketchup.com/)
-* [Probuilder](https://assetstore.unity.com/packages/tools/modeling/probuilder-111418) integrated directly into Unity
+* [Blender](https://www.blender.org/): powerful and complicated
+* [Sketchup Free](https://www.sketchup.com/plans-and-pricing/sketchup-free): browser-based modeling tool
+* [ProBuilder](https://docs.unity3d.com/Packages/com.unity.probuilder@4.2/manual/installing.html): integrated directly into Unity
 
-The default Unity modelling tools are extremely limited,
-so we highly recommend you familiarize yourself with one of the above tools.
-It will assist greatly in your final project.
+We highly recommend you familiarize yourself with one of the above tools
+because it will assist you greatly in your final project.
 To get the extra credit, you must do a nontrivial amount of extra work with your modelling tool.
 That is, it should look like it took you more than 5 minutes to do.
 
