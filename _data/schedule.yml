@@ -28,10 +28,10 @@
 - 
   date: "Feb 11"
   materials: "" 
-  title: "[Design Processes: Course Projects]"
+  title: "[Design Processes: Course Projects]()"
 -
   date: "Feb 13"
-  materials: "Worksheet: [Rasterization Pipeline Review]"
+  materials: "Worksheet: [Transformations](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS498VR-Transformations.pdf)"
   title: "[Mathematics for Orientation]()"
 - 
   date: "Feb 18"
