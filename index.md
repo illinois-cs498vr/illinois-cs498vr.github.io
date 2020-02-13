@@ -74,10 +74,10 @@ We weight grades as follows:
 | | 3 credits | 4 credits |  
 | ----- | ------ | ----- |  
 | Assignments | 20% | 20% |  
-| Midterm Exam 1 | 15% | 15% |  
-| Midterm Exam 2 | 15% | 15% |
-| Midterm Exam 3 | 15% | 15% |
-| Final Project | 35% | 25% |  
+| Midterm Exam 1 | 12% | 12% |  
+| Midterm Exam 2 | 12% | 12% |
+| Midterm Exam 3 | 12% | 12% |
+| Final Project | 44% | 34% |  
 | 4th Credit Project | | 10% |  
 
 You can expect the cutoffs to be approximately as follows
