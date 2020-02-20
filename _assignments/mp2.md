@@ -40,7 +40,7 @@ points: 100
 
 The precise implementation of the user's view into the Unity world is somewhat complicated due to the interaction with the VR headset. The OVR package provides two prefabs to simplify things. The `OVRCameraRig` provides only a camera into the world, with minor movement of the camera allowed due to head tracking. The `OVRPlayerController` acts much like Unity's default player controller, and adds movement via joystick. The Oculus-specific functionality is provided by the `OVRManager` script.
 
-You must use either an `OVRCameraRig`, or a `MainCamera` object with the OVRManager script attached. We recommend the former for simplicity.
+You must use either an `OVRCameraRig`, or a `MainCamera` object with the `OVRManager` script attached. We recommend the former for simplicity.
 
 ## VR Mirror
 
