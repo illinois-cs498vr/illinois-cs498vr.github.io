@@ -7,3 +7,4 @@ If we cannot grade your work due to missing files, you will receive no credit.
 If you save to the `C:` drive, your project will only exist on that single computer. 
 1. If you use your own machine, make sure you use the version of Unity installed on all of the lab machines to avoid 
 compatibility issues.
+1. To enable autofill in Visual Studio 2019, go to `Edit` -> `Preferences` -> `External Tools` and change the <br>`External Tools Script Editor` from `Open File Extension` to `Visual Studio 2019`.
