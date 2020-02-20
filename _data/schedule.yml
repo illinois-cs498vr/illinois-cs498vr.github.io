@@ -40,8 +40,9 @@
   title: "**No Lecture: Exam Week**"
 - 
   date: "Feb 20"
-  materials: ""
-  title: ""
+  materials: "LaValle: Ch. 7.2 <br/>
+              Worksheet: [Stereo Rendering](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/VR-Worksheet-Stereo.pdf)"
+  title: "[3D Computer Graphics: Texture Mapping and Other Topics](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/VR-RenderingTopics.pptx)"
 
 - 
   date: "Feb 25"
