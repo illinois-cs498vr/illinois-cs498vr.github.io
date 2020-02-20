@@ -35,22 +35,30 @@ rubric:
 points: 100
 ---
 
+<!-- At some point, this header should go in MP1. It's needless clutter here. -->
+## Cameras / VR / Unity
+
+The precise implementation of the user's view into the Unity world is somewhat complicated due to the interaction with the VR headset. The OVR package provides two prefabs to simplify things. The `OVRCameraRig` provides only a camera into the world, with minor movement of the camera allowed due to head tracking. The `OVRPlayerController` acts much like Unity's default player controller, and adds movement via joystick. The Oculus-specific functionality is provided by the `OVRManager` script.
+
+You must use either an `OVRCameraRig`, or a `MainCamera` object with the OVRManager script attached. We recommend the former for simplicity.
+
 ## VR Mirror
 
 This part of the MP will teach you how to manipulate a `GameObject`'s rotation and position.
 
-You must modify the provided scene, so that there is one button that does each of the following actions. The button names are placeholders; it is up to you to choose something reasonable.
+You must modify the provided scene, so that there is one button that does each of the following actions. The button names are placeholders, and it is up to you to choose something reasonable.
 
 * Pressing `Button 1` must reset the camera position in _global_ coordinates to (0, 0, 0).
-* Pressing `Button 2` must flip the user's view 180 degrees, so that they are looking in the reverse direction.
-* Pressing `Button 3` must make a certain cube either mirror or follow the user’s movements.
+* Pressing `Button 2` must invert (i.e. rotate 180 degrees) the user's view about the $$y$$-axis, so that they are looking in the reverse direction relative to the plane of the room floor.
+* Pressing `Button 3` must make the cube-shaped face in the scene either mirror or follow the user’s movements.
 * Pressing `Button 4` must quit the game.
 
 Write a script named `CameraReset` that moves the main camera's position in _global_ coordinates to (0, 0, 0) whenever you press `Button 1`.
 Pressing `Button 1` multiple times must move the camera back to the origin each time, regardless of where the player moves their head between presses.
-Note/hint: the Oculus software controls the camera's _local_ coordinates. Thus, _global_ refers to the sum of the coordinates of the main camera and its parents.
 
-Write a script named `CameraFlipper` that flips the `MainCamera` 180 degrees when you press `Button 2`, as if you were turning around to look behind you.
+*Hint*: the Oculus software controls the camera's _local_ coordinates. Thus, _global_ refers to the sum of the coordinates of the main camera and its parents.
+
+Write a script named `CameraFlipper` that flips the `MainCamera` 180 degrees about the $$y$$-axis when you press `Button 2`, as if you were turning around to look behind you.
 After flipping the first time, you will be facing a transparent window with a floating cube face on the other side.
 Pressing `Button 2` multiple times must cause a 180-degree flip for each press.
 
