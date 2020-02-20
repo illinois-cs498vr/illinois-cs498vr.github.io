@@ -2,11 +2,11 @@
 layout: assignment
 title: "MP2: Geometric Transformations"
 index: 20
-due: "Sept. 27, 2019, @ 11:59 PM"
+due: "Mar. 1, 2020, @ 11:59 PM"
 material:
   -
     name: MP2 Unity package
-    url: /mps/MP2.1.unitypackage
+    url: /mps/MP2.unitypackage
 rubric:
   -
     name: Position Reset
@@ -74,11 +74,11 @@ Please remember to tell us what your control scheme is.
 
 This part of the MP will reinforce the mathematical notion of geometric transforms.
 
-Complete the following written problems. You must show your work and all intermediate results. Do not convert intermediate results to decimals. All intermediate results are simple enough to be representable as symbolic expressions.
+Complete the following written problems. You must show your work and all intermediate results in symbolic form. Do not convert results to decimals.
 
 Submit your answers as a PDF. We recommend using LaTeX to typeset your mathematics.
 
-1. (4 pts) In one sentence, explain what the following homogeneous transformation accomplishes when applied to a point
+1. (6 pts) In one sentence, explain what the following homogeneous transformation accomplishes when applied to a point
 $$(x, y, z)$$,
 in terms of yaw, pitch, roll, and translation.  
 $$
@@ -98,13 +98,13 @@ $$
 when applied to a point $$(x, y, z)$$, translates the point by $$(4,9,8)$$,
 followed by a pitch of 120 degrees.
 
-1. (6 pts) We would like to reverse the transformation applied by $$T_2 T_1$$. Write out $$\left(T_2 T_1\right)^{-1}$$.
+1. (4 pts) We would like to reverse the transformation applied by $$T_2 T_1$$. Write out $$\left(T_2 T_1\right)^{-1}$$.
 
 1. (8 pts) Write out the quaternions equivalent to the rotations in $$T_1$$ and $$T_2$$ as $$q_1$$ and $$q_2$$.
 
 1. (8 pts) Calculate the product of $$q_1$$ and $$q_2$$, i.e. $$q_1 \circ q_2$$.
 
-1. (8 pts) Suppose we have one rotation transform $$R$$, and one translation transformation $$T$$,
-both of which are non-zero.
-In what cases will the end result be the same, regardless of the order in which we apply the transforms?
+1. (8 pts) Suppose we have a rotation transform $$R$$, and a translation transformation $$T$$,
+neither of which are the identity transform.
+In what cases are these transforms commutative, i.e., order of application doesn't matter?
 
