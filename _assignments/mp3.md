@@ -54,7 +54,7 @@ You must add a control for a button that makes the spheres appear or disappear. 
 
 Even after you complete this exercise, you will still easily infer the relative depth between the three spheres,
 because there are many depth cues other than retinal image size that help you perceive depth accurately.
-Therefore, this exercise will not create an illusion of the spheres being placed at equal distances from your eyes. You can check the editor screen though to make sure the depth cue changes werw made. 
+Therefore, this exercise will not create an illusion of the spheres being placed at equal distances from your eyes. You can check the editor screen though to make sure the depth cue changes were made. 
 You will learn more about optical illusions and depth perception later in class.
 
 ## Disabling Tracking
