@@ -10,12 +10,16 @@ material:
 rubric:
   -
     name: Position Tracking
-    points: 20
+    points: 15
     description: Toggling position tracking works correctly, and does not cause discontinuities.
   -
     name: Rotation Tracking
-    points: 40
+    points: 25
     description: Toggling rotation tracking works correctly, regardless of where we are looking.
+  -
+    name: Simultaneous Rotation and Position Tracking
+    points: 25
+    description: Toggling both rotation and position Simultaneously works correctly.
   -
     name: Depth Perception Trick
     points: 20
@@ -24,14 +28,15 @@ rubric:
       regardless of where the user is in the room.
   -
     name: Depth Perception Script
-    points: 20
+    points: 15
     description: The spheres appear in the correct order, and the script works when run repeatedly.
 points: 100
 ---
-# Overview
+
 This assignment will demonstrate the difference between position and rotation tracking. It will also teach you to appreciate how much depth perception relies on both of these, and teach you how to enable and disable them. It'll also help you understand the rigid body transformations covered in class.
 
 Note, make sure to have Oculus Integration downloaded/imported on your project and 'Virtual Reality Support' enabled.
+
 ## Depth Perception and Relative Size
 
 In the provided scene, the `StimulusManager` object has three spherical children.
@@ -54,7 +59,7 @@ You must add a control for a button that makes the spheres appear or disappear. 
 
 Even after you complete this exercise, you will still easily infer the relative depth between the three spheres,
 because there are many depth cues other than retinal image size that help you perceive depth accurately.
-Therefore, this exercise will not create an illusion of the spheres being placed at equal distances from your eyes. You can check the editor screen though to make sure the depth cue changes were made. 
+Therefore, this exercise will not create an illusion of the spheres being placed at equal distances from your eyes. You can check the editor screen though to make sure the depth cue changes were made.
 You will learn more about optical illusions and depth perception later in class.
 
 ## Disabling Tracking
@@ -65,8 +70,6 @@ This should help you understand how much tracking contributes towards a feeling 
 
 Create a script named `ToggleTracking` that turns tracking on and off.
 You must add controls for two separate buttons to disable position and rotation tracking, independently of each other.
-Note that simultaneously disabling rotation and position tracking counts as extra credit.
-If you attempt this, make a note in your README file.
 
 A bad solution is to put all `GameObject`s as children of the camera.
 This depends on the hierarchy structure of Unity and causes performance issues, so we will not accept it.
