@@ -75,4 +75,4 @@ A bad solution is to put all `GameObject`s as children of the camera.
 This depends on the hierarchy structure of Unity and causes performance issues, so we will not accept it.
 We want you to think about how to counteract the effects of position and rotation tracking using transformations.
 
-Please remember to tell us what your control scheme is.
+Please remember to tell us what your control scheme is. 
