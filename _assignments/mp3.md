@@ -2,7 +2,7 @@
 layout: assignment
 title: "MP3: Perception in VR"
 index: 30
-due: "Mar. 13, 2019, @ 11:59 PM"
+due: "Mar. 27, 2019, @ 11:59 PM"
 material:
   -
     name: MP3 Unity Package
