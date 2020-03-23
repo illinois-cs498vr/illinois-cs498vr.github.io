@@ -68,9 +68,8 @@
   title: "[Design Processes: UI and UX in VR](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/DesignSet5.pptx)[[PDF]](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Lectures/DesignSet5.pdf)"
 -
   date: "Mar 12"
-  materials: "LaValle Ch. 8"
-  title: "Depth Perception[]()<iframe width="560" height="315" src="https://www.youtube.com/embed/wb_yp5mQ5Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
-- 
+  materials: "LaValle Ch. 6 [PDF](http://vr.cs.uiuc.edu/vrch6.pdf)"
+  title: "Depth Perception<br/>[LaValle Lecture 1](https://youtu.be/wb_yp5mQ5Tk)<br/>[LaValle Lecture 2](https://youtu.be/tdT1xl25j38)<br/>"
   date: "Mar 17"
   materials: ""
   title: "**No Lecture: Spring Break**"
@@ -80,17 +79,17 @@
   title: "**No Lecture: Spring Break**"
 -
   date: "Mar 24"
-  materials: "LaValle Ch. 8"
-  title: "[]()"
+  materials: "LaValle Ch. 6 [PDF](http://vr.cs.uiuc.edu/vrch6.pdf)"
+  title: "Motion Perception<br/>[LaValle Lecture](https://youtu.be/dNhO6GozluE)"
 
 - 
   date: "Mar 26"
-  materials: ""
-  title: ""
+  materials: "LaValle Ch. 6 [PDF](http://vr.cs.uiuc.edu/vrch6.pdf)"
+  title: "Frame Rates and Displays<br/>[LaValle Lecture 1](https://youtu.be/Cfo8bGeBcGA)<br/>[LaValle Lecture 2](https://youtu.be/ROonPREOsFY)"
 - 
   date: "Mar 31"
   materials: ""
-  title: "**No Lecture: Exam Week**"
+  title: ""
 - 
   date: "Apr 2"
   materials: ""
@@ -102,7 +101,7 @@
 -
   date: "Apr 9"
   materials: ""
-  title: ""
+  title: "**Exam**"
 - 
   date: "Apr 14"
   materials: ""
@@ -130,4 +129,4 @@
 -
   date: "May 5"
   materials: ~
-  title: "**No Lecture: Exam Week**"
+  title: "**Exam**"
