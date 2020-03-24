@@ -45,7 +45,7 @@ By using the controls outlined in the emulator spec, you will be able to test th
 Additionally, to facilitate grading, you will need to add keyboard keys as controls for any place you have OVRTouch Controller Buttons.
 
 
-
+## Intro
 This assignment will demonstrate the difference between position and rotation tracking. It will also teach you to appreciate how much depth perception relies on both of these, and teach you how to enable and disable them. It'll also help you understand the rigid body transformations covered in class.
 
 Note, make sure to have Oculus Integration downloaded/imported on your project and 'Virtual Reality Support' enabled.
