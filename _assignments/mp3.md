@@ -38,7 +38,7 @@ To test MP3, you will be using the OVRHeadsetEmulator. (Documentation found at h
 
 Attach the script to the parent camera in your project. (It can be found in Oculus -> VR -> Scripts)
 
-NOTE: You must use an OVRCameraRig or OVRPlayerController for best results. You will not need to add additional scripts for the emulator to work with these.
+**NOTE: You must use an OVRCameraRig or OVRPlayerController for best results. You will not need to add additional scripts for the emulator to work with these.**
 
 By using the controls outlined in the emulator spec, you will be able to test the behavior of your MP
 
