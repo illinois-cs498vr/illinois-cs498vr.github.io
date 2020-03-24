@@ -32,6 +32,19 @@ rubric:
     description: The spheres appear in the correct order, and the script works when run repeatedly.
 points: 100
 ---
+# Note for Changes due to no lab use:
+MP3 will still be developed according to the assignment specification already on the website
+To test MP3, you will be using the OVRHeadsetEmulator. (Documentation found at https://developer.oculus.com/documentation/unity/unity-hmd-emulation/?locale=en_US)
+
+Attach the script to the parent camera in your project. (It can be found in Oculus -> VR -> Scripts)
+
+NOTE: You must use an OVRCameraRig or OVRPlayerController for best results. You will not need to add additional scripts for the emulator to work with these.
+
+By using the controls outlined in the emulator spec, you will be able to test the behavior of your MP
+
+Additionally, to facilitate grading, you will need to add keyboard keys as controls for any place you have OVRTouch Controller Buttons.
+
+
 
 This assignment will demonstrate the difference between position and rotation tracking. It will also teach you to appreciate how much depth perception relies on both of these, and teach you how to enable and disable them. It'll also help you understand the rigid body transformations covered in class.
 
