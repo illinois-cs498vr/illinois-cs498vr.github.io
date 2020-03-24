@@ -32,7 +32,7 @@ rubric:
     description: The spheres appear in the correct order, and the script works when run repeatedly.
 points: 100
 ---
-# Note for Changes due to no lab use:
+## Note for Changes due to no lab use:
 MP3 will still be developed according to the assignment specification already on the website
 To test MP3, you will be using the OVRHeadsetEmulator. (Documentation found at https://developer.oculus.com/documentation/unity/unity-hmd-emulation/?locale=en_US)
 
