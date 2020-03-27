@@ -89,44 +89,44 @@
   title: "Frame Rates and Displays<br/>[LaValle Lecture 1](https://youtu.be/Cfo8bGeBcGA)<br/>[LaValle Lecture 2](https://youtu.be/ROonPREOsFY)"
 - 
   date: "Mar 31"
-  materials: ""
-  title: ""
+  materials: "LaValle Ch. 9 [PDF](http://vr.cs.uiuc.edu/vrch9.pdf)"
+  title: "Pose Tracking"
 - 
   date: "Apr 2"
-  materials: ""
-  title: ""
+  materials: "LaValle Ch. 9 [PDF](http://vr.cs.uiuc.edu/vrch9.pdf)"
+  title: "Pose Tracking"
 -
   date: "Apr 7"
-  materials: ""
-  title: ""
+  materials: "LaValle Ch. 8 [PDF](http://vr.cs.uiuc.edu/vrch8.pdf)"
+  title: "Motion in Real and Virtual Worlds"
 -
   date: "Apr 9"
   materials: ""
-  title: "**Exam**"
+  title: "Audio"
 - 
   date: "Apr 14"
   materials: ""
-  title: ""
+  title: "Audio"
 - 
   date: "Apr 16"
   materials: "" 
-  title: ""
+  title: "Advanced Pose Tracking"
 - 
   date: "Apr 21"
   materials: ""
-  title: ""
+  title: "Advanced Pose Tracking"
 - 
   date: "Apr 23"
   materials: ""
-  title: ""
+  title: "Cinematic VR"
 - 
   date: "Apr 28"
   materials: ""
-  title: ""
+  title: "Light Fields"
 - 
   date: "Apr 30"
   materials: ""
-  title: ""
+  title: "Visual Rendering for VR"
 -
   date: "May 5"
   materials: ~
