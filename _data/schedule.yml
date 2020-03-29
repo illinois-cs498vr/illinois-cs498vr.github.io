@@ -90,11 +90,20 @@
 - 
   date: "Mar 31"
   materials: "LaValle Ch. 9 [PDF](http://vr.cs.uiuc.edu/vrch9.pdf)"
-  title: "Pose Tracking"
+  title: "Pose Tracking <br/>
+          [LaValle Lecture: Overview](https://youtu.be/QbHFRjfRsaM) <br/>
+          [LaValle Lecture: Orientation Tracking](https://youtu.be/WS7Nn6XE1As) <br/>
+          [LaValle Lecture: Tilt Drift Correction](https://youtu.be/ldiTZpEIp6Q) <br/>
+          [LaValle Lecture: Yaw Drift Correction ](https://youtu.be/V10w8FbUG8g)
+          "
 - 
   date: "Apr 2"
   materials: "LaValle Ch. 9 [PDF](http://vr.cs.uiuc.edu/vrch9.pdf)"
-  title: "Pose Tracking"
+  title: "Pose Tracking <br/>
+          [LaValle Lecture: Camera Tracking](https://youtu.be/0C13S_EtHNY) <br/>
+          [LaValle Lecture: PnP Problem](https://youtu.be/0JGC5hZYCVE) <br/>
+          [LaValle Lecture: Filtering](https://youtu.be/MOdMzVShXUg) <br/>
+          [LaValle Lecture: Lighthouse Approach](https://youtu.be/cJT0lLkqDTQ)
 -
   date: "Apr 7"
   materials: "LaValle Ch. 8 [PDF](http://vr.cs.uiuc.edu/vrch8.pdf)"
