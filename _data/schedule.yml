@@ -105,16 +105,22 @@
           [LaValle Lecture: Lighthouse Approach](https://youtu.be/cJT0lLkqDTQ)"
 -
   date: "Apr 7"
-  materials: "LaValle Ch. 8 [PDF](http://vr.cs.uiuc.edu/vrch8.pdf)"
-  title: "Motion in Real and Virtual Worlds"
+  materials: "LaValle Ch. 11 [PDF](http://vr.cs.uiuc.edu/vrch11.pdf)"
+  title: "Audio<br/>
+          [LaValle Lecture: Physics(https://youtu.be/8adip41nmr0) <br/>
+          [LaValle Lecture: Perception](https://youtu.be/DfK4opEwWls) <br/>
+          [LaValle Lecture: Localization](https://youtu.be/tpVUsMJ_1NE)"
 -
   date: "Apr 9"
-  materials: ""
-  title: "Audio"
+  materials: "LaValle Ch. 11 [PDF](http://vr.cs.uiuc.edu/vrch11.pdf)"
+  title: "Audio <br/>
+          [LaValle Lecture: Rendering](https://youtu.be/URsxz-MDWhU) <br/>
+          [LaValle Lecture: Spatialization](https://youtu.be/TFwVWumC1oQ) <br/>
+          [LaValle Lecture: Sensory Fusion](https://youtu.be/bg0u5r8fDt0) <br/>"
 - 
   date: "Apr 14"
   materials: ""
-  title: "Audio"
+  title: "Motion"
 - 
   date: "Apr 16"
   materials: "" 
