@@ -20,23 +20,28 @@ For the 4 credit assignment, you will complete a review of 2 of the papers liste
 
 The structure of each review should be as follows:
 
-1. **Summary**
+1. **Summary**<br/>
     First paragraph should summarize the goal of the research reported in the paper. You should also give your opinion about the importance of the goal. If this research is successful, what impact will it have.
-2. **Analyze Results**
+2. **Analyze Results**<br/>
     Next several paragraphs should analyze the results reported by the authors. Be detailed and analyze if there any problems you see with the results (e.g. small sample size). Do the results support the authors conclusions or not?
-3. **Analyze Impact**
+3. **Analyze Impact**<br/>
     Include a paragraph analyzing if and how much this work has advanced the field of VR.
-4. **Future Work**
+4. **Future Work**<br/>
     Conclude by spending one or more paragraphs proposing how this work could be extended or what related work you could do if you were a VR researcher.
 
 
 
 ## Papers
 
-+ **Pfeuffer, K., Geiger, M. J., Prange, S., Mecke, L., Buschek, D., & Alt, F. (2019, May). Behavioural biometrics in vr: Identifying people from body motion and relations in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).** <details><summary>Abstract: Click to expand</summary>
-Every person is unique, with individual behavioural charac-teristics: how one moves, coordinates, and uses their body.In this paper we investigate body motion as behavioural biometrics for virtual reality. In particular, we look into which behaviour is suitable to identify a user. This is valuable in situations where multiple people use a virtual reality environ-ment in parallel, for example in the context of authentication or to adapt the VR environment to users’ preferences. Wepresent a user study (N=22) where people perform controlledVR tasks (pointing, grabbing, walking, typing), monitoring their head, hand, and eye motion data over two sessions.These body segments can be arbitrarily combined into bodyrelations, and we found that these movements and their combination lead to characteristic behavioural patterns. Wepresent an extensive analysis of which motion/relation is useful to identify users in which tasks using classification methods. Our findings are beneficial for researchers and prac-titioners alike who aim to build novel adaptive and secure user interfaces in virtual reality. </details>
++ **Pfeuffer, K., Geiger, M. J., Prange, S., Mecke, L., Buschek, D., & Alt, F. (2019, May). Behavioural biometrics in vr: Identifying people from body motion and relations in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).**
+<details>
+<summary>Abstract: Click to expand</summary>
+Every person is unique, with individual behavioural charac-teristics: how one moves, coordinates, and uses their body.In this paper we investigate body motion as behavioural biometrics for virtual reality. In particular, we look into which behaviour is suitable to identify a user. This is valuable in situations where multiple people use a virtual reality environ-ment in parallel, for example in the context of authentication or to adapt the VR environment to users’ preferences. Wepresent a user study (N=22) where people perform controlledVR tasks (pointing, grabbing, walking, typing), monitoring their head, hand, and eye motion data over two sessions.These body segments can be arbitrarily combined into bodyrelations, and we found that these movements and their combination lead to characteristic behavioural patterns. Wepresent an extensive analysis of which motion/relation is useful to identify users in which tasks using classification methods. Our findings are beneficial for researchers and prac-titioners alike who aim to build novel adaptive and secure user interfaces in virtual reality. 
+</details>
 
-+ **Schwind, V., Knierim, P., Haas, N., & Henze, N. (2019, May). Using presence questionnaires in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).** <details> <summary>Abstract: Click to expand</summary> 
++ **Schwind, V., Knierim, P., Haas, N., & Henze, N. (2019, May). Using presence questionnaires in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).** 
+<details> 
+<summary>Abstract: Click to expand</summary> 
 Virtual Reality (VR) is gaining increasing importance in science, education, and entertainment. A fundamental characteristic of VR is creating presence, the experience of 'being' or 'acting', when physically situated in another place. Measuring presence is vital for VR research and development. It is typically repeatedly assessed through questionnaires completed after leaving a VR scene. Requiring participants to leave and re-enter the VR costs time and can cause disorientation. In this paper, we investigate the effect of completing presence questionnaires directly in VR. Thirty-six participants experienced two immersion levels and filled three standardized presence questionnaires in the real world or VR. We found no effect on the questionnaires' mean scores; however, we found that the variance of those measures significantly depends on the realism of the virtual scene and if the subjects had left the VR. The results indicate that, besides reducing a study's duration and reducing disorientation, completing questionnaires in VR does not change the measured presence but can increase the consistency of the variance.
 </details>
 
