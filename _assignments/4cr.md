@@ -33,9 +33,8 @@ The structure of each review should be as follows:
 
 ## Papers
 
-+ **Pfeuffer, K., Geiger, M. J., Prange, S., Mecke, L., Buschek, D., & Alt, F. (2019, May). Behavioural biometrics in vr: Identifying people from body motion and relations in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).**
-<details>
-<summary>Abstract: Click to expand</summary>
++ <details>
+<summary>**Pfeuffer, K., Geiger, M. J., Prange, S., Mecke, L., Buschek, D., & Alt, F. (2019, May). Behavioural biometrics in vr: Identifying people from body motion and relations in virtual reality. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (pp. 1-12).**</summary>
 Every person is unique, with individual behavioural charac-teristics: how one moves, coordinates, and uses their body.In this paper we investigate body motion as behavioural biometrics for virtual reality. In particular, we look into which behaviour is suitable to identify a user. This is valuable in situations where multiple people use a virtual reality environ-ment in parallel, for example in the context of authentication or to adapt the VR environment to users’ preferences. Wepresent a user study (N=22) where people perform controlledVR tasks (pointing, grabbing, walking, typing), monitoring their head, hand, and eye motion data over two sessions.These body segments can be arbitrarily combined into bodyrelations, and we found that these movements and their combination lead to characteristic behavioural patterns. Wepresent an extensive analysis of which motion/relation is useful to identify users in which tasks using classification methods. Our findings are beneficial for researchers and prac-titioners alike who aim to build novel adaptive and secure user interfaces in virtual reality. 
 </details>
 
