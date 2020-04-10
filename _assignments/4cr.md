@@ -21,7 +21,7 @@ For the 4 credit assignment, you will complete a review of 2 of the papers liste
 The structure of each review should be as follows:
 
 1. **Summary**<br/>
-    First paragraph should summarize the goal of the research reported in the paper. You should also give your opinion about the importance of the goal. If this research is successful, what impact will it have.
+    First paragraph should summarize the goal of the research reported in the paper. You should also give your opinion about the importance of the goal. If this research is successful, what impact will it have?
 2. **Analyze Results**<br/>
     Next several paragraphs should analyze the results reported by the authors. Be detailed and analyze if there any problems you see with the results (e.g. small sample size). Do the results support the authors conclusions or not?
 3. **Analyze Impact**<br/>
