@@ -119,28 +119,36 @@
           [LaValle Lecture: Sensory Fusion](https://youtu.be/bg0u5r8fDt0) <br/>"
 - 
   date: "Apr 14"
-  materials: ""
-  title: "Motion"
+  materials: "LaValle Ch. 10 [PDF](http://vr.cs.uiuc.edu/vrch10.pdf) <br/>
+              LaValle Ch. 12 [PDF](http://vr.cs.uiuc.edu/vrch12.pdf)"
+  title: "Interaction <br/>
+          [LaValle Lecture: Interfaces](https://youtu.be/BD6H08E5WrY)  <br/>
+          [LaValle Lecture: Locomotion](https://youtu.be/HWmq8-S8zPA) <br/>
+          [LaValle Lecture: Manipulation](https://youtu.be/46Z40FcRwh8)"
 - 
   date: "Apr 16"
-  materials: "" 
-  title: "Advanced Pose Tracking"
+  materials: "LaValle Ch. 10 [PDF](http://vr.cs.uiuc.edu/vrch10.pdf) <br/>
+              LaValle Ch. 12 [PDF](http://vr.cs.uiuc.edu/vrch12.pdf)"
+  title: "Interaction<br/>
+          [LaValle Lecture: System Control(https://youtu.be/cUjfHsiUx4s) <br/>
+          [LaValle Lecture: Social Interaction](https://youtu.be/uo5i3KMjf-g) <br/>
+          [LaValle Lecture: Evaluation](https://youtu.be/Fn4bLjTh1M8)"
 - 
   date: "Apr 21"
   materials: ""
-  title: "Advanced Pose Tracking"
+  title: "VR Specific Rendering"
 - 
   date: "Apr 23"
   materials: ""
-  title: "Cinematic VR"
+  title: "Motion"
 - 
   date: "Apr 28"
   materials: ""
-  title: "Light Fields"
+  title: "Cinematic VR"
 - 
   date: "Apr 30"
   materials: ""
-  title: "Visual Rendering for VR"
+  title: "Light Fields"
 -
   date: "May 5"
   materials: ~
