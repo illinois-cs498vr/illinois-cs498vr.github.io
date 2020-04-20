@@ -135,20 +135,26 @@
           [LaValle Lecture: Evaluation](https://youtu.be/Fn4bLjTh1M8)"
 - 
   date: "Apr 21"
-  materials: ""
-  title: "VR Specific Rendering"
+  materials: "LaValle Ch. 7 [PDF](http://vr.cs.uiuc.edu/vrch7.pdf) <br/>
+              Sections 7.2 onward "
+  title: "VR Specific Rendering <br/>
+          [LaValle Lecture: VR-specific problems (https://youtu.be/61jxuVj1J5k) <br/>
+          [LaValle Lecture: Distortion Shading](https://youtu.be/OuOUdbKoxA8) <br/>
+          [LaValle Lecture: Image Warp](https://youtu.be/1lSLh6oXsUI)"
 - 
   date: "Apr 23"
-  materials: ""
-  title: "Motion"
+  materials: "LaValle Ch. 8 [PDF](http://vr.cs.uiuc.edu/vrch8.pdf)
+              Worksheet from Lecture [PDF](https://github.com/illinois-cs498vr/CourseMaterial/raw/master/Worksheets/CS%20498-Worksheet-Motion.pdf)"
+  title: "Motion <br/>
+          [Fall 2019 Lecture](https://classtranscribe.illinois.edu/video?id=81d02e65-4fdd-412f-846e-05be17fd6880&from=sharedlink)"
 - 
   date: "Apr 28"
   materials: ""
-  title: "Cinematic VR"
+  title: "No Lecture: Work on Projects"
 - 
   date: "Apr 30"
   materials: ""
-  title: "Light Fields"
+  title: "No Lecture: Work on Projects"
 -
   date: "May 5"
   materials: ~
