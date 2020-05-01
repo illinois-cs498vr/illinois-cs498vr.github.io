@@ -80,18 +80,31 @@ We weight grades as follows:
 | Final Project | 44% | 34% |  
 | 4th Credit Project | | 10% |  
 
-You can expect the cutoffs to be approximately as follows
-98 - 100: A+  
-93 - 98: A
-90 - 93: A-
-87 - 90: B+
-83 - 87: B
-80 - 83: B-
-77 - 80: C+
-73 - 77: C
-70 - 73: C-
-60 - 70: D
-Below 60: F
+The cutoffs will be:
+A+  >= 98% 
+
+A    >= 90%
+
+A-   >= 87%
+
+B+  >= 84%
+
+
+B    >= 81%
+
+B-   >= 78%
+
+C+  >= 75%
+
+C    >=  65%
+
+C-  >=  60%
+
+D   >=  50%
+
+F   <  50%
+
+
 
 ## Textbooks ##
 Main text, required: [Steven M. LaValle, Virtual Reality, 2016](http://vr.cs.uiuc.edu).
