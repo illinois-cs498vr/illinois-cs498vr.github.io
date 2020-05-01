@@ -81,6 +81,7 @@ We weight grades as follows:
 | 4th Credit Project | | 10% |  
 
 The cutoffs will be:
+
 A+  >= 98% 
 
 A    >= 90%
