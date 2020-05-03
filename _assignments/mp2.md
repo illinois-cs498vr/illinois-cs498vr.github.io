@@ -102,13 +102,13 @@ T_1 =
 \end{bmatrix}
 $$
 
-1. (6 pts) Write out the $$4 \times 4$$ matrix homogeneous transformation $$T_2$$, that,
+1. (6 pts) Give the $$4 \times 4$$ matrix homogeneous transformation $$T_2$$, that,
 when applied to a point $$(x, y, z)$$, translates the point by $$(4,9,8)$$,
 followed by a pitch of 120 degrees.
 
-1. (4 pts) We would like to reverse the transformation applied by $$T_2 T_1$$. Write out $$\left(T_2 T_1\right)^{-1}$$.
+1. (4 pts) We would like to reverse the transformation applied by $$T_2 T_1$$. Calculate $$\left(T_2 T_1\right)^{-1}$$.
 
-1. (8 pts) Write out the quaternions equivalent to the rotations in $$T_1$$ and $$T_2$$ as $$q_1$$ and $$q_2$$.
+1. (8 pts) Calculate the quaternions equivalent to the rotations in $$T_1$$ and $$T_2$$ as $$q_1$$ and $$q_2$$.
 
 1. (8 pts) Calculate the product of $$q_1$$ and $$q_2$$, i.e. $$q_1 \circ q_2$$.
 
