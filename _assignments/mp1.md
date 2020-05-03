@@ -133,7 +133,8 @@ For now, just delete the directional light. You will add more lights in later.
 
 ## Store Asset
 
-> Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/) and place it in the room. You will need a [free Unity account](https://id.unity.com/account/new) for this.
+> Import at least one free asset from the [Unity Store](https://www.assetstore.unity3d.com/) and place it in the room. You will need a [free Unity account](https://id.unity.com/account/new) to do this.
+The Oculus Integration asset does **not** count for this section.
 
 In the bottom pane, go to the "Asset Store" tab, right next to the "Scene" and "Game" tabs.
 
