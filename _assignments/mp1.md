@@ -383,7 +383,7 @@ See the [Time and Frame Management](https://docs.unity3d.com/Manual/TimeFrameMan
 ### Trigger Zone
 
 > Place a suspended sphere in a corner of the room.
-Trigger the sphere to drop when the player moves under the sphere.
+Trigger the sphere to drop to the floor when the player moves under the sphere.
 
 You may find the Unity [colliders manual](https://docs.unity3d.com/Manual/CollidersOverview.html) and [video tutorial](https://www.youtube.com/watch?v=bh9ArKrPY8w) helpful.
 
@@ -391,14 +391,18 @@ Colliders register and react with collisions with other `GameObject`s in the phy
 Colliders can also behave like triggers, which fire whenever a `GameObject` intersects the collider,
 but do not otherwise alter physics.
 
+First, set up the trigger zone.
 Create a new empty `GameObject`, go to `Add Component` → `Physics` → `Box Collider`,
 and then check the "Is Trigger" option.
 The collider should show up in the scene view as a green wireframe.
-Make sure that no other objects intersect the collider initially!
+Make sure to place the collider so that it does not initially intersect any other objects!
 
+Now you must implement the action of the trigger zone.
 Add a script to your collider object, and implement the function called when something enters the trigger.
 Again, pay attention to the subtlety between when something **enters** the trigger and when something is **within** the trigger.
-To actually make the sphere fall, enable gravity on the [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html), a [physics component](https://docs.unity3d.com/Manual/class-Rigidbody.html), of the sphere.
+To make the sphere fall, enable gravity on the [Rigidbody](https://docs.unity3d.com/ScriptReference/Rigidbody.html), a [physics component](https://docs.unity3d.com/Manual/class-Rigidbody.html), of the sphere.
+Make sure that the sphere does not fall *through* the floor.
+You may need to add another collider of a different shape for this to work properly.
 
 ### Break Out
 
