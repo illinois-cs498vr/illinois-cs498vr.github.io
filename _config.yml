@@ -29,6 +29,9 @@ collections:
     output: true
   projects:
     output: true
+  staff: 
+    output: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
